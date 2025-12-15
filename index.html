@@ -243,7 +243,6 @@
                     data.deviceId = childSnapshot.key;
                     allBlockedDevices[childSnapshot.key] = data;
                 });
-                // 👇 الرسالة دي بتظهر خطأ إذا كانت قواعد Firebase مش سامحة بالوصول 
                 window.showToast("✅ تم تحديث بيانات لوحة GIZA (الأجهزة المحظورة).", "success");
             }, (error) => {
                 window.showToast("❌ فشل الاتصال بقاعدة بيانات الأجهزة المحظورة: " + error.message, "error");
@@ -369,8 +368,47 @@
             .catch(e => window.showToast("❌ فشل التجديد: " + e.message, "error"));
         });
 
+        // 💡 Logic 18: فتح نافذة تعديل الاسم والشعبة
+        window.editCodeDetails = (uid) => checkAuthAndProceed(() => {
+            const data = allCodesData[uid];
+            if (!data) return;
 
-        // 💡 Logic 11: عرض الجدول النهائي بعد الفلترة - تم التعديل لإضافة عمود الشعبة
+            const newName = prompt(`تعديل اسم الطالب الحالي: ${data.name}`, data.name);
+            if (newName === null) return; // المستخدم ألغى الأمر
+
+            const currentSection = data.section || 'N/A';
+            const newSection = prompt(`تعديل شعبة الطالب الحالي: ${currentSection}\n(ادخل: علمي علوم / علمي رياضة / أدبي / أزهر)`, currentSection);
+            if (newSection === null) return; // المستخدم ألغى الأمر
+
+            // استدعاء دالة الحفظ
+            saveEditedDetails(uid, newName, newSection);
+        });
+
+        // 💡 Logic 19: حفظ تعديلات الاسم والشعبة في Firebase
+        function saveEditedDetails(uid, newName, newSection) {
+            update(ref(db, 'approvedStudents/' + uid), {
+                name: newName,
+                section: newSection
+            }).then(() => {
+                window.showToast(`✅ تم تعديل بيانات كود ${uid} بنجاح.`, "success");
+            }).catch(e => window.showToast("❌ فشل تعديل البيانات: " + e.message, "error"));
+        }
+        
+        // 💡 Logic 20: نسخ كود الجهاز إلى الحافظة
+        window.copyDeviceID = (deviceId) => {
+            if (!deviceId || deviceId === 'غير مُفعل') {
+                window.showToast("❌ لا يوجد جهاز مفعل لنسخ كوده.", "error");
+                return;
+            }
+            navigator.clipboard.writeText(deviceId).then(() => {
+                window.showToast(`✅ تم نسخ كود الجهاز: ${deviceId}`, "success");
+            }).catch(err => {
+                window.showToast("❌ فشل النسخ. حاول يدوياً.", "error");
+            });
+        };
+
+
+        // 💡 Logic 11: عرض الجدول النهائي بعد الفلترة - تم التعديل لإضافة عمود الشعبة وزري التعديل والنسخ
         window.renderFilteredCodesTable = (adminRole, categoryKey, categoryName) => {
             const filteredCodes = window.currentCategorizedData[categoryKey] || [];
             
@@ -418,12 +456,15 @@
                 // الإجراءات الخاصة بالأكواد المنتهية
                 if (categoryKey === 'expired') { 
                     actionsHtml = `
-                        <button onclick="renewCode('${data.uid}', '${data.name}')" class="unblock-btn" style="background: #007bff; color: white;">تجديد الكود</button>
+                        <button onclick="editCodeDetails('${data.uid}')" class="unblock-btn" style="background: #0099cc; color: white;">تعديل البيانات</button> 
+                        <button onclick="renewCode('${data.uid}', '${data.name}')" class="unblock-btn" style="background: #007bff; color: white;">تجديد</button>
                         <button onclick="deleteCode('${data.uid}', '${data.name}')" class="delete-btn">حذف نهائي</button>
                     `;
                 } else {
                     // الإجراءات العادية للأكواد النشطة والمعطلة يدوياً
                     actionsHtml = `
+                        <button onclick="editCodeDetails('${data.uid}')" class="unblock-btn" style="background: #0099cc; color: white;">تعديل البيانات</button> 
+                        ${data.deviceId ? `<button onclick="copyDeviceID('${data.deviceId}')" class="eject-btn" style="background: #00E8C8;">نسخ الجهاز</button>` : ''}
                         <button onclick="ejectDevice('${data.uid}', '${data.name}')" class="eject-btn">إخراج الجهاز</button>
                         <button onclick="toggleBlock('${data.uid}', '${data.name}', ${isBlocked})" class="${isBlocked ? 'unblock-btn' : 'block-btn'}">${blockBtnText}</button>
                         <button onclick="deleteCode('${data.uid}', '${data.name}')" class="delete-btn">حذف</button>
@@ -439,7 +480,7 @@
                     <td class="${statusClass}">${statusText}</td>
                     <td class="device-id">${data.deviceId || 'غير مُفعل'}</td>
                     ${adminRole === 'TOTAL' ? `<td>${data.addedByAdmin || '-'}</td>` : ''}
-                    <td class="actions" style="min-width: 250px;">${actionsHtml}</td>
+                    <td class="actions" style="min-width: 350px;">${actionsHtml}</td>
                 `;
                 tbody.appendChild(tr);
             });
@@ -450,7 +491,7 @@
             `;
         }
 
-        // 💡 Logic 12: عرض بطاقات التصنيف الثلاثة
+        // 💡 Logic 12: عرض بطاقات التصنيف الثلاثة (لم يتم تغييرها)
         window.toggleAdminDetails = (adminRole, forceOpen = false) => {
              checkAuthAndProceed(() => {
                 const container = document.getElementById('codeDetailsContainer');
@@ -553,7 +594,7 @@
             .catch(e => window.showToast("❌ فشل الإلغاء: " + e.message, "error"));
         });
         
-        // 💡 Logic 16: عرض جدول الأجهزة المحظورة - تم التعديل لإضافة الشعبة
+        // 💡 Logic 16: عرض جدول الأجهزة المحظورة
         window.renderBlockedDevicesTable = (adminRole) => {
             const container = document.getElementById('codeDetailsContainer');
             
@@ -612,7 +653,7 @@
             });
         }
 
-        // 💡 Logic 17: عرض بطاقات المشرفين لإدارة حظر الأجهزة
+        // 💡 Logic 17: عرض بطاقات المشرفين لإدارة حظر الأجهزة (لم يتم تغييرها)
         window.toggleBlockedDevicesDetails = (forceAdmin = 'TOTAL', forceOpen = false) => {
             checkAuthAndProceed(() => {
                 const container = document.getElementById('codeDetailsContainer');
@@ -658,6 +699,18 @@
             });
         };
         
+        window.toggleAddCodeForm = (show) => {
+            const form = document.getElementById('addCodeFormContainer');
+            if (show) {
+                checkAuthAndProceed(() => {
+                    form.style.display = 'block';
+                    document.getElementById('newCodeDisplay').textContent = generateUniqueCode();
+                });
+            } else {
+                form.style.display = 'none';
+            }
+        };
+
 
     </script>
     <style>
