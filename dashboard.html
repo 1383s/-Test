@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة الأسئلة والأجوبة - شاتي (الإصدار الفائز)</title> 
+    <title>منصة الأسئلة والأجوبة - شاتي (الإصدار الذي يعمل بضمان)</title> 
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -71,7 +71,7 @@
             background-color: var(--bg-main);
             color: var(--text-primary);
         }
-        /* ✨ إضافة v-cloak: ده الحل السحري لمنع ظهور {{...}} */
+        /* ✨ الحل السحري ضد ظهور {{...}} - يظهر العنصر فقط بعد الـMounting */
         [v-cloak] {
             display: none !important;
         }
@@ -335,14 +335,13 @@
 </div>
 
 <script>
-// ⚠️ تنفيذ الكود مباشرة في نهاية الـBody لتسريع الـMounting
-// ✨ لم نعد نعتمد على window.onload
-{
+// 🚨 الحل الجذري: نرجع للأسلوب الآمن (window.onload) لضمان تحميل كل الـResources قبل بدء الـLogic
+window.onload = function() {
     const { createApp, ref, reactive, computed } = Vue;
     
+    // تأكيد تحميل Firebase
     if (typeof firebase === 'undefined' || typeof firebase.database === 'undefined') {
         alert("❌ فشل تحميل مكتبات Firebase! تأكد من اتصال الشبكة.");
-        // إذا فشل Firebase، لا تكمل عملية الـMounting.
         return; 
     }
 
