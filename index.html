@@ -1,718 +1,898 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<title>full mark subjects</title>
-  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
-      <script type="module" src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHMED || Full Mark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js';
+        import { getDatabase, ref, onValue, update, remove, set, get } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js';
+        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js'; 
 
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200..900&display=swap'); 
-/* خط إضافي لـ Cyber/Tech Feel */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+        const firebaseConfig = {
+            apiKey: "AIzaSyBK6FZF3LW83qaUHBKYTfiVd2Ozrd1Rf2g",
+            authDomain: "thanawy-1383.firebaseapp.com",
+            databaseURL: "https://thanawy-1383-default-rtdb.firebaseio.com",
+            projectId: "thanawy-1383",
+            storageBucket: "thanawy-1383.firebasestorage.app",
+            messagingSenderId: "1026664406457",
+            appId: "1:1026664406457:web:87d71f7e41bef36ba0aa68",
+            measurementId: "G-J5R2EFM2D0"
+        };
+        
+        const CURRENT_ADMIN_ROLE = 'ahmed'; 
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+        const auth = getAuth(app);
+        const codesRef = ref(db, 'approvedStudents');
+        const blockedDevicesRef = ref(db, 'blockedDevices'); // ** ⚠️ المسار الجديد للأجهزة المحظورة ⚠️ **
+        
+        let allApprovedCodes = {}; 
+        let currentUserUid = null;
+        const AHMED_FIXED_UID = "4Mr7j0R3GmNrpxeaOWKzv71oHpY2"; 
+        let allSaraCodes = [];
+        let currentReportCodes = [];
+        let allBlockedDevices = []; // ** ⚠️ لتخزين الأجهزة المحظورة ⚠️ **
+
+        const DIVISIONS = ['علمي علوم', 'ادبي', 'علمي رياضة', 'ازهر']; // ** ⚠️ الشعب المتاحة ⚠️ **
+
+        window.showToast = (message, type = "success") => { 
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            container.appendChild(toast);
+            setTimeout(() => { toast.style.opacity = '1'; toast.style.transform = 'translateY(0)'; }, 10);
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateY(-20px)';
+                toast.addEventListener('transitionend', () => toast.remove());
+            }, 5000);
+        };
+        
+        // 💡 Logic 1: التحقق من UID الأدمن الحالي
+        async function checkAdminStatus(uid) {
+            if (uid === AHMED_FIXED_UID) { 
+                return true;
+            } else {
+                window.showToast("❌ هذا الحساب غير مصرح له بالدخول للوحة تحكم Ahmed.", "error");
+                return false;
+            }
+        }
+        
+        // 💡 Logic 2: دالة للتأكد من حالة الدخول والتوثيق قبل أي عملية
+        async function checkAuthAndProceed(action, ...args) {
+            if (!currentUserUid) {
+                window.showToast("❌ يجب تسجيل الدخول أولًا لإجراء أي عملية.", "error");
+                return;
+            }
+            if (await checkAdminStatus(currentUserUid)) { 
+                action(...args);
+            }
+        }
+
+        // 💡 Logic 3, 4, 5: (تسجيل دخول، تسجيل خروج، توليد كود) - تبقى كما هي
+
+        window.handleLogin = async (e) => {
+            e.preventDefault();
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+            
+            try {
+                const userCredential = await signInWithEmailAndPassword(auth, email, password);
+                window.showToast("✅ تم تسجيل الدخول بنجاح. جاري التحقق من الصلاحيات...", "success");
+            } catch (error) {
+                window.showToast(`❌ فشل تسجيل الدخول: ${error.message}`, "error");
+            }
+        };
+
+        window.logout = async () => {
+            await signOut(auth);
+            window.showToast("👋 تم تسجيل الخروج بنجاح.", "warn");
+            window.location.reload(); 
+        };
+
+        function generateUniqueCode() {
+            let code;
+            do {
+                code = String(Math.floor(100000 + Math.random() * 900000));
+            } while (allApprovedCodes[code]); 
+            return code;
+        }
+
+        // 💡 Logic 6: إخراج الكود من الجهاز الحالي
+        window.ejectDevice = (uid, name) => checkAuthAndProceed(() => {
+            if (!confirm(`متأكد من إخراج كود الطالب ${name} (${uid}) من جهازه الحالي؟`)) return;
+            update(ref(db, 'approvedStudents/' + uid), {
+                deviceId: "",
+            }).then(() => {
+                window.showToast(`✅ تم إخراج كود ${uid} بنجاح.`, "success");
+            }).catch(e => window.showToast("❌ فشل الإخراج: " + e.message, "error"));
+        });
+        
+        // ** ⚠️ Logic 7: نسخ كود الجهاز ⚠️ **
+        window.copyDeviceId = (deviceId) => {
+            if (!deviceId) {
+                window.showToast("❌ الكود غير مُفعل على جهاز حاليًا.", "warn");
+                return;
+            }
+            navigator.clipboard.writeText(deviceId)
+                .then(() => window.showToast(`✅ تم نسخ كود الجهاز: ${deviceId}`, "success"))
+                .catch(err => window.showToast("❌ فشل النسخ.", "error"));
+        };
+
+        // 💡 Logic 8: حذف الكود
+        window.deleteCode = (uid, name) => checkAuthAndProceed(() => {
+            if (!confirm(`متأكد من حذف كود الطالب ${name} (${uid}) نهائياً؟`)) return;
+            remove(ref(db, 'approvedStudents/' + uid))
+            .then(() => window.showToast(`✅ تم حذف الكود ${uid} نهائياً.`, "success"))
+            .catch(e => window.showToast("❌ فشل الحذف: " + e.message, "error"));
+        });
+        
+        // 💡 Logic 9: تفعيل/تعطيل الكود
+        window.toggleBlock = (uid, name, isBlocked) => checkAuthAndProceed(() => {
+            update(ref(db, 'approvedStudents/' + uid), {
+                isBlocked: !isBlocked
+            }).then(() => {
+                window.showToast(`✅ تم ${!isBlocked ? 'تعطيل' : 'تفعيل'} كود ${name} بنجاح.`, "success");
+            }).catch(e => window.showToast("❌ فشل تغيير الحالة: " + e.message, "error"));
+        });
+
+        // ** ⚠️ Logic 10: إضافة كود جديد (مع الشعبة) ⚠️ **
+        window.addNewCode = (e) => checkAuthAndProceed(() => {
+            e.preventDefault();
+            const form = e.target;
+            const name = form.studentName.value;
+            const section = form.studentSection.value; // ⬅️ الشعبة الجديدة
+            const price = parseFloat(form.price.value) || 0;
+            const durationType = form.durationType.value;
+            const newCode = document.getElementById('newCodeDisplay').textContent;
+            
+            if (!section) {
+                window.showToast("❌ يجب اختيار شعبة الطالب.", "error");
+                return;
+            }
+
+            let expiryTime = Date.now();
+            
+            if (durationType === 'trial') {
+                expiryTime += 1 * 60 * 60 * 1000;
+            } else if (durationType === '30days') {
+                expiryTime += 30 * 24 * 60 * 60 * 1000;
+            } else {
+                window.showToast("❌ يجب تحديد مدة التفعيل (ساعة أو 30 يوم).", "error");
+                return;
+            }
+
+            set(ref(db, 'approvedStudents/' + newCode), {
+                uid: newCode,
+                name: name,
+                section: section, // ⬅️ حفظ الشعبة
+                pricePaid: price,
+                addedByAdmin: CURRENT_ADMIN_ROLE,
+                approvedAt: Date.now(),
+                expiry: expiryTime,
+                deviceId: "",
+                isBlocked: false,
+                isTrial: durationType === 'trial'
+            }).then(() => {
+                window.showToast(`✅ تم إضافة الكود ${newCode} بنجاح. الشعبة: ${section}`, "success");
+                window.toggleAddCodeForm(false);
+                form.reset();
+            }).catch(error => {
+                window.showToast("❌ فشل الإضافة: " + error.message, "error");
+            });
+        }, e);
+
+        // ** ⚠️ Logic 11: فتح نموذج تعديل الطالب ⚠️ **
+        window.openEditModal = (uid, currentName, currentSection) => checkAuthAndProceed(() => {
+            document.getElementById('edit_uid').value = uid;
+            document.getElementById('edit_name').value = currentName;
+            
+            const sectionSelect = document.getElementById('edit_section');
+            sectionSelect.innerHTML = ''; // تفريغ الخيارات
+            DIVISIONS.forEach(div => {
+                const option = document.createElement('option');
+                option.value = div;
+                option.textContent = div;
+                if (div === currentSection) option.selected = true;
+                sectionSelect.appendChild(option);
+            });
+            
+            document.getElementById('editModal').style.display = 'flex';
+        });
+
+        // ** ⚠️ Logic 12: حفظ التعديلات ⚠️ **
+        window.saveEdit = () => checkAuthAndProceed(() => {
+            const uid = document.getElementById('edit_uid').value;
+            const newName = document.getElementById('edit_name').value;
+            const newSection = document.getElementById('edit_section').value;
+
+            update(ref(db, 'approvedStudents/' + uid), {
+                name: newName,
+                section: newSection
+            }).then(() => {
+                window.showToast(`✅ تم تعديل بيانات الطالب ${uid} بنجاح.`, "success");
+                document.getElementById('editModal').style.display = 'none';
+            }).catch(e => window.showToast("❌ فشل التعديل: " + e.message, "error"));
+        });
+        
+        // ** ⚠️ Logic 13: حظر جهاز معين ⚠️ **
+        window.blockNewDevice = () => checkAuthAndProceed(() => {
+            const deviceId = prompt("أدخل كود الجهاز الذي تريد حظره:");
+            if (!deviceId || deviceId.trim() === "") {
+                window.showToast("❌ يجب إدخال كود الجهاز.", "warn");
+                return;
+            }
+            const cleanId = deviceId.trim();
+
+            set(ref(db, 'blockedDevices/' + cleanId), {
+                deviceId: cleanId,
+                blockedBy: CURRENT_ADMIN_ROLE,
+                blockedAt: Date.now(),
+            }).then(() => {
+                window.showToast(`✅ تم حظر الجهاز ${cleanId} بنجاح.`, "success");
+            }).catch(e => window.showToast("❌ فشل حظر الجهاز: " + e.message, "error"));
+        });
+
+        // ** ⚠️ Logic 14: إلغاء حظر جهاز ⚠️ **
+        window.unblockDevice = (deviceId) => checkAuthAndProceed(() => {
+            if (!confirm(`متأكد من إلغاء حظر الجهاز ${deviceId}؟`)) return;
+            remove(ref(db, 'blockedDevices/' + deviceId))
+            .then(() => window.showToast(`✅ تم إلغاء حظر الجهاز ${deviceId} بنجاح.`, "success"))
+            .catch(e => window.showToast("❌ فشل الإلغاء: " + e.message, "error"));
+        });
+
+        // 💡 Logic 15: تحميل الأكواد وتصنيفها (تحديث مع جلب الأجهزة المحظورة)
+        function loadSaraCodes() {
+            // جلب الأكواد
+            onValue(codesRef, (snapshot) => {
+                allApprovedCodes = {}; 
+                let activeCount = 0;
+                let blockedCount = 0;
+                let expiredCount = 0;
+                let totalAmount = 0;
+                allSaraCodes = [];
+                
+                const now = Date.now();
+                
+                snapshot.forEach((childSnapshot) => {
+                    const data = childSnapshot.val();
+                    data.uid = childSnapshot.key;
+                    allApprovedCodes[childSnapshot.key] = data;
+                    
+                    if ((data.addedByAdmin || '').toLowerCase() === CURRENT_ADMIN_ROLE) { 
+                        allSaraCodes.push(data);
+                        totalAmount += (data.pricePaid || 0);
+
+                        const isBlocked = data.isBlocked === true;
+                        const isExpired = data.expiry < now;
+
+                        if (isExpired) {
+                            expiredCount++;
+                        } else if (isBlocked) {
+                            blockedCount++;
+                        } else {
+                            activeCount++;
+                        }
+                    }
+                });
+                
+                document.getElementById('statActiveCount').textContent = activeCount;
+                document.getElementById('statBlockedCount').textContent = blockedCount;
+                document.getElementById('statExpiredCount').textContent = expiredCount;
+                
+                renderStats(activeCount + blockedCount + expiredCount, totalAmount);
+                window.showToast("✅ تم تحديث بيانات لوحتك يا أحمد.", "success");
+                
+                const activeReport = document.getElementById('reportDisplayArea').getAttribute('data-active-report');
+                if (activeReport) {
+                    toggleReportDisplay(activeReport, true); 
+                } else {
+                    document.getElementById('codesTableBody').innerHTML = '<tr><td colspan="8">اختر بطاقة لعرض التفاصيل...</td></tr>';
+                }
+            }, (error) => {
+                window.showToast("❌ فشل الاتصال بقاعدة البيانات (الأكواد): " + error.message, "error");
+            });
+
+            // ** ⚠️ جلب الأجهزة المحظورة ⚠️ **
+            onValue(blockedDevicesRef, (snapshot) => {
+                allBlockedDevices = [];
+                snapshot.forEach((childSnapshot) => {
+                    const data = childSnapshot.val();
+                    data.deviceId = childSnapshot.key;
+                    // لا توجد فلترة هنا، نفترض كل المحظورات مهمة
+                    allBlockedDevices.push(data);
+                });
+                // تحديث عرض قائمة الأجهزة المحظورة لو كانت مفتوحة
+                if (document.getElementById('blockedDevicesArea').style.display === 'block') {
+                    renderBlockedDevicesTable(allBlockedDevices);
+                }
+            }, (error) => {
+                 window.showToast("❌ فشل الاتصال بقاعدة البيانات (الأجهزة المحظورة): " + error.message, "error");
+            });
+        }
+        
+        // 💡 Logic 16: التبديل بين محتوى البطاقات
+        window.toggleReportDisplay = (reportType, forceUpdate = false) => {
+            // إخفاء منطقة الأجهزة المحظورة عند عرض تقارير الأكواد
+            document.getElementById('blockedDevicesArea').style.display = 'none';
+
+            const displayArea = document.getElementById('reportDisplayArea');
+            const currentActive = displayArea.getAttribute('data-active-report');
+            const now = Date.now();
+            const searchInput = document.getElementById('searchInput');
+
+            let filteredCodes = [];
+            let title = "";
+            
+            if (reportType === 'active') {
+                title = "الأكواد المفعّلة (نشطة وغير منتهية)";
+                filteredCodes = allSaraCodes.filter(c => c.isBlocked !== true && c.expiry >= now);
+            } else if (reportType === 'blocked') {
+                title = "الأكواد المعطّلة يدويًا";
+                filteredCodes = allSaraCodes.filter(c => c.isBlocked === true);
+            } else if (reportType === 'expired') {
+                title = "الأكواد منتهية الصلاحية";
+                filteredCodes = allSaraCodes.filter(c => c.expiry < now);
+            }
+            
+            currentReportCodes = filteredCodes;
+
+            if (currentActive === reportType && !forceUpdate) {
+                displayArea.style.display = 'none';
+                displayArea.removeAttribute('data-active-report');
+                document.getElementById('codesTableBody').innerHTML = '<tr><td colspan="8">اختر بطاقة لعرض التفاصيل...</td></tr>';
+                document.getElementById('reportTitle').textContent = '';
+                searchInput.value = ''; 
+                
+            } else {
+                displayArea.style.display = 'block';
+                displayArea.setAttribute('data-active-report', reportType);
+                document.getElementById('reportTitle').textContent = title;
+                searchInput.value = ''; 
+                
+                renderCodesTable(filteredCodes);
+            }
+        };
+
+        // ** ⚠️ Logic 17: عرض / إخفاء منطقة الأجهزة المحظورة ⚠️ **
+        window.toggleBlockedDevicesArea = () => {
+            // إخفاء منطقة تقارير الأكواد
+            const reportArea = document.getElementById('reportDisplayArea');
+            reportArea.style.display = 'none';
+            reportArea.removeAttribute('data-active-report');
+            
+            const blockedArea = document.getElementById('blockedDevicesArea');
+            if (blockedArea.style.display === 'block') {
+                blockedArea.style.display = 'none';
+            } else {
+                blockedArea.style.display = 'block';
+                renderBlockedDevicesTable(allBlockedDevices);
+            }
+        };
+        
+        // 💡 Logic 18: إغلاق منطقة التقرير بالزر
+        window.clearSearchAndTable = () => {
+            const activeReport = document.getElementById('reportDisplayArea').getAttribute('data-active-report');
+            if (activeReport) {
+                toggleReportDisplay(activeReport);
+            }
+        }
+        
+        // 💡 Logic 19: البحث بالكود أو الاسم في الفئة الحالية
+        window.filterTable = () => {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            
+            if (searchTerm.length === 0) {
+                renderCodesTable(currentReportCodes);
+                return;
+            }
+
+            const results = currentReportCodes.filter(data => 
+                (data.uid && data.uid.toLowerCase().includes(searchTerm)) || 
+                (data.name && data.name.toLowerCase().includes(searchTerm)) ||
+                (data.section && data.section.toLowerCase().includes(searchTerm)) // ⬅️ بحث بالشعبة
+            );
+            
+            renderCodesTable(results);
+        };
 
 
-:root {
-  /* 🟢 ثوابت الـ Cyber Green والـ Dark Tech */
-  --dark-black: #020A07;           /* الخلفية الأساسية - أسود فاحم */
-  --main-green-bg: #08402C;        /* أخضر داكن للـ Cards - اللون الرئيسي المطلوب */
-  --darker-green-bg: #0C241C;      /* أخضر أغمق للـ Topbar/Hover */
-  --neon-accent: #27d97e;          /* أخضر نيون ساطع */
-  --light-text: #f0f0f5;           /* نص فاتح */
-  --gray-text: #8e8e8e;            /* نص ثانوي */
-}
+        // 💡 Main Auth State Observer - يبقى كما هو
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 90px 15px 70px;
-  font-family: 'Cairo', sans-serif;
-  background: var(--dark-black);
-  color: var(--light-text);
-  margin: 0;
-  transition: background 0.4s, color 0.4s;
-  overflow-x: hidden;
-}
+        onAuthStateChanged(auth, (user) => {
+            const loginContainer = document.getElementById('loginContainer');
+            const mainContent = document.getElementById('mainContent');
+            const logoutBtn = document.getElementById('logoutBtn');
+            const addCodeBtn = document.getElementById('addCodeButton');
+            
+            if (user) {
+                currentUserUid = user.uid;
+                
+                checkAdminStatus(user.uid).then(isVerified => {
+                    if (isVerified) {
+                        loginContainer.style.display = 'none';
+                        mainContent.style.display = 'block';
+                        addCodeBtn.style.display = 'block';
+                        logoutBtn.style.display = 'block';
+                        loadSaraCodes(); 
+                    } else {
+                        signOut(auth); 
+                    }
+                });
+            } else {
+                currentUserUid = null;
+                loginContainer.style.display = 'block';
+                mainContent.style.display = 'none';
+                addCodeBtn.style.display = 'none';
+                logoutBtn.style.display = 'none';
+            }
+        });
 
-/* ===== الشريط العلوي (Top Bar) - تأثير الزجاج الثلجي/Frosted Glass ===== */
-.topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* خلفية شفافة من اللون الأساسي + زجاج ثلجي */
-  background: rgba(8, 64, 44, 0.4); 
-  backdrop-filter: blur(10px); 
-  -webkit-backdrop-filter: blur(10px);
-  padding: 10px 15px;
-  color: var(--light-text);
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1000;
-  transition: background 0.3s, color 0.3s;
-  border-bottom: 2px solid var(--neon-accent); /* خط أخضر نيون */
-  box-shadow: 0 4px 15px rgba(39, 217, 126, 0.2);
-}
+        // 💡 الدوال المساعدة للعرض
+        
+        function formatExpiry(timestamp) {
+            const now = Date.now();
+            if (timestamp < now) return '<span style="color:red; font-weight:bold;">منتهي</span>';
+            const diff = timestamp - now;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            return `${days}ي ${hours}س`;
+        }
+        
+        // ** ⚠️ دالة عرض جدول الأكواد (تحديث شامل) ⚠️ **
+        function renderCodesTable(codes) {
+            const tbody = document.getElementById('codesTableBody');
+            tbody.innerHTML = '';
+            
+            if (codes.length === 0) {
+                 const title = document.getElementById('reportDisplayArea').getAttribute('data-active-report');
+                 const message = (title) ? 'لا توجد أكواد في هذه الفئة حاليًا.' : 'اختر بطاقة لعرض التفاصيل...';
+                 tbody.innerHTML = `<tr><td colspan="8">${message}</td></tr>`;
+                return;
+            }
 
-.menu-btn {
-  font-size: 24px;
-  cursor: pointer;
-}
+            codes.forEach(data => {
+                const isExpired = data.expiry < Date.now();
+                const isBlocked = data.isBlocked === true;
+                
+                let statusText;
+                let statusClass;
 
-.title {
-  font-size: 16px;
-  color: var(--neon-accent); /* نيون لافت */
-  font-family: 'Orbitron', sans-serif; /* خط تقني */
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-shadow: 0 0 8px rgba(39, 217, 126, 0.7);
-}
+                if (isExpired) {
+                    statusText = 'منتهي الصلاحية';
+                    statusClass = 'status-expired';
+                } else if (isBlocked) {
+                    statusText = 'مُعطّل يدويًا';
+                    statusClass = 'status-blocked';
+                } else {
+                    statusText = 'نشط';
+                    statusClass = 'status-active';
+                }
+                
+                const blockBtnText = isBlocked ? 'تفعيل' : 'تعطيل';
+                const ejectDisabled = !data.deviceId || isExpired || isBlocked ? 'disabled' : '';
+                const ejectTitle = !data.deviceId ? 'الكود غير مفعل' : (isExpired || isBlocked ? 'لا يمكن إخراج الجهاز لكود غير نشط' : '');
 
-.icons {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
+                
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td class="code-uid">${data.uid}</td>
+                    <td>${data.name}</td>
+                    <td>${data.section || 'N/A'}</td> <td>${data.pricePaid} ج.م</td>
+                    <td>${formatExpiry(data.expiry)}</td>
+                    <td class="device-id">
+                        ${data.deviceId || 'غير مُفعل'}
+                        <button onclick="copyDeviceId('${data.deviceId}')" class="copy-btn" title="نسخ كود الجهاز" ${!data.deviceId ? 'disabled' : ''}>📋</button>
+                    </td>
+                    <td class="${statusClass}">${statusText}</td>
+                    <td class="actions">
+                        <button onclick="openEditModal('${data.uid}', '${data.name}', '${data.section || ''}')" class="edit-btn" title="تعديل بيانات الطالب">تعديل</button>
+                        <button onclick="ejectDevice('${data.uid}', '${data.name}')" class="eject-btn" ${ejectDisabled} title="${ejectTitle}">إخراج</button>
+                        <button onclick="toggleBlock('${data.uid}', '${data.name}', ${isBlocked})" class="${isBlocked ? 'unblock-btn' : 'block-btn'}">${blockBtnText}</button>
+                        <button onclick="deleteCode('${data.uid}', '${data.name}')" class="delete-btn">حذف</button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+        
+        // ** ⚠️ دالة عرض جدول الأجهزة المحظورة ⚠️ **
+        window.renderBlockedDevicesTable = (devices) => {
+             const tbody = document.getElementById('blockedDevicesTableBody');
+             tbody.innerHTML = '';
+             if (devices.length === 0) {
+                 tbody.innerHTML = `<tr><td colspan="3">لا توجد أجهزة محظورة حاليًا.</td></tr>`;
+                 return;
+             }
+             devices.forEach(device => {
+                 const date = new Date(device.blockedAt).toLocaleString('ar-EG', { dateStyle: 'short', timeStyle: 'short' });
+                 const tr = document.createElement('tr');
+                 tr.innerHTML = `
+                    <td class="code-uid">${device.deviceId}</td>
+                    <td>${device.blockedBy}</td>
+                    <td>${date}</td>
+                    <td class="actions">
+                        <button onclick="unblockDevice('${device.deviceId}')" class="unblock-btn">إلغاء الحظر</button>
+                    </td>
+                 `;
+                 tbody.appendChild(tr);
+             });
+        }
+        
+        // باقي الدوال المساعدة (renderStats, toggleStats, toggleAddCodeForm) تبقى كما هي
+        
+        window.renderStats = (totalCodes, totalAmount) => {
+             const statsContainer = document.getElementById('statsContainer');
+             statsContainer.innerHTML = `
+                <div class="stat-item">
+                    <p>إجمالي الأكواد المضافة</p>
+                    <strong id="statTotalCodes">${totalCodes}</strong>
+                </div>
+                <div class="stat-item">
+                    <p>إجمالي المبلغ المحصّل</p>
+                    <strong id="statTotalAmount" style="color:var(--secondary);">${totalAmount.toLocaleString()} ج.م</strong>
+                </div>
+            `;
+        };
+        
+        window.toggleStats = (show) => {
+            const stats = document.getElementById('statsContainer');
+            const statsBtn = document.getElementById('statsButton');
+            
+            if (show) {
+                stats.style.display = 'flex';
+                statsBtn.textContent = 'إخفاء الإجمالي 📉';
+                statsBtn.onclick = () => toggleStats(false);
+            } else {
+                stats.style.display = 'none';
+                statsBtn.textContent = 'عرض الإجمالي 📈';
+                statsBtn.onclick = () => toggleStats(true);
+            }
+        };
 
-.icons img {
-  width: 28px;
-  height: 28px;
-  /* فلتر عشان تبقى شكلها نيون أخضر */
-  filter: invert(1) drop-shadow(0 0 6px var(--neon-accent)); 
-  cursor: pointer;
-  transition: 0.3s;
-}
-.icons img:hover {
-    filter: invert(1) drop-shadow(0 0 12px var(--neon-accent));
-    transform: scale(1.1);
-}
+        window.toggleAddCodeForm = (show) => {
+            const form = document.getElementById('addCodeFormContainer');
+            if (show) {
+                 checkAuthAndProceed(() => {
+                    form.style.display = 'block';
+                    document.getElementById('newCodeDisplay').textContent = generateUniqueCode();
+                    // ملء خيارات الشعبة
+                    const select = document.getElementById('addCodeForm').studentSection;
+                    select.innerHTML = '<option value="">اختر الشعبة</option>';
+                    DIVISIONS.forEach(div => {
+                         select.innerHTML += `<option value="${div}">${div}</option>`;
+                    });
+                });
+            } else {
+                form.style.display = 'none';
+            }
+        };
 
-/* تحديث الـ Toggle - Cyber Switch */
-.toggle-dark {
-  background: var(--dark-black);
-  border: 2px solid var(--neon-accent);
-  border-radius: 20px;
-  width: 50px;
-  height: 25px;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s;
-}
 
-.toggle-dark::after {
-  content: "";
-  position: absolute;
-  top: 3px;
-  right: 3px; 
-  width: 15px;
-  height: 15px;
-  background: var(--neon-accent);
-  border-radius: 50%;
-  transition: 0.3s;
-  box-shadow: 0 0 8px var(--neon-accent);
-}
+    </script>
+    <style>
+        :root {
+            --bg-dark: #111;
+            --primary: #00FF00; /* Cyber Green */
+            --secondary: #00E8C8; 
+            --text-light: #F0F0F0;
+            --error: #FF4444;
+            --warn: #FFA500;
+            --bg-mid: #222;
+            --hover-dark: #333;
+            --expired-color: #f7a048; 
+        }
+        * { box-sizing: border-box; font-family: 'Cairo', sans-serif; }
+        body { background: var(--bg-dark); color: var(--text-light); margin: 0; padding: 0; }
+        .container { max-width: 1200px; margin: 30px auto; padding: 20px; }
+        h1 { color: var(--primary); text-align: center; margin-bottom: 25px; border-bottom: 2px solid var(--bg-mid); padding-bottom: 10px; }
+        
+        /* Login Style */
+        #loginContainer { background: var(--bg-mid); padding: 30px; border-radius: 10px; max-width: 400px; margin: 100px auto; }
+        #loginContainer h2 { color: var(--secondary); text-align: center; margin-bottom: 20px; }
+        #loginContainer input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #444; border-radius: 5px; background: #333; color: var(--text-light); }
+        #loginContainer button { width: 100%; padding: 10px; background: var(--primary); color: var(--bg-dark); border: none; border-radius: 5px; font-weight: 700; cursor: pointer; transition: 0.3s; }
+        #loginContainer button:hover { background: #00cc00; }
+        
+        /* Main Content Style */
+        #mainContent { display: none; }
+        .header-controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        #logoutBtn { background: var(--error); color: var(--text-light); padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; font-weight: 700; }
+        #logoutBtn:hover { background: #cc3333; }
+        
+        /* Stats & Buttons */
+        .controls-row { display: flex; justify-content: space-between; gap: 15px; margin-bottom: 20px; }
+        #addCodeButton, #statsButton, #blockedDevicesButton {
+            background: var(--primary); color: var(--bg-dark); padding: 10px 20px; 
+            border: none; border-radius: 8px; font-weight: 700; cursor: pointer; 
+            transition: 0.3s;
+        }
+        #addCodeButton:hover, #statsButton:hover, #blockedDevicesButton:hover { background: #00cc00; }
+        #statsButton { background: var(--secondary); }
+        #blockedDevicesButton { background: var(--warn); color: var(--bg-dark); } /* ⬅️ زرار جديد */
 
-.toggle-dark.active::after {
-  right: 27px;
-  background: var(--light-text);
-  box-shadow: 0 0 8px var(--light-text);
-}
+        #statsContainer { 
+            display: none; 
+            justify-content: space-around; 
+            background: #1a1a1a; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin-bottom: 25px; 
+            border-left: 5px solid var(--primary);
+        }
+        .stat-item { text-align: center; color: var(--text-light); }
+        .stat-item p { margin: 5px 0; font-size: 14px; color: var(--secondary); }
+        .stat-item strong { display: block; font-size: 32px; color: var(--primary); }
+        
+        /* Report Cards Container */
+        .report-cards-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .report-card {
+            flex: 1;
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-top: 5px solid transparent;
+        }
+        .report-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+        .report-card p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: var(--text-light);
+        }
+        .report-card strong {
+            display: block;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        #cardActive { border-top-color: var(--primary); }
+        #cardBlocked { border-top-color: var(--warn); }
+        #cardExpired { border-top-color: var(--error); }
+        #cardActive strong { color: var(--primary); }
+        #cardBlocked strong { color: var(--warn); }
+        #cardExpired strong { color: var(--error); }
 
-/* ===== باقي التنسيقات ===== */
-h1 {
-  color: var(--neon-accent);
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 50px;
-  text-shadow: 0 0 15px rgba(39, 217, 126, 0.8); /* ظل نيون أخضر قوي */
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 900;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  /* تأثير الـ Glitch الخفيف ممكن إضافته لزيادة الجاذبية */
-}
+        /* Search Container */
+        .search-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        #searchInput {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background: #333;
+            color: var(--text-light);
+        }
+        .search-container button {
+            background: #444;
+            color: var(--text-light);
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        /* Table Style */
+        .table-responsive { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 10px; border: 1px solid #444; text-align: right; font-size: 14px; }
+        th { background: #333; color: var(--primary); }
+        tr:nth-child(even) { background: #1a1a1a; }
+        .code-uid, .device-id { font-family: monospace; font-size: 12px; direction: ltr; text-align: left; color: var(--secondary); }
 
-ul {
-  padding: 0 10px;
-  list-style: none;
-  
-  /* ⭐️ عرض أكبر للقائمة عشان تشتغل على التابلت والديسكتوب */
-  max-width: 1200px; 
-  
-  margin: 0 auto; 
-  
-  /* 🛠️ Grid Layout اللي بيتجاوب */
-  display: grid; 
-  /* Default: 3 أو 4 أعمدة بحد أدنى 250px للعرض */
-  grid-template-columns: repeat(3, minmax(250px, 1fr)); 
-  gap: 30px; 
-  transform: none; 
-}
+        /* Actions */
+        .status-active { color: var(--primary); font-weight: 700; }
+        .status-blocked { color: var(--warn); font-weight: 700; }
+        .status-expired { color: var(--error); font-weight: 700; } 
+        .actions button {
+            padding: 5px 8px; border: none; border-radius: 5px; cursor: pointer; margin: 2px; font-weight: 700; transition: 0.2s; font-size: 12px;
+        }
+        .actions button[disabled] {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .edit-btn { background: #006699; color: var(--text-light); } /* ⬅️ زر التعديل */
+        .copy-btn { background: #444; color: var(--secondary); margin-left: 5px; } /* ⬅️ زر النسخ */
+        .eject-btn { background: #0099cc; color: var(--text-light); }
+        .block-btn { background: var(--warn); color: var(--bg-dark); }
+        .unblock-btn { background: var(--primary); color: var(--bg-dark); }
+        .delete-btn { background: var(--error); color: var(--text-light); }
 
-li {
-  /* بطاقة المادة - تستخدم اللون الأساسي المطلوب #08402C */
-  background: var(--main-green-bg); 
-  border-radius: 15px;
-  padding: 30px 25px 30px;
-  cursor: pointer;
-  border: 1px solid rgba(39, 217, 126, 0.2);
-  /* ظل خفيف مع إحساس الـ Depth */
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7); 
-  transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  text-align: center;  
-  justify-content: space-between;
-  user-select: none;
-  /* شلنا الـ width: 100% عشان الـ Grid يحدد العرض صح */
-  min-height: 250px; 
-}
+        /* Add Code Form */
+        #addCodeFormContainer {
+            display: none; background: #0a0a0a; padding: 25px; border-radius: 10px; margin-top: 20px;
+            border: 2px solid var(--secondary); max-width: 500px; margin-left: auto; margin-right: auto;
+        }
+        #newCodeDisplay { font-family: monospace; font-size: 18px; color: var(--primary); font-weight: 700; direction: ltr; text-align: left; background: #111; padding: 5px; border-radius: 5px; }
+        #addCodeFormContainer input, #addCodeFormContainer select {
+            width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #444; border-radius: 5px; background: #333; color: var(--text-light);
+            margin-bottom: 10px;
+        }
+        
+        /* Edit Modal Style */
+        .modal {
+            display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.7);
+            justify-content: center; align-items: center;
+        }
+        .modal-content {
+            background-color: var(--bg-mid); margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; border-radius: 10px;
+        }
+        .modal-content label { display: block; margin-top: 10px; color: var(--secondary); }
+        .modal-content input, .modal-content select { width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 10px; border-radius: 4px; background: #333; color: var(--text-light); border: 1px solid #444; }
+        .modal-buttons button { padding: 8px 15px; border-radius: 5px; margin-top: 10px; cursor: pointer; font-weight: 700; }
+        
+        /* Blocked Devices Area Style */
+        #blockedDevicesArea {
+            display: none; margin-top: 20px; background: #1a1a1a; padding: 20px; border-radius: 10px; border: 2px solid var(--error);
+        }
+        #blockedDevicesArea h2 { color: var(--error); border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 15px; }
+        #blockNewDeviceBtn { background: var(--error); color: var(--text-light); margin-bottom: 15px; }
+        
+        /* Toast */
+        #toast-container { position: fixed; bottom: 20px; left: 20px; z-index: 10000; }
+        .toast { padding: 12px 20px; border-radius: 10px; margin-top: 10px; font-weight: 700; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); opacity: 0; animation: toastIn 0.5s forwards; transition: opacity 0.5s, transform 0.5s; min-width: 200px; text-align: right; }
+        .toast-success { background: var(--primary); color: var(--bg-dark); }
+        .toast-error { background: var(--error); color: var(--text-light); }
+        .toast-warn { background: var(--warn); color: var(--bg-dark); }
 
-li:hover {
-  /* خلفية أغمق للـ Hover من اللون الثانوي #0C241C */
-  background: var(--darker-green-bg); 
-  color: #fff;
-  transform: translateY(-8px) scale(1.03); /* رفع أقل وأكثر انسيابية */
-  border-color: var(--neon-accent);
-  /* ظل نيون أخضر قوي جدا */
-  box-shadow: 0 15px 40px rgba(39, 217, 126, 0.5); 
-}
-
-li:active {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(39, 217, 126, 0.4);
-}
-
-.circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: var(--darker-green-bg); /* خلفية الدائرة أغمق */
-  overflow: hidden;
-  margin-bottom: 25px;
-  border: 4px solid var(--neon-accent);
-  box-shadow: 0 0 15px var(--neon-accent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.4s;
-}
-li:hover .circle {
-  border-color: var(--light-text);
-  box-shadow: 0 0 20px var(--light-text);
-}
-
-.circle img {
-  width: 80%;
-  height: 80%;
-  object-fit: contain;
-  /* فلتر لـ Cyber Glow */
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7)); 
-  transition: all 0.4s;
-}
-
-li span {
-  font-weight: 700;
-  font-size: 1.4rem;
-  text-align: center;
-  color: var(--light-text);
-  transition: color 0.3s;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
-  font-family: 'Tajawal', sans-serif;
-}
-li:hover span {
-    color: var(--neon-accent); 
-    text-shadow: 0 0 10px var(--neon-accent);
-}
-
-li.loading {
-  cursor: default;
-  color: var(--gray-text);
-  background: var(--dark-black);
-  box-shadow: none;
-  font-weight: 500;
-  font-size: 1.3rem;
-  /* تخليها تمتد على كل الأعمدة */
-  grid-column: 1 / -1; 
-  text-align: center;
-  margin-top: 30px;
-}
-
-li.loading::after {
-  content: "";
-  width: 35px;
-  height: 35px;
-  border: 4px solid var(--neon-accent);
-  border-top: 4px solid transparent;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 15px;
-  vertical-align: middle;
-  animation: spin 1s cubic-bezier(0.5, 0, 0.5, 1) infinite; 
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-/* ===== وضع الفاتح (Light Mode) - تناغم الألوان (تم تعديلها للأخضر) ===== */
-body.light-mode {
-  background: #f8fcf8; /* أبيض فاتح مع لمسة خضراء */
-  color: #1a1a1a;
-}
-body.light-mode .topbar {
-  background: rgba(255, 255, 255, 0.9);
-  color: #1a1a1a;
-  border-bottom-color: var(--main-green-bg);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-body.light-mode li {
-  background: #fff;
-  color: #1a1a1a;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-  border-color: #eee;
-}
-body.light-mode li:hover {
-  background: var(--main-green-bg);
-  color: #fff;
-  box-shadow: 0 15px 40px rgba(8, 64, 44, 0.4);
-}
-body.light-mode li span {
-  color: #1a1a1a;
-}
-body.light-mode li:hover span {
-  color: var(--neon-accent);
-  text-shadow: none;
-}
-body.light-mode .circle {
-  background: #eee;
-  border-color: var(--main-green-bg);
-  box-shadow: none;
-}
-body.light-mode li:hover .circle {
-  border-color: var(--neon-accent);
-  box-shadow: 0 0 20px rgba(39, 217, 126, 0.3);
-}
-body.light-mode .toggle-dark {
-  border-color: var(--main-green-bg);
-  background: #fff;
-}
-body.light-mode .toggle-dark::after {
-  background: var(--main-green-bg);
-  box-shadow: 0 0 8px var(--main-green-bg);
-}
-body.light-mode .toggle-dark.active::after {
-  background: var(--neon-accent);
-  box-shadow: 0 0 8px var(--neon-accent);
-}
-body.light-mode .icons img {
-    filter: none; /* إزالة الـ filter في الـ light mode */
-}
-
-/* ===== Toast إشعار (أخضر تقني) ===== */
-#toast {
-  visibility: hidden;
-  min-width: 300px;
-  background: var(--darker-green-bg);
-  color: var(--neon-accent);
-  text-align: center;
-  border-radius: 10px;
-  padding: 15px;
-  position: fixed;
-  z-index: 2000;
-  left: 50%;
-  bottom: 30px;
-  transform: translateX(-50%);
-  font-size: 1.1rem;
-  border: 1px solid var(--neon-accent);
-  box-shadow: 0 0 12px var(--neon-accent), 0 6px 20px rgba(0,0,0,0.7);
-  opacity: 0;
-  transition: opacity 0.4s, bottom 0.4s;
-}
-#toast.show {
-  visibility: visible;
-  opacity: 1;
-  bottom: 40px;
-}
-body.light-mode #toast {
-  background: #fff;
-  color: var(--main-green-bg);
-  border-color: var(--main-green-bg);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-/* ✅ زر البروفايل العائم (أخضر تقني) */
-.profile-float-btn {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: var(--darker-green-bg);
-  border: 3px solid var(--neon-accent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  box-shadow: 0 0 15px var(--neon-accent);
-  transition: 0.3s;
-  z-index: 1200;
-}
-.profile-float-btn:hover {
-  transform: scale(1.1) rotate(5deg);
-  background: var(--main-green-bg);
-  box-shadow: 0 0 25px var(--neon-accent); 
-}
-
-.profile-float-btn img {
-    width: 30px;
-    height: 30px;
-    filter: invert(1) drop-shadow(0 0 5px var(--neon-accent)); /* عشان أيقونة البروفايل تبان نيون */
-}
-body.light-mode .profile-float-btn {
-  background: var(--main-green-bg);
-  border: 3px solid #fff;
-}
-body.light-mode .profile-float-btn:hover {
-  background: var(--neon-accent);
-  border-color: var(--main-green-bg); 
-}
-body.light-mode .profile-float-btn img {
-    filter: invert(0);
-}
-
-/* ✅ تنسيق زر الصفحة الرئيسية */
-.home-button {
-    background: linear-gradient(90deg, var(--neon-accent), var(--main-green-bg));
-    color: #fff;
-    padding: 10px 22px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.05rem;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1100;
-    box-shadow: 0 6px 20px rgba(39, 217, 126, 0.4);
-    transition: transform 0.3s, opacity 0.3s;
-}
-.home-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 30px rgba(39, 217, 126, 0.7);
-}
-
-/* ===== Media Queries لتجاوبية أفضل (تم تحديثها) ===== */
-
-/* ⭐️ New Media Query for Large Tablets/Small Desktops */
-@media (max-width: 1024px) {
-    ul {
-        /* 2 أو 3 أعمدة كحد أدنى */
-        grid-template-columns: repeat(3, minmax(200px, 1fr));
-        gap: 25px;
-    }
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  ul {
-    /* شاشات الـ Tablet العمودي */
-    grid-template-columns: repeat(4, minmax(180px, 1fr));
-    gap: 20px;
-  }
-  .circle {
-    width: 100px;
-    height: 100px;
-  }
-  li span {
-    font-size: 1.2rem;
-  }
-  .profile-float-btn {
-    width: 50px;
-    height: 50px;
-    bottom: 20px;
-    left: 20px;
-  }
-}
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-    ul {
-        /* الموبايل - عمود واحد عريض ومريح */
-        grid-template-columns: 1fr; 
-        gap: 15px;
-    }
-    li {
-        min-height: 180px;
-        padding: 25px 20px; 
-    }
-    .circle {
-        width: 80px;
-        height: 80px;
-        margin-bottom: 15px;
-    }
-    .home-button {
-        padding: 8px 15px;
-        font-size: 0.9rem;
-        top: 15px;
-        right: 15px;
-    }
-    body {
-        padding-top: 70px;
-    }
-}
-
-/* تنسيقات إضافية (لم يتم استخدامها في الـ HTML لكن تم تعديل ألوانها لتناسب الثيم الجديد) */
-.activation-info-container, .fixed-bottom-bar, .info-label, .activation-code-box, .return-btn, .bottom-label, .bottom-code {
-    background: var(--darker-green-bg);
-    color: var(--light-text);
-    border: 1px solid var(--neon-accent);
-}
-  </style>
+    </style>
 </head>
 <body>
 
-  <div class="topbar">
+<div class="container">
     
-    <div class="title">By ELGIZAWY</div>
-    <div class="icons">
-      <div class="toggle-dark" id="darkToggle"></div>
-      <a href="" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-      </a>
-      <img id="shareBtn" src="https://cdn-icons-png.flaticon.com/512/929/929610.png" alt="Share">
+    <div id="loginContainer">
+        <h2>تسجيل دخول المشرف (AHMED)</h2>
+        <form id="loginForm" onsubmit="handleLogin(event)">
+            <input type="email" id="loginEmail" placeholder="البريد الإلكتروني" required>
+            <input type="password" id="loginPassword" placeholder="كلمة المرور" required>
+            <button type="submit">دخول 🛡️</button>
+        </form>
     </div>
-  </div>
 
-  <div id="toast">الإشعارات هتتفعل قريبًا 🔔✨</div>
-
-  <h1> SUBJECTS 2026 </h1>
-  <ul id="subjects-list">
-    <li class="loading">⏳....𝑳𝒐𝒂𝒅𝒊𝒏𝒈</li>
-  </ul>
-
-  <a href="profile.html" class="profile-float-btn">
-    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="بروفايل">
-  </a>
-
-<script>
-// ✅ Toast احترافية — نسخة واحدة فقط
-function showToast(message, type = "info") {
-  const toast = document.createElement("div");
-  toast.className = `custom-toast ${type}`;
-  toast.innerHTML = `<span>${message}</span>`;
-
-  const style = document.createElement("style");
-  // ** تم تعديل الـ CSS بتاع الـ Toast عشان الـ Neon Green/Dark Theme **
-  style.textContent = `
-    .custom-toast {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 14px 22px;
-      border-radius: 14px;
-      font-family: "Cairo", sans-serif;
-      font-weight: 600;
-      font-size: 15px;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
-      animation: slideIn 0.5s ease, fadeOut 0.5s ease 2.5s forwards;
-      z-index: 9999;
-      border: 1px solid #27d97e;
-    }
-    .custom-toast.info { background: linear-gradient(135deg, #08402C, #0C241C); }
-    .custom-toast.success { background: linear-gradient(135deg, #27d97e, #1a8f54); }
-    .custom-toast.error { background: linear-gradient(135deg, #e74c3c, #c0392b); }
-    @keyframes slideIn { from { transform: translateX(120%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
-    @keyframes fadeOut { to { opacity: 0; transform: translateX(120%); } }
-  `;
-  document.head.appendChild(style);
-  document.body.appendChild(toast);
-  setTimeout(() => toast.remove(), 3000);
-}
-
-// ✅ متغير لتتبع حالة التحقق
-window.authPassed = false;
-// ✅ التحقق المعدل: تخطي تسجيل الدخول والرجوع للصفحة الرئيسية
-
-document.addEventListener("DOMContentLoaded", async () => {
-  // ⬅️ نعتبر إن التحقق نجح على طول عشان نتخطى الفحص
-  window.authPassed = true;
-  
-  // تشغيل حدث authReady عشان باقي الأكواد تشتغل
-  document.dispatchEvent(new Event("authReady")); 
-  
-  // ممكن تحطي رسالة بسيطة للتأكد، أو تلغي السطر دا لو مش عايزة إشعار يظهر
-  // showToast("✅ تم تخطي التحقق والدخول بنجاح", "success"); 
-});
-</script>
-
-<script type="module">
-// 🚨 كونفيج Firebase (تحتاج للتأكد من بياناتك هنا)
-const firebaseConfig = {
-    apiKey: "AIzaSyBK6FZF3LW83qaUHBKYTfiVd2Ozrd1Rf2g",
-    authDomain: "thanawy-1383.firebaseapp.com",
-    databaseURL: "https://thanawy-1383-default-rtdb.firebaseio.com",
-    projectId: "thanawy-1383",
-    // ...
-};
-
-// 💡 تهيئة Firebase (نحتاج لاستخدامها هنا لجلب الشعبة)
-if (typeof firebase === 'undefined' || firebase.apps.length === 0) {
-    firebase.initializeApp(firebaseConfig);
-}
-const db = firebase.database();
-
-
-// 🌐 تحديد مسارات الـ JSON حسب الشعبة
-const JSON_URLS = {
-    'علمي علوم': "https://plus-teal.vercel.app/organized_output.json",
-    'أدبي': "https://plus-teal.vercel.app/organized_output-a.json", 
-    'علمي رياضة': "https://plus-teal.vercel.app/organized_outputa.json", 
-    'أزهر': "https://plus-teal.vercel.app/organized_outpua.json",
-    'DEFAULT': "https://plus-teal.vercel.app/organized_output.json" 
-};
-
-
-// 🔥 الدالة الجديدة لجلب الشعبة وتحديد الـ URL 🔥
-async function getDataSourceURL() {
-    const activeCode = localStorage.getItem('activeCode');
-    if (!activeCode) {
-        // لو مفيش كود مفعل، رجّع اللينك الافتراضي أو حوّل لصفحة تسجيل الدخول
-        console.warn("No active code found. Using default URL.");
-        // إذا لم يكن هناك كود، يجب تحويله لصفحة تسجيل الدخول
-        window.location.href = 'index.html'; 
-        return JSON_URLS.DEFAULT;
-    }
-
-    try {
-        // التحقق من الشعبة من Firebase
-        const snapshot = await db.ref(`approvedStudents/${activeCode}`).once('value');
-        const studentData = snapshot.val();
-
-        if (studentData && studentData.section) {
-            const studentSection = studentData.section.trim();
-            const url = JSON_URLS[studentSection] || JSON_URLS.DEFAULT;
-            showToast(`تم تحديد شعبتك: ${studentSection}`, "info");
-            return url;
-        } else {
-            showToast("لا يمكن تحديد الشعبة. استخدام المحتوى الافتراضي.", "warn");
-            return JSON_URLS.DEFAULT;
-        }
-    } catch (error) {
-        showToast("فشل الاتصال لتحديد الشعبة. استخدام المحتوى الافتراضي.", "error");
-        console.error("Error fetching student section from Firebase:", error);
-        return JSON_URLS.DEFAULT;
-    }
-}
-
-
-const subjectsList = document.getElementById('subjects-list');
-
-const subjectImages = {
-   "أحياء": "1.jpg",
-    "فيزياء": "2.jpg",
-    "كيمياء": "3.jpg",
-    "لغة عربية": "5.jpg",
-    "English": "6.jpg",
-    "جيولوجيا": "https://www2.0zz0.com/2025/11/03/22/343667596.jpg",
-    "الرياضيات": "4.jpg",
-    "تاريخ": "99.jpg",
-    "جغرافيا": "9.jpg",
-    "الإحصاء": "8.jpg",
-    "ادبي": "https://www2.0zz0.com/2025/10/01/19/580067879.jpeg",
-  };
-// **هذا الكود يحل المشكلة ويجب وضعه مكان loadSubjects() القديمة في subjects.html**
-
-async function loadSubjects() {
-  subjectsList.innerHTML = '<li class="loading">⏳....𝑳𝒐𝒂𝒅𝒊𝒏𝒈</li>';
-
-  // 1. تحديد الـ URL بشكل ديناميكي قبل الجلب
-  const finalSourceURL = await getDataSourceURL(); 
-  
-  try {
-    const res = await fetch(finalSourceURL); 
-    if (!res.ok) throw new Error("Failed to fetch JSON data.");
-
-    const allYearsData = await res.json();
-
-    // 💡 نستخدم Map لتخزين كل مادة مرة واحدة 
-    const uniqueSubjects = new Map();
-
-    (allYearsData || []).forEach(year => {
-        const yearId = year.id; 
-        const yearName = year.name; 
+    <div id="mainContent">
+        <div class="header-controls">
+            <h1>لوحة تحكم Ahmed 💻</h1>
+            <button id="logoutBtn" onclick="logout()">تسجيل الخروج</button>
+        </div>
         
-        (year.subjects || []).forEach(sub => {
-            if (!uniqueSubjects.has(sub.name)) {
-                // حفظ بيانات المادة مع ID السنة اللي ظهرت فيها (لأغراض التوجيه)
-                uniqueSubjects.set(sub.name, {
-                    name: sub.name,
-                    id: sub.id, // ID المادة
-                    yearId: yearId, // ID السنة
-                    yearName: yearName
-                });
-            }
-        });
-    });
+        <div class="controls-row">
+            <button id="addCodeButton" onclick="toggleAddCodeForm(true)">+ إضافة كود جديد</button>
+            <button id="blockedDevicesButton" onclick="toggleBlockedDevicesArea()">قسم حظر الأجهزة 🚫</button>
+            <button id="statsButton" onclick="toggleStats(true)">عرض الإجمالي 📈</button>
+        </div>
+        
+        <div id="statsContainer"></div>
+        
+        <div id="reportCardsContainer" class="report-cards-container">
+            <div class="report-card" id="cardActive" onclick="toggleReportDisplay('active')">
+                <p>الأكواد المفعّلة</p>
+                <strong id="statActiveCount">0</strong>
+            </div>
+            <div class="report-card" id="cardBlocked" onclick="toggleReportDisplay('blocked')">
+                <p>المعطّلة يدويًا</p>
+                <strong id="statBlockedCount">0</strong>
+            </div>
+            <div class="report-card" id="cardExpired" onclick="toggleReportDisplay('expired')">
+                <p>منتهية الصلاحية</p>
+                <strong id="statExpiredCount">0</strong>
+            </div>
+        </div>
+        
+        <div id="addCodeFormContainer">
+            <h3>إضافة كود جديد بواسطة Ahmed</h3>
+            <p>الكود العشوائي المُولَّد: <span id="newCodeDisplay">...</span></p>
+            <form id="addCodeForm" onsubmit="addNewCode(event)">
+                <label>اسم الطالب:</label>
+                <input type="text" name="studentName" required>
+                
+                <label>شعبة الطالب:</label>
+                <select name="studentSection" required>
+                    </select>
 
-    subjectsList.innerHTML = '';
+                <label>المبلغ المدفوع (جنيه):</label>
+                <input type="number" name="price" min="0" value="0">
 
-    if (uniqueSubjects.size === 0) {
-      subjectsList.innerHTML = '<li class="loading">⚠️ لا توجد مواد متاحة لشعبتك.</li>';
-      return;
-    }
-    
-    // تحويل الـ Map لقائمة عشان نقدر نعمل عليها Loop
-    const sortedSubjects = Array.from(uniqueSubjects.values()).sort((a, b) => a.name.localeCompare(b.name));
+                <label>مدة التفعيل:</label>
+                <select name="durationType" required>
+                    <option value="">اختر المدة</option>
+                    <option value="trial">تجريبي (ساعة واحدة)</option>
+                    <option value="30days">اشتراك 30 يوم</option>
+                </select>
+                
+                <div class="form-actions" style="margin-top:10px;">
+                    <button type="submit" class="add-code-btn" style="background:var(--primary);">حفظ وتفعيل الكود</button>
+                    <button type="button" class="delete-btn" onclick="toggleAddCodeForm(false)">إلغاء</button>
+                </div>
+            </form>
+        </div>
+        
+        <div id="blockedDevicesArea">
+            <h2>الأجهزة المحظورة 🚫</h2>
+            <button id="blockNewDeviceBtn" onclick="blockNewDevice()">+ حظر جهاز جديد (UID)</button>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>كود الجهاز المحظور (UID)</th>
+                            <th>بواسطة</th>
+                            <th>تاريخ الحظر</th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="blockedDevicesTableBody">
+                        <tr><td colspan="4">جاري التحميل...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div id="reportDisplayArea" style="display:none; margin-top: 20px;">
+            <h2 id="reportTitle"></h2>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="ابحث بالكود أو الاسم أو الشعبة..." />
+                <button onclick="clearSearchAndTable()">إغلاق التقرير ❌</button>
+            </div>
 
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>الكود (UID)</th>
+                            <th>اسم الطالب</th>
+                            <th>الشعبة</th> <th>المبلغ</th>
+                            <th>الوقت المتبقي</th>
+                            <th>جهاز التفعيل</th>
+                            <th>حالة الكود</th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="codesTableBody">
+                        <tr><td colspan="8">اختر بطاقة لعرض التفاصيل...</td></tr> 
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
-    sortedSubjects.forEach(subjectData => {
-      const li = document.createElement('li');
-      const circle = document.createElement('div');
-      circle.className = 'circle';
-      const img = document.createElement('img');
-      img.src = subjectImages[subjectData.name] || 'https://img.icons8.com/ios-filled/100/ffd700/book.png';
-      circle.appendChild(img);
-      const span = document.createElement('span');
-      span.textContent = subjectData.name;
-      li.appendChild(circle);
-      li.appendChild(span);
-      
-      // 🚨 التوجيه لصفحة المُعلمين مع الـ IDs
-      li.onclick = () => {
-          // نبعت yid (Year ID) و sid (Subject ID)
-          const url = `teachers.html?yid=${subjectData.yearId}&sid=${subjectData.id}`;
-          window.location.href = url;
-      };
-      
-      subjectsList.appendChild(li);
-    });
+</div>
 
-    showToast("✅ تم تحميل المواد بنجاح");
-  } catch (err) {
-    subjectsList.innerHTML = `<li class="loading">❌ فشل تحميل البيانات من الخادم.</li>`;
-    console.error(err);
-  }
-}
+<div id="editModal" class="modal" onclick="if(event.target.id=='editModal') this.style.display='none'">
+    <div class="modal-content">
+        <h3>تعديل بيانات الطالب</h3>
+        <input type="hidden" id="edit_uid">
+        
+        <label for="edit_name">اسم الطالب:</label>
+        <input type="text" id="edit_name" required>
+        
+        <label for="edit_section">شعبة الطالب:</label>
+        <select id="edit_section" required>
+            </select>
+        
+        <div class="modal-buttons">
+            <button onclick="saveEdit()" style="background:var(--primary);">حفظ التعديل</button>
+            <button onclick="document.getElementById('editModal').style.display='none'" style="background:#444; color:var(--text-light);">إلغاء</button>
+        </div>
+    </div>
+</div>
 
-// 🚀 تشغيل تحميل المواد
-loadSubjects();
-</script>
-
+<div id="toast-container"></div>
 </body>
 </html>
