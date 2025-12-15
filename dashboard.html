@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة {{ studentSection }}</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+
+    <script>
+        const STUDENT_CODE_KEY = "activeCode";
+        const CURRENT_STUDENT_CODE = localStorage.getItem(STUDENT_CODE_KEY);
+        const CURRENT_STUDENT_NAME = localStorage.getItem('studentName');
+        const STUDENT_SECTION = localStorage.getItem('studentSection');
+        
+        const CODES_REF_PATH = 'approvedStudents';
+        const QUESTIONS_REF_PATH = 'questions'; 
+        const NOTIFICATIONS_REF_PATH = 'notifications';
+
+        // 💡 تهيئة Tailwind والثيمات (تبقى كما هي)
+        const DARK_COLORS = { /* ... */ };
+        const LIGHT_COLORS = { /* ... */ };
+
+        window.tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-main': '#020A07',     
+                        'bg-card': '#0C241C',     
+                        'accent': '#08402C',      
+                        'text-primary': '#E6F0E8', 
+                        'like': '#00A86B', 
+                        'dislike': '#E74C3C', 
+                        'mention': '#FFC300', 
+                    },
+                    fontFamily: { sans: ['Cairo', 'sans-serif'] }
+                }
+            }
+        };
+
+        window.toggleTheme = (theme) => {
+            if (theme === 'light') {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        };
+
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        window.toggleTheme(savedTheme);
+
+        // 💡 دالة التحقق من الكود (للتأكد من استمرار الصلاحية)
+        if (!CURRENT_STUDENT_CODE || !STUDENT_SECTION) {
+            window.location.href = 'index.html'; 
+        }
+
+        // 🚨 دالة لإنشاء إشعار (Notification Helper)
+        async function createNotification(recipientCode, senderCode, type, refId, refText) {
+            if (recipientCode === senderCode) return; // ممنوع إشعار لنفس الشخص
+            
+            const newNotifRef = firebase.database().ref(`${NOTIFICATIONS_REF_PATH}/${recipientCode}`).push();
+            
+            newNotifRef.set({
+                senderCode: senderCode,
+                type: type, // 'like', 'reply', 'mention'
+                refId: refId,
+                refText: refText.substring(0, 50) + '...',
+                timestamp: firebase.database.ServerValue.TIMESTAMP,
+                read: false
+            });
+        }
+        
+        // 🚨 دالة تحليل المنشن (@code)
+        function parseMentions(text) {
+            const regex = /@(\d{6})/g; // نفترض كود الطالب 6 أرقام
+            const mentions = [];
+            let match;
+            while ((match = regex.exec(text)) !== null) {
+                mentions.push(match[1]);
+            }
+            return mentions;
+        }
+
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        body { font-family: 'Cairo', sans-serif; transition: background-color 0.3s; }
+        .main-accent { color: var(--accent); }
+        .header-bg { background-color: var(--bg-card); }
+        .active-link { border-bottom: 2px solid var(--accent); }
+        .q-card { background-color: var(--bg-card); }
+        .q-card:hover { transform: translateY(-1px); box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .like-btn.active { color: var(--like); }
+        .dislike-btn.active { color: var(--dislike); }
+    </style>
+</head>
+
+<body class="h-screen overflow-hidden flex flex-col">
+
+<div id="dashboard-app" class="flex-1 flex flex-col h-full overflow-hidden">
+    
+    <header class="header-bg shadow-md px-6 py-4 flex justify-between items-center sticky top-0 z-10">
+        <div class="flex items-center gap-4">
+            <h1 class="text-xl font-bold main-accent">منصة الأسئلة</h1>
+            <span class="text-sm text-gray-500 hidden md:inline">مرحبًا، {{ studentName }} ({{ studentCode }})</span>
+        </div>
+
+        <nav class="flex gap-6 text-text-primary font-medium text-lg">
+            <a href="#" @click.prevent="currentPage='subjects'" :class="{'active-link main-accent': currentPage === 'subjects'}">المواد</a>
+            <a href="#" @click.prevent="currentPage='notifications'" :class="{'active-link main-accent': currentPage === 'notifications'}">
+                الإشعارات 
+                <span v-if="unreadCount > 0" class="bg-red-500 text-white text-xs px-2 rounded-full">{{ unreadCount }}</span>
+            </a>
+            <a href="#" @click.prevent="currentPage='profile'" :class="{'active-link main-accent': currentPage === 'profile'}">صفحتي</a>
+        </nav>
+        
+        <div class="flex items-center gap-3">
+            <button @click="toggleTheme('dark')" class="text-gray-400 hover:text-text-primary" title="Dark Theme">
+                <i class="ph ph-moon-stars text-xl"></i>
+            </button>
+            <button @click="toggleTheme('light')" class="text-gray-400 hover:text-text-primary" title="Light Theme">
+                <i class="ph ph-sun text-xl"></i>
+            </button>
+            <button @click="logout" class="text-red-500 hover:text-red-400" title="تسجيل خروج">
+                <i class="ph ph-sign-out text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-1 overflow-y-auto p-6 bg-bg-main text-text-primary">
+        
+        <div v-if="currentPage === 'subjects'">
+            <h2 class="text-3xl font-bold mb-6">قائمة المواد ({{ studentSection }})</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div v-for="subject in subjectsMap[studentSection]" :key="subject.key" @click="selectSubject(subject)"
+                    class="q-card p-5 rounded-lg cursor-pointer transition-all">
+                    <h3 class="text-xl font-bold main-accent">{{ subject.name }}</h3>
+                    <p class="text-gray-500 mt-1">{{ subject.description }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div v-else-if="currentPage === 'chapters' || currentPage === 'questions'">
+            <button @click="backToSubjects" class="text-gray-400 hover:main-accent mb-4 flex items-center gap-1">
+                <i class="ph ph-arrow-right"></i> العودة للمواد
+            </button>
+
+            <div v-if="currentPage === 'chapters'">
+                <h2 class="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">{{ selectedSubject.name }}</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                    <div v-for="i in 5" :key="i" @click="selectChapter(i)"
+                        class="q-card p-4 rounded-lg cursor-pointer text-center transition-all">
+                        <span class="text-xl font-bold">الفصل {{ i }}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div v-if="currentPage === 'questions'">
+                <button @click="backToChapters" class="text-gray-400 hover:main-accent mb-4 flex items-center gap-1">
+                    <i class="ph ph-arrow-right"></i> العودة للفصول
+                </button>
+                <h2 class="text-3xl font-bold mb-4">{{ selectedSubject.name }} - الفصل {{ selectedChapter }}</h2>
+                
+                <button @click="openNewQuestionModal" class="accent-bg text-white px-4 py-2 rounded-lg font-semibold mb-6 hover:opacity-90">
+                    <i class="ph ph-plus-circle"></i> إضافة سؤال جديد
+                </button>
+                
+                <div v-if="questions.length > 0" class="space-y-6">
+                    <div v-for="q in questions" :key="q.id" class="q-card p-5 rounded-lg transition-all">
+                        <p class="text-sm text-gray-400 mb-2">من: <span class="font-mono main-accent">{{ q.studentCode }}</span> ({{ q.studentName }})</p>
+                        <p class="text-lg font-medium">{{ q.text }}</p>
+
+                        <div class="mt-4 border-t border-gray-700 pt-3 flex justify-between items-center">
+                            <div class="flex gap-4 items-center">
+                                <button @click="toggleReaction(q.id, null, 'like')" :class="{'like-btn active': q.userReaction === 'like'}" class="text-gray-500 hover:text-like transition-colors flex items-center gap-1">
+                                    <i class="ph ph-thumbs-up text-xl"></i> {{ q.likesCount }}
+                                </button>
+                                <button @click="toggleReaction(q.id, null, 'dislike')" :class="{'dislike-btn active': q.userReaction === 'dislike'}" class="text-gray-500 hover:text-dislike transition-colors flex items-center gap-1">
+                                    <i class="ph ph-thumbs-down text-xl"></i> {{ q.dislikesCount }}
+                                </button>
+                                
+                                <span class="text-sm text-gray-500">{{ q.repliesCount || 0 }} رد</span>
+                                
+                            </div>
+                            <button @click="showReplies(q)" class="main-accent hover:underline text-sm font-medium">
+                                عرض الردود ({{ q.repliesCount || 0 }})
+                            </button>
+                        </div>
+                        
+                        <div v-if="q.showReplies" class="mt-4 border-t border-gray-800 pt-4 space-y-3">
+                            <div v-for="r in q.replies" :key="r.id" class="p-3 rounded-lg bg-bg-main border border-gray-700">
+                                <p class="text-xs text-gray-500 mb-1">رد من: <span class="font-mono text-accent">{{ r.studentCode }}</span></p>
+                                <p>{{ r.text }}</p>
+                                <div class="mt-2 flex gap-4 items-center">
+                                    <button @click="toggleReaction(q.id, r.id, 'like')" :class="{'like-btn active': r.userReaction === 'like'}" class="text-gray-500 hover:text-like transition-colors flex items-center gap-1">
+                                        <i class="ph ph-thumbs-up text-md"></i> {{ r.likesCount }}
+                                    </button>
+                                    <button @click="toggleReaction(q.id, r.id, 'dislike')" :class="{'dislike-btn active': r.userReaction === 'dislike'}" class="text-gray-500 hover:text-dislike transition-colors flex items-center gap-1">
+                                        <i class="ph ph-thumbs-down text-md"></i> {{ r.dislikesCount }}
+                                    </button>
+                                </div>
+                            </div>
+                            <form @submit.prevent="addReply(q.id, q.replyText)" class="mt-4">
+                                <input v-model="q.replyText" type="text" placeholder="أضف ردك هنا... (@كود للمنشن)" required
+                                       class="w-full p-2 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-700 text-text-primary transition-colors">
+                                <button type="submit" class="accent-bg text-white px-3 py-1 mt-2 rounded text-sm hover:opacity-90">نشر الرد</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <p v-else class="text-center text-gray-500 p-8 q-card rounded-lg">لا توجد أسئلة في هذا الفصل بعد.</p>
+            </div>
+        </div>
+
+        <div v-else-if="currentPage === 'notifications'">
+            <h2 class="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">الإشعارات (آخر التفاعلات)</h2>
+            <div v-if="notifications.length > 0" class="space-y-3">
+                <div v-for="n in notifications" :key="n.id" 
+                    @click="goToNotification(n)"
+                    :class="{'bg-bg-card border-l-4 border-accent': !n.read, 'bg-gray-800/50': n.read}"
+                    class="p-4 rounded-lg cursor-pointer transition-all hover:bg-bg-card/80">
+                    
+                    <span class="text-sm text-gray-400">{{ formatTimestamp(n.timestamp) }}</span>
+                    <p class="mt-1">
+                        <span class="font-mono main-accent">{{ n.senderCode }}</span> 
+                        <span v-if="n.type === 'like'">أعجب بـ "{{ n.refText }}"</span>
+                        <span v-else-if="n.type === 'reply'">رد على سؤالك: "{{ n.refText }}"</span>
+                        <span v-else-if="n.type === 'mention'" class="text-mention">ذكرك في "{{ n.refText }}"</span>
+                    </p>
+                </div>
+            </div>
+            <p v-else class="text-center text-gray-500 p-8 q-card rounded-lg">لا توجد إشعارات جديدة.</p>
+        </div>
+
+        <div v-else-if="currentPage === 'profile'">
+            <h2 class="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">صفحتي الشخصية</h2>
+            
+            <div class="q-card p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-bold main-accent mb-4">بيانات الحساب</h3>
+                <p>كود الطالب (لا يمكن تغييره): <span class="font-mono text-lg text-red-400">{{ studentCode }}</span></p>
+                <p>الشعبة: <span class="text-lg">{{ studentSection }}</span></p>
+            </div>
+
+            <div class="q-card p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-bold main-accent mb-4">تغيير الاسم المعروض</h3>
+                <form @submit.prevent="updateDisplayName" class="flex gap-4">
+                    <input v-model="newDisplayName" type="text" :placeholder="studentName" required
+                           class="flex-1 p-2 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-700 text-text-primary">
+                    <button type="submit" class="accent-bg text-white px-4 py-2 rounded font-semibold hover:opacity-90">تحديث الاسم</button>
+                </form>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="flex border-b border-gray-700">
+                    <button @click="profileTab = 'myQuestions'" :class="{'active-link main-accent': profileTab === 'myQuestions'}" class="p-2 font-medium">أسئلتي ({{ myQuestions.length }})</button>
+                    <button @click="profileTab = 'myReplies'" :class="{'active-link main-accent': profileTab === 'myReplies'}" class="p-2 font-medium">ردودي ({{ myReplies.length }})</button>
+                </div>
+
+                <div class="space-y-4">
+                    <div v-if="profileTab === 'myQuestions'" class="space-y-4">
+                        <div v-for="q in myQuestions" :key="q.id" class="q-card p-4 rounded-lg cursor-pointer hover:bg-gray-800/70" @click="goToQuestion(q)">
+                            <p class="text-lg">{{ q.text }}</p>
+                            <span class="text-sm text-gray-500">{{ q.repliesCount || 0 }} رد</span>
+                        </div>
+                        <p v-if="myQuestions.length === 0" class="text-center text-gray-500">لم تقم بطرح أي أسئلة بعد.</p>
+                    </div>
+
+                    <div v-if="profileTab === 'myReplies'" class="space-y-4">
+                        <div v-for="r in myReplies" :key="r.id" class="q-card p-4 rounded-lg cursor-pointer hover:bg-gray-800/70" @click="goToReply(r)">
+                            <p class="text-lg">{{ r.text }}</p>
+                            <span class="text-sm text-gray-500">على سؤال: "{{ r.questionText.substring(0, 30) }}..."</span>
+                        </div>
+                        <p v-if="myReplies.length === 0" class="text-center text-gray-500">لم تقم بإضافة أي ردود بعد.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <div v-if="showNewQuestionModal" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+        <div class="q-card p-8 rounded-xl w-full max-w-lg">
+            <h3 class="text-2xl font-bold main-accent mb-4">أضف سؤالك الجديد</h3>
+            <form @submit.prevent="addNewQuestion">
+                <textarea v-model="newQuestionText" placeholder="اكتب سؤالك هنا... (@كود للمنشن)" required rows="5"
+                          class="w-full p-3 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-700 text-text-primary resize-none"></textarea>
+                <div class="flex justify-end gap-3 mt-4">
+                    <button type="button" @click="showNewQuestionModal = false" class="bg-gray-500 text-white px-4 py-2 rounded font-semibold">إلغاء</button>
+                    <button type="submit" class="accent-bg text-white px-4 py-2 rounded font-semibold">نشر السؤال</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+const { createApp, ref, reactive, computed, watch } = Vue;
+
+// 🚨 Main Vue App
+createApp({
+    setup() {
+        // --- State Management ---
+        const studentCode = CURRENT_STUDENT_CODE;
+        const studentName = ref(CURRENT_STUDENT_NAME);
+        const studentSection = STUDENT_SECTION;
+        
+        const db = firebase.database();
+        const firebaseRef = db.ref(QUESTIONS_REF_PATH);
+        
+        // Navigation
+        const currentPage = ref('subjects'); // 'subjects', 'chapters', 'questions', 'notifications', 'profile'
+        const selectedSubject = reactive({});
+        const selectedChapter = ref(null);
+
+        // Data
+        const questions = ref([]);
+        const allQuestionsData = ref({}); // خريطة لتخزين كل الأسئلة والردود
+        const notifications = ref([]);
+        const unreadCount = ref(0);
+        
+        // Modals & Inputs
+        const showNewQuestionModal = ref(false);
+        const newQuestionText = ref('');
+        const newDisplayName = ref('');
+        const profileTab = ref('myQuestions');
+
+        // --- Computed Properties & Constants ---
+        
+        // 💡 قائمة المواد حسب الشعبة
+        const subjectsMap = {
+            'ادبي': [{ key: 'history', name: 'التاريخ', description: 'أسئلة وتلخيصات' }, { key: 'geography', name: 'الجغرافيا', description: 'خرائط ومفاهيم' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }],
+            'علمي رياضة': [{ key: 'math', name: 'الرياضيات', description: 'مسائل وقوانين' }, { key: 'physics', name: 'الفيزياء', description: 'أسئلة نظرية' }, { key: 'chemistry', name: 'الكيمياء', description: 'معادلات وحسابات' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }],
+            'علمي علوم': [{ key: 'biology', name: 'الأحياء', description: 'رسومات وتفاصيل' }, { key: 'physics', name: 'الفيزياء', description: 'أسئلة نظرية' }, { key: 'chemistry', name: 'الكيمياء', description: 'معادلات وحسابات' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }],
+            // ... (يمكن إضافة شعب أخرى)
+        };
+        
+        // 💡 فلترة الأسئلة المطروحة مني (لصفحتي)
+        const myQuestions = computed(() => {
+            const list = Object.values(allQuestionsData.value).filter(q => q.studentCode === studentCode);
+            // الأحدث أولاً
+            return list.sort((a, b) => b.timestamp - a.timestamp);
+        });
+
+        // 💡 فلترة الردود المطروحة مني (لصفحتي)
+        const myReplies = computed(() => {
+            const repliesList = [];
+            Object.values(allQuestionsData.value).forEach(q => {
+                if (q.replies) {
+                    Object.values(q.replies).forEach(r => {
+                        if (r.studentCode === studentCode) {
+                            repliesList.push({ ...r, questionId: q.id, questionText: q.text });
+                        }
+                    });
+                }
+            });
+            // الأحدث أولاً
+            return repliesList.sort((a, b) => b.timestamp - a.timestamp);
+        });
+
+        // --- Methods (Actions) ---
+
+        const logout = () => {
+            localStorage.removeItem(STUDENT_CODE_KEY);
+            localStorage.removeItem('studentName');
+            localStorage.removeItem('studentSection');
+            window.location.href = 'index.html';
+        };
+
+        const backToSubjects = () => {
+            currentPage.value = 'subjects';
+            selectedSubject.key = null;
+            selectedChapter.value = null;
+            questions.value = [];
+        };
+
+        const backToChapters = () => {
+            currentPage.value = 'chapters';
+            selectedChapter.value = null;
+            questions.value = [];
+        };
+        
+        const formatTimestamp = (timestamp) => {
+            if (!timestamp) return '';
+            return new Date(timestamp).toLocaleString('ar-EG', { dateStyle: 'medium', timeStyle: 'short' });
+        };
+
+        // 🚨 Navigation 
+        const selectSubject = (subject) => {
+            selectedSubject.key = subject.key;
+            selectedSubject.name = subject.name;
+            currentPage.value = 'chapters';
+        };
+
+        const selectChapter = (chapterNum) => {
+            selectedChapter.value = chapterNum;
+            currentPage.value = 'questions';
+            fetchQuestions(); // بدء جلب الأسئلة للفصل المحدد
+        };
+        
+        // 🚨 Notifications Logic
+        const fetchNotifications = () => {
+            const notifRef = db.ref(`${NOTIFICATIONS_REF_PATH}/${studentCode}`);
+            notifRef.on('value', (snapshot) => {
+                const data = snapshot.val();
+                const notifsArray = [];
+                let unread = 0;
+                
+                if (data) {
+                    Object.keys(data).forEach(key => {
+                        notifsArray.push({ id: key, ...data[key] });
+                        if (!data[key].read) unread++;
+                    });
+                }
+                
+                notifications.value = notifsArray.sort((a, b) => b.timestamp - a.timestamp);
+                unreadCount.value = unread;
+            });
+        };
+        
+        const markNotificationAsRead = (id) => {
+            db.ref(`${NOTIFICATIONS_REF_PATH}/${studentCode}/${id}`).update({ read: true });
+        };
+        
+        const goToNotification = (notif) => {
+             markNotificationAsRead(notif.id);
+             // هنا هيكون لوجيك معقد بيوديه للمكان الصح
+             showToast(`تم فتح الإشعار: ${notif.type}. جاري التوجيه...`, 'info');
+             // (لأغراض التوضيح، سيتم فقط فتح صفحة الأسئلة إذا كان التنبيه عليها)
+             // يجب إضافة لوجيك لربط refId بالـ Question/Reply
+             // for now, we just update the page
+             currentPage.value = 'questions'; 
+        };
+
+        // 🚨 Profile Update
+        const updateDisplayName = async () => {
+            const newName = newDisplayName.value.trim();
+            if (newName.length < 3) {
+                showToast('الاسم يجب أن يكون 3 حروف على الأقل.', 'error');
+                return;
+            }
+            
+            try {
+                await db.ref(`${CODES_REF_PATH}/${studentCode}`).update({ name: newName });
+                localStorage.setItem('studentName', newName);
+                studentName.value = newName;
+                newDisplayName.value = '';
+                showToast('✅ تم تحديث الاسم بنجاح.', 'success');
+            } catch (e) {
+                showToast('❌ فشل تحديث الاسم.', 'error');
+            }
+        };
+
+        const goToQuestion = (q) => {
+            // توجيه الطالب إلى السؤال من صفحة "صفحتي"
+            selectSubject({ key: q.subjectKey, name: q.subjectName });
+            selectChapter(q.chapter);
+            // (يفضل عمل scroll to question ID)
+        };
+        
+        const goToReply = (r) => {
+            // توجيه الطالب إلى الرد من صفحة "صفحتي"
+            // (يتطلب لوجيك إضافي لحفظ SubjectKey و Chapter مع الرد)
+            showToast('جاري التوجيه إلى الرد (تحتاج لبيانات المادة والفصل)', 'warn');
+        };
+
+        // 🚨 Questions & Replies Logic
+        
+        // 💡 جلب الأسئلة للفصل المحدد
+        const fetchQuestions = () => {
+            if (!selectedSubject.key || !selectedChapter.value) return;
+
+            const path = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}`;
+
+            db.ref(path).on('value', (snapshot) => {
+                const data = snapshot.val();
+                let qArray = [];
+
+                if (data) {
+                    Object.keys(data).forEach(qId => {
+                        const q = data[qId];
+                        const repliesCount = q.replies ? Object.keys(q.replies).length : 0;
+                        const likesCount = q.reactions ? Object.values(q.reactions).filter(r => r.type === 'like').length : 0;
+                        const dislikesCount = q.reactions ? Object.values(q.reactions).filter(r => r.type === 'dislike').length : 0;
+                        const userReaction = q.reactions && q.reactions[studentCode] ? q.reactions[studentCode].type : null;
+                        
+                        // تجهيز الردود (الترتيب والـ Reaction)
+                        let repliesArray = q.replies ? Object.keys(q.replies).map(rId => {
+                            const r = q.replies[rId];
+                            const rLikesCount = r.reactions ? Object.values(r.reactions).filter(rx => rx.type === 'like').length : 0;
+                            const rDislikesCount = r.reactions ? Object.values(r.reactions).filter(rx => rx.type === 'dislike').length : 0;
+                            const rUserReaction = r.reactions && r.reactions[studentCode] ? r.reactions[studentCode].type : null;
+                            
+                            return { 
+                                id: rId, 
+                                ...r, 
+                                likesCount: rLikesCount, 
+                                dislikesCount: rDislikesCount,
+                                userReaction: rUserReaction
+                            };
+                        }).sort((a, b) => b.timestamp - a.timestamp) : [];
+
+                        qArray.push({
+                            id: qId,
+                            ...q,
+                            repliesCount: repliesCount,
+                            likesCount: likesCount,
+                            dislikesCount: dislikesCount,
+                            userReaction: userReaction,
+                            replies: repliesArray,
+                            showReplies: false, // للتحكم في العرض
+                            replyText: '' // لإدخال الرد الجديد
+                        });
+                    });
+                }
+                
+                // الترتيب: الأحدث أولاً
+                questions.value = qArray.sort((a, b) => b.timestamp - a.timestamp);
+            });
+        };
+        
+        const openNewQuestionModal = () => {
+            newQuestionText.value = '';
+            showNewQuestionModal.value = true;
+        };
+
+        const addNewQuestion = async () => {
+            const text = newQuestionText.value.trim();
+            if (text.length === 0) return;
+
+            const path = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}`;
+            const newQRef = db.ref(path).push();
+            const newQId = newQRef.key;
+
+            await newQRef.set({
+                text: text,
+                studentCode: studentCode,
+                studentName: studentName.value,
+                timestamp: firebase.database.ServerValue.TIMESTAMP
+            });
+            
+            // 🚨 إرسال إشعار للممنشنين
+            const mentions = parseMentions(text);
+            mentions.forEach(recipientCode => {
+                createNotification(recipientCode, studentCode, 'mention', newQId, text);
+            });
+
+            showNewQuestionModal.value = false;
+            newQuestionText.value = '';
+            showToast('✅ تم نشر سؤالك بنجاح!', 'success');
+        };
+
+        const showReplies = (q) => {
+            q.showReplies = !q.showReplies;
+        };
+
+        const addReply = async (questionId, replyText) => {
+            const text = replyText.trim();
+            if (text.length === 0) return;
+
+            const path = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}/replies`;
+            const newReplyRef = db.ref(path).push();
+            const newReplyId = newReplyRef.key;
+
+            // الحصول على السؤال الأصلي لإرسال الإشعار
+            const originalQuestion = questions.value.find(q => q.id === questionId);
+            
+            await newReplyRef.set({
+                text: text,
+                studentCode: studentCode,
+                timestamp: firebase.database.ServerValue.TIMESTAMP
+            });
+
+            // 🚨 إرسال إشعار لصاحب السؤال
+            createNotification(originalQuestion.studentCode, studentCode, 'reply', questionId, originalQuestion.text);
+            
+            // 🚨 إرسال إشعار للممنشنين
+            const mentions = parseMentions(text);
+            mentions.forEach(recipientCode => {
+                createNotification(recipientCode, studentCode, 'mention', questionId, text);
+            });
+
+            // Clear the reply input
+            const questionIndex = questions.value.findIndex(q => q.id === questionId);
+            if (questionIndex !== -1) {
+                questions.value[questionIndex].replyText = '';
+            }
+            showToast('✅ تم نشر ردك بنجاح!', 'success');
+        };
+        
+        const toggleReaction = async (questionId, replyId, reactionType) => {
+            const qPath = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}`;
+            const reactionPath = replyId ? `${qPath}/replies/${replyId}/reactions/${studentCode}` : `${qPath}/reactions/${studentCode}`;
+            
+            let currentReaction = null;
+            if (replyId) {
+                 const reply = questions.value.find(q => q.id === questionId).replies.find(r => r.id === replyId);
+                 currentReaction = reply.userReaction;
+            } else {
+                 currentReaction = questions.value.find(q => q.id === questionId).userReaction;
+            }
+
+            if (currentReaction === reactionType) {
+                // إلغاء الإعجاب
+                await db.ref(reactionPath).remove();
+            } else {
+                // إضافة إعجاب جديد
+                await db.ref(reactionPath).set({ type: reactionType, timestamp: firebase.database.ServerValue.TIMESTAMP });
+                
+                // 🚨 إرسال إشعار (Notification)
+                const originalPosterCode = replyId 
+                    ? questions.value.find(q => q.id === questionId).replies.find(r => r.id === replyId).studentCode
+                    : questions.value.find(q => q.id === questionId).studentCode;
+                    
+                createNotification(originalPosterCode, studentCode, 'like', questionId, replyId ? replyId : questionId);
+            }
+        };
+
+        // --- Initialization ---
+
+        // 🚨 جلب بيانات كل الأسئلة لتغذية قسم "صفحتي"
+        const fetchAllQuestionsForProfile = () => {
+            const allQRef = db.ref(`${QUESTIONS_REF_PATH}/${studentSection}`);
+            allQRef.on('value', (snapshot) => {
+                const data = snapshot.val();
+                const allQMap = {};
+                
+                // تفكيك البيانات حسب المادة والفصل
+                if (data) {
+                    Object.keys(data).forEach(subjectKey => {
+                        Object.keys(data[subjectKey]).forEach(chapterKey => {
+                            if (data[subjectKey][chapterKey]) {
+                                Object.keys(data[subjectKey][chapterKey]).forEach(qId => {
+                                    const q = data[subjectKey][chapterKey][qId];
+                                    allQMap[qId] = { 
+                                        id: qId, 
+                                        ...q, 
+                                        subjectKey: subjectKey,
+                                        chapter: parseInt(chapterKey.replace('chapter', '')),
+                                        repliesCount: q.replies ? Object.keys(q.replies).length : 0 
+                                    };
+                                });
+                            }
+                        });
+                    });
+                }
+                allQuestionsData.value = allQMap;
+            });
+        };
+
+        fetchAllQuestionsForProfile();
+        fetchNotifications();
+
+
+        return {
+            studentCode,
+            studentName,
+            studentSection,
+            currentPage,
+            subjectsMap,
+            subjects: subjectsMap[studentSection], // يتم تحديثها تلقائيا
+            selectedSubject,
+            selectedChapter,
+            questions,
+            showNewQuestionModal,
+            newQuestionText,
+            notifications,
+            unreadCount,
+            myQuestions,
+            myReplies,
+            profileTab,
+            newDisplayName,
+
+            logout,
+            backToSubjects,
+            backToChapters,
+            selectSubject,
+            selectChapter,
+            fetchQuestions,
+            openNewQuestionModal,
+            addNewQuestion,
+            showReplies,
+            addReply,
+            toggleReaction,
+            formatTimestamp,
+            goToNotification,
+            updateDisplayName,
+            goToQuestion,
+            goToReply,
+            toggleTheme // لتطبيق الثيم من الـ Dashboard
+        };
+    }
+}).mount('#dashboard-app');
+</script>
+</body>
+</html>
