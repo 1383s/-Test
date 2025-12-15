@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة الأسئلة والأجوبة - شاتي (الإصدار الذي يعمل بضمان)</title> 
+    <title>منصة الأسئلة والأجوبة - شاتي (الإصدار الذي لا يفشل)</title> 
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -72,10 +72,16 @@
             color: var(--text-primary);
         }
         /* ✨ الحل السحري ضد ظهور {{...}} - يظهر العنصر فقط بعد الـMounting */
-        [v-cloak] {
-            display: none !important;
+        [v-cloak] > * {
+            display: none;
         }
-        
+        [v-cloak]:before {
+            content: "Loading..."; /* رسالة سريعة لو فشل الكود */
+            color: var(--accent);
+            text-align: center;
+            display: block;
+        }
+
         .main-accent { color: var(--accent); }
         .header-bg { background-color: var(--bg-card); }
         .active-link { border-bottom: 3px solid var(--accent); padding-bottom: 4px; }
@@ -335,16 +341,17 @@
 </div>
 
 <script>
-// 🚨 الحل الجذري: نرجع للأسلوب الآمن (window.onload) لضمان تحميل كل الـResources قبل بدء الـLogic
-window.onload = function() {
-    const { createApp, ref, reactive, computed } = Vue;
-    
-    // تأكيد تحميل Firebase
-    if (typeof firebase === 'undefined' || typeof firebase.database === 'undefined') {
-        alert("❌ فشل تحميل مكتبات Firebase! تأكد من اتصال الشبكة.");
+// 🚨 الحل الجذري الأخير: استخدام IIFE لضمان التنفيذ الفوري بعد تحميل الـScript
+(function() {
+    // 🚨 التأكد من وجود Vue و Firebase
+    if (typeof Vue === 'undefined' || typeof firebase === 'undefined' || typeof firebase.database === 'undefined') {
+        // يمكنك إظهار رسالة خطأ هنا يدويًا لو كنت عايز تدي فيدباك للـUser
+        console.error("Critical Error: Vue or Firebase libraries failed to load.");
         return; 
     }
-
+    
+    const { createApp, ref, reactive, computed } = Vue;
+    
     // --- State Management ---
     const studentCode = CURRENT_STUDENT_CODE;
     const studentName = ref(CURRENT_STUDENT_NAME);
@@ -356,7 +363,7 @@ window.onload = function() {
     const currentPage = ref('subjects'); 
     const selectedSubject = reactive({});
     const selectedChapter = ref(null);
-    const isLoading = ref(true); // يبدأ التحميل من هنا
+    const isLoading = ref(true); 
     const profileTab = ref('myQuestions');
 
     // Data
@@ -742,7 +749,7 @@ window.onload = function() {
                 });
             }
             allQuestionsData.value = allQMap;
-            isLoading.value = false; // 🚨 الإشارة بانتهاء التحميل بعد جلب البيانات
+            isLoading.value = false; 
         }, (error) => {
             console.error("Firebase read failed: ", error);
             isLoading.value = false;
@@ -802,7 +809,8 @@ window.onload = function() {
             };
         }
     }).mount('#dashboard-app');
-}
+})(); // 🚨 إغلاق الـIIFE
+
 </script>
 </body>
 </html>
