@@ -3,411 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منتدى الملخصات والأسئلة</title>
+    <title>AHMED || Full Mark</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
-    <script type="module" src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"></script>
-    <script type="module" src="devcheck.js"></script>
-    <script src="auth.js"></script>
     
     <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
+        // 🚨 Firebase Config الجديدة اللي حطيتيها
+        const firebaseConfig = {
+          apiKey: "AIzaSyDH3cy-jkDphnPGzHUwd4rd9ogZDY7uUgM",
+          authDomain: "quest-full.firebaseapp.com",
+          projectId: "quest-full",
+          storageBucket: "quest-full.firebasestorage.app",
+          messagingSenderId: "501161882802",
+          appId: "1:501161882802:web:08d6230eb09741a5c8c5ab",
+          measurementId: "G-NDJ5YVHV1D"
+        };
+        
+        // 💡 تهيئة Firebase
+        const firebaseApp = firebase.initializeApp(firebaseConfig);
+        const db = firebase.database();
+        const CODES_REF_PATH = 'approvedStudents';
+        const STUDENT_CODE_KEY = "activeCode";
+
+        // 💡 تهيئة Tailwind والثيمات
+        const DARK_COLORS = {
             'bg-main': '#020A07',     
             'bg-card': '#0C241C',     
             'accent': '#08402C',      
-            'glass-border': 'rgba(8, 64, 44, 0.4)', 
             'text-primary': '#E6F0E8', 
-          },
-          fontFamily: { sans: ['Cairo', 'sans-serif'] }
+        };
+        const LIGHT_COLORS = {
+            'bg-main': '#F7F7F7',     
+            'bg-card': '#FFFFFF',     
+            'accent': '#00A86B',      
+            'text-primary': '#333333', 
+        };
+
+        window.tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        ...DARK_COLORS, // Default to dark for Tailwind classes
+                        'like': '#00A86B', // أخضر للـ Like
+                        'dislike': '#E74C3C', // أحمر للـ Dislike
+                        'mention': '#FFC300', // أصفر للمنشن
+                    },
+                    fontFamily: { sans: ['Cairo', 'sans-serif'] }
+                }
+            }
+        };
+
+        // 💡 دالة التبديل بين الثيمات (تُحفظ في localStorage)
+        window.toggleTheme = (theme) => {
+            if (theme === 'light') {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        };
+
+        // 💡 تطبيق الثيم عند التحميل
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        window.toggleTheme(savedTheme);
+
+        // 💡 دالة التحقق من الكود
+        async function checkCode(code) {
+            try {
+                // البحث في Firebase عن الكود المفعّل
+                const snapshot = await db.ref(`${CODES_REF_PATH}/${code}`).once('value');
+                const studentData = snapshot.val();
+
+                if (!studentData) {
+                    return { success: false, message: 'الكود غير صحيح أو غير مفعّل.' };
+                }
+                if (studentData.isBlocked) {
+                    return { success: false, message: 'عفوًا، تم حظر هذا الكود.' };
+                }
+                if (studentData.expiry < Date.now()) {
+                    return { success: false, message: 'عفوًا، انتهت صلاحية هذا الكود.' };
+                }
+                if (!studentData.section) {
+                    return { success: false, message: 'بيانات الشعبة غير مكتملة، يرجى التواصل مع الإدارة.' };
+                }
+
+                // لو الكود صحيح
+                return { success: true, studentData: studentData };
+
+            } catch (error) {
+                console.error("Firebase Check Error:", error);
+                return { success: false, message: 'حدث خطأ في الاتصال بالشبكة أو قاعدة البيانات.' };
+            }
         }
-      }
-    }
     </script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
     <style>
-    /* تطبيق الألوان والـ Glassmorphism */
-    body { 
-        font-family: 'Cairo', sans-serif; 
-        background-color: #020A07; 
-        color: #E6F0E8; 
-        margin:0; 
-    }
-    .glass-panel {
-      background: rgba(12, 36, 28, 0.7); 
-      backdrop-filter: blur(15px);
-      border: 1px solid #08402C; 
-    }
-    .glass-card {
-      background: rgba(12, 36, 28, 0.5); 
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(8, 64, 44, 0.3); 
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-    }
-    .glass-card:hover {
-      background: rgba(8, 64, 44, 0.7); 
-      transform: translateY(-2px);
-      border-color: #08402C;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-    }
-    .accent-text { color: #08402C; }
-    .accent-bg { background-color: #08402C; }
-    .toast {
-      min-width:200px; max-width:300px; padding:0.75rem 1rem; border-radius:0.5rem; color:white; font-weight:500; box-shadow:0 4px 12px rgba(0, 0, 0, 0.5);
-      position: fixed; bottom: 20px; right: 20px; z-index: 1000;
-      transition: all 0.3s ease;
-    }
-    .toast.info { background-color: #0099cc; } 
-    .toast.success { background-color: #10b981; }
-    .toast.error { background-color: #ef4444; }
-    .loading-dialog {
-      position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; flex-direction:column; color:white;
-    }
+        body { font-family: 'Cairo', sans-serif; transition: background-color 0.3s; }
+        .dark { background-color: #020A07; }
+        .dark .card { background-color: #0C241C; }
+        .light { background-color: #F7F7F7; }
+        .light .card { background-color: #FFFFFF; }
+        .accent-bg { background-color: var(--accent); }
     </style>
 </head>
 
-<body class="h-screen overflow-hidden flex flex-col">
+<body class="h-screen flex items-center justify-center">
 
-<div id="app" class="flex-1 flex flex-col h-full overflow-hidden p-4 md:p-6 lg:p-8">
-
-    <header class="glass-panel h-16 flex items-center justify-between px-4 md:px-6 mb-8 shadow-lg">
-        <div class="flex items-center gap-3">
-            <div class="accent-bg/20 p-2 rounded-lg accent-text flex items-center justify-center">
-                <i class="ph ph-books text-2xl"></i>
-            </div>
-            <h1 class="text-xl font-bold bg-gradient-to-r from-accent to-text-primary bg-clip-text text-transparent">
-                 منتدى الملخصات والأسئلة
-            </h1>
+<div id="login-app" class="p-6 rounded-xl shadow-2xl w-full max-w-sm card">
+    <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-bold text-accent">دخول الطلاب 🚀</h2>
+        <div class="flex gap-2">
+            <button @click="toggleTheme('dark')" class="text-gray-400 hover:text-text-primary" title="Dark Theme">
+                <i class="ph ph-moon-stars text-xl"></i>
+            </button>
+            <button @click="toggleTheme('light')" class="text-gray-400 hover:text-text-primary" title="Light Theme">
+                <i class="ph ph-sun text-xl"></i>
+            </button>
         </div>
-
-        <div class="text-sm font-medium text-gray-400">
-            شعبتي: <span class="text-text-primary">{{ studentDivision || 'جاري التحميل...' }}</span>
-        </div>
-    </header>
-
-
-    <div v-if="loading" class="loading-dialog">
-        <i class="ph ph-spinner-gap animate-spin text-5xl mb-4 accent-text"></i>
-        <p class="text-lg">يتم تحديد الشعبة وتحميل المنتدى...</p>
-        <p v-if="!studentCode" class="text-red-400 mt-2">يرجى تسجيل الدخول. (كود الطالب غير موجود)</p>
     </div>
-
-
-    <main v-else class="flex-1 overflow-y-auto">
+    
+    <form @submit.prevent="handleLogin" class="space-y-4">
+        <input v-model="studentCodeInput" type="text" placeholder="أدخل كود التفعيل" required
+               class="w-full p-3 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-700 text-text-primary transition-colors">
         
-        <div v-if="!activeSubject" class="max-w-6xl mx-auto space-y-4">
-            <h2 class="text-3xl font-bold text-text-primary mb-6">
-                اختر المادة لعرض الملخصات
-            </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                <div v-for="subject in subjects" :key="subject.name" @click="selectSubject(subject.name)"
-                    class="glass-card rounded-xl p-5 cursor-pointer group flex items-center gap-4 hover:scale-[1.02] transition-transform duration-200">
-                    <i class="ph ph-folder text-4xl accent-text group-hover:text-text-primary transition-colors"></i>
-                    <div>
-                        <h3 class="font-bold text-lg text-text-primary">{{ subject.displayName }}</h3>
-                        <p class="text-sm text-gray-500">{{ subject.topic }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div v-else class="max-w-7xl mx-auto space-y-6">
-            <div class="flex items-center justify-between mb-6 border-b border-accent/50 pb-3">
-                <div class="flex items-center gap-3">
-                    <button @click="activeSubject = null; loadImages()" class="text-gray-400 hover:text-accent transition-colors text-sm font-medium flex items-center gap-1">
-                        <i class="ph ph-arrow-right"></i> العودة لفولدرات المواد
-                    </button>
-                    <h2 class="text-3xl font-bold text-text-primary">{{ activeSubjectDisplayName }}</h2>
-                </div>
-                
-                <button @click="document.getElementById('imageUploader').click()"
-                    class="accent-bg text-text-primary px-4 py-2 rounded-lg font-semibold hover:bg-accent/80 transition-colors flex items-center gap-2">
-                    <i class="ph ph-file-image text-xl"></i> إضافة ملخص (صور)
-                </button>
-                <input type="file" id="imageUploader" accept="image/*" multiple @change="handleImageUpload" style="display: none;">
-            </div>
-
-            <div v-if="imagesLoading" class="text-center text-gray-500 p-10">
-                 <i class="ph ph-spinner-gap animate-spin text-3xl mb-3 accent-text"></i>
-                 <p>جاري تحميل الملخصات...</p>
-            </div>
-            
-            <div v-else-if="!currentImages.length" class="text-center text-gray-500 p-10 glass-card">
-                <i class="ph ph-info text-4xl mb-3 accent-text"></i>
-                <p>لم يتم إرسال أي ملخصات لهذه المادة بعد.</p>
-            </div>
-
-            <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div v-for="image in currentImages" :key="image.id" class="glass-card rounded-xl overflow-hidden shadow-xl">
-                    <div class="relative bg-bg-main/50 overflow-hidden" style="max-height: 400px;">
-                        <img :src="image.base64" alt="ملخص طالب" class="w-full object-contain" @error="handleImageError">
-                    </div>
-                    <div class="p-4 border-t border-accent/50 flex justify-between items-center">
-                        <div>
-                            <p class="text-xs text-gray-400">ملخص مُرسل بواسطة:</p>
-                            <span class="font-mono text-sm text-accent-text">{{ image.senderCode }}</span>
-                        </div>
-                        <span class="text-xs text-gray-500">{{ image.timeSent }}</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </main>
-
-    <div id="toast-container">
-        <div v-for="toast in toasts" :key="toast.id" :class="['toast', toast.type]">
-            {{ toast.message }}
-        </div>
-    </div>
+        <button type="submit" :disabled="loading"
+                class="w-full p-3 rounded font-bold text-lg bg-accent text-white hover:bg-opacity-90 transition-opacity">
+            <span v-if="loading">التحقق من الكود...</span>
+            <span v-else>دخول المنصة</span>
+        </button>
+    </form>
+    
+    <p v-if="errorMessage" class="mt-4 text-center text-red-500 font-medium">{{ errorMessage }}</p>
 </div>
 
 <script>
-const { createApp, ref, reactive, computed } = Vue;
-
-// 🚨 المسار لقاعدة بيانات Firebase
-const CODES_REF_PATH = 'approvedStudents';
-const FORUM_REF_PATH = 'forum';
-const STUDENT_CODE_KEY = "activeCode"; 
-
-// 🚨 إدارة الـ Toasts
-const toasts = ref([]);
-const showToast = (message, type='info', duration=4000) => {
-     const id = Date.now() + Math.random();
-    toasts.value.push({ id, message, type });
-    setTimeout(() => {
-        const index = toasts.value.findIndex(t => t.id === id);
-        if(index !== -1) toasts.value.splice(index,1);
-    }, duration);
-};
-
-// 🚨 دالة مساعدة لتحويل الصورة لـ Base64
-function fileToBase64(file) {
-    return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = () => resolve(reader.result);
-        reader.onerror = error => reject(error);
-        reader.readAsDataURL(file);
-    });
-}
+const { createApp, ref } = Vue;
 
 createApp({
     setup() {
-        const loading = ref(true);
-        const imagesLoading = ref(false);
-        const studentCode = ref(localStorage.getItem(STUDENT_CODE_KEY));
-        const studentDivision = ref(null);
-        const activeSubject = ref(null); 
-        const currentImages = ref([]);   
-        
-        // Firebase Setup
-        const db = firebase.database();
+        const studentCodeInput = ref(localStorage.getItem(STUDENT_CODE_KEY) || '');
+        const loading = ref(false);
+        const errorMessage = ref('');
 
-        // 🚨 تحديد فولدرات المواد بناءً على الشعبة
-        const SUBJECTS_MAP = {
-            'ادبي': [
-                { name: 'statistics', displayName: 'الإحصاء', topic: 'ملخصات وقوانين' },
-                { name: 'geography', displayName: 'الجغرافيا', topic: 'خرائط ومفاهيم' },
-                { name: 'history', displayName: 'التاريخ', topic: 'أحداث وتواريخ' },
-                { name: 'arabic', displayName: 'اللغة العربية', topic: 'نحو وبلاغة' },
-                { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
-            ],
-            'علمي رياضة': [
-                { name: 'math', displayName: 'الرياضيات', topic: 'قوانين ومسائل' },
-                { name: 'physics', displayName: 'الفيزياء', topic: 'نظريات ومسائل' },
-                { name: 'chemistry', displayName: 'الكيمياء', topic: 'معادلات ومركبات' },
-                { name: 'arabic', displayName: 'اللغة العربية', topic: 'نحو وبلاغة' },
-                { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
-            ],
-            'علمي علوم': [
-                { name: 'biology', displayName: 'الأحياء', topic: 'رسومات وتفاصيل' },
-                { name: 'physics', displayName: 'الفيزياء', topic: 'نظريات ومسائل' },
-                { name: 'chemistry', displayName: 'الكيمياء', topic: 'معادلات ومركبات' },
-                { name: 'arabic', displayName: 'اللغة العربية', topic: 'نحو وبلاغة' },
-                { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
-            ],
-            'ازهر': [
-                { name: 'arabic_azhar', displayName: 'العربي (أزهر)', topic: 'فقه ونحو' },
-                { name: 'islamic_studies', displayName: 'الدراسات الإسلامية', topic: 'حديث وتفسير' },
-                { name: 'general', displayName: 'مواد عامة (أزهر)', topic: 'ملخصات متنوعة' },
-            ]
-        };
-
-        // 🚨 دالة جلب الشعبة من Firebase (مع لوجيك الـ Fallback)
-        const fetchStudentDivision = async () => {
-            if (!studentCode.value) {
-                loading.value = false;
-                studentDivision.value = 'علمي علوم'; // Fallback لإظهار فولدرات
-                showToast("❌ لم يتم العثور على كود الطالب في localStorage. يرجى تسجيل الدخول.", "error");
+        const handleLogin = async () => {
+            const code = studentCodeInput.value.trim();
+            if (code.length === 0) {
+                errorMessage.value = 'يرجى إدخال الكود.';
                 return;
             }
-
-            try {
-                showToast("جاري التحقق من الشعبة...", "info");
-                // ⚠️ محاولة الاتصال بـ Firebase لجلب الشعبة
-                const snapshot = await db.ref(`${CODES_REF_PATH}/${studentCode.value}/section`).once('value');
-                const division = snapshot.val(); 
-
-                if (division && SUBJECTS_MAP[division]) {
-                    studentDivision.value = division;
-                    showToast(`✅ تم تحديد الشعبة: ${division}`, "success");
-                } else {
-                    studentDivision.value = 'علمي علوم'; // Fallback لو الشعبة غير صحيحة
-                    showToast("⚠ لم يتم تحديد الشعبة، سيتم عرض مواد 'علمي علوم' افتراضيًا.", "warn");
-                }
-            } catch (err) {
-                 // ⚠️ لو حدث خطأ في الاتصال بالـ Firebase (Fatal Error)
-                 console.error("Firebase Initialization/Access Error:", err);
-                 studentDivision.value = 'علمي علوم';
-                 showToast("❌ فشل تحميل Firebase. سيتم عرض مواد 'علمي علوم' افتراضيًا.", "error");
-            } finally {
-                loading.value = false;
-            }
-        }
-        
-        // 🚨 Computed Property لعرض الفولدرات بناءً على الشعبة
-        const subjects = computed(() => {
-            return SUBJECTS_MAP[studentDivision.value] || [];
-        });
-        
-        // 🚨 Computed Property لعرض اسم المادة المفتوحة
-        const activeSubjectDisplayName = computed(() => {
-            if (!activeSubject.value) return '';
-            const sub = subjects.value.find(s => s.name === activeSubject.value);
-            return sub ? sub.displayName : activeSubject.value;
-        });
-
-        // 🚨 دالة اختيار المادة وتحميل الصور
-        const selectSubject = (subjectName) => {
-            activeSubject.value = subjectName;
-            loadImages();
-        };
-
-        // 🚨 دالة تحميل الصور للمادة المحددة
-        const loadImages = () => {
-            if (!activeSubject.value || !studentDivision.value) return;
-            imagesLoading.value = true;
-            currentImages.value = []; 
-
-            const subjectKey = activeSubject.value;
-            const divisionKey = studentDivision.value;
             
-            // المسار: forum/ادبي/history
-            const path = `${FORUM_REF_PATH}/${divisionKey}/${subjectKey}`;
+            loading.value = true;
+            errorMessage.value = '';
 
-            db.ref(path).on('value', (snapshot) => {
-                const data = snapshot.val();
-                const imagesArray = [];
-                
-                if (data) {
-                    Object.keys(data).forEach(key => {
-                        imagesArray.push({
-                            id: key,
-                            ...data[key],
-                            // نضمن أن base64 موجودة للعرض
-                            base64: data[key].base64Image || 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' 
-                        });
-                    });
-                }
-                
-                // الترتيب من الأحدث للأقدم
-                imagesArray.sort((a, b) => b.time - a.time);
-
-                currentImages.value = imagesArray;
-                imagesLoading.value = false;
-                
-                if (activeSubject.value && imagesArray.length > 0) {
-                   showToast(`✅ تم تحميل ${imagesArray.length} ملخص.`, "success");
-                }
-            });
-        };
-
-        // 🚨 دالة التعامل مع رفع الصور
-        const handleImageUpload = async (event) => {
-            if (!activeSubject.value || !studentCode.value) {
-                showToast("❌ يجب اختيار مادة وتسجيل الدخول أولًا.", "error");
-                return;
-            }
-
-            const files = event.target.files;
-            if (files.length === 0) return;
+            const result = await checkCode(code);
             
-            showToast(`جاري رفع ${files.length} صورة... هذا قد يستغرق وقتًا.`, "info");
-
-            const uploadPromises = [];
+            if (result.success) {
+                // حفظ الكود في localStorage وتوجيه الطالب
+                localStorage.setItem(STUDENT_CODE_KEY, code);
+                localStorage.setItem('studentName', result.studentData.name || 'طالب');
+                localStorage.setItem('studentSection', result.studentData.section);
+                window.location.href = 'dashboard.html';
+            } else {
+                errorMessage.value = result.message;
+            }
             
-            for (const file of files) {
-                if (!file.type.startsWith('image/')) {
-                    showToast(`❌ الملف ${file.name} ليس صورة.`, "error");
-                    continue;
-                }
-                
-                // قيود على الحجم
-                if (file.size > 2 * 1024 * 1024) { // 2MB
-                     showToast(`❌ حجم الصورة ${file.name} كبير جدًا (الحد الأقصى 2 ميجا).`, "error");
-                     continue;
-                }
-
-                uploadPromises.push(
-                    fileToBase64(file).then(base64Image => {
-                        const newPostRef = db.ref(`${FORUM_REF_PATH}/${studentDivision.value}/${activeSubject.value}`).push();
-                        
-                        return newPostRef.set({
-                            senderCode: studentCode.value,
-                            base64Image: base64Image,
-                            time: firebase.database.ServerValue.TIMESTAMP,
-                            timeSent: new Date().toLocaleString('ar-EG', { dateStyle: 'short', timeStyle: 'short' }),
-                            fileName: file.name
-                        });
-                    })
-                );
-            }
-
-            try {
-                await Promise.all(uploadPromises);
-                showToast(`✅ تم رفع ${files.length} ملخص بنجاح!`, "success");
-            } catch (err) {
-                console.error("Upload Error:", err);
-                showToast("❌ فشل رفع الصور إلى Firebase.", "error");
-            }
+            loading.value = false;
         };
-        
-        // 🚨 دالة عند فشل تحميل الصورة (لو الـ Base64 غلط)
-        const handleImageError = (e) => {
-            e.target.src = 'https://via.placeholder.com/400x300?text=Image+Load+Error';
-        }
-        
-        // 🚨 عند بداية تشغيل التطبيق
-        fetchStudentDivision();
 
-        return { 
-            loading, 
-            imagesLoading,
-            studentCode,
-            studentDivision, 
-            subjects,
-            activeSubject,
-            activeSubjectDisplayName,
-            currentImages,
-            selectSubject,
-            handleImageUpload,
-            handleImageError,
-            loadImages,
-            toasts // لإظهار الـ Toast في الـ DOM
-        };
+        return { studentCodeInput, loading, errorMessage, handleLogin, toggleTheme };
     }
-}).mount('#app');
-</script>
+}).mount('#login-app');
 
+// 💡 إعادة توجيه لو الكود محفوظ بالفعل
+if (localStorage.getItem(STUDENT_CODE_KEY)) {
+    window.location.href = 'dashboard.html';
+}
+</script>
 </body>
 </html>
