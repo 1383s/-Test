@@ -12,9 +12,9 @@
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
     
     <script>
+        // ⚠️ مهم: وضع متغيرات الـ localStorage هنا قبل أي Logic خارجي
         const STUDENT_CODE_KEY = "activeCode";
         const CURRENT_STUDENT_CODE = localStorage.getItem(STUDENT_CODE_KEY);
-        // ⚠️ إضافة fallback للـ localStorage
         const CURRENT_STUDENT_NAME = localStorage.getItem('studentName') || 'طالب'; 
         const STUDENT_SECTION = localStorage.getItem('studentSection') || 'عام';
         
@@ -26,15 +26,6 @@
         if (!CURRENT_STUDENT_CODE || !STUDENT_SECTION) {
             window.location.href = 'index.html'; 
         }
-
-        // 💡 تهيئة Firebase (يجب أن يتم في ملف index.html أو auth.js/devcheck.js)
-        // إذا كان الملفان غير موجودين/فارغين، يجب تهيئة Firebase هنا:
-        /*
-        const firebaseConfig = { ... }; 
-        if (typeof firebase !== 'undefined' && firebase.app.length === 0) {
-            firebase.initializeApp(firebaseConfig);
-        }
-        */
 
         // 💡 تهيئة Tailwind والثيمات (تبقى كما هي)
         window.tailwind.config = {
@@ -68,7 +59,7 @@
         const savedTheme = localStorage.getItem('theme') || 'dark';
         window.toggleTheme(savedTheme);
 
-        // 🚨 دالة لإنشاء إشعار (Notification Helper) - تبقى كما هي
+        // 🚨 الدوال المساعدة (Notification, Mentions)
         async function createNotification(recipientCode, senderCode, type, refId, refText) {
             if (recipientCode === senderCode) return; 
             
@@ -84,7 +75,6 @@
             });
         }
         
-        // 🚨 دالة تحليل المنشن (@code) - تبقى كما هي
         function parseMentions(text) {
             const regex = /@(\d{6})/g; 
             const mentions = [];
@@ -108,6 +98,19 @@
         .q-card:hover { transform: translateY(-1px); box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
         .like-btn.active { color: var(--like); }
         .dislike-btn.active { color: var(--dislike); }
+        /* 🚨 CSS Fixes for the Screenshot Chaos */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .main-content-container {
+            padding-top: 1.5rem; /* Ensure spacing below the sticky header */
+        }
+        .text-wrap-fix {
+            white-space: normal;
+            word-wrap: break-word;
+        }
     </style>
 </head>
 
@@ -115,7 +118,7 @@
 
 <div id="dashboard-app" class="flex-1 flex flex-col h-full overflow-hidden">
     
-    <header class="header-bg shadow-md px-6 py-4 flex justify-between items-center sticky top-0 z-10">
+    <header class="header-bg shadow-md px-6 py-4 flex justify-between items-center sticky-header">
         <div class="flex items-center gap-4">
             <h1 class="text-xl font-bold main-accent">منصة الأسئلة</h1>
             <span class="text-sm text-gray-500 hidden md:inline">مرحبًا، {{ studentName }} ({{ studentCode }})</span>
@@ -143,12 +146,12 @@
         </div>
     </header>
 
-    <main class="flex-1 overflow-y-auto p-6 bg-bg-main text-text-primary">
+    <main class="flex-1 overflow-y-auto p-6 bg-bg-main text-text-primary main-content-container">
         
         <div v-if="currentPage === 'subjects'">
-            <h2 class="text-3xl font-bold mb-6">قائمة المواد ({{ studentSection }})</h2>
+            <h2 class="text-3xl font-bold mb-6">قائمة المواد ({{ STUDENT_SECTION }})</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div v-for="subject in subjectsMap[studentSection]" :key="subject.key" @click="selectSubject(subject)"
+                <div v-for="subject in subjects" :key="subject.key" @click="selectSubject(subject)"
                     class="q-card p-5 rounded-lg cursor-pointer transition-all">
                     <h3 class="text-xl font-bold main-accent">{{ subject.name }}</h3>
                     <p class="text-gray-500 mt-1">{{ subject.description }}</p>
@@ -182,7 +185,7 @@
                 </button>
                 
                 <div v-if="questions.length > 0" class="space-y-6">
-                    <div v-for="q in questions" :key="q.id" class="q-card p-5 rounded-lg transition-all">
+                    <div v-for="q in questions" :key="q.id" class="q-card p-5 rounded-lg transition-all text-wrap-fix">
                         <p class="text-sm text-gray-400 mb-2">من: <span class="font-mono main-accent">{{ q.studentCode }}</span> ({{ q.studentName }})</p>
                         <p class="text-lg font-medium">{{ q.text }}</p>
 
@@ -204,7 +207,7 @@
                         </div>
                         
                         <div v-if="q.showReplies" class="mt-4 border-t border-gray-800 pt-4 space-y-3">
-                            <div v-for="r in q.replies" :key="r.id" class="p-3 rounded-lg bg-bg-main border border-gray-700">
+                            <div v-for="r in q.replies" :key="r.id" class="p-3 rounded-lg bg-bg-main border border-gray-700 text-wrap-fix">
                                 <p class="text-xs text-gray-500 mb-1">رد من: <span class="font-mono text-accent">{{ r.studentCode }}</span></p>
                                 <p>{{ r.text }}</p>
                                 <div class="mt-2 flex gap-4 items-center">
@@ -238,7 +241,7 @@
                     class="p-4 rounded-lg cursor-pointer transition-all hover:bg-bg-card/80">
                     
                     <span class="text-sm text-gray-400">{{ formatTimestamp(n.timestamp) }}</span>
-                    <p class="mt-1">
+                    <p class="mt-1 text-wrap-fix">
                         <span class="font-mono main-accent">{{ n.senderCode }}</span> 
                         <span v-if="n.type === 'like'">أعجب بـ "{{ n.refText }}"</span>
                         <span v-else-if="n.type === 'reply'">رد على سؤالك: "{{ n.refText }}"</span>
@@ -255,7 +258,7 @@
             <div class="q-card p-6 rounded-lg mb-8">
                 <h3 class="text-xl font-bold main-accent mb-4">بيانات الحساب</h3>
                 <p>كود الطالب (لا يمكن تغييره): <span class="font-mono text-lg text-red-400">{{ studentCode }}</span></p>
-                <p>الشعبة: <span class="text-lg">{{ studentSection }}</span></p>
+                <p>الشعبة: <span class="text-lg">{{ STUDENT_SECTION }}</span></p>
             </div>
 
             <div class="q-card p-6 rounded-lg mb-8">
@@ -276,7 +279,7 @@
                 <div class="space-y-4">
                     <div v-if="profileTab === 'myQuestions'" class="space-y-4">
                         <div v-for="q in myQuestions" :key="q.id" class="q-card p-4 rounded-lg cursor-pointer hover:bg-gray-800/70" @click="goToQuestion(q)">
-                            <p class="text-lg">{{ q.text }}</p>
+                            <p class="text-lg text-wrap-fix">{{ q.text }}</p>
                             <span class="text-sm text-gray-500">{{ q.repliesCount || 0 }} رد</span>
                         </div>
                         <p v-if="myQuestions.length === 0" class="text-center text-gray-500">لم تقم بطرح أي أسئلة بعد.</p>
@@ -284,7 +287,7 @@
 
                     <div v-if="profileTab === 'myReplies'" class="space-y-4">
                         <div v-for="r in myReplies" :key="r.id" class="q-card p-4 rounded-lg cursor-pointer hover:bg-gray-800/70" @click="goToReply(r)">
-                            <p class="text-lg">{{ r.text }}</p>
+                            <p class="text-lg text-wrap-fix">{{ r.text }}</p>
                             <span class="text-sm text-gray-500">على سؤال: "{{ r.questionText.substring(0, 30) }}..."</span>
                         </div>
                         <p v-if="myReplies.length === 0" class="text-center text-gray-500">لم تقم بإضافة أي ردود بعد.</p>
@@ -324,7 +327,8 @@ window.onload = function() {
     // --- State Management ---
     const studentCode = CURRENT_STUDENT_CODE;
     const studentName = ref(CURRENT_STUDENT_NAME);
-    const studentSection = STUDENT_SECTION;
+    // ⚠️ تم تغيير STUDENT_SECTION إلى ref لكي يمكن لـ Vue قراءتها كجزء من الـ reactive state
+    const studentSection = ref(STUDENT_SECTION); 
     
     const db = firebase.database();
     const firebaseRef = db.ref(QUESTIONS_REF_PATH);
@@ -355,6 +359,11 @@ window.onload = function() {
         'عام': [{ key: 'general', name: 'المواد العامة', description: 'محتوى غير مصنف' }] 
     };
     
+    const subjects = computed(() => {
+        // ⚠️ استخدام studentSection.value للقراءة من الـ ref
+        return subjectsMap[studentSection.value] || subjectsMap['عام'];
+    });
+
     const myQuestions = computed(() => {
         const list = Object.values(allQuestionsData.value).filter(q => q.studentCode === studentCode);
         return list.sort((a, b) => b.timestamp - a.timestamp);
@@ -446,14 +455,12 @@ window.onload = function() {
     
     const goToNotification = (notif) => {
          markNotificationAsRead(notif.id);
-         // ⚠️ توجيه ذكي
          const qData = allQuestionsData.value[notif.refId];
          if (qData) {
              selectedSubject.key = qData.subjectKey;
-             selectedSubject.name = subjectsMap[studentSection].find(s => s.key === qData.subjectKey)?.name || qData.subjectKey;
+             selectedSubject.name = subjectsMap[qData.section].find(s => s.key === qData.subjectKey)?.name || qData.subjectKey; // ⚠️ جلب اسم المادة صح
              selectedChapter.value = qData.chapter;
              currentPage.value = 'questions';
-             // (يفضل عمل scroll to question ID)
          } else {
              alert('تعذر تحديد مكان التفاعل في الوقت الحالي.');
          }
@@ -479,16 +486,14 @@ window.onload = function() {
     };
 
     const goToQuestion = (q) => {
-        // توجيه الطالب إلى السؤال من صفحة "صفحتي"
         selectedSubject.key = q.subjectKey;
-        selectedSubject.name = subjectsMap[studentSection].find(s => s.key === q.subjectKey)?.name || q.subjectKey;
+        selectedSubject.name = subjectsMap[q.section].find(s => s.key === q.subjectKey)?.name || q.subjectKey;
         selectChapter(q.chapter);
     };
     
     const goToReply = (r) => {
-        // توجيه الطالب إلى الرد من صفحة "صفحتي"
         selectedSubject.key = r.subjectKey;
-        selectedSubject.name = subjectsMap[studentSection].find(s => s.key === r.subjectKey)?.name || r.subjectKey;
+        selectedSubject.name = subjectsMap[r.section].find(s => s.key === r.subjectKey)?.name || r.subjectKey;
         selectChapter(r.chapter);
     };
 
@@ -497,7 +502,8 @@ window.onload = function() {
     const fetchQuestions = () => {
         if (!selectedSubject.key || !selectedChapter.value) return;
 
-        const path = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}`;
+        // ⚠️ استخدام studentSection.value للقراءة من الـ ref
+        const path = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}`;
 
         db.ref(path).on('value', (snapshot) => {
             const data = snapshot.val();
@@ -540,7 +546,6 @@ window.onload = function() {
                 });
             }
             
-            // الترتيب: الأحدث أولاً
             questions.value = qArray.sort((a, b) => b.timestamp - a.timestamp);
         });
     };
@@ -554,7 +559,7 @@ window.onload = function() {
         const text = newQuestionText.value.trim();
         if (text.length === 0) return;
 
-        const path = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}`;
+        const path = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}`;
         const newQRef = db.ref(path).push();
         const newQId = newQRef.key;
 
@@ -564,7 +569,8 @@ window.onload = function() {
             studentName: studentName.value,
             timestamp: firebase.database.ServerValue.TIMESTAMP,
             subjectKey: selectedSubject.key,
-            chapter: selectedChapter.value
+            chapter: selectedChapter.value,
+            section: studentSection.value // ⚠️ حفظ الشعبة مع السؤال
         });
         
         // إرسال إشعار للممنشنين
@@ -586,7 +592,7 @@ window.onload = function() {
         const text = replyText.trim();
         if (text.length === 0) return;
 
-        const path = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}/replies`;
+        const path = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}/replies`;
         const newReplyRef = db.ref(path).push();
         const newReplyId = newReplyRef.key;
 
@@ -595,7 +601,8 @@ window.onload = function() {
         await newReplyRef.set({
             text: text,
             studentCode: studentCode,
-            timestamp: firebase.database.ServerValue.TIMESTAMP
+            timestamp: firebase.database.ServerValue.TIMESTAMP,
+            section: studentSection.value // ⚠️ حفظ الشعبة مع الرد
         });
 
         // إرسال إشعار لصاحب السؤال
@@ -615,7 +622,7 @@ window.onload = function() {
     };
     
     const toggleReaction = async (questionId, replyId, reactionType) => {
-        const qPath = `${QUESTIONS_REF_PATH}/${studentSection}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}`;
+        const qPath = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}`;
         const reactionPath = replyId ? `${qPath}/replies/${replyId}/reactions/${studentCode}` : `${qPath}/reactions/${studentCode}`;
         
         let currentReaction = null;
@@ -642,7 +649,6 @@ window.onload = function() {
 
     // 🚨 Initialization 
     const fetchAllQuestionsForProfile = () => {
-        // جلب البيانات من كل الشعب والمواد (لضمان عمل قسم صفحتي)
         const allQRef = db.ref(`${QUESTIONS_REF_PATH}`);
         allQRef.on('value', (snapshot) => {
             const data = snapshot.val();
@@ -658,6 +664,7 @@ window.onload = function() {
                                     allQMap[qId] = { 
                                         id: qId, 
                                         ...q, 
+                                        section: sectionKey, // ⚠️ حفظ الشعبة
                                         subjectKey: subjectKey,
                                         chapter: parseInt(chapterKey.replace('chapter', '')),
                                         repliesCount: q.replies ? Object.keys(q.replies).length : 0 
@@ -681,10 +688,9 @@ window.onload = function() {
             return {
                 studentCode,
                 studentName,
-                studentSection,
+                studentSection: studentSection.value, // Pass the final value
                 currentPage,
-                subjectsMap,
-                subjects: subjectsMap[studentSection] || subjectsMap['عام'], // Fallback لـ 'عام'
+                subjects,
                 selectedSubject,
                 selectedChapter,
                 questions,
