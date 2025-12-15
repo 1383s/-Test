@@ -62,8 +62,9 @@
     .accent-text { color: #08402C; }
     .accent-bg { background-color: #08402C; }
     .toast {
-      min-width:200px; max-width:300px; padding:0.75rem 1rem; border-radius:0.5rem; color:white; font-weight:500; box-shadow:0 4px 12px rgba(0,0,0,0.3);
-      position: fixed; bottom: 20px; left: 20px; z-index: 1000;
+      min-width:200px; max-width:300px; padding:0.75rem 1rem; border-radius:0.5rem; color:white; font-weight:500; box-shadow:0 4px 12px rgba(0, 0, 0, 0.5);
+      position: fixed; bottom: 20px; right: 20px; z-index: 1000;
+      transition: all 0.3s ease;
     }
     .toast.info { background-color: #0099cc; } 
     .toast.success { background-color: #10b981; }
@@ -164,7 +165,11 @@
 
     </main>
 
-    <div id="toast-container"></div>
+    <div id="toast-container">
+        <div v-for="toast in toasts" :key="toast.id" :class="['toast', toast.type]">
+            {{ toast.message }}
+        </div>
+    </div>
 </div>
 
 <script>
@@ -175,7 +180,7 @@ const CODES_REF_PATH = 'approvedStudents';
 const FORUM_REF_PATH = 'forum';
 const STUDENT_CODE_KEY = "activeCode"; 
 
-// 🚨 الألوان والـ Icons للـ Toast
+// 🚨 إدارة الـ Toasts
 const toasts = ref([]);
 const showToast = (message, type='info', duration=4000) => {
      const id = Date.now() + Math.random();
@@ -202,10 +207,10 @@ createApp({
         const imagesLoading = ref(false);
         const studentCode = ref(localStorage.getItem(STUDENT_CODE_KEY));
         const studentDivision = ref(null);
-        const activeSubject = ref(null); // المادة المفتوحة حاليًا (تُستخدم كـ Key)
-        const currentImages = ref([]);   // الملخصات للمادة المفتوحة
+        const activeSubject = ref(null); 
+        const currentImages = ref([]);   
         
-        // Firebase Setup (Assuming compat SDKs are initialized in auth.js/devcheck.js)
+        // Firebase Setup
         const db = firebase.database();
 
         // 🚨 تحديد فولدرات المواد بناءً على الشعبة
@@ -232,23 +237,24 @@ createApp({
                 { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
             ],
             'ازهر': [
-                // يمكن تخصيص مواد الأزهر هنا
                 { name: 'arabic_azhar', displayName: 'العربي (أزهر)', topic: 'فقه ونحو' },
                 { name: 'islamic_studies', displayName: 'الدراسات الإسلامية', topic: 'حديث وتفسير' },
                 { name: 'general', displayName: 'مواد عامة (أزهر)', topic: 'ملخصات متنوعة' },
             ]
         };
 
-        // 🚨 دالة جلب الشعبة من Firebase
+        // 🚨 دالة جلب الشعبة من Firebase (مع لوجيك الـ Fallback)
         const fetchStudentDivision = async () => {
             if (!studentCode.value) {
                 loading.value = false;
+                studentDivision.value = 'علمي علوم'; // Fallback لإظهار فولدرات
                 showToast("❌ لم يتم العثور على كود الطالب في localStorage. يرجى تسجيل الدخول.", "error");
                 return;
             }
 
             try {
                 showToast("جاري التحقق من الشعبة...", "info");
+                // ⚠️ محاولة الاتصال بـ Firebase لجلب الشعبة
                 const snapshot = await db.ref(`${CODES_REF_PATH}/${studentCode.value}/section`).once('value');
                 const division = snapshot.val(); 
 
@@ -256,13 +262,14 @@ createApp({
                     studentDivision.value = division;
                     showToast(`✅ تم تحديد الشعبة: ${division}`, "success");
                 } else {
-                    studentDivision.value = 'علمي علوم'; // fallback لو الشعبة مش موجودة أو غلط
-                    showToast("⚠ لم يتم تحديد الشعبة، سيتم عرض مواد 'علمي علوم' افتراضيًا.", "error");
+                    studentDivision.value = 'علمي علوم'; // Fallback لو الشعبة غير صحيحة
+                    showToast("⚠ لم يتم تحديد الشعبة، سيتم عرض مواد 'علمي علوم' افتراضيًا.", "warn");
                 }
             } catch (err) {
-                console.error("Firebase Error:", err);
-                showToast("❌ فشل الاتصال بقاعدة البيانات.", "error");
-                studentDivision.value = 'علمي علوم';
+                 // ⚠️ لو حدث خطأ في الاتصال بالـ Firebase (Fatal Error)
+                 console.error("Firebase Initialization/Access Error:", err);
+                 studentDivision.value = 'علمي علوم';
+                 showToast("❌ فشل تحميل Firebase. سيتم عرض مواد 'علمي علوم' افتراضيًا.", "error");
             } finally {
                 loading.value = false;
             }
@@ -290,7 +297,7 @@ createApp({
         const loadImages = () => {
             if (!activeSubject.value || !studentDivision.value) return;
             imagesLoading.value = true;
-            currentImages.value = []; // تفريغ الصور القديمة
+            currentImages.value = []; 
 
             const subjectKey = activeSubject.value;
             const divisionKey = studentDivision.value;
@@ -303,7 +310,6 @@ createApp({
                 const imagesArray = [];
                 
                 if (data) {
-                    // تحويل الـ Object إلى مصفوفة صور
                     Object.keys(data).forEach(key => {
                         imagesArray.push({
                             id: key,
@@ -346,7 +352,7 @@ createApp({
                     continue;
                 }
                 
-                // قيود على الحجم (اختياري)
+                // قيود على الحجم
                 if (file.size > 2 * 1024 * 1024) { // 2MB
                      showToast(`❌ حجم الصورة ${file.name} كبير جدًا (الحد الأقصى 2 ميجا).`, "error");
                      continue;
@@ -370,7 +376,6 @@ createApp({
             try {
                 await Promise.all(uploadPromises);
                 showToast(`✅ تم رفع ${files.length} ملخص بنجاح!`, "success");
-                // LoadImages ستحدث تلقائيًا بسبب .on('value')
             } catch (err) {
                 console.error("Upload Error:", err);
                 showToast("❌ فشل رفع الصور إلى Firebase.", "error");
@@ -398,7 +403,7 @@ createApp({
             handleImageUpload,
             handleImageError,
             loadImages,
-            toasts
+            toasts // لإظهار الـ Toast في الـ DOM
         };
     }
 }).mount('#app');
