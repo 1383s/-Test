@@ -64,7 +64,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <style>
-        /* ✨ تطوير شاتي: تنسيق عام أفضل وTransition أكثر سلاسة */
+        /* CSS Final - لمنع تداخل العناصر وضمان ظهور الـModal بشكل صحيح */
         body { 
             font-family: 'Cairo', sans-serif; 
             transition: background-color 0.3s, color 0.3s; 
@@ -315,7 +315,7 @@
 
     </main>
     
-    <div v-if="showNewQuestionModal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
+    <div v-if="showNewQuestionModal && !isLoading" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
         <div class="q-card p-8 rounded-xl w-full max-w-lg shadow-2xl animate-in fade-in zoom-in duration-300">
             <h3 class="text-2xl font-bold main-accent mb-4">أضف سؤالك الجديد</h3>
             <form @submit.prevent="addNewQuestion">
@@ -351,7 +351,7 @@ window.onload = function() {
     const currentPage = ref('subjects'); 
     const selectedSubject = reactive({});
     const selectedChapter = ref(null);
-    const isLoading = ref(true); // ✨ تطوير شاتي: حالة التحميل الأولية
+    const isLoading = ref(true); 
     const profileTab = ref('myQuestions');
 
     // Data
@@ -361,12 +361,13 @@ window.onload = function() {
     const unreadCount = ref(0);
     
     // Modals & Inputs
-    const showNewQuestionModal = ref(false);
+    // 🚨 تم التأكد من أن القيمة الأولية هي false لضمان عدم ظهور الـModal عند التحميل
+    const showNewQuestionModal = ref(false); 
     const newQuestionText = ref('');
     const newDisplayName = ref('');
 
 
-    // --- Computed Properties & Constants ---
+    // --- Computed Properties & Constants (بدون تغيير) ---
     
     const subjectsMap = {
         'ادبي': [{ key: 'history', name: 'التاريخ', description: 'أسئلة وتلخيصات' }, { key: 'geography', name: 'الجغرافيا', description: 'خرائط ومفاهيم' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }, { key: 'english', name: 'اللغة الإنجليزية', description: 'كلمات وقواعد' }, { key: 'philosophy', name: 'الفلسفة', description: 'أسئلة ومفاهيم' }],
@@ -405,7 +406,7 @@ window.onload = function() {
         return repliesList.sort((a, b) => b.timestamp - a.timestamp);
     });
 
-    // --- Utility Methods ---
+    // --- Utility Methods (بدون تغيير) ---
 
     const getSubjectName = (section, subjectKey) => {
         return subjectsMap[section]?.find(s => s.key === subjectKey)?.name || subjectKey;
@@ -422,10 +423,8 @@ window.onload = function() {
     };
 
     const highlightMentions = (text) => {
-        // 🚨 حماية ضد القيمة الفارغة
         if (!text) return ''; 
         const regex = /@(\d{6})/g;
-        // ✨ تلوين الكود المذكور
         return text.replace(regex, '<span class="mention-text">@$1</span>');
     };
 
@@ -438,7 +437,6 @@ window.onload = function() {
             senderCode: senderCode,
             type: type, 
             refId: refId,
-            // ✨ تقصير النص المعروض في الإشعار
             refText: refText.substring(0, 50) + (refText.length > 50 ? '...' : ''), 
             timestamp: firebase.database.ServerValue.TIMESTAMP,
             read: false
@@ -486,7 +484,6 @@ window.onload = function() {
     // 🚨 Notifications Logic
     const fetchNotifications = () => {
         const notifRef = db.ref(`${NOTIFICATIONS_REF_PATH}/${studentCode}`);
-        // ✨ استخدام once للإحضار الأولي ثم on للاستماع للتغييرات
         notifRef.on('value', (snapshot) => {
             const data = snapshot.val();
             const notifsArray = [];
@@ -516,7 +513,6 @@ window.onload = function() {
              selectedSubject.name = getSubjectName(qData.section, qData.subjectKey); 
              selectedChapter.value = qData.chapter;
              currentPage.value = 'questions';
-             // ✨ قد تحتاج لإعادة تحميل الأسئلة يدويًا إذا لم يكن الـListener مفعلًا
              if (!questions.value.length) {
                  fetchQuestions(); 
              }
@@ -571,7 +567,6 @@ window.onload = function() {
                 Object.keys(data).forEach(qId => {
                     const q = data[qId];
                     const repliesCount = q.replies ? Object.keys(q.replies).length : 0;
-                    // ✨ حماية من عدم وجود reactions
                     const likesCount = q.reactions ? Object.values(q.reactions).filter(r => r.type === 'like').length : 0;
                     const dislikesCount = q.reactions ? Object.values(q.reactions).filter(r => r.type === 'dislike').length : 0;
                     const userReaction = q.reactions && q.reactions[studentCode] ? q.reactions[studentCode].type : null;
@@ -611,7 +606,8 @@ window.onload = function() {
     
     const openNewQuestionModal = () => {
         newQuestionText.value = '';
-        showNewQuestionModal.value = true;
+        // 🚨 الآن يمكنك فتح المودال بأمان لأنه محمي بشرط !isLoading في الـTemplate
+        showNewQuestionModal.value = true; 
     };
 
     const addNewQuestion = async () => {
@@ -634,7 +630,6 @@ window.onload = function() {
 
         try {
              await newQRef.set(questionData);
-             // إرسال إشعار للممنشنين
              const mentions = parseMentions(text);
              mentions.forEach(recipientCode => {
                  createNotification(recipientCode, studentCode, 'mention', newQId, text);
@@ -660,7 +655,7 @@ window.onload = function() {
         const newReplyRef = db.ref(path).push();
         const originalQuestion = questions.value.find(q => q.id === questionId);
         
-        if (!originalQuestion) return; // حماية
+        if (!originalQuestion) return;
 
         const replyData = {
             text: text,
@@ -671,10 +666,8 @@ window.onload = function() {
         
         try {
              await newReplyRef.set(replyData);
-             // إرسال إشعار لصاحب السؤال
              createNotification(originalQuestion.studentCode, studentCode, 'reply', questionId, originalQuestion.text);
              
-             // إرسال إشعار للممنشنين
              const mentions = parseMentions(text);
              mentions.forEach(recipientCode => {
                  createNotification(recipientCode, studentCode, 'mention', questionId, text);
@@ -710,13 +703,10 @@ window.onload = function() {
 
         try {
             if (currentReaction === reactionType) {
-                // إلغاء التفاعل
                 await db.ref(reactionPath).remove();
             } else {
-                // إضافة تفاعل جديد
                 await db.ref(reactionPath).set({ type: reactionType, timestamp: firebase.database.ServerValue.TIMESTAMP });
                 
-                // إرسال إشعار (Notification) للـLike فقط
                 if (reactionType === 'like') {
                     createNotification(originalPosterCode, studentCode, 'like', questionId, refText);
                 }
@@ -729,7 +719,6 @@ window.onload = function() {
     // 🚨 Initialization Logic (جلب البيانات للبروفايل والإشعارات)
     const fetchAllQuestionsForProfile = () => {
         const allQRef = db.ref(`${QUESTIONS_REF_PATH}`);
-        // ✨ استخدام once للتحميل الأولي، وده كافي لصفحة البروفايل
         allQRef.once('value', (snapshot) => {
             const data = snapshot.val();
             const allQMap = {};
@@ -756,10 +745,12 @@ window.onload = function() {
                 });
             }
             allQuestionsData.value = allQMap;
-            isLoading.value = false; // ✨ إنهاء حالة التحميل بعد جلب أول دفعة بيانات
+            // 🚨 يتم إنهاء حالة التحميل هنا فقط بعد جلب الـProfile Data
+            isLoading.value = false; 
         }, (error) => {
             console.error("Firebase read failed: ", error);
             isLoading.value = false;
+            alert('❌ فشل في جلب البيانات الأساسية. قد تكون المشكلة في اتصالك بالإنترنت.');
         });
     };
     
@@ -791,7 +782,7 @@ window.onload = function() {
                 myReplies,
                 profileTab,
                 newDisplayName,
-                isLoading, // ✨ إرسال حالة التحميل للـTemplate
+                isLoading, 
 
                 getSubjectName, 
                 logout,
