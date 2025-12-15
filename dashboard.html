@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة الأسئلة والأجوبة - شاتي</title> 
+    <title>منصة الأسئلة والأجوبة - شاتي (الإصدار الفائز)</title> 
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -64,13 +64,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <style>
-        /* CSS Final - لمنع تداخل العناصر وضمان ظهور الـModal بشكل صحيح */
+        /* CSS Final - لضمان ثبات التنسيق ومنع ظهور الـTags */
         body { 
             font-family: 'Cairo', sans-serif; 
             transition: background-color 0.3s, color 0.3s; 
             background-color: var(--bg-main);
             color: var(--text-primary);
         }
+        /* ✨ إضافة v-cloak: ده الحل السحري لمنع ظهور {{...}} */
+        [v-cloak] {
+            display: none !important;
+        }
+        
         .main-accent { color: var(--accent); }
         .header-bg { background-color: var(--bg-card); }
         .active-link { border-bottom: 3px solid var(--accent); padding-bottom: 4px; }
@@ -97,7 +102,6 @@
             white-space: normal;
             word-wrap: break-word;
         }
-        /* Spinner for loading state */
         .spinner {
             border: 4px solid rgba(255, 255, 255, 0.1);
             border-top: 4px solid var(--accent);
@@ -115,7 +119,7 @@
 
 <body class="h-screen overflow-hidden flex flex-col">
 
-<div id="dashboard-app" class="flex-1 flex flex-col h-full overflow-hidden">
+<div id="dashboard-app" class="flex-1 flex flex-col h-full overflow-hidden" v-cloak>
     
     <header class="header-bg shadow-lg px-6 py-4 flex justify-between items-center sticky-header">
         <div class="flex items-center gap-4">
@@ -331,12 +335,14 @@
 </div>
 
 <script>
-// ⚠️ تنفيذ الكود عند تحميل الصفحة بالكامل لضمان تحميل Firebase
-window.onload = function() {
+// ⚠️ تنفيذ الكود مباشرة في نهاية الـBody لتسريع الـMounting
+// ✨ لم نعد نعتمد على window.onload
+{
     const { createApp, ref, reactive, computed } = Vue;
     
     if (typeof firebase === 'undefined' || typeof firebase.database === 'undefined') {
         alert("❌ فشل تحميل مكتبات Firebase! تأكد من اتصال الشبكة.");
+        // إذا فشل Firebase، لا تكمل عملية الـMounting.
         return; 
     }
 
@@ -351,7 +357,7 @@ window.onload = function() {
     const currentPage = ref('subjects'); 
     const selectedSubject = reactive({});
     const selectedChapter = ref(null);
-    const isLoading = ref(true); 
+    const isLoading = ref(true); // يبدأ التحميل من هنا
     const profileTab = ref('myQuestions');
 
     // Data
@@ -361,13 +367,12 @@ window.onload = function() {
     const unreadCount = ref(0);
     
     // Modals & Inputs
-    // 🚨 تم التأكد من أن القيمة الأولية هي false لضمان عدم ظهور الـModal عند التحميل
     const showNewQuestionModal = ref(false); 
     const newQuestionText = ref('');
     const newDisplayName = ref('');
 
 
-    // --- Computed Properties & Constants (بدون تغيير) ---
+    // --- Computed Properties & Constants ---
     
     const subjectsMap = {
         'ادبي': [{ key: 'history', name: 'التاريخ', description: 'أسئلة وتلخيصات' }, { key: 'geography', name: 'الجغرافيا', description: 'خرائط ومفاهيم' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }, { key: 'english', name: 'اللغة الإنجليزية', description: 'كلمات وقواعد' }, { key: 'philosophy', name: 'الفلسفة', description: 'أسئلة ومفاهيم' }],
@@ -406,7 +411,7 @@ window.onload = function() {
         return repliesList.sort((a, b) => b.timestamp - a.timestamp);
     });
 
-    // --- Utility Methods (بدون تغيير) ---
+    // --- Utility Methods ---
 
     const getSubjectName = (section, subjectKey) => {
         return subjectsMap[section]?.find(s => s.key === subjectKey)?.name || subjectKey;
@@ -468,7 +473,6 @@ window.onload = function() {
         return new Date(timestamp).toLocaleString('ar-EG', { dateStyle: 'medium', timeStyle: 'short' });
     };
 
-    // 🚨 Navigation 
     const selectSubject = (subject) => {
         selectedSubject.key = subject.key;
         selectedSubject.name = subject.name;
@@ -481,7 +485,6 @@ window.onload = function() {
         fetchQuestions(); 
     };
     
-    // 🚨 Notifications Logic
     const fetchNotifications = () => {
         const notifRef = db.ref(`${NOTIFICATIONS_REF_PATH}/${studentCode}`);
         notifRef.on('value', (snapshot) => {
@@ -521,7 +524,6 @@ window.onload = function() {
          }
     };
 
-    // 🚨 Profile Update
     const updateDisplayName = async () => {
         const newName = newDisplayName.value.trim();
         if (newName.length < 3) {
@@ -552,8 +554,6 @@ window.onload = function() {
         selectChapter(r.chapter);
     };
 
-    // 🚨 Questions & Replies Logic
-    
     const fetchQuestions = () => {
         if (!selectedSubject.key || !selectedChapter.value) return;
 
@@ -606,7 +606,6 @@ window.onload = function() {
     
     const openNewQuestionModal = () => {
         newQuestionText.value = '';
-        // 🚨 الآن يمكنك فتح المودال بأمان لأنه محمي بشرط !isLoading في الـTemplate
         showNewQuestionModal.value = true; 
     };
 
@@ -716,7 +715,6 @@ window.onload = function() {
         }
     };
 
-    // 🚨 Initialization Logic (جلب البيانات للبروفايل والإشعارات)
     const fetchAllQuestionsForProfile = () => {
         const allQRef = db.ref(`${QUESTIONS_REF_PATH}`);
         allQRef.once('value', (snapshot) => {
@@ -745,12 +743,11 @@ window.onload = function() {
                 });
             }
             allQuestionsData.value = allQMap;
-            // 🚨 يتم إنهاء حالة التحميل هنا فقط بعد جلب الـProfile Data
-            isLoading.value = false; 
+            isLoading.value = false; // 🚨 الإشارة بانتهاء التحميل بعد جلب البيانات
         }, (error) => {
             console.error("Firebase read failed: ", error);
             isLoading.value = false;
-            alert('❌ فشل في جلب البيانات الأساسية. قد تكون المشكلة في اتصالك بالإنترنت.');
+            alert('❌ فشل في جلب البيانات الأساسية. تأكد من إعدادات Firebase.');
         });
     };
     
