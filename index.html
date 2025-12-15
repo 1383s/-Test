@@ -1,898 +1,408 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHMED || Full Mark</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-    <script type="module">
-        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js';
-        import { getDatabase, ref, onValue, update, remove, set, get } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js';
-        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js'; 
+    <title>منتدى الملخصات والأسئلة</title>
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyBK6FZF3LW83qaUHBKYTfiVd2Ozrd1Rf2g",
-            authDomain: "thanawy-1383.firebaseapp.com",
-            databaseURL: "https://thanawy-1383-default-rtdb.firebaseio.com",
-            projectId: "thanawy-1383",
-            storageBucket: "thanawy-1383.firebasestorage.app",
-            messagingSenderId: "1026664406457",
-            appId: "1:1026664406457:web:87d71f7e41bef36ba0aa68",
-            measurementId: "G-J5R2EFM2D0"
-        };
-        
-        const CURRENT_ADMIN_ROLE = 'ahmed'; 
-        const app = initializeApp(firebaseConfig);
-        const db = getDatabase(app);
-        const auth = getAuth(app);
-        const codesRef = ref(db, 'approvedStudents');
-        const blockedDevicesRef = ref(db, 'blockedDevices'); // ** ⚠️ المسار الجديد للأجهزة المحظورة ⚠️ **
-        
-        let allApprovedCodes = {}; 
-        let currentUserUid = null;
-        const AHMED_FIXED_UID = "4Mr7j0R3GmNrpxeaOWKzv71oHpY2"; 
-        let allSaraCodes = [];
-        let currentReportCodes = [];
-        let allBlockedDevices = []; // ** ⚠️ لتخزين الأجهزة المحظورة ⚠️ **
-
-        const DIVISIONS = ['علمي علوم', 'ادبي', 'علمي رياضة', 'ازهر']; // ** ⚠️ الشعب المتاحة ⚠️ **
-
-        window.showToast = (message, type = "success") => { 
-            const container = document.getElementById('toast-container');
-            const toast = document.createElement('div');
-            toast.className = `toast toast-${type}`;
-            toast.textContent = message;
-            container.appendChild(toast);
-            setTimeout(() => { toast.style.opacity = '1'; toast.style.transform = 'translateY(0)'; }, 10);
-            setTimeout(() => {
-                toast.style.opacity = '0';
-                toast.style.transform = 'translateY(-20px)';
-                toast.addEventListener('transitionend', () => toast.remove());
-            }, 5000);
-        };
-        
-        // 💡 Logic 1: التحقق من UID الأدمن الحالي
-        async function checkAdminStatus(uid) {
-            if (uid === AHMED_FIXED_UID) { 
-                return true;
-            } else {
-                window.showToast("❌ هذا الحساب غير مصرح له بالدخول للوحة تحكم Ahmed.", "error");
-                return false;
-            }
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"></script>
+    <script type="module" src="devcheck.js"></script>
+    <script src="auth.js"></script>
+    
+    <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'bg-main': '#020A07',     
+            'bg-card': '#0C241C',     
+            'accent': '#08402C',      
+            'glass-border': 'rgba(8, 64, 44, 0.4)', 
+            'text-primary': '#E6F0E8', 
+          },
+          fontFamily: { sans: ['Cairo', 'sans-serif'] }
         }
-        
-        // 💡 Logic 2: دالة للتأكد من حالة الدخول والتوثيق قبل أي عملية
-        async function checkAuthAndProceed(action, ...args) {
-            if (!currentUserUid) {
-                window.showToast("❌ يجب تسجيل الدخول أولًا لإجراء أي عملية.", "error");
-                return;
-            }
-            if (await checkAdminStatus(currentUserUid)) { 
-                action(...args);
-            }
-        }
-
-        // 💡 Logic 3, 4, 5: (تسجيل دخول، تسجيل خروج، توليد كود) - تبقى كما هي
-
-        window.handleLogin = async (e) => {
-            e.preventDefault();
-            const email = document.getElementById('loginEmail').value;
-            const password = document.getElementById('loginPassword').value;
-            
-            try {
-                const userCredential = await signInWithEmailAndPassword(auth, email, password);
-                window.showToast("✅ تم تسجيل الدخول بنجاح. جاري التحقق من الصلاحيات...", "success");
-            } catch (error) {
-                window.showToast(`❌ فشل تسجيل الدخول: ${error.message}`, "error");
-            }
-        };
-
-        window.logout = async () => {
-            await signOut(auth);
-            window.showToast("👋 تم تسجيل الخروج بنجاح.", "warn");
-            window.location.reload(); 
-        };
-
-        function generateUniqueCode() {
-            let code;
-            do {
-                code = String(Math.floor(100000 + Math.random() * 900000));
-            } while (allApprovedCodes[code]); 
-            return code;
-        }
-
-        // 💡 Logic 6: إخراج الكود من الجهاز الحالي
-        window.ejectDevice = (uid, name) => checkAuthAndProceed(() => {
-            if (!confirm(`متأكد من إخراج كود الطالب ${name} (${uid}) من جهازه الحالي؟`)) return;
-            update(ref(db, 'approvedStudents/' + uid), {
-                deviceId: "",
-            }).then(() => {
-                window.showToast(`✅ تم إخراج كود ${uid} بنجاح.`, "success");
-            }).catch(e => window.showToast("❌ فشل الإخراج: " + e.message, "error"));
-        });
-        
-        // ** ⚠️ Logic 7: نسخ كود الجهاز ⚠️ **
-        window.copyDeviceId = (deviceId) => {
-            if (!deviceId) {
-                window.showToast("❌ الكود غير مُفعل على جهاز حاليًا.", "warn");
-                return;
-            }
-            navigator.clipboard.writeText(deviceId)
-                .then(() => window.showToast(`✅ تم نسخ كود الجهاز: ${deviceId}`, "success"))
-                .catch(err => window.showToast("❌ فشل النسخ.", "error"));
-        };
-
-        // 💡 Logic 8: حذف الكود
-        window.deleteCode = (uid, name) => checkAuthAndProceed(() => {
-            if (!confirm(`متأكد من حذف كود الطالب ${name} (${uid}) نهائياً؟`)) return;
-            remove(ref(db, 'approvedStudents/' + uid))
-            .then(() => window.showToast(`✅ تم حذف الكود ${uid} نهائياً.`, "success"))
-            .catch(e => window.showToast("❌ فشل الحذف: " + e.message, "error"));
-        });
-        
-        // 💡 Logic 9: تفعيل/تعطيل الكود
-        window.toggleBlock = (uid, name, isBlocked) => checkAuthAndProceed(() => {
-            update(ref(db, 'approvedStudents/' + uid), {
-                isBlocked: !isBlocked
-            }).then(() => {
-                window.showToast(`✅ تم ${!isBlocked ? 'تعطيل' : 'تفعيل'} كود ${name} بنجاح.`, "success");
-            }).catch(e => window.showToast("❌ فشل تغيير الحالة: " + e.message, "error"));
-        });
-
-        // ** ⚠️ Logic 10: إضافة كود جديد (مع الشعبة) ⚠️ **
-        window.addNewCode = (e) => checkAuthAndProceed(() => {
-            e.preventDefault();
-            const form = e.target;
-            const name = form.studentName.value;
-            const section = form.studentSection.value; // ⬅️ الشعبة الجديدة
-            const price = parseFloat(form.price.value) || 0;
-            const durationType = form.durationType.value;
-            const newCode = document.getElementById('newCodeDisplay').textContent;
-            
-            if (!section) {
-                window.showToast("❌ يجب اختيار شعبة الطالب.", "error");
-                return;
-            }
-
-            let expiryTime = Date.now();
-            
-            if (durationType === 'trial') {
-                expiryTime += 1 * 60 * 60 * 1000;
-            } else if (durationType === '30days') {
-                expiryTime += 30 * 24 * 60 * 60 * 1000;
-            } else {
-                window.showToast("❌ يجب تحديد مدة التفعيل (ساعة أو 30 يوم).", "error");
-                return;
-            }
-
-            set(ref(db, 'approvedStudents/' + newCode), {
-                uid: newCode,
-                name: name,
-                section: section, // ⬅️ حفظ الشعبة
-                pricePaid: price,
-                addedByAdmin: CURRENT_ADMIN_ROLE,
-                approvedAt: Date.now(),
-                expiry: expiryTime,
-                deviceId: "",
-                isBlocked: false,
-                isTrial: durationType === 'trial'
-            }).then(() => {
-                window.showToast(`✅ تم إضافة الكود ${newCode} بنجاح. الشعبة: ${section}`, "success");
-                window.toggleAddCodeForm(false);
-                form.reset();
-            }).catch(error => {
-                window.showToast("❌ فشل الإضافة: " + error.message, "error");
-            });
-        }, e);
-
-        // ** ⚠️ Logic 11: فتح نموذج تعديل الطالب ⚠️ **
-        window.openEditModal = (uid, currentName, currentSection) => checkAuthAndProceed(() => {
-            document.getElementById('edit_uid').value = uid;
-            document.getElementById('edit_name').value = currentName;
-            
-            const sectionSelect = document.getElementById('edit_section');
-            sectionSelect.innerHTML = ''; // تفريغ الخيارات
-            DIVISIONS.forEach(div => {
-                const option = document.createElement('option');
-                option.value = div;
-                option.textContent = div;
-                if (div === currentSection) option.selected = true;
-                sectionSelect.appendChild(option);
-            });
-            
-            document.getElementById('editModal').style.display = 'flex';
-        });
-
-        // ** ⚠️ Logic 12: حفظ التعديلات ⚠️ **
-        window.saveEdit = () => checkAuthAndProceed(() => {
-            const uid = document.getElementById('edit_uid').value;
-            const newName = document.getElementById('edit_name').value;
-            const newSection = document.getElementById('edit_section').value;
-
-            update(ref(db, 'approvedStudents/' + uid), {
-                name: newName,
-                section: newSection
-            }).then(() => {
-                window.showToast(`✅ تم تعديل بيانات الطالب ${uid} بنجاح.`, "success");
-                document.getElementById('editModal').style.display = 'none';
-            }).catch(e => window.showToast("❌ فشل التعديل: " + e.message, "error"));
-        });
-        
-        // ** ⚠️ Logic 13: حظر جهاز معين ⚠️ **
-        window.blockNewDevice = () => checkAuthAndProceed(() => {
-            const deviceId = prompt("أدخل كود الجهاز الذي تريد حظره:");
-            if (!deviceId || deviceId.trim() === "") {
-                window.showToast("❌ يجب إدخال كود الجهاز.", "warn");
-                return;
-            }
-            const cleanId = deviceId.trim();
-
-            set(ref(db, 'blockedDevices/' + cleanId), {
-                deviceId: cleanId,
-                blockedBy: CURRENT_ADMIN_ROLE,
-                blockedAt: Date.now(),
-            }).then(() => {
-                window.showToast(`✅ تم حظر الجهاز ${cleanId} بنجاح.`, "success");
-            }).catch(e => window.showToast("❌ فشل حظر الجهاز: " + e.message, "error"));
-        });
-
-        // ** ⚠️ Logic 14: إلغاء حظر جهاز ⚠️ **
-        window.unblockDevice = (deviceId) => checkAuthAndProceed(() => {
-            if (!confirm(`متأكد من إلغاء حظر الجهاز ${deviceId}؟`)) return;
-            remove(ref(db, 'blockedDevices/' + deviceId))
-            .then(() => window.showToast(`✅ تم إلغاء حظر الجهاز ${deviceId} بنجاح.`, "success"))
-            .catch(e => window.showToast("❌ فشل الإلغاء: " + e.message, "error"));
-        });
-
-        // 💡 Logic 15: تحميل الأكواد وتصنيفها (تحديث مع جلب الأجهزة المحظورة)
-        function loadSaraCodes() {
-            // جلب الأكواد
-            onValue(codesRef, (snapshot) => {
-                allApprovedCodes = {}; 
-                let activeCount = 0;
-                let blockedCount = 0;
-                let expiredCount = 0;
-                let totalAmount = 0;
-                allSaraCodes = [];
-                
-                const now = Date.now();
-                
-                snapshot.forEach((childSnapshot) => {
-                    const data = childSnapshot.val();
-                    data.uid = childSnapshot.key;
-                    allApprovedCodes[childSnapshot.key] = data;
-                    
-                    if ((data.addedByAdmin || '').toLowerCase() === CURRENT_ADMIN_ROLE) { 
-                        allSaraCodes.push(data);
-                        totalAmount += (data.pricePaid || 0);
-
-                        const isBlocked = data.isBlocked === true;
-                        const isExpired = data.expiry < now;
-
-                        if (isExpired) {
-                            expiredCount++;
-                        } else if (isBlocked) {
-                            blockedCount++;
-                        } else {
-                            activeCount++;
-                        }
-                    }
-                });
-                
-                document.getElementById('statActiveCount').textContent = activeCount;
-                document.getElementById('statBlockedCount').textContent = blockedCount;
-                document.getElementById('statExpiredCount').textContent = expiredCount;
-                
-                renderStats(activeCount + blockedCount + expiredCount, totalAmount);
-                window.showToast("✅ تم تحديث بيانات لوحتك يا أحمد.", "success");
-                
-                const activeReport = document.getElementById('reportDisplayArea').getAttribute('data-active-report');
-                if (activeReport) {
-                    toggleReportDisplay(activeReport, true); 
-                } else {
-                    document.getElementById('codesTableBody').innerHTML = '<tr><td colspan="8">اختر بطاقة لعرض التفاصيل...</td></tr>';
-                }
-            }, (error) => {
-                window.showToast("❌ فشل الاتصال بقاعدة البيانات (الأكواد): " + error.message, "error");
-            });
-
-            // ** ⚠️ جلب الأجهزة المحظورة ⚠️ **
-            onValue(blockedDevicesRef, (snapshot) => {
-                allBlockedDevices = [];
-                snapshot.forEach((childSnapshot) => {
-                    const data = childSnapshot.val();
-                    data.deviceId = childSnapshot.key;
-                    // لا توجد فلترة هنا، نفترض كل المحظورات مهمة
-                    allBlockedDevices.push(data);
-                });
-                // تحديث عرض قائمة الأجهزة المحظورة لو كانت مفتوحة
-                if (document.getElementById('blockedDevicesArea').style.display === 'block') {
-                    renderBlockedDevicesTable(allBlockedDevices);
-                }
-            }, (error) => {
-                 window.showToast("❌ فشل الاتصال بقاعدة البيانات (الأجهزة المحظورة): " + error.message, "error");
-            });
-        }
-        
-        // 💡 Logic 16: التبديل بين محتوى البطاقات
-        window.toggleReportDisplay = (reportType, forceUpdate = false) => {
-            // إخفاء منطقة الأجهزة المحظورة عند عرض تقارير الأكواد
-            document.getElementById('blockedDevicesArea').style.display = 'none';
-
-            const displayArea = document.getElementById('reportDisplayArea');
-            const currentActive = displayArea.getAttribute('data-active-report');
-            const now = Date.now();
-            const searchInput = document.getElementById('searchInput');
-
-            let filteredCodes = [];
-            let title = "";
-            
-            if (reportType === 'active') {
-                title = "الأكواد المفعّلة (نشطة وغير منتهية)";
-                filteredCodes = allSaraCodes.filter(c => c.isBlocked !== true && c.expiry >= now);
-            } else if (reportType === 'blocked') {
-                title = "الأكواد المعطّلة يدويًا";
-                filteredCodes = allSaraCodes.filter(c => c.isBlocked === true);
-            } else if (reportType === 'expired') {
-                title = "الأكواد منتهية الصلاحية";
-                filteredCodes = allSaraCodes.filter(c => c.expiry < now);
-            }
-            
-            currentReportCodes = filteredCodes;
-
-            if (currentActive === reportType && !forceUpdate) {
-                displayArea.style.display = 'none';
-                displayArea.removeAttribute('data-active-report');
-                document.getElementById('codesTableBody').innerHTML = '<tr><td colspan="8">اختر بطاقة لعرض التفاصيل...</td></tr>';
-                document.getElementById('reportTitle').textContent = '';
-                searchInput.value = ''; 
-                
-            } else {
-                displayArea.style.display = 'block';
-                displayArea.setAttribute('data-active-report', reportType);
-                document.getElementById('reportTitle').textContent = title;
-                searchInput.value = ''; 
-                
-                renderCodesTable(filteredCodes);
-            }
-        };
-
-        // ** ⚠️ Logic 17: عرض / إخفاء منطقة الأجهزة المحظورة ⚠️ **
-        window.toggleBlockedDevicesArea = () => {
-            // إخفاء منطقة تقارير الأكواد
-            const reportArea = document.getElementById('reportDisplayArea');
-            reportArea.style.display = 'none';
-            reportArea.removeAttribute('data-active-report');
-            
-            const blockedArea = document.getElementById('blockedDevicesArea');
-            if (blockedArea.style.display === 'block') {
-                blockedArea.style.display = 'none';
-            } else {
-                blockedArea.style.display = 'block';
-                renderBlockedDevicesTable(allBlockedDevices);
-            }
-        };
-        
-        // 💡 Logic 18: إغلاق منطقة التقرير بالزر
-        window.clearSearchAndTable = () => {
-            const activeReport = document.getElementById('reportDisplayArea').getAttribute('data-active-report');
-            if (activeReport) {
-                toggleReportDisplay(activeReport);
-            }
-        }
-        
-        // 💡 Logic 19: البحث بالكود أو الاسم في الفئة الحالية
-        window.filterTable = () => {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            
-            if (searchTerm.length === 0) {
-                renderCodesTable(currentReportCodes);
-                return;
-            }
-
-            const results = currentReportCodes.filter(data => 
-                (data.uid && data.uid.toLowerCase().includes(searchTerm)) || 
-                (data.name && data.name.toLowerCase().includes(searchTerm)) ||
-                (data.section && data.section.toLowerCase().includes(searchTerm)) // ⬅️ بحث بالشعبة
-            );
-            
-            renderCodesTable(results);
-        };
-
-
-        // 💡 Main Auth State Observer - يبقى كما هو
-
-        onAuthStateChanged(auth, (user) => {
-            const loginContainer = document.getElementById('loginContainer');
-            const mainContent = document.getElementById('mainContent');
-            const logoutBtn = document.getElementById('logoutBtn');
-            const addCodeBtn = document.getElementById('addCodeButton');
-            
-            if (user) {
-                currentUserUid = user.uid;
-                
-                checkAdminStatus(user.uid).then(isVerified => {
-                    if (isVerified) {
-                        loginContainer.style.display = 'none';
-                        mainContent.style.display = 'block';
-                        addCodeBtn.style.display = 'block';
-                        logoutBtn.style.display = 'block';
-                        loadSaraCodes(); 
-                    } else {
-                        signOut(auth); 
-                    }
-                });
-            } else {
-                currentUserUid = null;
-                loginContainer.style.display = 'block';
-                mainContent.style.display = 'none';
-                addCodeBtn.style.display = 'none';
-                logoutBtn.style.display = 'none';
-            }
-        });
-
-        // 💡 الدوال المساعدة للعرض
-        
-        function formatExpiry(timestamp) {
-            const now = Date.now();
-            if (timestamp < now) return '<span style="color:red; font-weight:bold;">منتهي</span>';
-            const diff = timestamp - now;
-            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            return `${days}ي ${hours}س`;
-        }
-        
-        // ** ⚠️ دالة عرض جدول الأكواد (تحديث شامل) ⚠️ **
-        function renderCodesTable(codes) {
-            const tbody = document.getElementById('codesTableBody');
-            tbody.innerHTML = '';
-            
-            if (codes.length === 0) {
-                 const title = document.getElementById('reportDisplayArea').getAttribute('data-active-report');
-                 const message = (title) ? 'لا توجد أكواد في هذه الفئة حاليًا.' : 'اختر بطاقة لعرض التفاصيل...';
-                 tbody.innerHTML = `<tr><td colspan="8">${message}</td></tr>`;
-                return;
-            }
-
-            codes.forEach(data => {
-                const isExpired = data.expiry < Date.now();
-                const isBlocked = data.isBlocked === true;
-                
-                let statusText;
-                let statusClass;
-
-                if (isExpired) {
-                    statusText = 'منتهي الصلاحية';
-                    statusClass = 'status-expired';
-                } else if (isBlocked) {
-                    statusText = 'مُعطّل يدويًا';
-                    statusClass = 'status-blocked';
-                } else {
-                    statusText = 'نشط';
-                    statusClass = 'status-active';
-                }
-                
-                const blockBtnText = isBlocked ? 'تفعيل' : 'تعطيل';
-                const ejectDisabled = !data.deviceId || isExpired || isBlocked ? 'disabled' : '';
-                const ejectTitle = !data.deviceId ? 'الكود غير مفعل' : (isExpired || isBlocked ? 'لا يمكن إخراج الجهاز لكود غير نشط' : '');
-
-                
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td class="code-uid">${data.uid}</td>
-                    <td>${data.name}</td>
-                    <td>${data.section || 'N/A'}</td> <td>${data.pricePaid} ج.م</td>
-                    <td>${formatExpiry(data.expiry)}</td>
-                    <td class="device-id">
-                        ${data.deviceId || 'غير مُفعل'}
-                        <button onclick="copyDeviceId('${data.deviceId}')" class="copy-btn" title="نسخ كود الجهاز" ${!data.deviceId ? 'disabled' : ''}>📋</button>
-                    </td>
-                    <td class="${statusClass}">${statusText}</td>
-                    <td class="actions">
-                        <button onclick="openEditModal('${data.uid}', '${data.name}', '${data.section || ''}')" class="edit-btn" title="تعديل بيانات الطالب">تعديل</button>
-                        <button onclick="ejectDevice('${data.uid}', '${data.name}')" class="eject-btn" ${ejectDisabled} title="${ejectTitle}">إخراج</button>
-                        <button onclick="toggleBlock('${data.uid}', '${data.name}', ${isBlocked})" class="${isBlocked ? 'unblock-btn' : 'block-btn'}">${blockBtnText}</button>
-                        <button onclick="deleteCode('${data.uid}', '${data.name}')" class="delete-btn">حذف</button>
-                    </td>
-                `;
-                tbody.appendChild(tr);
-            });
-        }
-        
-        // ** ⚠️ دالة عرض جدول الأجهزة المحظورة ⚠️ **
-        window.renderBlockedDevicesTable = (devices) => {
-             const tbody = document.getElementById('blockedDevicesTableBody');
-             tbody.innerHTML = '';
-             if (devices.length === 0) {
-                 tbody.innerHTML = `<tr><td colspan="3">لا توجد أجهزة محظورة حاليًا.</td></tr>`;
-                 return;
-             }
-             devices.forEach(device => {
-                 const date = new Date(device.blockedAt).toLocaleString('ar-EG', { dateStyle: 'short', timeStyle: 'short' });
-                 const tr = document.createElement('tr');
-                 tr.innerHTML = `
-                    <td class="code-uid">${device.deviceId}</td>
-                    <td>${device.blockedBy}</td>
-                    <td>${date}</td>
-                    <td class="actions">
-                        <button onclick="unblockDevice('${device.deviceId}')" class="unblock-btn">إلغاء الحظر</button>
-                    </td>
-                 `;
-                 tbody.appendChild(tr);
-             });
-        }
-        
-        // باقي الدوال المساعدة (renderStats, toggleStats, toggleAddCodeForm) تبقى كما هي
-        
-        window.renderStats = (totalCodes, totalAmount) => {
-             const statsContainer = document.getElementById('statsContainer');
-             statsContainer.innerHTML = `
-                <div class="stat-item">
-                    <p>إجمالي الأكواد المضافة</p>
-                    <strong id="statTotalCodes">${totalCodes}</strong>
-                </div>
-                <div class="stat-item">
-                    <p>إجمالي المبلغ المحصّل</p>
-                    <strong id="statTotalAmount" style="color:var(--secondary);">${totalAmount.toLocaleString()} ج.م</strong>
-                </div>
-            `;
-        };
-        
-        window.toggleStats = (show) => {
-            const stats = document.getElementById('statsContainer');
-            const statsBtn = document.getElementById('statsButton');
-            
-            if (show) {
-                stats.style.display = 'flex';
-                statsBtn.textContent = 'إخفاء الإجمالي 📉';
-                statsBtn.onclick = () => toggleStats(false);
-            } else {
-                stats.style.display = 'none';
-                statsBtn.textContent = 'عرض الإجمالي 📈';
-                statsBtn.onclick = () => toggleStats(true);
-            }
-        };
-
-        window.toggleAddCodeForm = (show) => {
-            const form = document.getElementById('addCodeFormContainer');
-            if (show) {
-                 checkAuthAndProceed(() => {
-                    form.style.display = 'block';
-                    document.getElementById('newCodeDisplay').textContent = generateUniqueCode();
-                    // ملء خيارات الشعبة
-                    const select = document.getElementById('addCodeForm').studentSection;
-                    select.innerHTML = '<option value="">اختر الشعبة</option>';
-                    DIVISIONS.forEach(div => {
-                         select.innerHTML += `<option value="${div}">${div}</option>`;
-                    });
-                });
-            } else {
-                form.style.display = 'none';
-            }
-        };
-
-
+      }
+    }
     </script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <style>
-        :root {
-            --bg-dark: #111;
-            --primary: #00FF00; /* Cyber Green */
-            --secondary: #00E8C8; 
-            --text-light: #F0F0F0;
-            --error: #FF4444;
-            --warn: #FFA500;
-            --bg-mid: #222;
-            --hover-dark: #333;
-            --expired-color: #f7a048; 
-        }
-        * { box-sizing: border-box; font-family: 'Cairo', sans-serif; }
-        body { background: var(--bg-dark); color: var(--text-light); margin: 0; padding: 0; }
-        .container { max-width: 1200px; margin: 30px auto; padding: 20px; }
-        h1 { color: var(--primary); text-align: center; margin-bottom: 25px; border-bottom: 2px solid var(--bg-mid); padding-bottom: 10px; }
-        
-        /* Login Style */
-        #loginContainer { background: var(--bg-mid); padding: 30px; border-radius: 10px; max-width: 400px; margin: 100px auto; }
-        #loginContainer h2 { color: var(--secondary); text-align: center; margin-bottom: 20px; }
-        #loginContainer input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #444; border-radius: 5px; background: #333; color: var(--text-light); }
-        #loginContainer button { width: 100%; padding: 10px; background: var(--primary); color: var(--bg-dark); border: none; border-radius: 5px; font-weight: 700; cursor: pointer; transition: 0.3s; }
-        #loginContainer button:hover { background: #00cc00; }
-        
-        /* Main Content Style */
-        #mainContent { display: none; }
-        .header-controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-        #logoutBtn { background: var(--error); color: var(--text-light); padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; font-weight: 700; }
-        #logoutBtn:hover { background: #cc3333; }
-        
-        /* Stats & Buttons */
-        .controls-row { display: flex; justify-content: space-between; gap: 15px; margin-bottom: 20px; }
-        #addCodeButton, #statsButton, #blockedDevicesButton {
-            background: var(--primary); color: var(--bg-dark); padding: 10px 20px; 
-            border: none; border-radius: 8px; font-weight: 700; cursor: pointer; 
-            transition: 0.3s;
-        }
-        #addCodeButton:hover, #statsButton:hover, #blockedDevicesButton:hover { background: #00cc00; }
-        #statsButton { background: var(--secondary); }
-        #blockedDevicesButton { background: var(--warn); color: var(--bg-dark); } /* ⬅️ زرار جديد */
-
-        #statsContainer { 
-            display: none; 
-            justify-content: space-around; 
-            background: #1a1a1a; 
-            padding: 20px; 
-            border-radius: 10px; 
-            margin-bottom: 25px; 
-            border-left: 5px solid var(--primary);
-        }
-        .stat-item { text-align: center; color: var(--text-light); }
-        .stat-item p { margin: 5px 0; font-size: 14px; color: var(--secondary); }
-        .stat-item strong { display: block; font-size: 32px; color: var(--primary); }
-        
-        /* Report Cards Container */
-        .report-cards-container {
-            display: flex;
-            justify-content: space-between;
-            gap: 15px;
-            margin-bottom: 25px;
-        }
-        .report-card {
-            flex: 1;
-            background: #1a1a1a;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            border-top: 5px solid transparent;
-        }
-        .report-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-        }
-        .report-card p {
-            margin: 5px 0;
-            font-size: 14px;
-            color: var(--text-light);
-        }
-        .report-card strong {
-            display: block;
-            font-size: 30px;
-            font-weight: 700;
-        }
-        #cardActive { border-top-color: var(--primary); }
-        #cardBlocked { border-top-color: var(--warn); }
-        #cardExpired { border-top-color: var(--error); }
-        #cardActive strong { color: var(--primary); }
-        #cardBlocked strong { color: var(--warn); }
-        #cardExpired strong { color: var(--error); }
-
-        /* Search Container */
-        .search-container {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-        }
-        #searchInput {
-            flex-grow: 1;
-            padding: 10px;
-            border: 1px solid #444;
-            border-radius: 5px;
-            background: #333;
-            color: var(--text-light);
-        }
-        .search-container button {
-            background: #444;
-            color: var(--text-light);
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        
-        /* Table Style */
-        .table-responsive { overflow-x: auto; }
-        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        th, td { padding: 10px; border: 1px solid #444; text-align: right; font-size: 14px; }
-        th { background: #333; color: var(--primary); }
-        tr:nth-child(even) { background: #1a1a1a; }
-        .code-uid, .device-id { font-family: monospace; font-size: 12px; direction: ltr; text-align: left; color: var(--secondary); }
-
-        /* Actions */
-        .status-active { color: var(--primary); font-weight: 700; }
-        .status-blocked { color: var(--warn); font-weight: 700; }
-        .status-expired { color: var(--error); font-weight: 700; } 
-        .actions button {
-            padding: 5px 8px; border: none; border-radius: 5px; cursor: pointer; margin: 2px; font-weight: 700; transition: 0.2s; font-size: 12px;
-        }
-        .actions button[disabled] {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-        .edit-btn { background: #006699; color: var(--text-light); } /* ⬅️ زر التعديل */
-        .copy-btn { background: #444; color: var(--secondary); margin-left: 5px; } /* ⬅️ زر النسخ */
-        .eject-btn { background: #0099cc; color: var(--text-light); }
-        .block-btn { background: var(--warn); color: var(--bg-dark); }
-        .unblock-btn { background: var(--primary); color: var(--bg-dark); }
-        .delete-btn { background: var(--error); color: var(--text-light); }
-
-        /* Add Code Form */
-        #addCodeFormContainer {
-            display: none; background: #0a0a0a; padding: 25px; border-radius: 10px; margin-top: 20px;
-            border: 2px solid var(--secondary); max-width: 500px; margin-left: auto; margin-right: auto;
-        }
-        #newCodeDisplay { font-family: monospace; font-size: 18px; color: var(--primary); font-weight: 700; direction: ltr; text-align: left; background: #111; padding: 5px; border-radius: 5px; }
-        #addCodeFormContainer input, #addCodeFormContainer select {
-            width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #444; border-radius: 5px; background: #333; color: var(--text-light);
-            margin-bottom: 10px;
-        }
-        
-        /* Edit Modal Style */
-        .modal {
-            display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.7);
-            justify-content: center; align-items: center;
-        }
-        .modal-content {
-            background-color: var(--bg-mid); margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; border-radius: 10px;
-        }
-        .modal-content label { display: block; margin-top: 10px; color: var(--secondary); }
-        .modal-content input, .modal-content select { width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 10px; border-radius: 4px; background: #333; color: var(--text-light); border: 1px solid #444; }
-        .modal-buttons button { padding: 8px 15px; border-radius: 5px; margin-top: 10px; cursor: pointer; font-weight: 700; }
-        
-        /* Blocked Devices Area Style */
-        #blockedDevicesArea {
-            display: none; margin-top: 20px; background: #1a1a1a; padding: 20px; border-radius: 10px; border: 2px solid var(--error);
-        }
-        #blockedDevicesArea h2 { color: var(--error); border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 15px; }
-        #blockNewDeviceBtn { background: var(--error); color: var(--text-light); margin-bottom: 15px; }
-        
-        /* Toast */
-        #toast-container { position: fixed; bottom: 20px; left: 20px; z-index: 10000; }
-        .toast { padding: 12px 20px; border-radius: 10px; margin-top: 10px; font-weight: 700; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); opacity: 0; animation: toastIn 0.5s forwards; transition: opacity 0.5s, transform 0.5s; min-width: 200px; text-align: right; }
-        .toast-success { background: var(--primary); color: var(--bg-dark); }
-        .toast-error { background: var(--error); color: var(--text-light); }
-        .toast-warn { background: var(--warn); color: var(--bg-dark); }
-
+    /* تطبيق الألوان والـ Glassmorphism */
+    body { 
+        font-family: 'Cairo', sans-serif; 
+        background-color: #020A07; 
+        color: #E6F0E8; 
+        margin:0; 
+    }
+    .glass-panel {
+      background: rgba(12, 36, 28, 0.7); 
+      backdrop-filter: blur(15px);
+      border: 1px solid #08402C; 
+    }
+    .glass-card {
+      background: rgba(12, 36, 28, 0.5); 
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(8, 64, 44, 0.3); 
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+    .glass-card:hover {
+      background: rgba(8, 64, 44, 0.7); 
+      transform: translateY(-2px);
+      border-color: #08402C;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    .accent-text { color: #08402C; }
+    .accent-bg { background-color: #08402C; }
+    .toast {
+      min-width:200px; max-width:300px; padding:0.75rem 1rem; border-radius:0.5rem; color:white; font-weight:500; box-shadow:0 4px 12px rgba(0,0,0,0.3);
+      position: fixed; bottom: 20px; left: 20px; z-index: 1000;
+    }
+    .toast.info { background-color: #0099cc; } 
+    .toast.success { background-color: #10b981; }
+    .toast.error { background-color: #ef4444; }
+    .loading-dialog {
+      position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; flex-direction:column; color:white;
+    }
     </style>
 </head>
-<body>
 
-<div class="container">
-    
-    <div id="loginContainer">
-        <h2>تسجيل دخول المشرف (AHMED)</h2>
-        <form id="loginForm" onsubmit="handleLogin(event)">
-            <input type="email" id="loginEmail" placeholder="البريد الإلكتروني" required>
-            <input type="password" id="loginPassword" placeholder="كلمة المرور" required>
-            <button type="submit">دخول 🛡️</button>
-        </form>
+<body class="h-screen overflow-hidden flex flex-col">
+
+<div id="app" class="flex-1 flex flex-col h-full overflow-hidden p-4 md:p-6 lg:p-8">
+
+    <header class="glass-panel h-16 flex items-center justify-between px-4 md:px-6 mb-8 shadow-lg">
+        <div class="flex items-center gap-3">
+            <div class="accent-bg/20 p-2 rounded-lg accent-text flex items-center justify-center">
+                <i class="ph ph-books text-2xl"></i>
+            </div>
+            <h1 class="text-xl font-bold bg-gradient-to-r from-accent to-text-primary bg-clip-text text-transparent">
+                 منتدى الملخصات والأسئلة
+            </h1>
+        </div>
+
+        <div class="text-sm font-medium text-gray-400">
+            شعبتي: <span class="text-text-primary">{{ studentDivision || 'جاري التحميل...' }}</span>
+        </div>
+    </header>
+
+
+    <div v-if="loading" class="loading-dialog">
+        <i class="ph ph-spinner-gap animate-spin text-5xl mb-4 accent-text"></i>
+        <p class="text-lg">يتم تحديد الشعبة وتحميل المنتدى...</p>
+        <p v-if="!studentCode" class="text-red-400 mt-2">يرجى تسجيل الدخول. (كود الطالب غير موجود)</p>
     </div>
 
-    <div id="mainContent">
-        <div class="header-controls">
-            <h1>لوحة تحكم Ahmed 💻</h1>
-            <button id="logoutBtn" onclick="logout()">تسجيل الخروج</button>
-        </div>
-        
-        <div class="controls-row">
-            <button id="addCodeButton" onclick="toggleAddCodeForm(true)">+ إضافة كود جديد</button>
-            <button id="blockedDevicesButton" onclick="toggleBlockedDevicesArea()">قسم حظر الأجهزة 🚫</button>
-            <button id="statsButton" onclick="toggleStats(true)">عرض الإجمالي 📈</button>
-        </div>
-        
-        <div id="statsContainer"></div>
-        
-        <div id="reportCardsContainer" class="report-cards-container">
-            <div class="report-card" id="cardActive" onclick="toggleReportDisplay('active')">
-                <p>الأكواد المفعّلة</p>
-                <strong id="statActiveCount">0</strong>
-            </div>
-            <div class="report-card" id="cardBlocked" onclick="toggleReportDisplay('blocked')">
-                <p>المعطّلة يدويًا</p>
-                <strong id="statBlockedCount">0</strong>
-            </div>
-            <div class="report-card" id="cardExpired" onclick="toggleReportDisplay('expired')">
-                <p>منتهية الصلاحية</p>
-                <strong id="statExpiredCount">0</strong>
-            </div>
-        </div>
-        
-        <div id="addCodeFormContainer">
-            <h3>إضافة كود جديد بواسطة Ahmed</h3>
-            <p>الكود العشوائي المُولَّد: <span id="newCodeDisplay">...</span></p>
-            <form id="addCodeForm" onsubmit="addNewCode(event)">
-                <label>اسم الطالب:</label>
-                <input type="text" name="studentName" required>
-                
-                <label>شعبة الطالب:</label>
-                <select name="studentSection" required>
-                    </select>
 
-                <label>المبلغ المدفوع (جنيه):</label>
-                <input type="number" name="price" min="0" value="0">
-
-                <label>مدة التفعيل:</label>
-                <select name="durationType" required>
-                    <option value="">اختر المدة</option>
-                    <option value="trial">تجريبي (ساعة واحدة)</option>
-                    <option value="30days">اشتراك 30 يوم</option>
-                </select>
-                
-                <div class="form-actions" style="margin-top:10px;">
-                    <button type="submit" class="add-code-btn" style="background:var(--primary);">حفظ وتفعيل الكود</button>
-                    <button type="button" class="delete-btn" onclick="toggleAddCodeForm(false)">إلغاء</button>
+    <main v-else class="flex-1 overflow-y-auto">
+        
+        <div v-if="!activeSubject" class="max-w-6xl mx-auto space-y-4">
+            <h2 class="text-3xl font-bold text-text-primary mb-6">
+                اختر المادة لعرض الملخصات
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div v-for="subject in subjects" :key="subject.name" @click="selectSubject(subject.name)"
+                    class="glass-card rounded-xl p-5 cursor-pointer group flex items-center gap-4 hover:scale-[1.02] transition-transform duration-200">
+                    <i class="ph ph-folder text-4xl accent-text group-hover:text-text-primary transition-colors"></i>
+                    <div>
+                        <h3 class="font-bold text-lg text-text-primary">{{ subject.displayName }}</h3>
+                        <p class="text-sm text-gray-500">{{ subject.topic }}</p>
+                    </div>
                 </div>
-            </form>
-        </div>
-        
-        <div id="blockedDevicesArea">
-            <h2>الأجهزة المحظورة 🚫</h2>
-            <button id="blockNewDeviceBtn" onclick="blockNewDevice()">+ حظر جهاز جديد (UID)</button>
-            <div class="table-responsive">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>كود الجهاز المحظور (UID)</th>
-                            <th>بواسطة</th>
-                            <th>تاريخ الحظر</th>
-                            <th>الإجراءات</th>
-                        </tr>
-                    </thead>
-                    <tbody id="blockedDevicesTableBody">
-                        <tr><td colspan="4">جاري التحميل...</td></tr>
-                    </tbody>
-                </table>
             </div>
         </div>
-        
-        <div id="reportDisplayArea" style="display:none; margin-top: 20px;">
-            <h2 id="reportTitle"></h2>
+
+        <div v-else class="max-w-7xl mx-auto space-y-6">
+            <div class="flex items-center justify-between mb-6 border-b border-accent/50 pb-3">
+                <div class="flex items-center gap-3">
+                    <button @click="activeSubject = null; loadImages()" class="text-gray-400 hover:text-accent transition-colors text-sm font-medium flex items-center gap-1">
+                        <i class="ph ph-arrow-right"></i> العودة لفولدرات المواد
+                    </button>
+                    <h2 class="text-3xl font-bold text-text-primary">{{ activeSubjectDisplayName }}</h2>
+                </div>
+                
+                <button @click="document.getElementById('imageUploader').click()"
+                    class="accent-bg text-text-primary px-4 py-2 rounded-lg font-semibold hover:bg-accent/80 transition-colors flex items-center gap-2">
+                    <i class="ph ph-file-image text-xl"></i> إضافة ملخص (صور)
+                </button>
+                <input type="file" id="imageUploader" accept="image/*" multiple @change="handleImageUpload" style="display: none;">
+            </div>
+
+            <div v-if="imagesLoading" class="text-center text-gray-500 p-10">
+                 <i class="ph ph-spinner-gap animate-spin text-3xl mb-3 accent-text"></i>
+                 <p>جاري تحميل الملخصات...</p>
+            </div>
             
-            <div class="search-container">
-                <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="ابحث بالكود أو الاسم أو الشعبة..." />
-                <button onclick="clearSearchAndTable()">إغلاق التقرير ❌</button>
+            <div v-else-if="!currentImages.length" class="text-center text-gray-500 p-10 glass-card">
+                <i class="ph ph-info text-4xl mb-3 accent-text"></i>
+                <p>لم يتم إرسال أي ملخصات لهذه المادة بعد.</p>
             </div>
 
-            <div class="table-responsive">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>الكود (UID)</th>
-                            <th>اسم الطالب</th>
-                            <th>الشعبة</th> <th>المبلغ</th>
-                            <th>الوقت المتبقي</th>
-                            <th>جهاز التفعيل</th>
-                            <th>حالة الكود</th>
-                            <th>الإجراءات</th>
-                        </tr>
-                    </thead>
-                    <tbody id="codesTableBody">
-                        <tr><td colspan="8">اختر بطاقة لعرض التفاصيل...</td></tr> 
-                    </tbody>
-                </table>
+            <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div v-for="image in currentImages" :key="image.id" class="glass-card rounded-xl overflow-hidden shadow-xl">
+                    <div class="relative bg-bg-main/50 overflow-hidden" style="max-height: 400px;">
+                        <img :src="image.base64" alt="ملخص طالب" class="w-full object-contain" @error="handleImageError">
+                    </div>
+                    <div class="p-4 border-t border-accent/50 flex justify-between items-center">
+                        <div>
+                            <p class="text-xs text-gray-400">ملخص مُرسل بواسطة:</p>
+                            <span class="font-mono text-sm text-accent-text">{{ image.senderCode }}</span>
+                        </div>
+                        <span class="text-xs text-gray-500">{{ image.timeSent }}</span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
+        </div>
+
+    </main>
+
+    <div id="toast-container"></div>
 </div>
 
-<div id="editModal" class="modal" onclick="if(event.target.id=='editModal') this.style.display='none'">
-    <div class="modal-content">
-        <h3>تعديل بيانات الطالب</h3>
-        <input type="hidden" id="edit_uid">
-        
-        <label for="edit_name">اسم الطالب:</label>
-        <input type="text" id="edit_name" required>
-        
-        <label for="edit_section">شعبة الطالب:</label>
-        <select id="edit_section" required>
-            </select>
-        
-        <div class="modal-buttons">
-            <button onclick="saveEdit()" style="background:var(--primary);">حفظ التعديل</button>
-            <button onclick="document.getElementById('editModal').style.display='none'" style="background:#444; color:var(--text-light);">إلغاء</button>
-        </div>
-    </div>
-</div>
+<script>
+const { createApp, ref, reactive, computed } = Vue;
 
-<div id="toast-container"></div>
+// 🚨 المسار لقاعدة بيانات Firebase
+const CODES_REF_PATH = 'approvedStudents';
+const FORUM_REF_PATH = 'forum';
+const STUDENT_CODE_KEY = "activeCode"; 
+
+// 🚨 الألوان والـ Icons للـ Toast
+const toasts = ref([]);
+const showToast = (message, type='info', duration=4000) => {
+     const id = Date.now() + Math.random();
+    toasts.value.push({ id, message, type });
+    setTimeout(() => {
+        const index = toasts.value.findIndex(t => t.id === id);
+        if(index !== -1) toasts.value.splice(index,1);
+    }, duration);
+};
+
+// 🚨 دالة مساعدة لتحويل الصورة لـ Base64
+function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+        reader.readAsDataURL(file);
+    });
+}
+
+createApp({
+    setup() {
+        const loading = ref(true);
+        const imagesLoading = ref(false);
+        const studentCode = ref(localStorage.getItem(STUDENT_CODE_KEY));
+        const studentDivision = ref(null);
+        const activeSubject = ref(null); // المادة المفتوحة حاليًا (تُستخدم كـ Key)
+        const currentImages = ref([]);   // الملخصات للمادة المفتوحة
+        
+        // Firebase Setup (Assuming compat SDKs are initialized in auth.js/devcheck.js)
+        const db = firebase.database();
+
+        // 🚨 تحديد فولدرات المواد بناءً على الشعبة
+        const SUBJECTS_MAP = {
+            'ادبي': [
+                { name: 'statistics', displayName: 'الإحصاء', topic: 'ملخصات وقوانين' },
+                { name: 'geography', displayName: 'الجغرافيا', topic: 'خرائط ومفاهيم' },
+                { name: 'history', displayName: 'التاريخ', topic: 'أحداث وتواريخ' },
+                { name: 'arabic', displayName: 'اللغة العربية', topic: 'نحو وبلاغة' },
+                { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
+            ],
+            'علمي رياضة': [
+                { name: 'math', displayName: 'الرياضيات', topic: 'قوانين ومسائل' },
+                { name: 'physics', displayName: 'الفيزياء', topic: 'نظريات ومسائل' },
+                { name: 'chemistry', displayName: 'الكيمياء', topic: 'معادلات ومركبات' },
+                { name: 'arabic', displayName: 'اللغة العربية', topic: 'نحو وبلاغة' },
+                { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
+            ],
+            'علمي علوم': [
+                { name: 'biology', displayName: 'الأحياء', topic: 'رسومات وتفاصيل' },
+                { name: 'physics', displayName: 'الفيزياء', topic: 'نظريات ومسائل' },
+                { name: 'chemistry', displayName: 'الكيمياء', topic: 'معادلات ومركبات' },
+                { name: 'arabic', displayName: 'اللغة العربية', topic: 'نحو وبلاغة' },
+                { name: 'english', displayName: 'اللغة الإنجليزية', topic: 'كلمات وقواعد' },
+            ],
+            'ازهر': [
+                // يمكن تخصيص مواد الأزهر هنا
+                { name: 'arabic_azhar', displayName: 'العربي (أزهر)', topic: 'فقه ونحو' },
+                { name: 'islamic_studies', displayName: 'الدراسات الإسلامية', topic: 'حديث وتفسير' },
+                { name: 'general', displayName: 'مواد عامة (أزهر)', topic: 'ملخصات متنوعة' },
+            ]
+        };
+
+        // 🚨 دالة جلب الشعبة من Firebase
+        const fetchStudentDivision = async () => {
+            if (!studentCode.value) {
+                loading.value = false;
+                showToast("❌ لم يتم العثور على كود الطالب في localStorage. يرجى تسجيل الدخول.", "error");
+                return;
+            }
+
+            try {
+                showToast("جاري التحقق من الشعبة...", "info");
+                const snapshot = await db.ref(`${CODES_REF_PATH}/${studentCode.value}/section`).once('value');
+                const division = snapshot.val(); 
+
+                if (division && SUBJECTS_MAP[division]) {
+                    studentDivision.value = division;
+                    showToast(`✅ تم تحديد الشعبة: ${division}`, "success");
+                } else {
+                    studentDivision.value = 'علمي علوم'; // fallback لو الشعبة مش موجودة أو غلط
+                    showToast("⚠ لم يتم تحديد الشعبة، سيتم عرض مواد 'علمي علوم' افتراضيًا.", "error");
+                }
+            } catch (err) {
+                console.error("Firebase Error:", err);
+                showToast("❌ فشل الاتصال بقاعدة البيانات.", "error");
+                studentDivision.value = 'علمي علوم';
+            } finally {
+                loading.value = false;
+            }
+        }
+        
+        // 🚨 Computed Property لعرض الفولدرات بناءً على الشعبة
+        const subjects = computed(() => {
+            return SUBJECTS_MAP[studentDivision.value] || [];
+        });
+        
+        // 🚨 Computed Property لعرض اسم المادة المفتوحة
+        const activeSubjectDisplayName = computed(() => {
+            if (!activeSubject.value) return '';
+            const sub = subjects.value.find(s => s.name === activeSubject.value);
+            return sub ? sub.displayName : activeSubject.value;
+        });
+
+        // 🚨 دالة اختيار المادة وتحميل الصور
+        const selectSubject = (subjectName) => {
+            activeSubject.value = subjectName;
+            loadImages();
+        };
+
+        // 🚨 دالة تحميل الصور للمادة المحددة
+        const loadImages = () => {
+            if (!activeSubject.value || !studentDivision.value) return;
+            imagesLoading.value = true;
+            currentImages.value = []; // تفريغ الصور القديمة
+
+            const subjectKey = activeSubject.value;
+            const divisionKey = studentDivision.value;
+            
+            // المسار: forum/ادبي/history
+            const path = `${FORUM_REF_PATH}/${divisionKey}/${subjectKey}`;
+
+            db.ref(path).on('value', (snapshot) => {
+                const data = snapshot.val();
+                const imagesArray = [];
+                
+                if (data) {
+                    // تحويل الـ Object إلى مصفوفة صور
+                    Object.keys(data).forEach(key => {
+                        imagesArray.push({
+                            id: key,
+                            ...data[key],
+                            // نضمن أن base64 موجودة للعرض
+                            base64: data[key].base64Image || 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' 
+                        });
+                    });
+                }
+                
+                // الترتيب من الأحدث للأقدم
+                imagesArray.sort((a, b) => b.time - a.time);
+
+                currentImages.value = imagesArray;
+                imagesLoading.value = false;
+                
+                if (activeSubject.value && imagesArray.length > 0) {
+                   showToast(`✅ تم تحميل ${imagesArray.length} ملخص.`, "success");
+                }
+            });
+        };
+
+        // 🚨 دالة التعامل مع رفع الصور
+        const handleImageUpload = async (event) => {
+            if (!activeSubject.value || !studentCode.value) {
+                showToast("❌ يجب اختيار مادة وتسجيل الدخول أولًا.", "error");
+                return;
+            }
+
+            const files = event.target.files;
+            if (files.length === 0) return;
+            
+            showToast(`جاري رفع ${files.length} صورة... هذا قد يستغرق وقتًا.`, "info");
+
+            const uploadPromises = [];
+            
+            for (const file of files) {
+                if (!file.type.startsWith('image/')) {
+                    showToast(`❌ الملف ${file.name} ليس صورة.`, "error");
+                    continue;
+                }
+                
+                // قيود على الحجم (اختياري)
+                if (file.size > 2 * 1024 * 1024) { // 2MB
+                     showToast(`❌ حجم الصورة ${file.name} كبير جدًا (الحد الأقصى 2 ميجا).`, "error");
+                     continue;
+                }
+
+                uploadPromises.push(
+                    fileToBase64(file).then(base64Image => {
+                        const newPostRef = db.ref(`${FORUM_REF_PATH}/${studentDivision.value}/${activeSubject.value}`).push();
+                        
+                        return newPostRef.set({
+                            senderCode: studentCode.value,
+                            base64Image: base64Image,
+                            time: firebase.database.ServerValue.TIMESTAMP,
+                            timeSent: new Date().toLocaleString('ar-EG', { dateStyle: 'short', timeStyle: 'short' }),
+                            fileName: file.name
+                        });
+                    })
+                );
+            }
+
+            try {
+                await Promise.all(uploadPromises);
+                showToast(`✅ تم رفع ${files.length} ملخص بنجاح!`, "success");
+                // LoadImages ستحدث تلقائيًا بسبب .on('value')
+            } catch (err) {
+                console.error("Upload Error:", err);
+                showToast("❌ فشل رفع الصور إلى Firebase.", "error");
+            }
+        };
+        
+        // 🚨 دالة عند فشل تحميل الصورة (لو الـ Base64 غلط)
+        const handleImageError = (e) => {
+            e.target.src = 'https://via.placeholder.com/400x300?text=Image+Load+Error';
+        }
+        
+        // 🚨 عند بداية تشغيل التطبيق
+        fetchStudentDivision();
+
+        return { 
+            loading, 
+            imagesLoading,
+            studentCode,
+            studentDivision, 
+            subjects,
+            activeSubject,
+            activeSubjectDisplayName,
+            currentImages,
+            selectSubject,
+            handleImageUpload,
+            handleImageError,
+            loadImages,
+            toasts
+        };
+    }
+}).mount('#app');
+</script>
+
 </body>
 </html>
