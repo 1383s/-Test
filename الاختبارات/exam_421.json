@@ -1,0 +1,249 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 421,
+                "title": "Session 4 Vocab Quiz",
+                "lecture_id": 3367,
+                "duration_minutes": 180,
+                "order_index": 2,
+                "created_at": "2025-11-27T18:28:27.227094Z",
+                "updated_at": "2025-11-27T18:28:27.227094Z"
+            },
+            "questions": [
+                {
+                    "id": 9118,
+                    "text": "1- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/b5402501232d5f7faaab9b015120df8d6945957cfe1c.jpg",
+                    "answers": [
+                        {
+                            "id": 36450,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36451,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36452,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36453,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9119,
+                    "text": "2- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/21084a7560b1f4188a2fdbf0423130ad54c2177f9bb2.jpg",
+                    "answers": [
+                        {
+                            "id": 36454,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36455,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36456,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36457,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9120,
+                    "text": "3- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/30cc8c180c806fa9a9820350e9f57fe88f65f55ce8a8.jpg",
+                    "answers": [
+                        {
+                            "id": 36458,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36459,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36460,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36461,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9121,
+                    "text": "4- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/86d03bbc48ef791b1c18aea5f46a33a7dd3564d5630c.jpg",
+                    "answers": [
+                        {
+                            "id": 36462,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36463,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36464,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36465,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9122,
+                    "text": "5- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/689a16b3d5df2ca5e7b66d022717eb070743870bd69c.jpg",
+                    "answers": [
+                        {
+                            "id": 36466,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36467,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36468,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36469,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9123,
+                    "text": "6- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/f777c2a25fe535fc16cc098d2911e71b800a8e5c38a7.jpg",
+                    "answers": [
+                        {
+                            "id": 36470,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36471,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36472,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36473,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9124,
+                    "text": "7- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/9f27669e3e3cf9a180976c998373a42023ed20b92f4c.jpg",
+                    "answers": [
+                        {
+                            "id": 36474,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36475,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36476,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36477,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9125,
+                    "text": "8- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/5c5fb5d261959d29b34618e7c0785aca382d503068b2.jpg",
+                    "answers": [
+                        {
+                            "id": 36478,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36479,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36480,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36481,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9126,
+                    "text": "9- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/8032285e8dc7eaae181ca0e3ea512517f42a918e03d8.jpg",
+                    "answers": [
+                        {
+                            "id": 36482,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36483,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36484,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36485,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9127,
+                    "text": "10- Choose the correct answer:",
+                    "image_url": "https://files.coursatk.online/images/questions/1c58d23dd096fb8a7268471015594e2602c6f35fc38e.jpg",
+                    "answers": [
+                        {
+                            "id": 36486,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36487,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36488,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36489,
+                            "text": "D"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

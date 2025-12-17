@@ -1,0 +1,479 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 414,
+                "title": "Quiz On Lecture 1",
+                "lecture_id": 3365,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:28:22.707242Z",
+                "updated_at": "2025-11-27T18:28:22.707242Z"
+            },
+            "questions": [
+                {
+                    "id": 9013,
+                    "text": "1- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/whGdx0gT/question-1.jpg",
+                    "answers": [
+                        {
+                            "id": 36030,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36031,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36032,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36033,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9014,
+                    "text": "2- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/9mcsDk0L/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 36034,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36035,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36036,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36037,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9015,
+                    "text": "3- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/93sgChpp/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 36038,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36039,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36040,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36041,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9016,
+                    "text": "4- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/hFCWj74K/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 36042,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36043,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36044,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36045,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9017,
+                    "text": "5- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/Fbm8SXJR/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 36046,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36047,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36048,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36049,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9018,
+                    "text": "6- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/mC5yQYnb/question-6.jpg",
+                    "answers": [
+                        {
+                            "id": 36050,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36051,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36052,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36053,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9019,
+                    "text": "7- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/1YGfQ3cx/question-7.jpg",
+                    "answers": [
+                        {
+                            "id": 36054,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36055,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36056,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36057,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9020,
+                    "text": "8- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/RprSQBDL/question-8.jpg",
+                    "answers": [
+                        {
+                            "id": 36058,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36059,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36060,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36061,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9021,
+                    "text": "9- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/nMVX6N4t/question-9.jpg",
+                    "answers": [
+                        {
+                            "id": 36062,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36063,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36064,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36065,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9022,
+                    "text": "10- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/GvqrFXwX/question-10.jpg",
+                    "answers": [
+                        {
+                            "id": 36066,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36067,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36068,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36069,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9023,
+                    "text": "11- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/DftSkK0g/question-11.jpg",
+                    "answers": [
+                        {
+                            "id": 36070,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36071,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36072,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36073,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9024,
+                    "text": "12- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/PzsxSsTy/question-12.jpg",
+                    "answers": [
+                        {
+                            "id": 36074,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36075,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36076,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36077,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9025,
+                    "text": "13- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/qLbVsk29/question-13.jpg",
+                    "answers": [
+                        {
+                            "id": 36078,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36079,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36080,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36081,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9026,
+                    "text": "14- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/hz4YKGQ/question-14.jpg",
+                    "answers": [
+                        {
+                            "id": 36082,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36083,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36084,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36085,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9027,
+                    "text": "15- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/Y7gJdpVd/question-15.jpg",
+                    "answers": [
+                        {
+                            "id": 36086,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36087,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36088,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36089,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9028,
+                    "text": "16- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/JWZLR7DJ/question-16.jpg",
+                    "answers": [
+                        {
+                            "id": 36090,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36091,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36092,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36093,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9029,
+                    "text": "17- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/PVPpVNQ/question-17.jpg",
+                    "answers": [
+                        {
+                            "id": 36094,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36095,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36096,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36097,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9030,
+                    "text": "18- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/twxJ3t8z/question-18.jpg",
+                    "answers": [
+                        {
+                            "id": 36098,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36099,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36100,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36101,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9031,
+                    "text": "19- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/Xx4tjYBQ/question-19.jpg",
+                    "answers": [
+                        {
+                            "id": 36102,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36103,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36104,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36105,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9032,
+                    "text": "20- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/nq2LWNXs/question-20.jpg",
+                    "answers": [
+                        {
+                            "id": 36106,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36107,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36108,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36109,
+                            "text": "D"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

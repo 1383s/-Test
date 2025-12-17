@@ -1,0 +1,249 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 400,
+                "title": "قيم نفسك - الامتحان العاشر - القراءة - محمد صلاح 3ث",
+                "lecture_id": 3347,
+                "duration_minutes": 180,
+                "order_index": 10,
+                "created_at": "2025-11-27T18:28:03.496879Z",
+                "updated_at": "2025-11-27T18:28:03.496879Z"
+            },
+            "questions": [
+                {
+                    "id": 8842,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/97906bc701c30021dbce5b1aa847146d69341536f498.jpg",
+                    "answers": [
+                        {
+                            "id": 35346,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35347,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35348,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35349,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8843,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/657a85d00ed1f9bb901ec1cf4dc5bed961b053832b16.jpg",
+                    "answers": [
+                        {
+                            "id": 35350,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35351,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35352,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35353,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8844,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/c9f99446ba37912711921cea13b36f16fe6643363f22.jpg",
+                    "answers": [
+                        {
+                            "id": 35354,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35355,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35356,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35357,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8845,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/720e6421f7c921b766bbc1ac998d7d1f16fbe2feb3cd.jpg",
+                    "answers": [
+                        {
+                            "id": 35358,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35359,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35360,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35361,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8846,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/95e283879f762aa83d096741f78ee54c43c16ec6aa5c.jpg",
+                    "answers": [
+                        {
+                            "id": 35362,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35363,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35364,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35365,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8847,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/87b30f0b55cbbd37ecfa6f099c5dfe686ef9c26de0c2.jpg",
+                    "answers": [
+                        {
+                            "id": 35366,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35367,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35368,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35369,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8848,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/df8804d2ad766f346fa2c2b634af2cec488cfcd55713.jpg",
+                    "answers": [
+                        {
+                            "id": 35370,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35371,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35372,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35373,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8849,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/d7f7866623413e15890031e97c059bffc844cd5a6da2.jpg",
+                    "answers": [
+                        {
+                            "id": 35374,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35375,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35376,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35377,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8850,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/5565db782dd09550235d595e4427e0b950f193c3bda2.jpg",
+                    "answers": [
+                        {
+                            "id": 35378,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35379,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35380,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35381,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8851,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/5e02b6f2d7c7f0c93010055f4ab8a1fbdcbcabf2b6d1.jpg",
+                    "answers": [
+                        {
+                            "id": 35382,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 35383,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 35384,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 35385,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

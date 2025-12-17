@@ -1,0 +1,479 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 423,
+                "title": "Session 5 General Quiz",
+                "lecture_id": 3368,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:28:29.294644Z",
+                "updated_at": "2025-11-27T18:28:29.294644Z"
+            },
+            "questions": [
+                {
+                    "id": 9138,
+                    "text": "1. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/cc70d47ccbd217438fd44188274b3f39a052270ea2bd.jpg",
+                    "answers": [
+                        {
+                            "id": 36530,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36531,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36532,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36533,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9139,
+                    "text": "2. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/a3bfd00b6700dce33086e0ab5ec42ed7fcc9d07deff0.jpg",
+                    "answers": [
+                        {
+                            "id": 36534,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36535,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36536,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36537,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9140,
+                    "text": "3. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/dacffbadae8e5e51baae6a4d2839de3166d92db928ef.jpg",
+                    "answers": [
+                        {
+                            "id": 36538,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36539,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36540,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36541,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9141,
+                    "text": "4. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/e61fdde450369af8e5d3dfb0508036719f56339e6886.jpg",
+                    "answers": [
+                        {
+                            "id": 36542,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36543,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36544,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36545,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9142,
+                    "text": "5. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/27df44a6e541f16433489385caea8f736434f95f57cb.jpg",
+                    "answers": [
+                        {
+                            "id": 36546,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36547,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36548,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36549,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9143,
+                    "text": "6. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/8eb96453b2621045b1d1d46e27e79f8163a397223d8d.jpg",
+                    "answers": [
+                        {
+                            "id": 36550,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36551,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36552,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36553,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9144,
+                    "text": "7. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/16c8fc65b86b90e05de5b966b8e3b28cd160a3943185.jpg",
+                    "answers": [
+                        {
+                            "id": 36554,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36555,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36556,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36557,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9145,
+                    "text": "8. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/d746dd444cfc4596b5a090b26ea40124905580c0c3b9.jpg",
+                    "answers": [
+                        {
+                            "id": 36558,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36559,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36560,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36561,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9146,
+                    "text": "9. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/c74a607a06ad0f6c5db95912ddfb3c6012215df97b36.jpg",
+                    "answers": [
+                        {
+                            "id": 36562,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36563,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36564,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36565,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9147,
+                    "text": "10. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/01e16697b5b6248ed641ee7e34c671ff98d0b7122b32.jpg",
+                    "answers": [
+                        {
+                            "id": 36566,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36567,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36568,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36569,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9148,
+                    "text": "11. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/294ad20c1bfa7fa059f80ffbb8cbfd45125e7adb26e6.jpg",
+                    "answers": [
+                        {
+                            "id": 36570,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36571,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36572,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36573,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9149,
+                    "text": "12. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/f62ac9f6c684faba9370335010b4399e99088076ab57.jpg",
+                    "answers": [
+                        {
+                            "id": 36574,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36575,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36576,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36577,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9150,
+                    "text": "13. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/175b478b2141b7321ce5e55228d211bbf56bee71b9ed.jpg",
+                    "answers": [
+                        {
+                            "id": 36578,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36579,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36580,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36581,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9151,
+                    "text": "14. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/d861fa2808268b2b6b75d7df0613608b81d415931d79.jpg",
+                    "answers": [
+                        {
+                            "id": 36582,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36583,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36584,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36585,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9152,
+                    "text": "15. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/3316e720a3106d4beee0f7164d4fb30b17d384b07efb.jpg",
+                    "answers": [
+                        {
+                            "id": 36586,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36587,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36588,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36589,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9153,
+                    "text": "16. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/23fb35c33c55f5fed9787ac9f8b62f9760c474944d5b.jpg",
+                    "answers": [
+                        {
+                            "id": 36590,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36591,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36592,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36593,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9154,
+                    "text": "17. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/a613143f924eec83709515e813ffcdf938adc21347ee.jpg",
+                    "answers": [
+                        {
+                            "id": 36594,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36595,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36596,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36597,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9155,
+                    "text": "18. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/5631eb26ac2a879c720bfa1a05d7d9fee038386a135d.jpg",
+                    "answers": [
+                        {
+                            "id": 36598,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36599,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36600,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36601,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9156,
+                    "text": "19. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/64555c574fd375876771788aea6a1d7e3ae6cce5917a.jpg",
+                    "answers": [
+                        {
+                            "id": 36602,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36603,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36604,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36605,
+                            "text": "d."
+                        }
+                    ]
+                },
+                {
+                    "id": 9157,
+                    "text": "20. Choose the correct answer from a, b, c or d:",
+                    "image_url": "https://files.coursatk.online/images/questions/f578a7df3acd7101f08be57a11530cc0d562cd9ee9e6.jpg",
+                    "answers": [
+                        {
+                            "id": 36606,
+                            "text": "a."
+                        },
+                        {
+                            "id": 36607,
+                            "text": "b."
+                        },
+                        {
+                            "id": 36608,
+                            "text": "c."
+                        },
+                        {
+                            "id": 36609,
+                            "text": "d."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

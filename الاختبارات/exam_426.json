@@ -1,0 +1,899 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 426,
+                "title": "Session 5 Vocab. Unit 1 part 2 H.W Bubble Sheet",
+                "lecture_id": 3368,
+                "duration_minutes": 180,
+                "order_index": 4,
+                "created_at": "2025-11-27T18:28:30.071493Z",
+                "updated_at": "2025-11-27T18:28:30.071493Z"
+            },
+            "questions": [
+                {
+                    "id": 9178,
+                    "text": "1- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36690,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36691,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36692,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36693,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9179,
+                    "text": "2- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36694,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36695,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36696,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36697,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9180,
+                    "text": "3- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36698,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36699,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36700,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36701,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9181,
+                    "text": "4- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36702,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36703,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36704,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36705,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9182,
+                    "text": "5- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36706,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36707,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36708,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36709,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9183,
+                    "text": "6- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36710,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36711,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36712,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36713,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9184,
+                    "text": "7- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36714,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36715,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36716,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36717,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9185,
+                    "text": "8- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36718,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36719,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36720,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36721,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9186,
+                    "text": "9- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36722,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36723,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36724,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36725,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9187,
+                    "text": "10- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36726,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36727,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36728,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36729,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9188,
+                    "text": "11- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36730,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36731,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36732,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36733,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9189,
+                    "text": "12- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36734,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36735,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36736,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36737,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9190,
+                    "text": "13- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36738,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36739,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36740,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36741,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9191,
+                    "text": "14- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36742,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36743,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36744,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36745,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9192,
+                    "text": "15- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36746,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36747,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36748,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36749,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9193,
+                    "text": "16- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36750,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36751,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36752,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36753,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9194,
+                    "text": "17- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36754,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36755,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36756,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36757,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9195,
+                    "text": "18- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36758,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36759,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36760,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36761,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9196,
+                    "text": "19- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36762,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36763,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36764,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36765,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9197,
+                    "text": "20- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36766,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36767,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36768,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36769,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9198,
+                    "text": "21- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36770,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36771,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36772,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36773,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9199,
+                    "text": "22- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36774,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36775,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36776,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36777,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9200,
+                    "text": "23- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36778,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36779,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36780,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36781,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9201,
+                    "text": "24- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36782,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36783,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36784,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36785,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9202,
+                    "text": "25- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36786,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36787,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36788,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36789,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9203,
+                    "text": "26- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36790,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36791,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36792,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36793,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9204,
+                    "text": "27- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36794,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36795,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36796,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36797,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9205,
+                    "text": "28- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36798,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36799,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36800,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36801,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9206,
+                    "text": "29- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36802,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36803,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36804,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36805,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9207,
+                    "text": "30- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36806,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36807,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36808,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36809,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9208,
+                    "text": "31- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36810,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36811,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36812,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36813,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9209,
+                    "text": "32- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36814,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36815,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36816,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36817,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9210,
+                    "text": "33- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36818,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36819,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36820,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36821,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9211,
+                    "text": "34- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36822,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36823,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36824,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36825,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9212,
+                    "text": "35- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36826,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36827,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36828,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36829,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9213,
+                    "text": "36- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36830,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36831,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36832,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36833,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9214,
+                    "text": "37- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36834,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36835,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36836,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36837,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9215,
+                    "text": "38- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36838,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36839,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36840,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36841,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9216,
+                    "text": "39- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36842,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36843,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36844,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36845,
+                            "text": "d"
+                        }
+                    ]
+                },
+                {
+                    "id": 9217,
+                    "text": "40- Choose the correct answer from a, b, c, or d",
+                    "answers": [
+                        {
+                            "id": 36846,
+                            "text": "a"
+                        },
+                        {
+                            "id": 36847,
+                            "text": "b"
+                        },
+                        {
+                            "id": 36848,
+                            "text": "c"
+                        },
+                        {
+                            "id": 36849,
+                            "text": "d"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

@@ -1,0 +1,249 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 415,
+                "title": "Quiz  Grammar Lec 2",
+                "lecture_id": 3365,
+                "duration_minutes": 180,
+                "order_index": 2,
+                "created_at": "2025-11-27T18:28:22.942468Z",
+                "updated_at": "2025-11-27T18:28:22.942468Z"
+            },
+            "questions": [
+                {
+                    "id": 9033,
+                    "text": "1- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/5g9stxqm/question-1.jpg",
+                    "answers": [
+                        {
+                            "id": 36110,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36111,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36112,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36113,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9034,
+                    "text": "2- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/HDR32wPr/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 36114,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36115,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36116,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36117,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9035,
+                    "text": "3- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/Z1dBg9y7/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 36118,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36119,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36120,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36121,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9036,
+                    "text": "4- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/Jwfx9Dpm/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 36122,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36123,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36124,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36125,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9037,
+                    "text": "5- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/JwpRv3Ng/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 36126,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36127,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36128,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36129,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9038,
+                    "text": "6- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/bRr0mwvz/question-6.jpg",
+                    "answers": [
+                        {
+                            "id": 36130,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36131,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36132,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36133,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9039,
+                    "text": "7- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/FLwwQBB3/question-7.jpg",
+                    "answers": [
+                        {
+                            "id": 36134,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36135,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36136,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36137,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9040,
+                    "text": "8- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/RGD8VHc0/question-8.jpg",
+                    "answers": [
+                        {
+                            "id": 36138,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36139,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36140,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36141,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9041,
+                    "text": "9- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/gbPLggsx/question-9.jpg",
+                    "answers": [
+                        {
+                            "id": 36142,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36143,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36144,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36145,
+                            "text": "D"
+                        }
+                    ]
+                },
+                {
+                    "id": 9042,
+                    "text": "10- choose the correct answer:",
+                    "image_url": "https://i.ibb.co/Z67W9K10/question-10.jpg",
+                    "answers": [
+                        {
+                            "id": 36146,
+                            "text": "A"
+                        },
+                        {
+                            "id": 36147,
+                            "text": "B"
+                        },
+                        {
+                            "id": 36148,
+                            "text": "C"
+                        },
+                        {
+                            "id": 36149,
+                            "text": "D"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}
