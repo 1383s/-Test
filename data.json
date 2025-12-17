@@ -2,724 +2,241 @@
     "data": {
         "data": {
             "exam": {
-                "id": 709,
-                "title": "تسليم الواجب _ المحاضرة الرابعة عشرة _ محمد صلاح 3ث",
-                "lecture_id": 3914,
+                "id": 401,
+                "title": "قيم نفسك - الامتحان الأول - (الأدب, القصة, التعبير) - محمد صلاح 3ث",
+                "lecture_id": 3348,
                 "duration_minutes": 180,
                 "order_index": 1,
-                "created_at": "2025-12-17T14:18:17.748252Z",
-                "updated_at": "2025-12-17T14:18:17.748252Z"
+                "created_at": "2025-11-27T18:28:03.849849Z",
+                "updated_at": "2025-11-27T18:28:03.849849Z"
             },
             "questions": [
                 {
-                    "id": 15697,
-                    "text": "السؤال الأول - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/b75319473d41a1794a051eba97b75061018cb656fcd8.jpg",
+                    "id": 8852,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/3f68886fbfe1cb08a769b0e77945189bd5b184636c8d.jpg",
                     "answers": [
                         {
-                            "id": 62742,
+                            "id": 35386,
                             "text": "أ"
                         },
                         {
-                            "id": 62743,
+                            "id": 35387,
                             "text": "ب"
                         },
                         {
-                            "id": 62744,
+                            "id": 35388,
                             "text": "ج"
                         },
                         {
-                            "id": 62745,
+                            "id": 35389,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15698,
-                    "text": "السؤال 2  - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/e70ee2e7aec4f1efce6895f55c2d992a5d2fd0a826cf.jpg",
+                    "id": 8853,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/fbd713254dff1e8499ce9879cf8a24e21f7e7cde9629.jpg",
                     "answers": [
                         {
-                            "id": 62746,
+                            "id": 35390,
                             "text": "أ"
                         },
                         {
-                            "id": 62747,
+                            "id": 35391,
                             "text": "ب"
                         },
                         {
-                            "id": 62748,
+                            "id": 35392,
                             "text": "ج"
                         },
                         {
-                            "id": 62749,
+                            "id": 35393,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15699,
-                    "text": "السؤال 3  - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/aa2c4d3380e4a21b7747a34b51f76cdcf9f67582554c.jpg",
+                    "id": 8854,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/cb6cf5b676141e2b79c23c2ab85b125ca1d8fd74adaa.jpg",
                     "answers": [
                         {
-                            "id": 62750,
+                            "id": 35394,
                             "text": "أ"
                         },
                         {
-                            "id": 62751,
+                            "id": 35395,
                             "text": "ب"
                         },
                         {
-                            "id": 62752,
+                            "id": 35396,
                             "text": "ج"
                         },
                         {
-                            "id": 62753,
+                            "id": 35397,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15700,
-                    "text": "السؤال 4  - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/6a277a1e8d9b233b95a8e668661206f4c1bfd1cfe2b7.jpg",
+                    "id": 8855,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/9c34cf9fad5cb13aac8a3ce189fd742203654c4a2a3b.jpg",
                     "answers": [
                         {
-                            "id": 62754,
+                            "id": 35398,
                             "text": "أ"
                         },
                         {
-                            "id": 62755,
+                            "id": 35399,
                             "text": "ب"
                         },
                         {
-                            "id": 62756,
+                            "id": 35400,
                             "text": "ج"
                         },
                         {
-                            "id": 62757,
+                            "id": 35401,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15701,
-                    "text": "السؤال 5  - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/59f206885ca9ba3a5570468c7f62e9f907a971faf923.jpg",
+                    "id": 8856,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/8f02059e5cb5659a03c9c3386c7db6b0d3ac77f15c67.jpg",
                     "answers": [
                         {
-                            "id": 62758,
+                            "id": 35402,
                             "text": "أ"
                         },
                         {
-                            "id": 62759,
+                            "id": 35403,
                             "text": "ب"
                         },
                         {
-                            "id": 62760,
+                            "id": 35404,
                             "text": "ج"
                         },
                         {
-                            "id": 62761,
+                            "id": 35405,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15702,
-                    "text": "السؤال 6  - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/e295589d15cdd273dbcab5fb064240cb20cdbcf92ba5.jpg",
+                    "id": 8857,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/8b8c54632b5184fd4aad94e0e3f413142e6f41a9be5a.jpg",
                     "answers": [
                         {
-                            "id": 62762,
+                            "id": 35406,
                             "text": "أ"
                         },
                         {
-                            "id": 62763,
+                            "id": 35407,
                             "text": "ب"
                         },
                         {
-                            "id": 62764,
+                            "id": 35408,
                             "text": "ج"
                         },
                         {
-                            "id": 62765,
+                            "id": 35409,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15703,
-                    "text": "السؤال 7  - المجموعة الأولى",
-                    "image_url": "https://files.coursatk.online/images/questions/3215b7dcea29713d7719804b542aa704a737f8f31b4d.jpg",
+                    "id": 8858,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/b99a3d2d6f18204d183d005a2fad11f56b48af843263.jpg",
                     "answers": [
                         {
-                            "id": 62766,
+                            "id": 35410,
                             "text": "أ"
                         },
                         {
-                            "id": 62767,
+                            "id": 35411,
                             "text": "ب"
                         },
                         {
-                            "id": 62768,
+                            "id": 35412,
                             "text": "ج"
                         },
                         {
-                            "id": 62769,
+                            "id": 35413,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15704,
-                    "text": "السؤال الأول  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/0a69d6a517625e18b5076648563fca1974dd8eb1e9db.jpg",
+                    "id": 8859,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/2e670c32911a8e1e1d832197a5a4b739f42191fd7e3b.jpg",
                     "answers": [
                         {
-                            "id": 62770,
+                            "id": 35414,
                             "text": "أ"
                         },
                         {
-                            "id": 62771,
+                            "id": 35415,
                             "text": "ب"
                         },
                         {
-                            "id": 62772,
+                            "id": 35416,
                             "text": "ج"
                         },
                         {
-                            "id": 62773,
+                            "id": 35417,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15705,
-                    "text": "السؤال 2  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/a445d6c8489a65b11c0946cc9149f55f03025c1351de.jpg",
+                    "id": 8860,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/4f250c973eb7c41f0711d2ee99610c2cfb69b32f1e69.jpg",
                     "answers": [
                         {
-                            "id": 62774,
+                            "id": 35418,
                             "text": "أ"
                         },
                         {
-                            "id": 62775,
+                            "id": 35419,
                             "text": "ب"
                         },
                         {
-                            "id": 62776,
+                            "id": 35420,
                             "text": "ج"
                         },
                         {
-                            "id": 62777,
+                            "id": 35421,
                             "text": "د"
                         }
                     ]
                 },
                 {
-                    "id": 15706,
-                    "text": "السؤال 3  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/d1a84da32d6a878234286b603a7e3cdaf19e33258871.jpg",
+                    "id": 8861,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/e0187fd0ee5e968a959c09762f8bf9ceba11df4cbfc3.jpg",
                     "answers": [
                         {
-                            "id": 62778,
+                            "id": 35422,
                             "text": "أ"
                         },
                         {
-                            "id": 62779,
+                            "id": 35423,
                             "text": "ب"
                         },
                         {
-                            "id": 62780,
+                            "id": 35424,
                             "text": "ج"
                         },
                         {
-                            "id": 62781,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15707,
-                    "text": "السؤال 4  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/c8997e7cae02ce0250dd116a4661cbb24cf63d73fbee.jpg",
-                    "answers": [
-                        {
-                            "id": 62782,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62783,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62784,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62785,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15708,
-                    "text": "السؤال 5  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/78a6f13e7b6a9079affc1026f5b1feca64f45a02d71e.jpg",
-                    "answers": [
-                        {
-                            "id": 62786,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62787,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62788,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62789,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15709,
-                    "text": "السؤال 6  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/7edf0487437360c2aa5b4104fb1cf73cbb77a67354dc.jpg",
-                    "answers": [
-                        {
-                            "id": 62790,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62791,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62792,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62793,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15710,
-                    "text": "السؤال 7  - المجموعة الثانية",
-                    "image_url": "https://files.coursatk.online/images/questions/5f0356f11ade2164787419e6d54c8cc39c842b1e9f72.jpg",
-                    "answers": [
-                        {
-                            "id": 62794,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62795,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62796,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62797,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15711,
-                    "text": "السؤال الأول  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/e0a7f6204ed57954a5bbf924cf3d83dc72dc118a3c78.jpg",
-                    "answers": [
-                        {
-                            "id": 62798,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62799,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62800,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62801,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15712,
-                    "text": "السؤال 2  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/da7e0f625e5a73293b42f6550cfd20c1fda987c962f8.jpg",
-                    "answers": [
-                        {
-                            "id": 62802,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62803,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62804,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62805,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15713,
-                    "text": "السؤال 3  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/8e03de83640d98328fa57994fbdb4d3c69a9000f737f.jpg",
-                    "answers": [
-                        {
-                            "id": 62806,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62807,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62808,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62809,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15714,
-                    "text": "السؤال 4  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/f1a51048fbbf39ca71ab7ff53aed06269e33e847d647.jpg",
-                    "answers": [
-                        {
-                            "id": 62810,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62811,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62812,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62813,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15715,
-                    "text": "السؤال 5  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/7e53f8920c6ad3d10769ba3efc1b4768a90de9bffef1.jpg",
-                    "answers": [
-                        {
-                            "id": 62814,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62815,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62816,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62817,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15716,
-                    "text": "السؤال 6  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/f51c06a4a22c8b5fda91a3e1f64feae1c1b4f5674b2d.jpg",
-                    "answers": [
-                        {
-                            "id": 62818,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62819,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62820,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62821,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15717,
-                    "text": "السؤال 7  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/1f229af27fb7f6b4fa1d69db2905c1b50dc03ea553bd.jpg",
-                    "answers": [
-                        {
-                            "id": 62822,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62823,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62824,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62825,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15718,
-                    "text": "السؤال 8  - نصوص متحررة على مدرسة الديوان",
-                    "image_url": "https://files.coursatk.online/images/questions/f0098f6eb89c66548d91e0e69cbae8ce31e637dfab31.jpg",
-                    "answers": [
-                        {
-                            "id": 62826,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62827,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62828,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62829,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15719,
-                    "text": "السؤال الأول  - إيدك معانا في البلاغة",
-                    "image_url": "https://files.coursatk.online/images/questions/f9611ebb4be900fcbe73a0c9fbb7ac12a5b56883f882.jpg",
-                    "answers": [
-                        {
-                            "id": 62830,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62831,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62832,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62833,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15720,
-                    "text": "السؤال 2  - إيدك معانا في البلاغة",
-                    "image_url": "https://files.coursatk.online/images/questions/8a18707a0cf243eed8ac0ebfa1824e5ccccee86ced9f.jpg",
-                    "answers": [
-                        {
-                            "id": 62834,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62835,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62836,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62837,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15721,
-                    "text": "السؤال 3  - إيدك معانا في البلاغة",
-                    "image_url": "https://files.coursatk.online/images/questions/50a27633370b748cf4433fa8b4835ad092bb7d62e43d.jpg",
-                    "answers": [
-                        {
-                            "id": 62838,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62839,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62840,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62841,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15722,
-                    "text": "السؤال الأول - المجموعة الأولى _ القصة",
-                    "image_url": "https://files.coursatk.online/images/questions/30078e7e838ae6efe6830f8e0680cbc0aa972fbedab3.jpg",
-                    "answers": [
-                        {
-                            "id": 62842,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62843,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62844,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62845,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15723,
-                    "text": "السؤال 2 -  المجموعة الأولى _ القصة",
-                    "image_url": "https://files.coursatk.online/images/questions/f4e1b8d9edfa7329b3a853ed8c6b46f637da0ed25b8f.jpg",
-                    "answers": [
-                        {
-                            "id": 62846,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62847,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62848,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62849,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15724,
-                    "text": "السؤال الأول - المجموعة الثانية _ القصة",
-                    "image_url": "https://files.coursatk.online/images/questions/3d40274045380c4ba5787ca933a6f79d2af1d388bb55.jpg",
-                    "answers": [
-                        {
-                            "id": 62850,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62851,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62852,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62853,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15725,
-                    "text": "السؤال 2  - المجموعة الثانية _ القصة",
-                    "image_url": "https://files.coursatk.online/images/questions/206828691444e4ffda41e7b0e42689dae2cb78a2475c.jpg",
-                    "answers": [
-                        {
-                            "id": 62854,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62855,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62856,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62857,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15726,
-                    "text": "السؤال الأول  - المجموعة الثالثة_ القصة",
-                    "image_url": "https://files.coursatk.online/images/questions/73e864567c7aaf1bf37ddde0e9f104f48a9efcf846be.jpg",
-                    "answers": [
-                        {
-                            "id": 62858,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62859,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62860,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62861,
-                            "text": "د"
-                        }
-                    ]
-                },
-                {
-                    "id": 15727,
-                    "text": "السؤال 2  - المجموعة الثالثة_ القصة",
-                    "image_url": "https://files.coursatk.online/images/questions/b7d8d9750c37749a73d40fc873d8768a33db6df3abfd.jpg",
-                    "answers": [
-                        {
-                            "id": 62862,
-                            "text": "أ"
-                        },
-                        {
-                            "id": 62863,
-                            "text": "ب"
-                        },
-                        {
-                            "id": 62864,
-                            "text": "ج"
-                        },
-                        {
-                            "id": 62865,
+                            "id": 35425,
                             "text": "د"
                         }
                     ]
@@ -729,4 +246,4 @@
     },
     "message": "Success",
     "success": true
-}
+                        }
