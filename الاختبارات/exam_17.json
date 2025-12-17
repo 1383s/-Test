@@ -1,0 +1,249 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 17,
+                "title": "امتحان على الدرس الأول",
+                "lecture_id": 491,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:16:35.148866Z",
+                "updated_at": "2025-11-24T00:16:35.148866Z"
+            },
+            "questions": [
+                {
+                    "id": 455,
+                    "text": "السؤال الأول",
+                    "image_url": "https://i.ibb.co/FYCfPjs/1.jpg",
+                    "answers": [
+                        {
+                            "id": 1817,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1818,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1819,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1820,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 456,
+                    "text": "السؤال الثاني",
+                    "image_url": "https://i.ibb.co/4Wv30HV/2.jpg",
+                    "answers": [
+                        {
+                            "id": 1821,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1822,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1823,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1824,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 457,
+                    "text": "السؤال الثالث",
+                    "image_url": "https://i.ibb.co/nz6z16X/3.jpg",
+                    "answers": [
+                        {
+                            "id": 1825,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1826,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1827,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1828,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 458,
+                    "text": "السؤال الرابع",
+                    "image_url": "https://i.ibb.co/mNHL3tq/4.jpg",
+                    "answers": [
+                        {
+                            "id": 1829,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1830,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1831,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1832,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 459,
+                    "text": "السؤال الخامس",
+                    "image_url": "https://i.ibb.co/nCjTp1B/5.jpg",
+                    "answers": [
+                        {
+                            "id": 1833,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1834,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1835,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1836,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 460,
+                    "text": "السؤال السادس",
+                    "image_url": "https://i.ibb.co/5rLhj7L/6.jpg",
+                    "answers": [
+                        {
+                            "id": 1837,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1838,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1839,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1840,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 461,
+                    "text": "السؤال السابع",
+                    "image_url": "https://i.ibb.co/nLxG4Mw/7.jpg",
+                    "answers": [
+                        {
+                            "id": 1841,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1842,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1843,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1844,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 462,
+                    "text": "السؤال الثامن",
+                    "image_url": "https://i.ibb.co/gvXpBYK/8.jpg",
+                    "answers": [
+                        {
+                            "id": 1845,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1846,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1847,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1848,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 463,
+                    "text": "السؤال التاسع",
+                    "image_url": "https://i.ibb.co/zFRTwyd/9.jpg",
+                    "answers": [
+                        {
+                            "id": 1849,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1850,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1851,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1852,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 464,
+                    "text": "السؤال العاشر",
+                    "image_url": "https://i.ibb.co/FVQRb7D/10.jpg",
+                    "answers": [
+                        {
+                            "id": 1853,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 1854,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 1855,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 1856,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

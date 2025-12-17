@@ -1,0 +1,782 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 4,
+                "title": "امتحان افتتاحي المحاضرة 2 مراجعة نهائية",
+                "lecture_id": 35,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:09:24.274594Z",
+                "updated_at": "2025-11-24T00:09:24.274594Z"
+            },
+            "questions": [
+                {
+                    "id": 105,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يدعو</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> المؤمن غيره لطاعة الله».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ما تحته خط فعل مضارع:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 417,
+                            "text": "منصوب بحذف النون"
+                        },
+                        {
+                            "id": 418,
+                            "text": "منصوب بالفتحة الظاهرة"
+                        },
+                        {
+                            "id": 419,
+                            "text": "مرفوع بالضمة الظاهرة"
+                        },
+                        {
+                            "id": 420,
+                            "text": "مرفوع بالضمة المقدرة"
+                        }
+                    ]
+                },
+                {
+                    "id": 106,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«مَن يزرع شوكًا فلن يجني قمحًا».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يجني</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 421,
+                            "text": "مضارع مجزوم وعلامة جزمه السكون"
+                        },
+                        {
+                            "id": 422,
+                            "text": "مضارع منصوب وعلامة نصبه الفتحة الظاهرة"
+                        },
+                        {
+                            "id": 423,
+                            "text": "مضارع منصوب وعلامة نصبه الفتحة المقدرة"
+                        },
+                        {
+                            "id": 424,
+                            "text": "مضارع مبني على السكون"
+                        }
+                    ]
+                },
+                {
+                    "id": 107,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز – مما يلي – الجملة التي اشتملت على أداة تجزم\nفعلًا واحدًا:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 425,
+                            "text": "الطالبة المثالية لا تهمل دروسها"
+                        },
+                        {
+                            "id": 426,
+                            "text": "فلتتوكلوا على الله"
+                        },
+                        {
+                            "id": 427,
+                            "text": "مَن يسع في الخير يرق شأنه"
+                        },
+                        {
+                            "id": 428,
+                            "text": "ليتقدم المجتمع؛ على أفراده العمل بجد"
+                        }
+                    ]
+                },
+                {
+                    "id": 108,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«هل تحترم الناس ف</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تحظى</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> بتقديرهم؟».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>إعراب ما\nتحته خط:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 429,
+                            "text": "فعل مضارع مرفوع بالضمة المقدرة"
+                        },
+                        {
+                            "id": 430,
+                            "text": "مضارع منصوب وعلامة نصبه الفتحة الظاهرة"
+                        },
+                        {
+                            "id": 431,
+                            "text": "فعل مضارع مرفوع بالضمة الظاهرة"
+                        },
+                        {
+                            "id": 432,
+                            "text": "مضارع منصوب وعلامة نصبه الفتحة المقدرة"
+                        }
+                    ]
+                },
+                {
+                    "id": 109,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-SA;mso-no-proof:yes'>مَن اجتهد فاستذكر دروسه جيدًا فلا شك\nفي نجاحه»<!--[if gte vml 1]><v:shapetype id=\"_x0000_t116\"\n coordsize=\"21600,21600\" o:spt=\"116\" path=\"m3475,qx,10800,3475,21600l18125,21600qx21600,10800,18125,xe\">\n <v:stroke joinstyle=\"miter\"/>\n <v:path gradientshapeok=\"t\" o:connecttype=\"rect\" textboxrect=\"1018,3163,20582,18437\"/>\n</v:shapetype><v:shape id=\"_x0000_s1026\" type=\"#_x0000_t116\" style='position:absolute;\n left:0;text-align:left;margin-left:432.05pt;margin-top:4.85pt;width:16.9pt;\n height:15.9pt;z-index:-251670016;mso-position-horizontal-relative:text;\n mso-position-vertical-relative:text' fillcolor=\"#ff9\" strokecolor=\"#c00000\"\n strokeweight=\"1pt\">\n <v:shadow on=\"t\" type=\"perspective\" color=\"black\" origin=\",.5\" offset=\"0,0\"\n  matrix=\",-56756f,,.5\"/>\n <w:wrap anchorx=\"page\"/>\n</v:shape><![endif]--><!--[if !vml]--><span style=\"mso-ignore:vglayout;position:\nabsolute;z-index:-1895837184;left:0px;margin-left:575px;margin-top:5px;\nwidth:41px;height:24px\"><img height=\"24\" src=\"file:///C:/Users/Work/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif\" v:shapes=\"_x0000_s1026\" width=\"41\"/></span><!--[endif]-->.<br/></span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-SA;mso-no-proof:yes'><span style='text-align: justify; text-indent: -21.3pt; font-size: 20pt; font-family: \"Segoe UI Symbol\", sans-serif; color: rgb(192, 0, 0);'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'>    </span></span><span dir=\"RTL\" style=\"text-align: justify; text-indent: -21.3pt; font-family: roboto, sans-serif; font-size: 14px;\"></span><span lang=\"AR-SA\" style=\"text-align: justify; text-indent: -21.3pt; font-size: 20pt; color: rgb(0, 112, 192);\">ميِّز – مما يلي – سبب اقتران جواب الشرط بالفاء\nفي الجملة السابقة:</span> </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 433,
+                            "text": "جملة طلبية"
+                        },
+                        {
+                            "id": 434,
+                            "text": "جملة منفية بـ-لا-"
+                        },
+                        {
+                            "id": 435,
+                            "text": "جملة اسمية"
+                        },
+                        {
+                            "id": 436,
+                            "text": "مبدوء بالسين"
+                        }
+                    ]
+                },
+                {
+                    "id": 110,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«كونوا قدوة </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تنفع</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> الشباب» –\n«كونوا قدوة </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>يتبعكم</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> الشباب».<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز الحالة الإعرابية للفعلين المضارعين بالجملتين على\nالترتيب:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 437,
+                            "text": "مرفوع – مجزوم"
+                        },
+                        {
+                            "id": 438,
+                            "text": "مجزوم – مرفوع"
+                        },
+                        {
+                            "id": 439,
+                            "text": "مرفوع - منصوب"
+                        },
+                        {
+                            "id": 440,
+                            "text": "كلاهما مجزوم"
+                        }
+                    ]
+                },
+                {
+                    "id": 111,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«نسعى لرقي بلادنا – ننال ما نرجو</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>».<span style=\"color:#0070C0\"> عند\nالربط بأداة شرط جازمة تصبح الجملة:</span></span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 441,
+                            "text": "متى نسع لرقي بلادنا ننل ما نرج"
+                        },
+                        {
+                            "id": 442,
+                            "text": "متى نسع لرقي بلادنا فسننل ما نرجو"
+                        },
+                        {
+                            "id": 443,
+                            "text": "متى نسع لرقي بلادنا ننال ما نرجو"
+                        },
+                        {
+                            "id": 444,
+                            "text": "متى نسع لرقي بلادنا ننل ما نرجو"
+                        }
+                    ]
+                },
+                {
+                    "id": 112,
+                    "text": "<h4><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«عليك بالصدق لئلا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يتخلّ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> عنك الناس</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0D0D0D;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>». </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>عند تصويب ما\nتحته خط نقول:</span></h4>",
+                    "answers": [
+                        {
+                            "id": 445,
+                            "text": "يتخلَّى"
+                        },
+                        {
+                            "id": 446,
+                            "text": "يتخلُّ"
+                        },
+                        {
+                            "id": 447,
+                            "text": "يتخلْ"
+                        },
+                        {
+                            "id": 448,
+                            "text": "يتخلَّ"
+                        }
+                    ]
+                },
+                {
+                    "id": 113,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لِمَاذا لا تقلع عن التدخين يا رجل؟».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> ميِّز –\nمما يلي – الضبط الصحيح للفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>تقلع</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>»:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 449,
+                            "text": "تقلعْ"
+                        },
+                        {
+                            "id": 450,
+                            "text": "تقلعُ"
+                        },
+                        {
+                            "id": 451,
+                            "text": "تقلعَ"
+                        },
+                        {
+                            "id": 452,
+                            "text": "تقلعِ"
+                        }
+                    ]
+                },
+                {
+                    "id": 114,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لا تكن عبئًا على أحد فتزداد مهانة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>».<span style=\"color:#0070C0\"> الصياغة\nالصحيحة للفعل (</span><span style=\"color:#C00000\">فتزداد</span><span style=\"color:#0070C0\">) عند حذف الفاء منه:</span></span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 453,
+                            "text": "تزداد"
+                        },
+                        {
+                            "id": 454,
+                            "text": "تُزاد"
+                        },
+                        {
+                            "id": 455,
+                            "text": "تزددنَّ"
+                        },
+                        {
+                            "id": 456,
+                            "text": "تزدد"
+                        }
+                    ]
+                },
+                {
+                    "id": 115,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(حاربْ أعداء الوطن وإلَّا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تندم</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'>).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> إعراب ما\nتحته خط:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 457,
+                            "text": "فعل مضارع مبني على السكون"
+                        },
+                        {
+                            "id": 458,
+                            "text": "فعل مضارع منصوب بالفتحة"
+                        },
+                        {
+                            "id": 459,
+                            "text": "فعل مضارع مرفوع بالضمة"
+                        },
+                        {
+                            "id": 460,
+                            "text": "فعل مضارع مجزوم بالسكون"
+                        }
+                    ]
+                },
+                {
+                    "id": 116,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>دعت</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> الله مِن فضله - </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>نالتْ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> ما أرادت</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>».<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>حوَّل الأفعال الماضية إلى مضارعة واربط باسم شرط جازم:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 461,
+                            "text": "مَن تدع الله من فضله تنال ما أرادت"
+                        },
+                        {
+                            "id": 462,
+                            "text": "مَن تدعو الله من فضله تنل ما تريد"
+                        },
+                        {
+                            "id": 463,
+                            "text": "مَن تدعو الله من فضله تنال من فضله"
+                        },
+                        {
+                            "id": 464,
+                            "text": "مَن تدع الله من فضله تنل ما تريد"
+                        }
+                    ]
+                },
+                {
+                    "id": 117,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12.5pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أحْسِن العمل تكن متفوقًا).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.5pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.5pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>بيِّن الصياغة الصحيحة عند جعل\nالخطاب للمفردة المؤنثة:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 465,
+                            "text": "أحسني العمل تكوني متفوقة"
+                        },
+                        {
+                            "id": 466,
+                            "text": "أحسني العمل تكنين متفوقة"
+                        },
+                        {
+                            "id": 467,
+                            "text": "أحسني العمل تكني متفوقة"
+                        },
+                        {
+                            "id": 468,
+                            "text": "أحسنِ العمل تكونين متفوقة"
+                        }
+                    ]
+                },
+                {
+                    "id": 118,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز مما يلي الصيغة الصحيحة لأسلوب الشرط:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 469,
+                            "text": "ما تسم إلى تحقيقه يستفاد منه"
+                        },
+                        {
+                            "id": 470,
+                            "text": "ما تسمو إلى تحقيقه مستفاد منه"
+                        },
+                        {
+                            "id": 471,
+                            "text": "ما تسمي إلى تحقيقه يستفاد منه"
+                        },
+                        {
+                            "id": 472,
+                            "text": "ما تسم إلى تحقيقه فقد يستفاد منه"
+                        }
+                    ]
+                },
+                {
+                    "id": 119,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#ED7D31;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>متى\nتحسن الاستماع للغير تلق آذانًا مصغية لك حيثما تتحدث<span style=\"color:#ED7D31\">).<br/></span><span style=\"color:#0070C0\"></span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز الصياغة الصحيحة للفعل «تلق» عند اقتران جواب الشرط\nبالفاء:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 473,
+                            "text": "فتلقَى"
+                        },
+                        {
+                            "id": 474,
+                            "text": "فتلقَ"
+                        },
+                        {
+                            "id": 475,
+                            "text": "فستلقَى"
+                        },
+                        {
+                            "id": 476,
+                            "text": "فستلقَ"
+                        }
+                    ]
+                },
+                {
+                    "id": 120,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-SA'>متى تتهيأ لك فرصة تنمية المهارات فقد نفسك نحوها).<br/><span style=\"color:#0070C0;mso-no-proof:yes\"></span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز سبب اقترن جواب الشرط بالفاء في البيت السابق</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>: </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 477,
+                            "text": "مبدوء بـ«قد»"
+                        },
+                        {
+                            "id": 478,
+                            "text": "جملة اسمية"
+                        },
+                        {
+                            "id": 479,
+                            "text": "جملة طلبية"
+                        },
+                        {
+                            "id": 480,
+                            "text": "مبدوء بجامد"
+                        }
+                    ]
+                },
+                {
+                    "id": 121,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ما السبب الرئيس الذي غيَّر الغالي ناحية جدته العطوف\nعليه؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 481,
+                            "text": "المدنية وأثرها عليه"
+                        },
+                        {
+                            "id": 482,
+                            "text": "سوء تربية الغالي"
+                        },
+                        {
+                            "id": 483,
+                            "text": "طول مدة الغياب عنها"
+                        },
+                        {
+                            "id": 484,
+                            "text": "الأب وما كان يفعله"
+                        }
+                    ]
+                },
+                {
+                    "id": 122,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>استنتج المغزى من قول الكاتب: (</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ويبس الفطير الذي صنعته خصيصًا\nله</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>):</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 485,
+                            "text": "سوء صناعة الفطير"
+                        },
+                        {
+                            "id": 486,
+                            "text": "قصر فترة غياب الغالي"
+                        },
+                        {
+                            "id": 487,
+                            "text": "غلظة أخلاق الغالي"
+                        },
+                        {
+                            "id": 488,
+                            "text": "يأس أم زيان وحزنها"
+                        }
+                    ]
+                },
+                {
+                    "id": 123,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>حدد مما يلي - الفكرة التي استخدمها الكاتب للتعبير عن مكر\nالأب ليربط ابنه به ويبعده عن جدته: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 489,
+                            "text": "وحرصًا منه على مستقبل ابنه جاء يطلب من الجدة أن تسمح له بأخذ ابنه إلى المدينة"
+                        },
+                        {
+                            "id": 490,
+                            "text": "وكانت ترسل له الهدايا بواسطة أبيه الذي كان يوزعها على أسرته، ولا يرسل شيئًا منها إلى ابنه الغالي"
+                        },
+                        {
+                            "id": 491,
+                            "text": "وبعد حين دخل عليها الأب فوجدها تبكي وتقبل الآثار التي تركها الغالي فقال لها: أتبكين وقد عاد إليك الغالي؟"
+                        },
+                        {
+                            "id": 492,
+                            "text": "سافر الغالي إلى المدينة، وتمضي السنون وأم زيان الجدة تحلم بعودة الغالي وتنتظرها بفارغ الصبر"
+                        }
+                    ]
+                },
+                {
+                    "id": 124,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>استنتج المقولة التي تعبر عن فقر أم زيان وضيق ذات يدها:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 493,
+                            "text": "قدمت أم زيان لحفيدها بعض القروش فأخذها"
+                        },
+                        {
+                            "id": 494,
+                            "text": "عملت خادمة عند أسرة غنية في ضيعة"
+                        },
+                        {
+                            "id": 495,
+                            "text": "ويبس الفطير الذي صنعته خصيصًا له"
+                        },
+                        {
+                            "id": 496,
+                            "text": "تاركًا جدته في الفرن تحدث نفسها بخبل"
+                        }
+                    ]
+                },
+                {
+                    "id": 125,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>حدد - مما يلي - الصورة البيانية التي توحي باضطراب الجدة\nوصعوبة استيعابها: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 497,
+                            "text": "تاركًا جدته في الفرن تحدث نفسها بخبل قائلة: أهذا هو الغالي؟"
+                        },
+                        {
+                            "id": 498,
+                            "text": "لقد مات الغالي من وقت طويل يا بني، مات منذ غادرنا إلى المدينة"
+                        },
+                        {
+                            "id": 499,
+                            "text": "ولكنها لم تر منه سوى الاشمئزاز والحركات الجافة التي لا تعبر عن تقدير"
+                        },
+                        {
+                            "id": 500,
+                            "text": "وترك الغالي جدته ليتجول مع بعض أبناء جيله، ويقضي مساءه في بيت أبيه"
+                        }
+                    ]
+                },
+                {
+                    "id": 126,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن كيف نقل الكاتب فكره ومشاعره للقراء في هذا العمل\nالأدبي: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 501,
+                            "text": "اعتمد على أسلوب الحوار القصصي؛ ليظهر مدى التناقض بين الشخصيات، ويبرز الصراع بينها"
+                        },
+                        {
+                            "id": 502,
+                            "text": "اعتمد على أسلوب الألقاء المباشر في سرد الأحداث؛ ليوصل فكره ومشاعره إلى القراء"
+                        },
+                        {
+                            "id": 503,
+                            "text": "جمع بين الحوار الداخلي والحوار الخارجي في سرد الأحداث؛ ليشاركه مكنونات عقله ووجدانه"
+                        },
+                        {
+                            "id": 504,
+                            "text": "جمع بين الحقيقة والخيال في رسم ملامح الشخصيات وسرد الأحداث"
+                        }
+                    ]
+                },
+                {
+                    "id": 127,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>حدِّد إلى أي أنواع الأدب ينتمي هذا النص، وادعم رأيك من\nواقع فهمك: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 505,
+                            "text": "قصة قصيرة، رصدت علاقة الجدة بحفيدها من أجل توصيل انطباع محدد"
+                        },
+                        {
+                            "id": 506,
+                            "text": "مقال نقدي، رصد نموذجًا لمعاناة الأم ووحدتها رغم كثرة الأبناء وسعة معيشتهم"
+                        },
+                        {
+                            "id": 507,
+                            "text": "جزء من سيرة ذاتية، عرض فيها الكاتب جانبًا من حياته وعلاقاته الاجتماعية"
+                        },
+                        {
+                            "id": 508,
+                            "text": "مقال فلسفي، تناول شكل العلاقة الآباء والأبناء في قالب سرد قصصي"
+                        }
+                    ]
+                },
+                {
+                    "id": 128,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>    وازن\nبين الفقرتين السابقتين من حيث الفكرة التي تحملها كل منهما:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/QNn4cM6/1711836894-2u-LDCb.png",
+                    "answers": [
+                        {
+                            "id": 509,
+                            "text": "أخلاق العم منصور وروحه الطيبة، وموت الغالي"
+                        },
+                        {
+                            "id": 510,
+                            "text": "الوحدة الوطنية وتلاحم أبناء الوطن الواحد، وحزن الجدة ونسيان حفيدها لها"
+                        },
+                        {
+                            "id": 511,
+                            "text": "الابتهاج بقدوم رمضان، مغادرة الجدة للمدينة"
+                        },
+                        {
+                            "id": 512,
+                            "text": "المشاركة في الاحتفالات الرمضانية، مكانة الأبناء عند آبائهم"
+                        }
+                    ]
+                },
+                {
+                    "id": 129,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>   تُسبب\nبعض الفقرات الروائية الملل للقراء.. فما الذي يُسبب هذا الملل</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'>؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/KNDmGSG/1711836331-W8-Vm-V5.png",
+                    "answers": [
+                        {
+                            "id": 513,
+                            "text": "الإسهاب في لغة السرد؛ بمتابعة بعض الشخصيات أو الأشياء أو المناظر ووصفها وصفًا شاملًا دقيقًا"
+                        },
+                        {
+                            "id": 514,
+                            "text": "تقديم الرواية الحياة الكاملة لشخصية واحدة، أو عدة حيوات لشخوص متعددين، قد تتشابك أو تتوازى"
+                        },
+                        {
+                            "id": 515,
+                            "text": "امتداد الزمن إلى أن يصل عدة أعوام، وتعدد الأماكن التي تتحرك فيها الشخصيات، وتقع فيها الأحداث"
+                        },
+                        {
+                            "id": 516,
+                            "text": "التعبير اللغوي يكون في غاية الإيجاز، والوصف يكون في غاية التركيز، والفكرة تأتي مباشرة تقريرية"
+                        }
+                    ]
+                },
+                {
+                    "id": 130,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">في ضوء\nفهمك للموضوع استنتج سبب تسمية الكاتب (</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>نجيب محفوظ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>) بهذا\nالاسم</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'>:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/TPJ9jJR/1711836984-jf-Y5fc.png",
+                    "answers": [
+                        {
+                            "id": 517,
+                            "text": "تيمنًا وتبركًا بهذا الاسم الذي يصل إلى حد النجابة والحفظ من كل مكروه"
+                        },
+                        {
+                            "id": 518,
+                            "text": "سُمِّي بذا الاسم نسبة إلى جده من أبيه الذي عُرِف بهذا الاسم"
+                        },
+                        {
+                            "id": 519,
+                            "text": "تيمنًا بالدكتور نجيب محفوظ الذي أخرجه سالمًا للحياة عند ولادته"
+                        },
+                        {
+                            "id": 520,
+                            "text": "نسبةً لأحد أصدقاء أبيه، وكان معروفًا بالمكانة الاجتماعية العالية"
+                        }
+                    ]
+                },
+                {
+                    "id": 131,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ما الدلالة\nغير المباشرة في قول الكاتب: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ففي الدَّور الأوَّل مثلًا كانت\nهناك غرفةُ المسافرين التي كان مَن يأتون لزيارتنا من خارج القاهرة يبيتون فيها</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في\nالفِقْرة الثانية؟</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 521,
+                            "text": "طول فترة إقامة الوافدين من خارج القاهرة عند أقاربهم"
+                        },
+                        {
+                            "id": 522,
+                            "text": "الاهتمام بالضيوف وإكرامهم والعمل على راحتهم"
+                        },
+                        {
+                            "id": 523,
+                            "text": "تأجير الغرف الخالية للوافدين من خارج القاهرة"
+                        },
+                        {
+                            "id": 524,
+                            "text": "اتساع المسكن وكثرة غرفه الخالية في هذا العصر"
+                        }
+                    ]
+                },
+                {
+                    "id": 132,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بعد انتقال الكاتب مع أسرته للسكن في العباسية زار بيته\nالقديم مرتين، ثم توقَّف عن زيارته، فلماذا؟</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 525,
+                            "text": "لأنه هُدِم وأُقيم مكانه مقهى كبير"
+                        },
+                        {
+                            "id": 526,
+                            "text": "لأن الطريق إليه أصبح مزدحمًا وشاقًّا"
+                        },
+                        {
+                            "id": 527,
+                            "text": "لأنه هُدِم وأُقيمت مكانه عمارة قبيحة الشكل"
+                        },
+                        {
+                            "id": 528,
+                            "text": "لأن الحي الذي يقع فيه خلا من أصدقاء طفولته"
+                        }
+                    ]
+                },
+                {
+                    "id": 133,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> هات</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'> من النص ما يدل على تحالف\nأفراد الشعب بمختلِف طوائفه ضد الاستعمار ومقاومته:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/TPJ9jJR/1711836984-jf-Y5fc.png",
+                    "answers": [
+                        {
+                            "id": 529,
+                            "text": "طالما دارتْ فيه المعاركُ بين أفندية ورجال الأزهر الذين كانوا يقذفون الإنجليز بالحِجارة"
+                        },
+                        {
+                            "id": 530,
+                            "text": "وأذكُرُ أنَّنا كُنَّا نجري وراءَها حتى تخرُجَ مِنَ المَيْدانِ"
+                        },
+                        {
+                            "id": 531,
+                            "text": "والعسكر والخَيَّالة الإنجليز الذين كانوا يُطارِدونهم ويُطلِقون عليهم الرَّصاصَ"
+                        },
+                        {
+                            "id": 532,
+                            "text": "فيبدأ أهلونا في النداء علينا للعودةِ إلى البَيت"
+                        }
+                    ]
+                },
+                {
+                    "id": 134,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;mso-ansi-font-size:14.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">هات من\nالموضوع ما يدل على «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:\n20.0pt;mso-ansi-font-size:14.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Times New Roman\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>العناية بنظافة الشوارع والحرص على جمالها</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:14.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Times New Roman\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA'>»</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/TPJ9jJR/1711836984-jf-Y5fc.png",
+                    "answers": [
+                        {
+                            "id": 533,
+                            "text": "لم تكن هناك سيارات في ذلك الوقت تمر"
+                        },
+                        {
+                            "id": 534,
+                            "text": "وكانت تغطيها مشربيات جميلة"
+                        },
+                        {
+                            "id": 535,
+                            "text": "مرور عربة رش الماء التي يسحبها بغلان"
+                        },
+                        {
+                            "id": 536,
+                            "text": "كان في مواجهة قسم الشرطة  كانت لبيتنا شرفتان كبيرتان"
+                        }
+                    ]
+                },
+                {
+                    "id": 135,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nmso-ansi-font-size:14.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Times New Roman\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>توقع في ضوء فهمك للموضوع «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:14.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Times New Roman\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Times New Roman\";\ncolor:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA'>الحي الذي تعلق به الكاتب منذ الصغر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:14.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'>» هو:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/TPJ9jJR/1711836984-jf-Y5fc.png",
+                    "answers": [
+                        {
+                            "id": 537,
+                            "text": "حي العباسية"
+                        },
+                        {
+                            "id": 538,
+                            "text": "حي الأزهر"
+                        },
+                        {
+                            "id": 539,
+                            "text": "حي الحسين"
+                        },
+                        {
+                            "id": 540,
+                            "text": "درب الأتراك"
+                        }
+                    ]
+                },
+                {
+                    "id": 136,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- وازِنْ بين وصف «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>طه حسين</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>» لغرفته في الربع الذي كان يسكنه في حي الأزهر\nووصف «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'>نجيب محفوظ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA'>» لبَيتِه من حيث طريقة\nالعرض والأسلوب:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/30XFzSR/1711837450-Yi-P2-VN.png",
+                    "answers": [
+                        {
+                            "id": 541,
+                            "text": "اتفق الكاتبان في طريقة العرض؛ فآثَرَ كلٌّ منهما الإيجاز في الوصف وعدم العناية بالتفصيلات"
+                        },
+                        {
+                            "id": 542,
+                            "text": "اختلف الكاتبان في طريقة العرض؛ فمال طه حسين إلى الإطناب، ومال نجيب محفوظ إلى الإيجاز والاقتصاد في الوصف"
+                        },
+                        {
+                            "id": 543,
+                            "text": "اختلف الكاتبان في طريقة العرض؛ فاعتمد نجيب محفوظ في وصفه على الإطناب والعناية بالتفصيلات، واتسم أسلوب طه حسين بالإيجاز والاقتصاد في الوصف"
+                        },
+                        {
+                            "id": 544,
+                            "text": "اتفق الكاتبان في طريقة العرض؛ فمال كلٌّ منهما إلى العناية بالتفصيلات في وصف ما يسكن"
+                        }
+                    ]
+                },
+                {
+                    "id": 137,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">النموذج الذي اتبعه الكاتب في\nترتيب الفقرتين اللتين يتألف منهما المقال السابق:</span></span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/SVMFFRZ/1711837539-f9p-Wf6.png",
+                    "answers": [
+                        {
+                            "id": 545,
+                            "text": "مشكلة – حل"
+                        },
+                        {
+                            "id": 546,
+                            "text": "سبب – نتيجة"
+                        },
+                        {
+                            "id": 547,
+                            "text": "رأي – دليل"
+                        },
+                        {
+                            "id": 548,
+                            "text": "زعم – تفنيد"
+                        }
+                    ]
+                },
+                {
+                    "id": 138,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«الأب قدوة لأبنائه؛ فلا يأمرهم بالصلاة ولا يصلي، أو ينهاهم عن\nالتدخين وهو يدخن».<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA'></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA'>حدِّد التفصيلة التي لا غنى عنها لشرح الفكرة السابقة:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 549,
+                            "text": "المساواة داخل نطاق الأسرة أساس بلوغ بر الأمان، ولا يمكن أن تستقر الأسرة مع وجود تفاوت في المستوى الأخلاقي والسلوكي بين الأب وأبنائه"
+                        },
+                        {
+                            "id": 550,
+                            "text": "الصلاة من أهم الأعمال التي ينبغي على الأبناء ألا يتخلوا عنها أو يقصـروا فيها، وليس عليهم أن يتخذوا من تقصير الآباء مبررًا لهم في ذلك"
+                        },
+                        {
+                            "id": 551,
+                            "text": "هناك صعوبة كبيرة في قدوة الآباء فاقدي القدرة على تشكيل سلوك الأبناء التشكيل الأمثل، وقد يؤدي ذلك إلى خلافات أسرية حادة، ينحلّ فيها الرباط المتين بين الأب وبنيه"
+                        },
+                        {
+                            "id": 552,
+                            "text": "يستطيع الأبناء مخالفة أوامر الوالدين إذا لم يكن الأبوان قدوة لهؤلاء الأبناء، والتربية السليمة تقتضي أن يكون الأبوان النموذج والمثال الذي يحلم به الأبناء"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

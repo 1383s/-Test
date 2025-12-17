@@ -1,0 +1,791 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 1,
+                "title": "امتحان افتتاحي المحاضرة 24",
+                "lecture_id": 27,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:08:56.744036Z",
+                "updated_at": "2025-11-24T00:08:56.744036Z"
+            },
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'>ما الصورة الصحيحة عند خطاب المثنى المؤنث بهذه الجملة (</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:SimSun;\nmso-hansi-font-family:\"Times New Roman\";color:#058BA9;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'>أنت الأعلى شأنًا والأعظم\nخلقًا</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'>)؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/5hsK1R2/1707753374-a-Y0d-HR.png",
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "أنتما العليتان شأنًا والعظمتان خلقًا"
+                        },
+                        {
+                            "id": 2,
+                            "text": "أنتما الأعليا شأنًا والأعظمان خلقًا"
+                        },
+                        {
+                            "id": 3,
+                            "text": "أنتما العليوان شأنًا والعظميان خلقًا"
+                        },
+                        {
+                            "id": 4,
+                            "text": "أنتما العلييان شأنًا والعظميان خلقًا"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Times New Roman\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Times New Roman\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>حدِّد جملة الحال في البيت السابق:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/0Mhb6ZJ/1707753319-Qh-Xr-UO.png",
+                    "answers": [
+                        {
+                            "id": 5,
+                            "text": "أعاتب نفسي"
+                        },
+                        {
+                            "id": 6,
+                            "text": "وهو حزين"
+                        },
+                        {
+                            "id": 7,
+                            "text": "تبسمت خاليًا"
+                        },
+                        {
+                            "id": 8,
+                            "text": "وقد يضحك"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Times New Roman\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Times New Roman\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>المحل الإعرابي لما تحته خط في البيت السابق:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/nL2SXpm/1707753357-Owkq28.png",
+                    "answers": [
+                        {
+                            "id": 9,
+                            "text": "جملة فعلية في محل نصب نعت"
+                        },
+                        {
+                            "id": 10,
+                            "text": "جملة فعلية في محل جر مضاف إليه"
+                        },
+                        {
+                            "id": 11,
+                            "text": "جملة فعلية في محل رفع نعت"
+                        },
+                        {
+                            "id": 12,
+                            "text": "جملة فعلية في محل نصب حال"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> أقامني الصديق عندما تعثرت قدماي) </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Times New Roman\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Times New Roman\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>عند بناء الفعل «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Times New Roman\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Times New Roman\";\ncolor:#EC008C;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>أقام</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\n\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:\nSimSun;mso-hansi-font-family:\"Times New Roman\";color:#058BA9;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>» للمجهول نقول:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 13,
+                            "text": "أقامني عندما تعثرت قدماي"
+                        },
+                        {
+                            "id": 14,
+                            "text": "أُقيمَ عندما تعثرت قدماي"
+                        },
+                        {
+                            "id": 15,
+                            "text": "أقامَ عندما تعثرت قدماي"
+                        },
+                        {
+                            "id": 16,
+                            "text": "أُقِمْتُ عندما تعثرت قدماي"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>الإعراب الصحيح لما تحته خط </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Times New Roman\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Times New Roman\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>في البيت السابق</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Ws2LdpK/1707753456-ssj-Cwo.png",
+                    "answers": [
+                        {
+                            "id": 17,
+                            "text": "مستثنى منصوب وعلامة نصبه الفتحة"
+                        },
+                        {
+                            "id": 18,
+                            "text": "فاعل مرفوع وعلامة رفعه الضمة"
+                        },
+                        {
+                            "id": 19,
+                            "text": "مفعول به منصوب وعلامة نصبه الفتحة"
+                        },
+                        {
+                            "id": 20,
+                            "text": "مبتدأ مرفوع وعلامة رفعه الضمة"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«جلس الطفل </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>قعودًا</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'> وهو يشرب الماء» - «جلس الطفل </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>قاعدًا</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'> وهو يشرب\nالماء»</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;mso-ansi-font-size:\n11.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>.<br/></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>إعراب ما تحته خط على الترتيب: </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 21,
+                            "text": "مفعول به منصوب – مفعول به منصوب"
+                        },
+                        {
+                            "id": 22,
+                            "text": "تمييز منصوب – حال منصوبه"
+                        },
+                        {
+                            "id": 23,
+                            "text": "مفعول مطلق منصوب – نائب عن المفعول المطلق منصوب"
+                        },
+                        {
+                            "id": 24,
+                            "text": "نائب عن المفعول المطلق منصوب – حال منصوبة"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>أعجبني كلا الطالبين» </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>إعراب كلمة «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>كلا</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>»:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 25,
+                            "text": "مفعول به منصوب وعلامة نصبه الألف"
+                        },
+                        {
+                            "id": 26,
+                            "text": "توكيد معنوي منصوب بالفتحة المقدرة"
+                        },
+                        {
+                            "id": 27,
+                            "text": "توكيد معنوي مرفوع بالألف"
+                        },
+                        {
+                            "id": 28,
+                            "text": "فاعل مرفوع بالضمة المقدرة"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#FF6600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nmso-ansi-font-size:15pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG'>ليخلصْ كل منكم يا أبنائي </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;mso-ansi-font-size:15pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'>لِترقى</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;mso-ansi-font-size:15pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>\nالبلاد</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#FF6600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'>)</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> إعراب ما تحته خط</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 29,
+                            "text": "فعل مضارع منصوب وعلامة نصبه الفتحة الظاهرة"
+                        },
+                        {
+                            "id": 30,
+                            "text": "فعل مضارع منصوب بحذف النون"
+                        },
+                        {
+                            "id": 31,
+                            "text": "فعل مضارع منصوب وعلامة نصبه الفتحة المقدرة"
+                        },
+                        {
+                            "id": 32,
+                            "text": "فعل مضارع مرفوع بالضمة المقدرة"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>إعراب الفعل الذي تحته خط: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/924Zwff/1707753670-Oig-XQq.png",
+                    "answers": [
+                        {
+                            "id": 33,
+                            "text": "فعل مضارع مرفوع"
+                        },
+                        {
+                            "id": 34,
+                            "text": "فعل مضارع منصوب"
+                        },
+                        {
+                            "id": 35,
+                            "text": "فعل مضارع مجزوم"
+                        },
+                        {
+                            "id": 36,
+                            "text": "فعل مضارع مبني"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(ما قصرت </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'>فأندم</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'>)</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> إعراب ما تحته خط</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 37,
+                            "text": "فعل مضارع مرفوع بالضمة"
+                        },
+                        {
+                            "id": 38,
+                            "text": "فعل مضارع مجزوم بالسكون"
+                        },
+                        {
+                            "id": 39,
+                            "text": "فعل مضارع منصوب بالفتحة الظاهرة"
+                        },
+                        {
+                            "id": 40,
+                            "text": "فعل مضارع منصوب بالفتحة المقدرة"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>عليكم – قائدو السيارات- أن تحذرون أخطاء الآخرين) </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>تصويب\nالخطأ في العبارة السابقة</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>: </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 41,
+                            "text": "عليكم – قائدين السيارات – أن تحذروا أخطاء الآخرين"
+                        },
+                        {
+                            "id": 42,
+                            "text": "عليكم – قائدي السيارات – أن تحذروا أخطاء الآخرون"
+                        },
+                        {
+                            "id": 43,
+                            "text": "عليكم – قائدي السيارات – أن تحذروا أخطاء الآخرين"
+                        },
+                        {
+                            "id": 44,
+                            "text": "عليكم – قائدون السيارات – أن تحذروا أخطاء الآخرين"
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>إعراب ما تحته خط في البيت السابق: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/CtdYCzj/1707753973-YJKb-Ar.png",
+                    "answers": [
+                        {
+                            "id": 45,
+                            "text": "فعل مضارع منصوب بالفتحة"
+                        },
+                        {
+                            "id": 46,
+                            "text": "فعل مضارع مجزوم بحذف حرف العلة"
+                        },
+                        {
+                            "id": 47,
+                            "text": "فعل مضارع مجزوم بالسكون"
+                        },
+                        {
+                            "id": 48,
+                            "text": "فعل مضاع مجزوم بحذف النون"
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>أينما </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>تجتهدي</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'> في عملك </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>تنجحي</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>)</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> إعراب ما تحته خط</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 49,
+                            "text": "فعل مضارع مجزوم بالسكون - فعل مضارع مجزوم بحذف حرف العلة"
+                        },
+                        {
+                            "id": 50,
+                            "text": "فعل مضارع مجزوم بحذف حرف العلة - فعل مضارع مجزوم بالسكون"
+                        },
+                        {
+                            "id": 51,
+                            "text": "فعل مضارع مجزوم بحذف النون - فعل مضارع مجزوم بحذف النون"
+                        },
+                        {
+                            "id": 52,
+                            "text": "فعل مضارع مجزوم بحذف حرف العلة - فعل مضارع مجزوم بحذف النون"
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>تنأى عن الشر – يأتيك الخير)</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>عند ربط الجملتين بـ (أنَّى) نقول:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 53,
+                            "text": "أنَّى تنأ عن الشر يأتك الخير"
+                        },
+                        {
+                            "id": 54,
+                            "text": "أنَّى تنأ عن الشر يأتيك الخير"
+                        },
+                        {
+                            "id": 55,
+                            "text": "أنَّى تنأى عن الشر يأتك الخير"
+                        },
+                        {
+                            "id": 56,
+                            "text": "أنَّى تنأى عن الشر يأتيك الخير"
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>(تثابرين على القراءة – تألفينها وتسعدين بها)</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG'>عند ربط الجملتين بـ (</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG'>أيَّان</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG'>) نقول:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 57,
+                            "text": "أيان تُثابرين على القراءة تألفينها وتسعدين بها"
+                        },
+                        {
+                            "id": 58,
+                            "text": "أيان تُثابري على القراءة تألفيها وتسعدي بها"
+                        },
+                        {
+                            "id": 59,
+                            "text": "أيان تُثابرين على القراءة تألفيها وتسعدي بها"
+                        },
+                        {
+                            "id": 60,
+                            "text": "أيان تُثابري على القراءة تألفينها وتسعدي بها"
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>(سعيتم في الخير – نلتم الخير)</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>عند تحويل الماضيين إلى مضارعين في أسلوب الشرط نقول:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 61,
+                            "text": "إنْ تسعون في الخير تنالوا الخير"
+                        },
+                        {
+                            "id": 62,
+                            "text": "إنْ تسعوا في الخير تنالوا الخير"
+                        },
+                        {
+                            "id": 63,
+                            "text": "إنْ تسعوا في الخير تنالون الخير"
+                        },
+                        {
+                            "id": 64,
+                            "text": "إنْ تسعون في الخير تنالون الخير"
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>الذي دفع الشاعر أن يُطِلَّ على وطنه من بعيد هو: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Pmd04CS/1707754212-Ml-ZX4-T.png",
+                    "answers": [
+                        {
+                            "id": 65,
+                            "text": "الاعتراف بفضل الوطن، وإعلاء مكانته، وسمو منزلته"
+                        },
+                        {
+                            "id": 66,
+                            "text": "حنينه إلى أرض أجداده وأنوارها وبساتينها الزاهرة"
+                        },
+                        {
+                            "id": 67,
+                            "text": "الغربة وألم الفراق والتشرد في كل مكان في الأرض"
+                        },
+                        {
+                            "id": 68,
+                            "text": "إحساسه بالضياع في مهجره"
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  نستدل من قوله: (</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;\nmso-no-proof:yes'>غدًا ينتهي دورنا في النحيب</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>) على: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Pmd04CS/1707754212-Ml-ZX4-T.png",
+                    "answers": [
+                        {
+                            "id": 69,
+                            "text": "العودة للأوطان مرة أخرى، والعيش وسط الأهل"
+                        },
+                        {
+                            "id": 70,
+                            "text": "تحقيق الراحة والأمن والاطمئنان داخل الأوطان"
+                        },
+                        {
+                            "id": 71,
+                            "text": "أنه سوف ينتهي البكاء، ويحل الضحك والابتسام"
+                        },
+                        {
+                            "id": 72,
+                            "text": "أنه لن يكون سببًا في إيلام الآخرين وتحقيق الأذى لهم"
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>دلِّل من الأبيات على سبيل تحقق الحرية،\nونيلها؟</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\n\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>): </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Pmd04CS/1707754212-Ml-ZX4-T.png",
+                    "answers": [
+                        {
+                            "id": 73,
+                            "text": "ألا عودة بعد هذا التنائي"
+                        },
+                        {
+                            "id": 74,
+                            "text": "غدًا ينتهي دورنا في النحيب"
+                        },
+                        {
+                            "id": 75,
+                            "text": "بفتحٍ مبين ونصر قريب"
+                        },
+                        {
+                            "id": 76,
+                            "text": "أطل على وطني من بعيد"
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> ما الجمال في قوله: (</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>يَكحَلُ عينيك مرأى الحبيب</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\nSimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG;mso-no-proof:yes'>)؟ وما قيمته الفنية؟ </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Pmd04CS/1707754212-Ml-ZX4-T.png",
+                    "answers": [
+                        {
+                            "id": 77,
+                            "text": "استعارة مكنية، وتوحي بالسعادة الغامرة بسبب رؤية الأحباب"
+                        },
+                        {
+                            "id": 78,
+                            "text": "تشبيه بليغ، يؤكد جمال المرآة"
+                        },
+                        {
+                            "id": 79,
+                            "text": "مجاز مرسل، يثير العاطفة للمحبة والمودة"
+                        },
+                        {
+                            "id": 80,
+                            "text": "استعارة تصريحية، تؤكد جمال العين"
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>الأبيات تعكس سببًا من أسباب هجرة شعراء الشام\nإلى الأمريكيتين: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Pmd04CS/1707754212-Ml-ZX4-T.png",
+                    "answers": [
+                        {
+                            "id": 81,
+                            "text": "الاضطهاد السياسي"
+                        },
+                        {
+                            "id": 82,
+                            "text": "عامل الفقر والسعي وراء الرزق"
+                        },
+                        {
+                            "id": 83,
+                            "text": "الصراع الديني"
+                        },
+                        {
+                            "id": 84,
+                            "text": "التعرف على أماكن جديدة"
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>يُعبر\nالبيتان عن أحد مظاهر التجديد في مضمون القصيدة عند شعراء المهاجرين وهو</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"KFGQPC Uthman Taha Naskh\";\nmso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:SimSun;\nmso-hansi-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG'>:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/nfLvjnN/1707754514-ld-UHDA.png",
+                    "answers": [
+                        {
+                            "id": 85,
+                            "text": "استبطان النفس الإنسانية"
+                        },
+                        {
+                            "id": 86,
+                            "text": "التأمل في الكون"
+                        },
+                        {
+                            "id": 87,
+                            "text": "الحنين الجارف للأوطان"
+                        },
+                        {
+                            "id": 88,
+                            "text": "النزعة الروحية"
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>استنتج\nمن البيتين السابقين سمة من سمات التجديد في المضمون عند شعراء المهاجر:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/N76Gfss/1707754560-Ung-Xgy.png",
+                    "answers": [
+                        {
+                            "id": 89,
+                            "text": "الحنين لمواطن الذكريات"
+                        },
+                        {
+                            "id": 90,
+                            "text": "النزعة الروحية"
+                        },
+                        {
+                            "id": 91,
+                            "text": "الحنين الجارف للأوطان"
+                        },
+                        {
+                            "id": 92,
+                            "text": "الميل لاستبطان النفس الإنسانية"
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>البيتان\nيُعبِّران عن سمة من سمات التجديد في المضمون لشعر المهاجرين</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"KFGQPC Uthman Taha Naskh\";\nmso-ascii-font-family:Cambria;mso-fareast-font-family:SimSun;mso-hansi-font-family:\nCambria;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;\nmso-bidi-language:AR-EG'>:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/Vwy1knW/1707754602-p70t-KH.png",
+                    "answers": [
+                        {
+                            "id": 93,
+                            "text": "الحنين الجارف للأوطان"
+                        },
+                        {
+                            "id": 94,
+                            "text": "الامتزاج بالطبيعة ومناجاتها"
+                        },
+                        {
+                            "id": 95,
+                            "text": "استبطان النفس الإنسانية"
+                        },
+                        {
+                            "id": 96,
+                            "text": "الإسراف في استخدام اللغة العامية"
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:14.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#C00000;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>استنتج\nالسمة التي اتضحت في هذين البيتين من سمات المضمون لدى شعراء المهاجر:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/HgsP6DZ/1707759315-j3515-Y.jpg",
+                    "answers": [
+                        {
+                            "id": 97,
+                            "text": "الاتجاه إلى الطبيعة والامتزاج بها وجعلها حية متحركة في صورهم"
+                        },
+                        {
+                            "id": 98,
+                            "text": "النزعة الروحية نتيجة استغراقهم في التأمل مع الدعوة إلى المحبة"
+                        },
+                        {
+                            "id": 99,
+                            "text": "التامل في حقائق الكون والحياة، وفي الخير والشر، وفي الحياة والموت"
+                        },
+                        {
+                            "id": 100,
+                            "text": "النزوع إلى استبطان النفس الإنسانية والمشاركة الوجدانية لمن حولهم"
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-EG\">استنتج – مِمَّا يلي – الفكرة\nالرئيسة للفقرة الثانية:  </span></span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/WVfvHd9/1707754929-N6t-KDI.png",
+                    "answers": [
+                        {
+                            "id": 101,
+                            "text": "أهمية الكيمياء"
+                        },
+                        {
+                            "id": 102,
+                            "text": "فضل وجهود العرب في الكيمياء"
+                        },
+                        {
+                            "id": 103,
+                            "text": "أنواع الكيمياء"
+                        },
+                        {
+                            "id": 104,
+                            "text": "خطورة الكيمياء"
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>علاقة قوله: «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>هو العلم الذي يدرس المادة والتغيرات التي تطرأ عليها</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>»</span><b><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'> </span></b><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\n\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\nSimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>بما\nقبله في الفقرة الأولى: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/WVfvHd9/1707754929-N6t-KDI.png",
+                    "answers": [
+                        {
+                            "id": 105,
+                            "text": "تعليل"
+                        },
+                        {
+                            "id": 106,
+                            "text": "تفصيل"
+                        },
+                        {
+                            "id": 107,
+                            "text": "نتيجة"
+                        },
+                        {
+                            "id": 108,
+                            "text": "توضيح"
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "text": "<h4><p><span style='color: rgb(0, 112, 192); font-family: \"Hacen Eltaroute Text\"; font-size: 20pt;'>من خلال قراءتك\nللموضوع السابق، لماذا تَعْمِد الدول إلى التقليل من استخدام نترات الأمونيوم؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/WVfvHd9/1707754929-N6t-KDI.png",
+                    "answers": [
+                        {
+                            "id": 109,
+                            "text": "بسبب تأثيرها بشكل مباشر على صحة الإنسان"
+                        },
+                        {
+                            "id": 110,
+                            "text": "بسبب خطورة التعامل مع هذه المادة؛ حيث إنها تستخدم في صناعة المتفجرات"
+                        },
+                        {
+                            "id": 111,
+                            "text": "بسبب قلة إنتاجها في الدول وكثرة استهلاكها"
+                        },
+                        {
+                            "id": 112,
+                            "text": "بسبب كثرة استخدامها في تركيب الأسمدة؛ نظرًا لمحتواها العالي من النيتروجين"
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> استنتج سبب إطلاق اسم «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:\n20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>العلم المركزي</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>» على الكيمياء</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/WVfvHd9/1707754929-N6t-KDI.png",
+                    "answers": [
+                        {
+                            "id": 113,
+                            "text": "لأنها تساعد على دراسة الذرات والروابط التي تحدث بينها مكونة الجزيئات"
+                        },
+                        {
+                            "id": 114,
+                            "text": "لأنها تلعب دورًا مهمًا في الصناعات بمختلف أنواعها"
+                        },
+                        {
+                            "id": 115,
+                            "text": "بسبب دورها الرئيسي والجوهري في ربط العلوم الطبيعية ببعضها"
+                        },
+                        {
+                            "id": 116,
+                            "text": "بسبب دورها الرئيسي والجوهري في دراسة العلوم الإنسانية"
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  استنتج دلالة قول الكاتب: «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>حتى أن العرب سموا الكيمياء عامة بـ</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'> «صنعة جابر»:  </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/WVfvHd9/1707754929-N6t-KDI.png",
+                    "answers": [
+                        {
+                            "id": 117,
+                            "text": "بيان شهرة ابن حيان"
+                        },
+                        {
+                            "id": 118,
+                            "text": "إظهار تعمق ابن حيان في علم الكيمياء"
+                        },
+                        {
+                            "id": 119,
+                            "text": "بيان مدى ريادة ابن حيان لعلم الكيمياء"
+                        },
+                        {
+                            "id": 120,
+                            "text": "التعبير عن كثرة علم ابن حيان في الكيمياء"
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'>حدِّد – مِمَّا يلي – المقولة التي تدل على «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>أن الكيمياء هي الطريق الأهم للحصول على المعرفة</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>»</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG'>:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/WVfvHd9/1707754929-N6t-KDI.png",
+                    "answers": [
+                        {
+                            "id": 121,
+                            "text": "إنَّ واجب المشتغل في الكيمياء هو العمل وإجراء التجربة، وإنَّ المعرفة لا تحصل إلَّا بها"
+                        },
+                        {
+                            "id": 122,
+                            "text": "علمُ الكيمياء هو العلم الذي يدرسُ المادةَ والتغيرات التي تطرأ عليها"
+                        },
+                        {
+                            "id": 123,
+                            "text": "ولها تطبيقات أخرى في الطب والعلوم الأخـرى"
+                        },
+                        {
+                            "id": 124,
+                            "text": "مركَّبٌ كيميائيٌ يوجد في الشروط القياسية على شكل بلورات عديمة اللون"
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>استنتج\nدلالة عبارة (العلم بحر لا ساحل له) من خلال فهمك للفقرة السابقة.</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/ZJmZkcZ/1707755356-wb-IEo-T.png",
+                    "answers": [
+                        {
+                            "id": 125,
+                            "text": "لافائدة من بذل الوقت والجهد في الإحاطة بالعلم"
+                        },
+                        {
+                            "id": 126,
+                            "text": "مهما بذل الإنسان من جهد ووقت فلن يستطيع الإحاطة بالعلم كله"
+                        },
+                        {
+                            "id": 127,
+                            "text": "ضرورة بذل الجهد والوقت للإحاطة بالعلم كله"
+                        },
+                        {
+                            "id": 128,
+                            "text": "ضرورة السفر والتنقل للإحاطة بالعلم كله"
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-EG;mso-no-proof:yes'>النموذج الذي اتبعه الكاتب في عرض المقال السابق:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/4fNmxtg/1707755413-l-SFL1h.png",
+                    "answers": [
+                        {
+                            "id": 129,
+                            "text": "المشكلة - الحل"
+                        },
+                        {
+                            "id": 130,
+                            "text": "الرأي - الدليل"
+                        },
+                        {
+                            "id": 131,
+                            "text": "المقدمة - النتيجة"
+                        },
+                        {
+                            "id": 132,
+                            "text": "الظاهرة - التفسير"
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:SimSun;color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>حدّد\n- مِمَّا يلي – المعلومة الداعمة لتضمنها الشركة حملتها الترويجية لإقناع جمهور\nالعملاء بصدق مقولتها السابقة: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/MVbX7NW/1707755457-C7e-Wq3.png",
+                    "answers": [
+                        {
+                            "id": 133,
+                            "text": "بيان بعدد التجارب الناجحة لأفراد وصلوا إلى الوزن المثالي، واستمتاعهم بحياتهم"
+                        },
+                        {
+                            "id": 134,
+                            "text": "توزيع كتيب يتضمن أمثلة من البرامج الغذائية، والمنتجات الطبية لعلاج السمنة في المركز"
+                        },
+                        {
+                            "id": 135,
+                            "text": "قائمة بأسماء الأطباء والأخصائيين الغذائيين العاملين بالمركز وتخصصاتهم ودرجاتهم العلمية"
+                        },
+                        {
+                            "id": 136,
+                            "text": "تقرير عن المركز وما يتضمنه من أجهزة طبية، وأقسام التحاليل والأشعة وغرف عمليات"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

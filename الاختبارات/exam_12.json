@@ -1,0 +1,569 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 12,
+                "title": "امتحان متابعة المراجعة النهائية",
+                "lecture_id": 317,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:13:39.168913Z",
+                "updated_at": "2025-11-24T00:13:39.168913Z"
+            },
+            "questions": [
+                {
+                    "id": 326,
+                    "text": "1.\t……… horloge est très chère",
+                    "answers": [
+                        {
+                            "id": 1301,
+                            "text": "Ces"
+                        },
+                        {
+                            "id": 1302,
+                            "text": "Ce"
+                        },
+                        {
+                            "id": 1303,
+                            "text": "Cet"
+                        },
+                        {
+                            "id": 1304,
+                            "text": "Cette"
+                        }
+                    ]
+                },
+                {
+                    "id": 327,
+                    "text": "2.\tExcusez-moi, Il n'y a pas ………glace.",
+                    "answers": [
+                        {
+                            "id": 1305,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1306,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1307,
+                            "text": "du"
+                        },
+                        {
+                            "id": 1308,
+                            "text": "de la"
+                        }
+                    ]
+                },
+                {
+                    "id": 328,
+                    "text": "3.\tIl prend trop …………..poissons",
+                    "answers": [
+                        {
+                            "id": 1309,
+                            "text": "de la"
+                        },
+                        {
+                            "id": 1310,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1311,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1312,
+                            "text": "du"
+                        }
+                    ]
+                },
+                {
+                    "id": 329,
+                    "text": "4.\tJe n'aime pas prendre …….thé.",
+                    "answers": [
+                        {
+                            "id": 1313,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1314,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1315,
+                            "text": "le"
+                        },
+                        {
+                            "id": 1316,
+                            "text": "du"
+                        }
+                    ]
+                },
+                {
+                    "id": 330,
+                    "text": "5.\tTu joues …… foot balle",
+                    "answers": [
+                        {
+                            "id": 1317,
+                            "text": "le"
+                        },
+                        {
+                            "id": 1318,
+                            "text": "au"
+                        },
+                        {
+                            "id": 1319,
+                            "text": "du"
+                        },
+                        {
+                            "id": 1320,
+                            "text": "à la"
+                        }
+                    ]
+                },
+                {
+                    "id": 331,
+                    "text": "6.\tTu fais ……. foot balle",
+                    "answers": [
+                        {
+                            "id": 1321,
+                            "text": "à la"
+                        },
+                        {
+                            "id": 1322,
+                            "text": "le"
+                        },
+                        {
+                            "id": 1323,
+                            "text": "au"
+                        },
+                        {
+                            "id": 1324,
+                            "text": "du"
+                        }
+                    ]
+                },
+                {
+                    "id": 332,
+                    "text": "7.\tTu joues ……. piano.",
+                    "answers": [
+                        {
+                            "id": 1325,
+                            "text": "à la"
+                        },
+                        {
+                            "id": 1326,
+                            "text": "le"
+                        },
+                        {
+                            "id": 1327,
+                            "text": "au"
+                        },
+                        {
+                            "id": 1328,
+                            "text": "du"
+                        }
+                    ]
+                },
+                {
+                    "id": 333,
+                    "text": "8.\tSami et toi, Ecrivez …. devoirs.",
+                    "answers": [
+                        {
+                            "id": 1329,
+                            "text": "votre"
+                        },
+                        {
+                            "id": 1330,
+                            "text": "tes"
+                        },
+                        {
+                            "id": 1331,
+                            "text": "ses"
+                        },
+                        {
+                            "id": 1332,
+                            "text": "vos"
+                        }
+                    ]
+                },
+                {
+                    "id": 334,
+                    "text": "9.\tNous mangeons … çasse - croûte préférés",
+                    "answers": [
+                        {
+                            "id": 1333,
+                            "text": "votre"
+                        },
+                        {
+                            "id": 1334,
+                            "text": "notre"
+                        },
+                        {
+                            "id": 1335,
+                            "text": "vos"
+                        },
+                        {
+                            "id": 1336,
+                            "text": "nos"
+                        }
+                    ]
+                },
+                {
+                    "id": 335,
+                    "text": "10.\t……. yoga, c’est le sport préféré de Sami.",
+                    "answers": [
+                        {
+                            "id": 1337,
+                            "text": "Le"
+                        },
+                        {
+                            "id": 1338,
+                            "text": "La"
+                        },
+                        {
+                            "id": 1339,
+                            "text": "L’"
+                        },
+                        {
+                            "id": 1340,
+                            "text": "Les"
+                        }
+                    ]
+                },
+                {
+                    "id": 336,
+                    "text": "11.\tLe docteur travaIlle dans…….. hôpital.",
+                    "answers": [
+                        {
+                            "id": 1341,
+                            "text": "ces"
+                        },
+                        {
+                            "id": 1342,
+                            "text": "ce"
+                        },
+                        {
+                            "id": 1343,
+                            "text": "cet"
+                        },
+                        {
+                            "id": 1344,
+                            "text": "cette"
+                        }
+                    ]
+                },
+                {
+                    "id": 337,
+                    "text": "12.\tDonnez - moi …… çahiers",
+                    "answers": [
+                        {
+                            "id": 1345,
+                            "text": "vous"
+                        },
+                        {
+                            "id": 1346,
+                            "text": "tes"
+                        },
+                        {
+                            "id": 1347,
+                            "text": "votre"
+                        },
+                        {
+                            "id": 1348,
+                            "text": "vos"
+                        }
+                    ]
+                },
+                {
+                    "id": 338,
+                    "text": "13.\t…… élève est forte en arabe",
+                    "answers": [
+                        {
+                            "id": 1349,
+                            "text": "Ce"
+                        },
+                        {
+                            "id": 1350,
+                            "text": "cet"
+                        },
+                        {
+                            "id": 1351,
+                            "text": "Cette"
+                        },
+                        {
+                            "id": 1352,
+                            "text": "Ces"
+                        }
+                    ]
+                },
+                {
+                    "id": 339,
+                    "text": "14.\t……. est un petit garçon",
+                    "answers": [
+                        {
+                            "id": 1353,
+                            "text": "C’"
+                        },
+                        {
+                            "id": 1354,
+                            "text": "Cet"
+                        },
+                        {
+                            "id": 1355,
+                            "text": "Cette"
+                        },
+                        {
+                            "id": 1356,
+                            "text": "Ces"
+                        }
+                    ]
+                },
+                {
+                    "id": 340,
+                    "text": "15.\t…….. sont des questions difficIles.",
+                    "answers": [
+                        {
+                            "id": 1357,
+                            "text": "Ce"
+                        },
+                        {
+                            "id": 1358,
+                            "text": "Cette"
+                        },
+                        {
+                            "id": 1359,
+                            "text": "Ces"
+                        },
+                        {
+                            "id": 1360,
+                            "text": "Cet"
+                        }
+                    ]
+                },
+                {
+                    "id": 341,
+                    "text": "16.\t………homme est gentIl.",
+                    "answers": [
+                        {
+                            "id": 1361,
+                            "text": "C’"
+                        },
+                        {
+                            "id": 1362,
+                            "text": "Ce"
+                        },
+                        {
+                            "id": 1363,
+                            "text": "Cet"
+                        },
+                        {
+                            "id": 1364,
+                            "text": "Cette"
+                        }
+                    ]
+                },
+                {
+                    "id": 342,
+                    "text": "17.\tLes porte-clés sont à Jean ? Oui, Ce sont…porte-clés.",
+                    "answers": [
+                        {
+                            "id": 1365,
+                            "text": "leurs"
+                        },
+                        {
+                            "id": 1366,
+                            "text": "ses"
+                        },
+                        {
+                            "id": 1367,
+                            "text": "vos"
+                        },
+                        {
+                            "id": 1368,
+                            "text": "notre"
+                        }
+                    ]
+                },
+                {
+                    "id": 343,
+                    "text": "18.\tJ’ai …… problème aux maths.",
+                    "answers": [
+                        {
+                            "id": 1369,
+                            "text": "un"
+                        },
+                        {
+                            "id": 1370,
+                            "text": "une"
+                        },
+                        {
+                            "id": 1371,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1372,
+                            "text": "de"
+                        }
+                    ]
+                },
+                {
+                    "id": 344,
+                    "text": "19.\tMaman ! Je peux prendre …….manteau ?",
+                    "answers": [
+                        {
+                            "id": 1373,
+                            "text": "te"
+                        },
+                        {
+                            "id": 1374,
+                            "text": "votre"
+                        },
+                        {
+                            "id": 1375,
+                            "text": "ta"
+                        },
+                        {
+                            "id": 1376,
+                            "text": "tes"
+                        }
+                    ]
+                },
+                {
+                    "id": 345,
+                    "text": "20.\tMa mère n'achète pas …. sucre mais elle achète du thé.",
+                    "answers": [
+                        {
+                            "id": 1377,
+                            "text": "de la"
+                        },
+                        {
+                            "id": 1378,
+                            "text": "du"
+                        },
+                        {
+                            "id": 1379,
+                            "text": "de la"
+                        },
+                        {
+                            "id": 1380,
+                            "text": "de"
+                        }
+                    ]
+                },
+                {
+                    "id": 346,
+                    "text": "21.\tThérèse n'aime pas ………mayonnaise",
+                    "answers": [
+                        {
+                            "id": 1381,
+                            "text": "du"
+                        },
+                        {
+                            "id": 1382,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1383,
+                            "text": "la"
+                        },
+                        {
+                            "id": 1384,
+                            "text": "de la"
+                        }
+                    ]
+                },
+                {
+                    "id": 347,
+                    "text": "22.\tVous demandez à votre copain de décrire son voisin, Vous dites :",
+                    "answers": [
+                        {
+                            "id": 1385,
+                            "text": "ⓐ Mon voisin est sociable."
+                        },
+                        {
+                            "id": 1386,
+                            "text": "ⓒ Il a 16 ans"
+                        },
+                        {
+                            "id": 1387,
+                            "text": "ⓑ Il s'appelle Alain"
+                        },
+                        {
+                            "id": 1388,
+                            "text": "ⓓ Comment est ton voisin ?"
+                        }
+                    ]
+                },
+                {
+                    "id": 348,
+                    "text": "23.\tVous vous informez sur les nouvelles de votre ami, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1389,
+                            "text": "ⓐ Comment vas-tu ?"
+                        },
+                        {
+                            "id": 1390,
+                            "text": "ⓒ  Quel âge as-tu ?"
+                        },
+                        {
+                            "id": 1391,
+                            "text": "ⓑ Je vais bien, merci"
+                        },
+                        {
+                            "id": 1392,
+                            "text": "ⓓ   Quel est ton nom ?"
+                        }
+                    ]
+                },
+                {
+                    "id": 349,
+                    "text": "24.\tVous vous informez sur le çaractère d'une personne, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1393,
+                            "text": "ⓐ Quel est le çaractère de ton frère ?"
+                        },
+                        {
+                            "id": 1394,
+                            "text": "ⓒ Quel âge a ton père ?"
+                        },
+                        {
+                            "id": 1395,
+                            "text": "ⓑ Mon copain est timide"
+                        },
+                        {
+                            "id": 1396,
+                            "text": "ⓓ Comment va ton copain ?"
+                        }
+                    ]
+                },
+                {
+                    "id": 350,
+                    "text": "25.\tVous félicitez votre ami à l'ocçasion de son anniversaire, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1397,
+                            "text": "ⓐ Bon anniversaire !"
+                        },
+                        {
+                            "id": 1398,
+                            "text": "ⓒJe t'invite à mon anniversaire."
+                        },
+                        {
+                            "id": 1399,
+                            "text": "ⓑ C'est l'anniversaire de mon ami"
+                        },
+                        {
+                            "id": 1400,
+                            "text": "ⓓ  Ton anniversaire, c'est quand ?"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

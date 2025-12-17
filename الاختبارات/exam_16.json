@@ -1,0 +1,547 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 16,
+                "title": "متابعة مراجعة نهائية 6",
+                "lecture_id": 322,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:13:42.654179Z",
+                "updated_at": "2025-11-24T00:13:42.654179Z"
+            },
+            "questions": [
+                {
+                    "id": 431,
+                    "text": "1.\tVas-tu souvent à Paris ? Non, je ne vais……là",
+                    "answers": [
+                        {
+                            "id": 1721,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1722,
+                            "text": "pas"
+                        },
+                        {
+                            "id": 1723,
+                            "text": "jamais"
+                        },
+                        {
+                            "id": 1724,
+                            "text": "plus"
+                        }
+                    ]
+                },
+                {
+                    "id": 432,
+                    "text": "2.\tQui est absent ?   - ……ne absent.",
+                    "answers": [
+                        {
+                            "id": 1725,
+                            "text": "Rien"
+                        },
+                        {
+                            "id": 1726,
+                            "text": "Personne"
+                        },
+                        {
+                            "id": 1727,
+                            "text": "Jamais"
+                        },
+                        {
+                            "id": 1728,
+                            "text": "À personne"
+                        }
+                    ]
+                },
+                {
+                    "id": 433,
+                    "text": "3.\tQuelque chose s’est passé ?  - Non, ….n’est passé",
+                    "answers": [
+                        {
+                            "id": 1729,
+                            "text": "jamais"
+                        },
+                        {
+                            "id": 1730,
+                            "text": "personne"
+                        },
+                        {
+                            "id": 1731,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1732,
+                            "text": "plus"
+                        }
+                    ]
+                },
+                {
+                    "id": 434,
+                    "text": "4.\tIl est…….allé à Paris",
+                    "answers": [
+                        {
+                            "id": 1733,
+                            "text": "encore"
+                        },
+                        {
+                            "id": 1734,
+                            "text": "toujours"
+                        },
+                        {
+                            "id": 1735,
+                            "text": "déjà"
+                        },
+                        {
+                            "id": 1736,
+                            "text": "jamais"
+                        }
+                    ]
+                },
+                {
+                    "id": 435,
+                    "text": "5.\tTu as encore faim ? Non, je n'ai ……faim",
+                    "answers": [
+                        {
+                            "id": 1737,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1738,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1739,
+                            "text": "jamais"
+                        },
+                        {
+                            "id": 1740,
+                            "text": "pas encore"
+                        }
+                    ]
+                },
+                {
+                    "id": 436,
+                    "text": "6.\tIl ne faut pas perdre …. temps",
+                    "answers": [
+                        {
+                            "id": 1741,
+                            "text": "de la"
+                        },
+                        {
+                            "id": 1742,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1743,
+                            "text": "le"
+                        },
+                        {
+                            "id": 1744,
+                            "text": "des"
+                        }
+                    ]
+                },
+                {
+                    "id": 437,
+                    "text": "7.\tMoi, je ne fais ………de bruit.",
+                    "answers": [
+                        {
+                            "id": 1745,
+                            "text": "toujours"
+                        },
+                        {
+                            "id": 1746,
+                            "text": "personne"
+                        },
+                        {
+                            "id": 1747,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1748,
+                            "text": "jamais"
+                        }
+                    ]
+                },
+                {
+                    "id": 438,
+                    "text": "8.\tIl n'a pas fait……..\tbateau avec les copains.",
+                    "answers": [
+                        {
+                            "id": 1749,
+                            "text": "du"
+                        },
+                        {
+                            "id": 1750,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1751,
+                            "text": "de la"
+                        },
+                        {
+                            "id": 1752,
+                            "text": "des"
+                        }
+                    ]
+                },
+                {
+                    "id": 439,
+                    "text": "9.\tTu n'es pas prête ? -…..…,Je suis prête.",
+                    "answers": [
+                        {
+                            "id": 1753,
+                            "text": "Non"
+                        },
+                        {
+                            "id": 1754,
+                            "text": "Oui"
+                        },
+                        {
+                            "id": 1755,
+                            "text": "Si"
+                        },
+                        {
+                            "id": 1756,
+                            "text": "pas exactement"
+                        }
+                    ]
+                },
+                {
+                    "id": 440,
+                    "text": "10.\tTu fais quoi ?   - Je ne fais ....",
+                    "answers": [
+                        {
+                            "id": 1757,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1758,
+                            "text": "personne"
+                        },
+                        {
+                            "id": 1759,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1760,
+                            "text": "jamais"
+                        }
+                    ]
+                },
+                {
+                    "id": 441,
+                    "text": "11.\tMa sœur ne regarde ………..  à la TV.",
+                    "answers": [
+                        {
+                            "id": 1761,
+                            "text": "pas"
+                        },
+                        {
+                            "id": 1762,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1763,
+                            "text": "jamais"
+                        },
+                        {
+                            "id": 1764,
+                            "text": "encore"
+                        }
+                    ]
+                },
+                {
+                    "id": 442,
+                    "text": "12.\tVous faites du sport?   Oui, ………",
+                    "answers": [
+                        {
+                            "id": 1765,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1766,
+                            "text": "jamais"
+                        },
+                        {
+                            "id": 1767,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1768,
+                            "text": "un peu"
+                        }
+                    ]
+                },
+                {
+                    "id": 443,
+                    "text": "13.\tTu vois quelqu'un? Non, je ne vois ….",
+                    "answers": [
+                        {
+                            "id": 1769,
+                            "text": "pas"
+                        },
+                        {
+                            "id": 1770,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1771,
+                            "text": "personne"
+                        },
+                        {
+                            "id": 1772,
+                            "text": "jamais"
+                        }
+                    ]
+                },
+                {
+                    "id": 444,
+                    "text": "14.\tTu es déjà allé au Çaire ?Je ne suis … allé au Çaire",
+                    "answers": [
+                        {
+                            "id": 1773,
+                            "text": "pas"
+                        },
+                        {
+                            "id": 1774,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1775,
+                            "text": "pas encore"
+                        },
+                        {
+                            "id": 1776,
+                            "text": "jamais"
+                        }
+                    ]
+                },
+                {
+                    "id": 445,
+                    "text": "15.\tJe n'ai …………. d'argent.",
+                    "answers": [
+                        {
+                            "id": 1777,
+                            "text": "encore"
+                        },
+                        {
+                            "id": 1778,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1779,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1780,
+                            "text": "personne"
+                        }
+                    ]
+                },
+                {
+                    "id": 446,
+                    "text": "16.\tJe ne joue ……. à des jeux vidéo",
+                    "answers": [
+                        {
+                            "id": 1781,
+                            "text": "aussi"
+                        },
+                        {
+                            "id": 1782,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1783,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1784,
+                            "text": "personne"
+                        }
+                    ]
+                },
+                {
+                    "id": 447,
+                    "text": "18.\tMoi, je ne sais ………. monter à cheval",
+                    "answers": [
+                        {
+                            "id": 1785,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1786,
+                            "text": "pas"
+                        },
+                        {
+                            "id": 1787,
+                            "text": "à personne"
+                        },
+                        {
+                            "id": 1788,
+                            "text": "aussi"
+                        }
+                    ]
+                },
+                {
+                    "id": 448,
+                    "text": "19.\tJe n'ai pas fait …………….courses hier",
+                    "answers": [
+                        {
+                            "id": 1789,
+                            "text": "un"
+                        },
+                        {
+                            "id": 1790,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1791,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1792,
+                            "text": "du"
+                        }
+                    ]
+                },
+                {
+                    "id": 449,
+                    "text": "20.\tLes maths, je ne comprends …….. cette matière",
+                    "answers": [
+                        {
+                            "id": 1793,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1794,
+                            "text": "jamais"
+                        },
+                        {
+                            "id": 1795,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1796,
+                            "text": "parfois"
+                        }
+                    ]
+                },
+                {
+                    "id": 450,
+                    "text": "21.\tJe ne visite........ la Citadelle.",
+                    "answers": [
+                        {
+                            "id": 1797,
+                            "text": "toujours"
+                        },
+                        {
+                            "id": 1798,
+                            "text": "rien"
+                        },
+                        {
+                            "id": 1799,
+                            "text": "pas"
+                        },
+                        {
+                            "id": 1800,
+                            "text": "encore"
+                        }
+                    ]
+                },
+                {
+                    "id": 451,
+                    "text": "22.\tLe vendeur te demande le parfum préféré de la glace, Il dit :",
+                    "answers": [
+                        {
+                            "id": 1801,
+                            "text": "Va au rayon des produits laitiers !"
+                        },
+                        {
+                            "id": 1802,
+                            "text": "Je voudrais une glace à la fraise."
+                        },
+                        {
+                            "id": 1803,
+                            "text": "A quoi préférez-vous votre glace ?"
+                        },
+                        {
+                            "id": 1804,
+                            "text": "Vous voulez combien de glaces ?"
+                        }
+                    ]
+                },
+                {
+                    "id": 452,
+                    "text": "23.\tAu supermarché, le vendeur vous demande ce que vous voulez, Il dit",
+                    "answers": [
+                        {
+                            "id": 1805,
+                            "text": "Qu’est-ce que tu aimes être ?"
+                        },
+                        {
+                            "id": 1806,
+                            "text": "Vous voulez quoi, monsieur?"
+                        },
+                        {
+                            "id": 1807,
+                            "text": "Je voudrais du pain et de la confiture."
+                        },
+                        {
+                            "id": 1808,
+                            "text": "Apportez-moi des pates"
+                        }
+                    ]
+                },
+                {
+                    "id": 453,
+                    "text": "24.\tAu supermarché, vous voulez du soda, le vendeur vous dites",
+                    "answers": [
+                        {
+                            "id": 1809,
+                            "text": "TJ'aime le soda"
+                        },
+                        {
+                            "id": 1810,
+                            "text": "Je veux acheter du soda, S.V.P"
+                        },
+                        {
+                            "id": 1811,
+                            "text": "Allez au rayon des boissons."
+                        },
+                        {
+                            "id": 1812,
+                            "text": "Pardon, nous n'en avons pas."
+                        }
+                    ]
+                },
+                {
+                    "id": 454,
+                    "text": "25.\tVous achetez une livre de fromage, vous dites",
+                    "answers": [
+                        {
+                            "id": 1813,
+                            "text": "J'achète une livre de lait."
+                        },
+                        {
+                            "id": 1814,
+                            "text": "J'achète 1000 grammes de fromage."
+                        },
+                        {
+                            "id": 1815,
+                            "text": "J'achète 453 grarnmes de fromage"
+                        },
+                        {
+                            "id": 1816,
+                            "text": "J'achète 100 grammes de fromage."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

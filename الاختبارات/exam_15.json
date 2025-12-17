@@ -1,0 +1,569 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 15,
+                "title": "متابعة مراجعة نهائية 4",
+                "lecture_id": 320,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:13:41.534343Z",
+                "updated_at": "2025-11-24T00:13:41.534343Z"
+            },
+            "questions": [
+                {
+                    "id": 406,
+                    "text": "1.\tJe vais aller au club………………..une demi-heure",
+                    "answers": [
+                        {
+                            "id": 1621,
+                            "text": "dans"
+                        },
+                        {
+                            "id": 1622,
+                            "text": "Il y a"
+                        },
+                        {
+                            "id": 1623,
+                            "text": "depuis"
+                        },
+                        {
+                            "id": 1624,
+                            "text": "demain"
+                        }
+                    ]
+                },
+                {
+                    "id": 407,
+                    "text": "2.\tChaque samedi, Ils…………une promenade.",
+                    "answers": [
+                        {
+                            "id": 1625,
+                            "text": "vont faire"
+                        },
+                        {
+                            "id": 1626,
+                            "text": "font"
+                        },
+                        {
+                            "id": 1627,
+                            "text": "ont fait"
+                        },
+                        {
+                            "id": 1628,
+                            "text": "viennent"
+                        }
+                    ]
+                },
+                {
+                    "id": 408,
+                    "text": "3.\tMa sœur………………contente.",
+                    "answers": [
+                        {
+                            "id": 1629,
+                            "text": "suis"
+                        },
+                        {
+                            "id": 1630,
+                            "text": "a"
+                        },
+                        {
+                            "id": 1631,
+                            "text": "est"
+                        },
+                        {
+                            "id": 1632,
+                            "text": "va"
+                        }
+                    ]
+                },
+                {
+                    "id": 409,
+                    "text": "4.\tJ'ai……………faim.",
+                    "answers": [
+                        {
+                            "id": 1633,
+                            "text": "beaucoup"
+                        },
+                        {
+                            "id": 1634,
+                            "text": "un petit"
+                        },
+                        {
+                            "id": 1635,
+                            "text": "une petite"
+                        },
+                        {
+                            "id": 1636,
+                            "text": "petit"
+                        }
+                    ]
+                },
+                {
+                    "id": 410,
+                    "text": "5.\tJ'ai soif, je veux …….",
+                    "answers": [
+                        {
+                            "id": 1637,
+                            "text": "boivent"
+                        },
+                        {
+                            "id": 1638,
+                            "text": "boire"
+                        },
+                        {
+                            "id": 1639,
+                            "text": "bois"
+                        },
+                        {
+                            "id": 1640,
+                            "text": "boit"
+                        }
+                    ]
+                },
+                {
+                    "id": 411,
+                    "text": "6.\tÇa te……. ? - Oui, c'est joli.",
+                    "answers": [
+                        {
+                            "id": 1641,
+                            "text": "vais"
+                        },
+                        {
+                            "id": 1642,
+                            "text": "vas"
+                        },
+                        {
+                            "id": 1643,
+                            "text": "va"
+                        },
+                        {
+                            "id": 1644,
+                            "text": "aller"
+                        }
+                    ]
+                },
+                {
+                    "id": 412,
+                    "text": "7.\t............avec nos cousins.",
+                    "answers": [
+                        {
+                            "id": 1645,
+                            "text": "Sors"
+                        },
+                        {
+                            "id": 1646,
+                            "text": "Sortons"
+                        },
+                        {
+                            "id": 1647,
+                            "text": "Sortez"
+                        },
+                        {
+                            "id": 1648,
+                            "text": "mange"
+                        }
+                    ]
+                },
+                {
+                    "id": 413,
+                    "text": "8.\t..................à ton lycée.",
+                    "answers": [
+                        {
+                            "id": 1649,
+                            "text": "Vas"
+                        },
+                        {
+                            "id": 1650,
+                            "text": "Va"
+                        },
+                        {
+                            "id": 1651,
+                            "text": "Allez"
+                        },
+                        {
+                            "id": 1652,
+                            "text": "mange"
+                        }
+                    ]
+                },
+                {
+                    "id": 414,
+                    "text": "9.\t……….  une lettre à ton père.",
+                    "answers": [
+                        {
+                            "id": 1653,
+                            "text": "Ecris"
+                        },
+                        {
+                            "id": 1654,
+                            "text": "Ecrivez"
+                        },
+                        {
+                            "id": 1655,
+                            "text": "Ecrit"
+                        },
+                        {
+                            "id": 1656,
+                            "text": "Ecrire"
+                        }
+                    ]
+                },
+                {
+                    "id": 415,
+                    "text": "10.\tBientôt, tu vas ....... promener avec les copains ?",
+                    "answers": [
+                        {
+                            "id": 1657,
+                            "text": "se"
+                        },
+                        {
+                            "id": 1658,
+                            "text": "te"
+                        },
+                        {
+                            "id": 1659,
+                            "text": "me"
+                        },
+                        {
+                            "id": 1660,
+                            "text": "vous"
+                        }
+                    ]
+                },
+                {
+                    "id": 416,
+                    "text": "11.\tAlain nous ……. de Rome.",
+                    "answers": [
+                        {
+                            "id": 1661,
+                            "text": "écrire"
+                        },
+                        {
+                            "id": 1662,
+                            "text": "écrivons"
+                        },
+                        {
+                            "id": 1663,
+                            "text": "écrit"
+                        },
+                        {
+                            "id": 1664,
+                            "text": "écris"
+                        }
+                    ]
+                },
+                {
+                    "id": 417,
+                    "text": "12.\tAli, ………-moi devant le club !",
+                    "answers": [
+                        {
+                            "id": 1665,
+                            "text": "attendre"
+                        },
+                        {
+                            "id": 1666,
+                            "text": "attends"
+                        },
+                        {
+                            "id": 1667,
+                            "text": "attend"
+                        },
+                        {
+                            "id": 1668,
+                            "text": "attendons"
+                        }
+                    ]
+                },
+                {
+                    "id": 418,
+                    "text": "13.\tL'entraineur dit aux joueurs :…… bien avant le match!",
+                    "answers": [
+                        {
+                            "id": 1669,
+                            "text": "entraine-toi"
+                        },
+                        {
+                            "id": 1670,
+                            "text": "entrainez-vous"
+                        },
+                        {
+                            "id": 1671,
+                            "text": "vous entrainez"
+                        },
+                        {
+                            "id": 1672,
+                            "text": "s’entrainer"
+                        }
+                    ]
+                },
+                {
+                    "id": 419,
+                    "text": "14.\tVous …………. tristes ?",
+                    "answers": [
+                        {
+                            "id": 1673,
+                            "text": "faites"
+                        },
+                        {
+                            "id": 1674,
+                            "text": "êtes"
+                        },
+                        {
+                            "id": 1675,
+                            "text": "allez"
+                        },
+                        {
+                            "id": 1676,
+                            "text": "avez"
+                        }
+                    ]
+                },
+                {
+                    "id": 420,
+                    "text": "15.\tNe ............. pas tôt avant ton frère",
+                    "answers": [
+                        {
+                            "id": 1677,
+                            "text": "Lève-toi"
+                        },
+                        {
+                            "id": 1678,
+                            "text": "Levez-vous"
+                        },
+                        {
+                            "id": 1679,
+                            "text": "Levons-nous"
+                        },
+                        {
+                            "id": 1680,
+                            "text": "te lève"
+                        }
+                    ]
+                },
+                {
+                    "id": 421,
+                    "text": "16.\tAdam……………soif.",
+                    "answers": [
+                        {
+                            "id": 1681,
+                            "text": "a"
+                        },
+                        {
+                            "id": 1682,
+                            "text": "as"
+                        },
+                        {
+                            "id": 1683,
+                            "text": "est"
+                        },
+                        {
+                            "id": 1684,
+                            "text": "va"
+                        }
+                    ]
+                },
+                {
+                    "id": 422,
+                    "text": "17.\tMartin, ..............le ballon",
+                    "answers": [
+                        {
+                            "id": 1685,
+                            "text": "prends"
+                        },
+                        {
+                            "id": 1686,
+                            "text": "prenez"
+                        },
+                        {
+                            "id": 1687,
+                            "text": "prend"
+                        },
+                        {
+                            "id": 1688,
+                            "text": "mange"
+                        }
+                    ]
+                },
+                {
+                    "id": 423,
+                    "text": "18.\tElle dit à ses enfants : Ne........pas des bêtises",
+                    "answers": [
+                        {
+                            "id": 1689,
+                            "text": "fais"
+                        },
+                        {
+                            "id": 1690,
+                            "text": "faites"
+                        },
+                        {
+                            "id": 1691,
+                            "text": "faisons"
+                        },
+                        {
+                            "id": 1692,
+                            "text": "fait"
+                        }
+                    ]
+                },
+                {
+                    "id": 424,
+                    "text": "19.\tIls………………fatigués.",
+                    "answers": [
+                        {
+                            "id": 1693,
+                            "text": "ont"
+                        },
+                        {
+                            "id": 1694,
+                            "text": "sont"
+                        },
+                        {
+                            "id": 1695,
+                            "text": "font"
+                        },
+                        {
+                            "id": 1696,
+                            "text": "vont"
+                        }
+                    ]
+                },
+                {
+                    "id": 425,
+                    "text": "20.\tMonsieur, ............ votre nom sur la fiche.",
+                    "answers": [
+                        {
+                            "id": 1697,
+                            "text": "écrire"
+                        },
+                        {
+                            "id": 1698,
+                            "text": "écrit"
+                        },
+                        {
+                            "id": 1699,
+                            "text": "écrivez"
+                        },
+                        {
+                            "id": 1700,
+                            "text": "écris"
+                        }
+                    ]
+                },
+                {
+                    "id": 426,
+                    "text": "21.\tVous n'aimez pas la tenue d'un copain, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1701,
+                            "text": " Il porte à la mode"
+                        },
+                        {
+                            "id": 1702,
+                            "text": " Elles sont très jolies"
+                        },
+                        {
+                            "id": 1703,
+                            "text": "ⓑ C’est horrible ta veste !"
+                        },
+                        {
+                            "id": 1704,
+                            "text": "Il met une jolie veste."
+                        }
+                    ]
+                },
+                {
+                    "id": 427,
+                    "text": "22.\tLa mère refuse que sa fille porte un vêtement ; la mère dit : ?",
+                    "answers": [
+                        {
+                            "id": 1705,
+                            "text": " Je porte un short"
+                        },
+                        {
+                            "id": 1706,
+                            "text": " C’est joli"
+                        },
+                        {
+                            "id": 1707,
+                            "text": "ⓑ C'est trop joli"
+                        },
+                        {
+                            "id": 1708,
+                            "text": "C'est démodé."
+                        }
+                    ]
+                },
+                {
+                    "id": 428,
+                    "text": "23.\tVous demandez à votre père la permission de sortir, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1709,
+                            "text": " C’est possible de sortir papa !"
+                        },
+                        {
+                            "id": 1710,
+                            "text": " Je ne peux pas marcher"
+                        },
+                        {
+                            "id": 1711,
+                            "text": "Je ne peux pas sortir"
+                        },
+                        {
+                            "id": 1712,
+                            "text": "Je peux rester à la maison"
+                        }
+                    ]
+                },
+                {
+                    "id": 429,
+                    "text": "24.\tVous demandez à votre frère de se lever tôt, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1713,
+                            "text": " Lève-toi tôt !"
+                        },
+                        {
+                            "id": 1714,
+                            "text": " Lave-toi les dents après les repas !"
+                        },
+                        {
+                            "id": 1715,
+                            "text": "Ne te couche pas tard !"
+                        },
+                        {
+                            "id": 1716,
+                            "text": "Ne te couche pas tôt"
+                        }
+                    ]
+                },
+                {
+                    "id": 430,
+                    "text": "25.\tVous conseillez un ami pour être en forme, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1717,
+                            "text": " Mange beaucoup !"
+                        },
+                        {
+                            "id": 1718,
+                            "text": " Révise bien tes leçons !"
+                        },
+                        {
+                            "id": 1719,
+                            "text": "Fais du sport régulièrement !"
+                        },
+                        {
+                            "id": 1720,
+                            "text": "va à la cuisine"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

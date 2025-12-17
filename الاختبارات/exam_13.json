@@ -1,0 +1,679 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 13,
+                "title": "كويز المحاضرة 3",
+                "lecture_id": 318,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:13:40.07896Z",
+                "updated_at": "2025-11-24T00:13:40.07896Z"
+            },
+            "questions": [
+                {
+                    "id": 351,
+                    "text": "1-\tEn hiver, les montagnes sont en ………",
+                    "answers": [
+                        {
+                            "id": 1401,
+                            "text": "blanche"
+                        },
+                        {
+                            "id": 1402,
+                            "text": "blanc"
+                        },
+                        {
+                            "id": 1403,
+                            "text": "blancs"
+                        },
+                        {
+                            "id": 1404,
+                            "text": "blanches"
+                        }
+                    ]
+                },
+                {
+                    "id": 352,
+                    "text": "2-\tMaha aime les pates ………….",
+                    "answers": [
+                        {
+                            "id": 1405,
+                            "text": "frais"
+                        },
+                        {
+                            "id": 1406,
+                            "text": "délicieuses"
+                        },
+                        {
+                            "id": 1407,
+                            "text": "délicieux"
+                        },
+                        {
+                            "id": 1408,
+                            "text": "délicieuse"
+                        }
+                    ]
+                },
+                {
+                    "id": 353,
+                    "text": "3-\tLes élèves de cette classe sont ……",
+                    "answers": [
+                        {
+                            "id": 1409,
+                            "text": "bavard"
+                        },
+                        {
+                            "id": 1410,
+                            "text": "bavards"
+                        },
+                        {
+                            "id": 1411,
+                            "text": "sociable"
+                        },
+                        {
+                            "id": 1412,
+                            "text": "sympa"
+                        }
+                    ]
+                },
+                {
+                    "id": 354,
+                    "text": "4-\tLes bottes, c'est plus……que les baskets",
+                    "answers": [
+                        {
+                            "id": 1413,
+                            "text": "chère"
+                        },
+                        {
+                            "id": 1414,
+                            "text": "chers"
+                        },
+                        {
+                            "id": 1415,
+                            "text": "cher"
+                        },
+                        {
+                            "id": 1416,
+                            "text": "chères"
+                        }
+                    ]
+                },
+                {
+                    "id": 355,
+                    "text": "5-\tElle achète……robes que sa Sœur",
+                    "answers": [
+                        {
+                            "id": 1417,
+                            "text": "autant que"
+                        },
+                        {
+                            "id": 1418,
+                            "text": "aussi"
+                        },
+                        {
+                            "id": 1419,
+                            "text": "autant de"
+                        },
+                        {
+                            "id": 1420,
+                            "text": "peu de"
+                        }
+                    ]
+                },
+                {
+                    "id": 356,
+                    "text": "6-\tAlain joue………au tennis que Daniel.",
+                    "answers": [
+                        {
+                            "id": 1421,
+                            "text": "meIlleur"
+                        },
+                        {
+                            "id": 1422,
+                            "text": "bien"
+                        },
+                        {
+                            "id": 1423,
+                            "text": "mieux"
+                        },
+                        {
+                            "id": 1424,
+                            "text": "bon"
+                        }
+                    ]
+                },
+                {
+                    "id": 357,
+                    "text": "7-\tCe sont de ……équipes.",
+                    "answers": [
+                        {
+                            "id": 1425,
+                            "text": "bon"
+                        },
+                        {
+                            "id": 1426,
+                            "text": "bons"
+                        },
+                        {
+                            "id": 1427,
+                            "text": "bonnes"
+                        },
+                        {
+                            "id": 1428,
+                            "text": "bonne"
+                        }
+                    ]
+                },
+                {
+                    "id": 358,
+                    "text": "8-\tYoussef doit descendre à la …station.",
+                    "answers": [
+                        {
+                            "id": 1429,
+                            "text": "prochain"
+                        },
+                        {
+                            "id": 1430,
+                            "text": "prochaine"
+                        },
+                        {
+                            "id": 1431,
+                            "text": "prochains"
+                        },
+                        {
+                            "id": 1432,
+                            "text": "prochains"
+                        }
+                    ]
+                },
+                {
+                    "id": 359,
+                    "text": "9-\tMervat aime les légumes …………",
+                    "answers": [
+                        {
+                            "id": 1433,
+                            "text": "frais"
+                        },
+                        {
+                            "id": 1434,
+                            "text": "fraîche"
+                        },
+                        {
+                            "id": 1435,
+                            "text": "fraîches"
+                        },
+                        {
+                            "id": 1436,
+                            "text": "surgelées"
+                        }
+                    ]
+                },
+                {
+                    "id": 360,
+                    "text": "10-\tMes amis aiment les fêtes …………",
+                    "answers": [
+                        {
+                            "id": 1437,
+                            "text": "déguisés"
+                        },
+                        {
+                            "id": 1438,
+                            "text": "déguisées"
+                        },
+                        {
+                            "id": 1439,
+                            "text": "déguisée"
+                        },
+                        {
+                            "id": 1440,
+                            "text": "déguise"
+                        }
+                    ]
+                },
+                {
+                    "id": 361,
+                    "text": "11-\tJe mange……Jean",
+                    "answers": [
+                        {
+                            "id": 1441,
+                            "text": "aussi"
+                        },
+                        {
+                            "id": 1442,
+                            "text": "plus de"
+                        },
+                        {
+                            "id": 1443,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1444,
+                            "text": "plus que"
+                        }
+                    ]
+                },
+                {
+                    "id": 362,
+                    "text": "12-\tJulien est…… faible en maths que Daniel",
+                    "answers": [
+                        {
+                            "id": 1445,
+                            "text": "un peu de"
+                        },
+                        {
+                            "id": 1446,
+                            "text": "plus de"
+                        },
+                        {
+                            "id": 1447,
+                            "text": "plus que"
+                        },
+                        {
+                            "id": 1448,
+                            "text": "plus"
+                        }
+                    ]
+                },
+                {
+                    "id": 363,
+                    "text": "13-\tJulie étudie ……… ses copines.",
+                    "answers": [
+                        {
+                            "id": 1449,
+                            "text": "aussi"
+                        },
+                        {
+                            "id": 1450,
+                            "text": "moins"
+                        },
+                        {
+                            "id": 1451,
+                            "text": "moins de"
+                        },
+                        {
+                            "id": 1452,
+                            "text": "moins que"
+                        }
+                    ]
+                },
+                {
+                    "id": 364,
+                    "text": "14-\tIl travaille………………….moi.",
+                    "answers": [
+                        {
+                            "id": 1453,
+                            "text": "très"
+                        },
+                        {
+                            "id": 1454,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1455,
+                            "text": "autant que"
+                        },
+                        {
+                            "id": 1456,
+                            "text": "que"
+                        }
+                    ]
+                },
+                {
+                    "id": 365,
+                    "text": "15-\tLa robe est nulle, c'est …… !",
+                    "answers": [
+                        {
+                            "id": 1457,
+                            "text": "démodées"
+                        },
+                        {
+                            "id": 1458,
+                            "text": "démodé"
+                        },
+                        {
+                            "id": 1459,
+                            "text": "démodés"
+                        },
+                        {
+                            "id": 1460,
+                            "text": "démodée"
+                        }
+                    ]
+                },
+                {
+                    "id": 366,
+                    "text": "16-\tL'esçalade est un sport……",
+                    "answers": [
+                        {
+                            "id": 1461,
+                            "text": "violent"
+                        },
+                        {
+                            "id": 1462,
+                            "text": "violente"
+                        },
+                        {
+                            "id": 1463,
+                            "text": "violents"
+                        },
+                        {
+                            "id": 1464,
+                            "text": "violentes"
+                        }
+                    ]
+                },
+                {
+                    "id": 367,
+                    "text": "17-\tLa serviette est ……… des équipements sportifs",
+                    "answers": [
+                        {
+                            "id": 1465,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1466,
+                            "text": "un"
+                        },
+                        {
+                            "id": 1467,
+                            "text": "une"
+                        },
+                        {
+                            "id": 1468,
+                            "text": "des"
+                        }
+                    ]
+                },
+                {
+                    "id": 368,
+                    "text": "18-\tMon entraîneuse est………",
+                    "answers": [
+                        {
+                            "id": 1469,
+                            "text": "bel"
+                        },
+                        {
+                            "id": 1470,
+                            "text": "sympa"
+                        },
+                        {
+                            "id": 1471,
+                            "text": "patient"
+                        },
+                        {
+                            "id": 1472,
+                            "text": "ovale"
+                        }
+                    ]
+                },
+                {
+                    "id": 369,
+                    "text": "19-\tVous préparez autant de pizzas que … crêpes?",
+                    "answers": [
+                        {
+                            "id": 1473,
+                            "text": "les"
+                        },
+                        {
+                            "id": 1474,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1475,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1476,
+                            "text": "du"
+                        }
+                    ]
+                },
+                {
+                    "id": 370,
+                    "text": "20-\tElle a acheté des chaussures……..",
+                    "answers": [
+                        {
+                            "id": 1477,
+                            "text": "marron"
+                        },
+                        {
+                            "id": 1478,
+                            "text": "noirs"
+                        },
+                        {
+                            "id": 1479,
+                            "text": "brune"
+                        },
+                        {
+                            "id": 1480,
+                            "text": "gris"
+                        }
+                    ]
+                },
+                {
+                    "id": 371,
+                    "text": "21-\tBravo ! Tu as pris de…………. photos.",
+                    "answers": [
+                        {
+                            "id": 1481,
+                            "text": "beaux"
+                        },
+                        {
+                            "id": 1482,
+                            "text": "belle"
+                        },
+                        {
+                            "id": 1483,
+                            "text": "belles"
+                        },
+                        {
+                            "id": 1484,
+                            "text": "beau"
+                        }
+                    ]
+                },
+                {
+                    "id": 372,
+                    "text": "22-\tLes bottes sont plus ……que les bottines.",
+                    "answers": [
+                        {
+                            "id": 1485,
+                            "text": "longs"
+                        },
+                        {
+                            "id": 1486,
+                            "text": "courts"
+                        },
+                        {
+                            "id": 1487,
+                            "text": "sympas"
+                        },
+                        {
+                            "id": 1488,
+                            "text": "bonnes"
+                        }
+                    ]
+                },
+                {
+                    "id": 373,
+                    "text": "23-\tLe chocolat est …. sucré.",
+                    "answers": [
+                        {
+                            "id": 1489,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1490,
+                            "text": "plus de"
+                        },
+                        {
+                            "id": 1491,
+                            "text": "plus que"
+                        },
+                        {
+                            "id": 1492,
+                            "text": "très"
+                        }
+                    ]
+                },
+                {
+                    "id": 374,
+                    "text": "24-\tLe rose est ……",
+                    "answers": [
+                        {
+                            "id": 1493,
+                            "text": "une fleur"
+                        },
+                        {
+                            "id": 1494,
+                            "text": "une couleur"
+                        },
+                        {
+                            "id": 1495,
+                            "text": "un animal"
+                        },
+                        {
+                            "id": 1496,
+                            "text": "un insecte"
+                        }
+                    ]
+                },
+                {
+                    "id": 375,
+                    "text": "25-\tMadame, vous êtes ……?",
+                    "answers": [
+                        {
+                            "id": 1497,
+                            "text": "sportives"
+                        },
+                        {
+                            "id": 1498,
+                            "text": "sportif"
+                        },
+                        {
+                            "id": 1499,
+                            "text": "sportive"
+                        },
+                        {
+                            "id": 1500,
+                            "text": "sportifs"
+                        }
+                    ]
+                },
+                {
+                    "id": 376,
+                    "text": "26-\tAli mange …fruits que de légumes",
+                    "answers": [
+                        {
+                            "id": 1501,
+                            "text": "aussi"
+                        },
+                        {
+                            "id": 1502,
+                            "text": "autant de"
+                        },
+                        {
+                            "id": 1503,
+                            "text": "autant que"
+                        },
+                        {
+                            "id": 1504,
+                            "text": "très"
+                        }
+                    ]
+                },
+                {
+                    "id": 377,
+                    "text": "27-\tUn copain vous demande votre musique préférée, Il dit :",
+                    "answers": [
+                        {
+                            "id": 1505,
+                            "text": "ⓐ  Quelle musique tu aimes ?"
+                        },
+                        {
+                            "id": 1506,
+                            "text": "ⓒ Je préfère le rap"
+                        },
+                        {
+                            "id": 1507,
+                            "text": "ⓑ Quelle musique tu détestes ?"
+                        },
+                        {
+                            "id": 1508,
+                            "text": "ⓓ  On est le mardi."
+                        }
+                    ]
+                },
+                {
+                    "id": 378,
+                    "text": "28-\tVous parlez de vos goûts scolaires, vous dites",
+                    "answers": [
+                        {
+                            "id": 1509,
+                            "text": "ⓐ  Je mange au self"
+                        },
+                        {
+                            "id": 1510,
+                            "text": "ⓒ J'adore les maths et les SVT."
+                        },
+                        {
+                            "id": 1511,
+                            "text": "ⓑ Je joue au basket"
+                        },
+                        {
+                            "id": 1512,
+                            "text": "ⓓ  Quel jour tu préfères ?"
+                        }
+                    ]
+                },
+                {
+                    "id": 379,
+                    "text": "29-\tVous demandez à un ami \"Qu'est-ce que tu fais le week-end?\", Il dit :",
+                    "answers": [
+                        {
+                            "id": 1513,
+                            "text": "ⓐ Je vais à l'école"
+                        },
+                        {
+                            "id": 1514,
+                            "text": "ⓒ J'ai six cours au lycée"
+                        },
+                        {
+                            "id": 1515,
+                            "text": "ⓑ Je vais à la mer"
+                        },
+                        {
+                            "id": 1516,
+                            "text": "ⓓ  Mon lycée est petit"
+                        }
+                    ]
+                },
+                {
+                    "id": 380,
+                    "text": "30-\tVotre ami vous demande vos activités ; Il vous dit :",
+                    "answers": [
+                        {
+                            "id": 1517,
+                            "text": "ⓐ  J'aime les activités scolaires"
+                        },
+                        {
+                            "id": 1518,
+                            "text": "ⓒ Je suis élève"
+                        },
+                        {
+                            "id": 1519,
+                            "text": "ⓑ  Qu'est-ce que tu fais le week-end ?"
+                        },
+                        {
+                            "id": 1520,
+                            "text": "ⓓ  Je suis gentil."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

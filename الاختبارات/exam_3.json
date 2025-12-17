@@ -1,0 +1,831 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 3,
+                "title": "واجب المحاضرة",
+                "lecture_id": 34,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:09:16.691665Z",
+                "updated_at": "2025-11-24T00:09:16.691665Z"
+            },
+            "questions": [
+                {
+                    "id": 69,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تَعذِلوني</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في البيت السابق:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/4FyGRdm/1711457070-EDMZTS.png",
+                    "answers": [
+                        {
+                            "id": 273,
+                            "text": "مرفوع بثبوت النون"
+                        },
+                        {
+                            "id": 274,
+                            "text": "منصوب بحذف النون"
+                        },
+                        {
+                            "id": 275,
+                            "text": "مجزوم بحذف النون"
+                        },
+                        {
+                            "id": 276,
+                            "text": "مجزوم بحذف حرف العلة"
+                        }
+                    ]
+                },
+                {
+                    "id": 70,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;\nfont-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;\nmso-no-proof:yes'>متى آتيت أخاك مودة أعانك</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن – مِمَّا يلي – الصياغة الصحيحة عند جعل فعل الشرط\nوجوابه مضارعين:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 277,
+                            "text": "متى تؤتي أخاك مودة يعينك"
+                        },
+                        {
+                            "id": 278,
+                            "text": "متى تؤتِ أخاك مودة يعنك"
+                        },
+                        {
+                            "id": 279,
+                            "text": "متى تأتي أخاك مودة فيعينك"
+                        },
+                        {
+                            "id": 280,
+                            "text": "متى تؤتِ أخاك مودة فسيعنك"
+                        }
+                    ]
+                },
+                {
+                    "id": 71,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز – مِمَّا يلي – إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ترضهم</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» الوارد\nفي البيت السابق:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/hB0WKtL/1711472957-wa-BZB2.png",
+                    "answers": [
+                        {
+                            "id": 281,
+                            "text": "مجزوم في جواب الشرط"
+                        },
+                        {
+                            "id": 282,
+                            "text": "منصوب بفاء السببية"
+                        },
+                        {
+                            "id": 283,
+                            "text": "مجزوم بلام الأمر"
+                        },
+                        {
+                            "id": 284,
+                            "text": "منصوب بلام الجحود"
+                        }
+                    ]
+                },
+                {
+                    "id": 72,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن – مِمَّا يلي – الجملة التي بها مضارع يجوز جزمه:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 285,
+                            "text": "ابتسم تبتسم لك الحياة"
+                        },
+                        {
+                            "id": 286,
+                            "text": "متى تبتسم تبتسم لك الحياة"
+                        },
+                        {
+                            "id": 287,
+                            "text": "وصل المسافر المحطة ولمَّا يصل القطار"
+                        },
+                        {
+                            "id": 288,
+                            "text": "ألمح الطالب إلى ما يريد ولكنه لم يفصح عنه"
+                        }
+                    ]
+                },
+                {
+                    "id": 73,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز – مِمَّا يلي – المحل الإعرابي لجملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>فَكُلُّ رِداءٍ\nيَرتَديهِ جَميلُ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>»:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/s9nGNBH/1711477673-shdn8o.png",
+                    "answers": [
+                        {
+                            "id": 289,
+                            "text": "رفع خبر"
+                        },
+                        {
+                            "id": 290,
+                            "text": "جزم جواب الشرط"
+                        },
+                        {
+                            "id": 291,
+                            "text": "جر مضاف إليه"
+                        },
+                        {
+                            "id": 292,
+                            "text": "لا محل لها من الإعراب"
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز – مِمَّا يلي – إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يستبن</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» الوارد\nفي البيت السابق:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/rbqLP3d/1711459777-h-Fqnfk.png",
+                    "answers": [
+                        {
+                            "id": 293,
+                            "text": "مضارع مرفوع وعلامة رفعه الضمة"
+                        },
+                        {
+                            "id": 294,
+                            "text": "مضارع مجزوم وعلامة جزمه حذف حرف العلة"
+                        },
+                        {
+                            "id": 295,
+                            "text": "مضارع مجزوم وعلامة جزمه السكون"
+                        },
+                        {
+                            "id": 296,
+                            "text": "مضارع مرفوع وعلامة رفعه ثبوت النون"
+                        }
+                    ]
+                },
+                {
+                    "id": 75,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;\nfont-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;\nmso-no-proof:yes'>ينزل الله عليكم جنودًا لن تروها</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تروها</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» مضارع منصوب بـ:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 297,
+                            "text": "الفتحة الظاهرة"
+                        },
+                        {
+                            "id": 298,
+                            "text": "الفتحة المقدرة"
+                        },
+                        {
+                            "id": 299,
+                            "text": "حذف النون"
+                        },
+                        {
+                            "id": 300,
+                            "text": "حذف حرف العلة"
+                        }
+                    ]
+                },
+                {
+                    "id": 76,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;\nfont-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;\nmso-no-proof:yes'>متى تَجُد بمالك تريد به إعانة محتاج فتُذهب عنه حزنه وألمه يرض\nالله عنك</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\n\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن – مِمَّا يلي – جواب الشرط الوارد في العبارة\nالسابقة:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 301,
+                            "text": "تريد"
+                        },
+                        {
+                            "id": 302,
+                            "text": "تذهب"
+                        },
+                        {
+                            "id": 303,
+                            "text": "تجد"
+                        },
+                        {
+                            "id": 304,
+                            "text": "يرض"
+                        }
+                    ]
+                },
+                {
+                    "id": 77,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;\nfont-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;\nmso-no-proof:yes'>لا يزال الكاذب يكذب حتى يهوي به الكذب في جهنم</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز – مِمَّا يلي – إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يهوي</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في\nالعبارة السابقة:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 305,
+                            "text": "مجزوم بالسكون"
+                        },
+                        {
+                            "id": 306,
+                            "text": "منصوب بالفتحة المقدرة"
+                        },
+                        {
+                            "id": 307,
+                            "text": "مرفوع بالضمة المقدرة"
+                        },
+                        {
+                            "id": 308,
+                            "text": "منصوب بالفتحة الظاهرة"
+                        }
+                    ]
+                },
+                {
+                    "id": 78,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:8.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>إنْ أردت السلامة فقُد السيارة\nبحكمة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ميِّز –\nمِمَّا يلي – سبب اقتران جواب الشرط بالفاء:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 309,
+                            "text": "جملة اسمية"
+                        },
+                        {
+                            "id": 310,
+                            "text": "مبدوء بقد"
+                        },
+                        {
+                            "id": 311,
+                            "text": "مبدوء بنفي"
+                        },
+                        {
+                            "id": 312,
+                            "text": "جملة طلبية"
+                        }
+                    ]
+                },
+                {
+                    "id": 79,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>مَن يتقِ الشبهات يحمِ نفسه من\nالزلل</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";\nmso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز الصيغة الصحيحة للفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يحمِ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» عند اقتران جواب الشرط بالفاء:</span> </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 313,
+                            "text": "فيحمي"
+                        },
+                        {
+                            "id": 314,
+                            "text": "فيحم"
+                        },
+                        {
+                            "id": 315,
+                            "text": "فسيحمي"
+                        },
+                        {
+                            "id": 316,
+                            "text": "فسيحم"
+                        }
+                    ]
+                },
+                {
+                    "id": 80,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يا فتى، لا تنس برَّ والديك تفز\nبرضائهما</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\n\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن الصياغة الصحيحة عند جعل الخطاب للمفردة المؤنثة:</span> </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 317,
+                            "text": "لا تنسي برَّ والديك تفزي برضائهما"
+                        },
+                        {
+                            "id": 318,
+                            "text": "لا تنسين برَّ والديك تفوزين برضائهما"
+                        },
+                        {
+                            "id": 319,
+                            "text": "لا تنسي برَّ والديك تفوزي برضائهما"
+                        },
+                        {
+                            "id": 320,
+                            "text": "لا تنسين برَّ والديك تفوزي برضائهما"
+                        }
+                    ]
+                },
+                {
+                    "id": 81,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ميِّز –\nمِمَّا يلي – الجملة التي بها فعل مضارع منصوب بعد لام الجحود:</span></span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 321,
+                            "text": "ما كنا يومًا لندافع عن الكذب والكاذبين"
+                        },
+                        {
+                            "id": 322,
+                            "text": "ما كان للكسول مكانة بين المبدعين"
+                        },
+                        {
+                            "id": 323,
+                            "text": "لم يكن للإخلاص وجود عند الخائنين"
+                        },
+                        {
+                            "id": 324,
+                            "text": "ما كنا مجتهدين لنحصل على أعلى الدرجات"
+                        }
+                    ]
+                },
+                {
+                    "id": 82,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>مَن أخلص الود للآخرين فله المثل\nعلى وفائه</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\n\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن – مِمَّا يلي – سبب اقتران جواب الشرط بالفاء في\nالجملة السابقة:</span> </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 325,
+                            "text": "جملة طلبية"
+                        },
+                        {
+                            "id": 326,
+                            "text": "جملة اسمية"
+                        },
+                        {
+                            "id": 327,
+                            "text": "مبدوء بجامد"
+                        },
+                        {
+                            "id": 328,
+                            "text": "مبدوء بالتسويف"
+                        }
+                    ]
+                },
+                {
+                    "id": 83,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ميِّز –\nمِمَّا يلي – الجملة التي بها فعل مضارع منصوب بعد فاء السببية:</span></span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 329,
+                            "text": "ليتني فعلت الخير فأفوز بثواب الله"
+                        },
+                        {
+                            "id": 330,
+                            "text": "متى تُسعِد الناس فستنال الرِّضا"
+                        },
+                        {
+                            "id": 331,
+                            "text": "إذا سمعت النصيحة فاستجب لها"
+                        },
+                        {
+                            "id": 332,
+                            "text": "إنْ ترد الفضيلة فلا تتردد في طلبها"
+                        }
+                    ]
+                },
+                {
+                    "id": 84,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'><span dir=\"RTL\" style='font-size: 11pt; font-family: \"SF Sultan\"; color: rgb(0, 112, 192);'><span lang=\"AR-SA\">(</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 10pt; font-family: \"SF Sultan\"; color: rgb(0, 112, 192);'>أترفع في معاملتي مع الآخرين، وأخلص لهم الود حين ألقاهم</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 11pt; font-family: \"SF Sultan\"; color: rgb(0, 112, 192);'>).</span><br/>ميِّز إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>أخلص</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في سياق المقولة السابقة:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 333,
+                            "text": "أمر مبني"
+                        },
+                        {
+                            "id": 334,
+                            "text": "مضارع مجزوم"
+                        },
+                        {
+                            "id": 335,
+                            "text": "ماضٍ مبني"
+                        },
+                        {
+                            "id": 336,
+                            "text": "مضارع مرفوع"
+                        }
+                    ]
+                },
+                {
+                    "id": 85,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> (إن </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تمننْ بالعطايا مرة فتنعم بها\nعلى المحتاجين فما فعلته نعم الصنيع</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>).<br/><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن – مِمَّا يلي – سبب اقتران جواب الشرط بالفاء في\nالجملة السابقة:</span> </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 337,
+                            "text": "مبدوء بجامد"
+                        },
+                        {
+                            "id": 338,
+                            "text": "مبدوءة بنفي"
+                        },
+                        {
+                            "id": 339,
+                            "text": "جملة اسمية"
+                        },
+                        {
+                            "id": 340,
+                            "text": "جملة طلبية"
+                        }
+                    ]
+                },
+                {
+                    "id": 86,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> (</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>دع التكبر ما حييت ولا تصاحب\nأهله فتشقى</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\n\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:\nEN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ميِّز – مِمَّا يلي – إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تشقى</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في المقولة\nالسابقة:</span> </span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 341,
+                            "text": "مرفوع"
+                        },
+                        {
+                            "id": 342,
+                            "text": "منصوب"
+                        },
+                        {
+                            "id": 343,
+                            "text": "مجزوم"
+                        },
+                        {
+                            "id": 344,
+                            "text": "مبني"
+                        }
+                    ]
+                },
+                {
+                    "id": 87,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ما الذي دفع الابن للسفر إلى واشنطن؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 345,
+                            "text": "الفقر والبحث عن المال"
+                        },
+                        {
+                            "id": 346,
+                            "text": "المشاركة في معرض الرسم"
+                        },
+                        {
+                            "id": 347,
+                            "text": "الانتقام من قبائل الزنج"
+                        },
+                        {
+                            "id": 348,
+                            "text": "البحث عن خاله الغائب"
+                        }
+                    ]
+                },
+                {
+                    "id": 88,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>استنتج دلالة عبارة: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA'>فما زال يروِّضها ويَسْمَحُها ويُمنِّيها ... حتى أسلست</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في\nالفقرة الثالثة: </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 349,
+                            "text": "خدعها بقوة بيانه"
+                        },
+                        {
+                            "id": 350,
+                            "text": "انقادت له واقتنعت"
+                        },
+                        {
+                            "id": 351,
+                            "text": "أجبرها على اتباعه"
+                        },
+                        {
+                            "id": 352,
+                            "text": "سايرته رغمًا عنها"
+                        }
+                    ]
+                },
+                {
+                    "id": 89,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن - مِمَّا يلي - التعبير الذي يمثل استعارة مكنية،\nوسر جمالها:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 353,
+                            "text": "ضمه الدهر ضمة – التشخيص"
+                        },
+                        {
+                            "id": 354,
+                            "text": "بذهاب أمس الدابر – التجسيم"
+                        },
+                        {
+                            "id": 355,
+                            "text": "أما الصُّبابة فقد نضبت – التشخيص"
+                        },
+                        {
+                            "id": 356,
+                            "text": "خدع الدهر – التوضيح"
+                        }
+                    ]
+                },
+                {
+                    "id": 90,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>استنتج المغزى من قوله: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>وصُبابةٌ من المال تترشَّف الرزق منها ترشفًا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في\nالفقرة الأولى:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 357,
+                            "text": "التأكيد على سعة العيش قبل أن ينقلب بها الحال"
+                        },
+                        {
+                            "id": 358,
+                            "text": "إظهار ما تقاسيه المرأة من ضيق العيش"
+                        },
+                        {
+                            "id": 359,
+                            "text": "إبراز تعاطف الكاتب مع المرأة والإشفاق عليها"
+                        },
+                        {
+                            "id": 360,
+                            "text": "بيان دور المجتمع في مساعدة الفقراء والمحتاجين"
+                        }
+                    ]
+                },
+                {
+                    "id": 91,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> ما\nعلاقة قوله</span><b><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;\nfont-family:\"KFGQPC Uthman Taha Naskh\";mso-ascii-font-family:\"Times New Roman\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Times New Roman\";\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>: </span></b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>فاستسرَّ بشرها الذي كان متلألئًا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»</span><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"KFGQPC Uthman Taha Naskh\";\nmso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-EG'> </span></b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>بما قبله في الفقرة الثالثة؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 361,
+                            "text": "نتيجة"
+                        },
+                        {
+                            "id": 362,
+                            "text": "توکید"
+                        },
+                        {
+                            "id": 363,
+                            "text": "تعليل"
+                        },
+                        {
+                            "id": 364,
+                            "text": "توضيح"
+                        }
+                    ]
+                },
+                {
+                    "id": 92,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن نوع الصورة الجزئية في قوله: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA'>كتاب الدهر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في الفقرة الأخيرة:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 365,
+                            "text": "استعارة مكنية"
+                        },
+                        {
+                            "id": 366,
+                            "text": "تشبيه بليغ"
+                        },
+                        {
+                            "id": 367,
+                            "text": "استعارة تصريحية"
+                        },
+                        {
+                            "id": 368,
+                            "text": "تشبیه مجمل"
+                        }
+                    ]
+                },
+                {
+                    "id": 93,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بين مدى ملاءمة الألفاظ التي استخدمها الكاتب لمقومات\nالفن الأدبي للنص:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 369,
+                            "text": "سيطر الخيال والمجاز بكثافة على الألفاظ للتعبير عن الحالة الشعورية للشخصيات"
+                        },
+                        {
+                            "id": 370,
+                            "text": "غلب عليها الإسهاب والتطويل والتكرار لرسم صورة واقعية واضحة"
+                        },
+                        {
+                            "id": 371,
+                            "text": "تميزت الألفاظ بالسهولة والطابع الموسيقي الرنان لغلبة المحسنات الصوتية عليها"
+                        },
+                        {
+                            "id": 372,
+                            "text": "اتسمت الألفاظ بالإيجاز وصدق التعبير ومالت إلى الفصحى وابتعدت عن العامية"
+                        }
+                    ]
+                },
+                {
+                    "id": 94,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>بيِّن كيف عبر الكاتب عن فكرته للقراء في هذا العمل\nالأدبي:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/1XtrSKC/11.png",
+                    "answers": [
+                        {
+                            "id": 373,
+                            "text": "جمع بين السرد والوصف والحوار الداخلي"
+                        },
+                        {
+                            "id": 374,
+                            "text": "اعتمد على أسلوب الإلقاء في عبارات تقريرية"
+                        },
+                        {
+                            "id": 375,
+                            "text": "جمع بين التكثيف والتركيز في سير الأحداث"
+                        },
+                        {
+                            "id": 376,
+                            "text": "اعتمد على الحوار الداخلي بين الشخصية وذاتها"
+                        }
+                    ]
+                },
+                {
+                    "id": 95,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>وازن بين الكاتبين من حيث استخدامهما للصورة الكلية في\nضوء العبارتين السابقتين:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/FVKy9y5/1711466956-6i-U57l.png",
+                    "answers": [
+                        {
+                            "id": 377,
+                            "text": "افتقدت الصورة الكلية بعض عناصرها عند أصلان، واكتملت عند الكاتب"
+                        },
+                        {
+                            "id": 378,
+                            "text": "عناصر الصورة الكلية أوضح عند أصلان منها عند الكاتب"
+                        },
+                        {
+                            "id": 379,
+                            "text": "اقتصر كلا الكاتبين في إيصال الفكرة على الصور الجزئية"
+                        },
+                        {
+                            "id": 380,
+                            "text": "اقتصر الكاتب على الصورة الكلية، واكتفى أصلان بالصور الجزئية"
+                        }
+                    ]
+                },
+                {
+                    "id": 96,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>ما المقصود بـ «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>دول حوض النيل</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";\nmso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";\nmso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;\nmso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»؟ </span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/BN1cQrk/1711467014-i3-MSh-H.png",
+                    "answers": [
+                        {
+                            "id": 381,
+                            "text": "الدول التي تقتسم مياه نهر النيل بالتساوي"
+                        },
+                        {
+                            "id": 382,
+                            "text": "الدول التي يجري بها أحد روافد نهر النيل"
+                        },
+                        {
+                            "id": 383,
+                            "text": "الدول التي يجري بها نهر النيل أو أحد روافده"
+                        },
+                        {
+                            "id": 384,
+                            "text": "الدول التي تتعاون من أجل تطوير مجرى النيل"
+                        }
+                    ]
+                },
+                {
+                    "id": 97,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>أي روافد النيل يشكل حدودًا سياسية بين دول حوض النيل؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/BN1cQrk/1711467014-i3-MSh-H.png",
+                    "answers": [
+                        {
+                            "id": 385,
+                            "text": "بحر الجبل"
+                        },
+                        {
+                            "id": 386,
+                            "text": "نهر عطبرة"
+                        },
+                        {
+                            "id": 387,
+                            "text": "نيل فيكتوريا"
+                        },
+                        {
+                            "id": 388,
+                            "text": "نهر كاجيرا"
+                        }
+                    ]
+                },
+                {
+                    "id": 98,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>فيم يشبه نهرُ عطبرة النيل الأزرق؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/BN1cQrk/1711467014-i3-MSh-H.png",
+                    "answers": [
+                        {
+                            "id": 389,
+                            "text": "يمدان النيل بـ ٨٥ % من مياهه"
+                        },
+                        {
+                            "id": 390,
+                            "text": "لا يفيضان إلا في فصل الصيف"
+                        },
+                        {
+                            "id": 391,
+                            "text": "يلتقيان بالنيل جنوب الخرطوم"
+                        },
+                        {
+                            "id": 392,
+                            "text": "يشكلان أطول روافد النيل"
+                        }
+                    ]
+                },
+                {
+                    "id": 99,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>من أين تأتي معظم المياه التي تشكل نهر النيل؟</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/BN1cQrk/1711467014-i3-MSh-H.png",
+                    "answers": [
+                        {
+                            "id": 393,
+                            "text": "هضبة الحبشة"
+                        },
+                        {
+                            "id": 394,
+                            "text": "وسط إفريقيا"
+                        },
+                        {
+                            "id": 395,
+                            "text": "جنوب السودان"
+                        },
+                        {
+                            "id": 396,
+                            "text": "منطقة المستنقعات"
+                        }
+                    ]
+                },
+                {
+                    "id": 100,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>هات من الموضوع ما يدل على أن التعاون سبيل الرخاء:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/BN1cQrk/1711467014-i3-MSh-H.png",
+                    "answers": [
+                        {
+                            "id": 397,
+                            "text": "مورد الماء هو جوهر النظام الطبيعي في بيئة الحوض النهري"
+                        },
+                        {
+                            "id": 398,
+                            "text": "المياه تساهم في توفير الأمن الغذائي والطاقة، فضلًا عن حماية صحة الإنسان"
+                        },
+                        {
+                            "id": 399,
+                            "text": "جودة الحياة طموح يُحققه حسن استثمار الموارد المتاحة للجميع بغير أنانية"
+                        },
+                        {
+                            "id": 400,
+                            "text": "ضمان تأمين النيل شرط لاستدامة النظام"
+                        }
+                    ]
+                },
+                {
+                    "id": 101,
+                    "text": "<h4><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>استنتج العامل الأهم في استقرار النظام البيئي في حوض\nالنيل:</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/BN1cQrk/1711467014-i3-MSh-H.png",
+                    "answers": [
+                        {
+                            "id": 401,
+                            "text": "اتساع مجرى النهر"
+                        },
+                        {
+                            "id": 402,
+                            "text": "استمرار تدفق مياه النهر طول العام"
+                        },
+                        {
+                            "id": 403,
+                            "text": "طول النهر الكبير"
+                        },
+                        {
+                            "id": 404,
+                            "text": "تنوع الأقاليم التي يمر بها مجرى النهر"
+                        }
+                    ]
+                },
+                {
+                    "id": 102,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\n\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\n\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">حدِّد\nالنموذج الأنسب للربط بين الفقرتين في سياق مقال عن: </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>«الرحلات البحرية».</span><br/></p></h4>",
+                    "image_url": "https://i.ibb.co/VqZQwF3/1711468264-TRz-E7-V.png",
+                    "answers": [
+                        {
+                            "id": 405,
+                            "text": "مشكلة – حل"
+                        },
+                        {
+                            "id": 406,
+                            "text": "رأي – دليل"
+                        },
+                        {
+                            "id": 407,
+                            "text": "زعم – تفنيد"
+                        },
+                        {
+                            "id": 408,
+                            "text": "ظاهرة – تفسير"
+                        }
+                    ]
+                },
+                {
+                    "id": 103,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«تعتبر الكثير من دول العالم الثروة السمكية ركيزة اقتصادية،\nلأمنها الغذائي وضمانة اجتماعية لأبنائها».</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>حدِّد – مِمَّا يلي – التفصيلة التي يجدر بالكاتب حذفها؛\nلتكون كتابته وثيقة الصلة بالفكرة السابقة:</span><br/></span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 409,
+                            "text": "رفع الوعي لدى الصيادين يحقق الأرباح والسلامة ويجنبهم المخاطر والخسائر"
+                        },
+                        {
+                            "id": 410,
+                            "text": "إن بُعْدَ الدول عن المسطحات المائية ليس عائقًا لها من إيجاد بحيرات صناعية لأغراض اقتصادية"
+                        },
+                        {
+                            "id": 411,
+                            "text": "يتم سن القوانين لمواجهة الصيد الجائر خصوصًا في المناطق التي تحظى بحيوانات برية نادرة"
+                        },
+                        {
+                            "id": 412,
+                            "text": "ابتكرت بعض الدول «الأمان الحيوي» لمنع دخول مسببات الأمراض للمزارع السمكية"
+                        }
+                    ]
+                },
+                {
+                    "id": 104,
+                    "text": "<h4><p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\n\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;\nfont-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;\nmso-no-proof:yes'>مَن </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;\nfont-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";color:#FF33CC;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;\nmso-no-proof:yes'>يُقدِم</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:\n10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'> على تحدِّي الصعاب </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#FF33CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>يشغل</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:10.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'> منزلة عالية</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:11.0pt;font-family:\"SF Sultan\";mso-fareast-font-family:\"Times New Roman\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:\n11.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;\nfont-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\";\nmso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\";\ncolor:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA;mso-no-proof:yes'>حدِّد الرسم الإملائي الصحيح للكلمتين اللتين تحلان محل\nما تحته خط في الجملة السابقة:</span><br/></p></h4>",
+                    "answers": [
+                        {
+                            "id": 413,
+                            "text": "يجرؤ - يتبوء"
+                        },
+                        {
+                            "id": 414,
+                            "text": "يجرؤ - يتبوأ"
+                        },
+                        {
+                            "id": 415,
+                            "text": "يجرأ - يتبوأ"
+                        },
+                        {
+                            "id": 416,
+                            "text": "يجرئ - يتبوئ"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

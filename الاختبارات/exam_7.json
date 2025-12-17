@@ -1,0 +1,371 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 7,
+                "title": "Quiz 1",
+                "lecture_id": 124,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:11:26.655718Z",
+                "updated_at": "2025-11-24T00:11:26.655718Z"
+            },
+            "questions": [
+                {
+                    "id": 214,
+                    "text": "1-Showing …………. against males, the presenter interviewed only female guests.",
+                    "answers": [
+                        {
+                            "id": 853,
+                            "text": "a-programme"
+                        },
+                        {
+                            "id": 854,
+                            "text": "b-host"
+                        },
+                        {
+                            "id": 855,
+                            "text": "c-basis"
+                        },
+                        {
+                            "id": 856,
+                            "text": "d-bias"
+                        }
+                    ]
+                },
+                {
+                    "id": 215,
+                    "text": "2-We were over the moon when Celia ………….. that she was going to get engaged.",
+                    "answers": [
+                        {
+                            "id": 857,
+                            "text": "a-announced"
+                        },
+                        {
+                            "id": 858,
+                            "text": "b-advertised"
+                        },
+                        {
+                            "id": 859,
+                            "text": "c-accused"
+                        },
+                        {
+                            "id": 860,
+                            "text": "d-demanded"
+                        }
+                    ]
+                },
+                {
+                    "id": 216,
+                    "text": "3-The long ………. decision concerning the war is going to be taken soon.",
+                    "answers": [
+                        {
+                            "id": 861,
+                            "text": "a-await"
+                        },
+                        {
+                            "id": 862,
+                            "text": "b-waited"
+                        },
+                        {
+                            "id": 863,
+                            "text": "c-awaited"
+                        },
+                        {
+                            "id": 864,
+                            "text": "d-waiting"
+                        }
+                    ]
+                },
+                {
+                    "id": 217,
+                    "text": "4-My father usually returns from work ………… midday.",
+                    "answers": [
+                        {
+                            "id": 865,
+                            "text": "a-in"
+                        },
+                        {
+                            "id": 866,
+                            "text": "b-on"
+                        },
+                        {
+                            "id": 867,
+                            "text": "c-at"
+                        },
+                        {
+                            "id": 868,
+                            "text": "d-for"
+                        }
+                    ]
+                },
+                {
+                    "id": 218,
+                    "text": "5-How long ……….. it since you last visited a museum?",
+                    "answers": [
+                        {
+                            "id": 869,
+                            "text": "a-has been"
+                        },
+                        {
+                            "id": 870,
+                            "text": "b-is"
+                        },
+                        {
+                            "id": 871,
+                            "text": "c-did"
+                        },
+                        {
+                            "id": 872,
+                            "text": "d-was being"
+                        }
+                    ]
+                },
+                {
+                    "id": 219,
+                    "text": "6-What ………… when I phoned you?",
+                    "answers": [
+                        {
+                            "id": 873,
+                            "text": "a-have you done"
+                        },
+                        {
+                            "id": 874,
+                            "text": "b-did you do"
+                        },
+                        {
+                            "id": 875,
+                            "text": "c-were you doing"
+                        },
+                        {
+                            "id": 876,
+                            "text": "d-B&C"
+                        }
+                    ]
+                },
+                {
+                    "id": 220,
+                    "text": "7- What ………… when I phoned you? You sounded very busy.",
+                    "answers": [
+                        {
+                            "id": 877,
+                            "text": "a-have you done"
+                        },
+                        {
+                            "id": 878,
+                            "text": "b-did you do"
+                        },
+                        {
+                            "id": 879,
+                            "text": "c-were you doing"
+                        },
+                        {
+                            "id": 880,
+                            "text": "d-B&C"
+                        }
+                    ]
+                },
+                {
+                    "id": 221,
+                    "text": "8-When he grew up and had a good job, he became financially ……. of his parents.",
+                    "answers": [
+                        {
+                            "id": 881,
+                            "text": "a-enthusiastic"
+                        },
+                        {
+                            "id": 882,
+                            "text": "b-dependent"
+                        },
+                        {
+                            "id": 883,
+                            "text": "c-independent"
+                        },
+                        {
+                            "id": 884,
+                            "text": "d-separated"
+                        }
+                    ]
+                },
+                {
+                    "id": 222,
+                    "text": "9-Some body ……….. my cookies, haven’t they? There are very few left.",
+                    "answers": [
+                        {
+                            "id": 885,
+                            "text": "a-has eaten"
+                        },
+                        {
+                            "id": 886,
+                            "text": "b-have eaten"
+                        },
+                        {
+                            "id": 887,
+                            "text": "c-has been eating"
+                        },
+                        {
+                            "id": 888,
+                            "text": "d-have been eating"
+                        }
+                    ]
+                },
+                {
+                    "id": 223,
+                    "text": "10-We're ……….. grateful for your help.",
+                    "answers": [
+                        {
+                            "id": 889,
+                            "text": "a-deep"
+                        },
+                        {
+                            "id": 890,
+                            "text": "b-deeply"
+                        },
+                        {
+                            "id": 891,
+                            "text": "c-deepen"
+                        },
+                        {
+                            "id": 892,
+                            "text": "d-A&B"
+                        }
+                    ]
+                },
+                {
+                    "id": 224,
+                    "text": "11-Feryal Ashraf made a great ……….. by winning the gold medal in Karate.",
+                    "answers": [
+                        {
+                            "id": 893,
+                            "text": "a-mistake"
+                        },
+                        {
+                            "id": 894,
+                            "text": "b-achievement"
+                        },
+                        {
+                            "id": 895,
+                            "text": "c-admiration"
+                        },
+                        {
+                            "id": 896,
+                            "text": "d-council"
+                        }
+                    ]
+                },
+                {
+                    "id": 225,
+                    "text": "12-Marwa seemed ……….. satisfied with her grade in English.",
+                    "answers": [
+                        {
+                            "id": 897,
+                            "text": "a-extreme"
+                        },
+                        {
+                            "id": 898,
+                            "text": "b-extremely"
+                        },
+                        {
+                            "id": 899,
+                            "text": "c-extremism"
+                        },
+                        {
+                            "id": 900,
+                            "text": "d-extremist"
+                        }
+                    ]
+                },
+                {
+                    "id": 226,
+                    "text": "13-My neighbour is ………. honest trader who is liked by all customers.",
+                    "answers": [
+                        {
+                            "id": 901,
+                            "text": "a-a"
+                        },
+                        {
+                            "id": 902,
+                            "text": "b-the"
+                        },
+                        {
+                            "id": 903,
+                            "text": "c-an"
+                        },
+                        {
+                            "id": 904,
+                            "text": "d-no article"
+                        }
+                    ]
+                },
+                {
+                    "id": 227,
+                    "text": "14-People with Down's ……………. often have physical and intellectual disabilities.",
+                    "answers": [
+                        {
+                            "id": 905,
+                            "text": "a-sign"
+                        },
+                        {
+                            "id": 906,
+                            "text": "b-influence"
+                        },
+                        {
+                            "id": 907,
+                            "text": "c-Effect"
+                        },
+                        {
+                            "id": 908,
+                            "text": "d-Syndrome"
+                        }
+                    ]
+                },
+                {
+                    "id": 228,
+                    "text": "15- تسعي الحكومة للتحكم في الأسعار بشتي السبل لتقلل من أعباء المعيشة، لذا تفرض عقوبات صارمة ضد التجار الجشعين الذين يحتكرون السلع الاستهلاكية ليرفعوا أسعارها ويحققوا مكاسب غير شرعية.",
+                    "answers": [
+                        {
+                            "id": 909,
+                            "text": "a) The country tries to control prices by all means to reduce the burden of living, so it imposes severe penalties against greedy merchants who trade in consumer goods to raise their prices and achieve illegal profits."
+                        },
+                        {
+                            "id": 910,
+                            "text": "b) The government seeks to control markets by all means to reduce the burden of living, so it imposes severe penalties against greedy merchants who monopolise consumer goods to double their prices and achieve illegitimate gains."
+                        },
+                        {
+                            "id": 911,
+                            "text": "c) The government seeks to control prices by all means to reduce the burden of living, so it imposes severe penalties against greedy merchants who monopolise consumer goods to\nraise their prices and achieve illegal profits."
+                        },
+                        {
+                            "id": 912,
+                            "text": "d) The government tries to control prices by all means to raise the standard of living, so it\nimposes severe penalties against greedy merchants who monopolise luxury goods to raise\ntheir prices and achieve illegitimate gains."
+                        }
+                    ]
+                },
+                {
+                    "id": 229,
+                    "text": "16. Personal development is a lifelong process that helps you develop your skills in light of your ambition. So, you must set a plan to promote your potential and achieve your goals.",
+                    "answers": [
+                        {
+                            "id": 913,
+                            "text": "(أ)التنمية الشخصية هي عملية تستمر مدى الحياة وتساعدك علي تطوير مهاراتك في ضوء طموحاتك لذلك، يجب ان تضع خطة لتعزيز امكاناتك وتحقيق اهدافك."
+                        },
+                        {
+                            "id": 914,
+                            "text": "(ب)التنمية المهنية هي عملية تستمر مدى الحياة وتساعدك علي تطوير مهاراتك في ضوء طموحاتك لذلك، يجب ان تضع خطة لتعزيز امكاناتك وتحقيق اهدافك."
+                        },
+                        {
+                            "id": 915,
+                            "text": "(ج)التنمية الشخصية هي عملية تستمر مدى الحياة تساعدك علي تطوير مهاراتك في ضوء احلامك لذلك، يجب ان تضع خطة لتعزيز امكاناتك وتحقيق اهدافك."
+                        },
+                        {
+                            "id": 916,
+                            "text": "(د)التنمية الشخصية هي عملية تستمر مدى الحياة تساعدك علي تقييم مهاراتك في ضوء طموحك لذلك، يجب ان تضع خطة لتعزيز امكاناتك وتحقيق اهدافك."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

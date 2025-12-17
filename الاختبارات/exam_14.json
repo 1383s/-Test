@@ -1,0 +1,569 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 14,
+                "title": "متابعة مراجعة نهائية 3",
+                "lecture_id": 319,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-24T00:13:40.831083Z",
+                "updated_at": "2025-11-24T00:13:40.831083Z"
+            },
+            "questions": [
+                {
+                    "id": 381,
+                    "text": "1.\tCombien ………chats tu as ?",
+                    "answers": [
+                        {
+                            "id": 1521,
+                            "text": "les"
+                        },
+                        {
+                            "id": 1522,
+                            "text": "des"
+                        },
+                        {
+                            "id": 1523,
+                            "text": "de"
+                        },
+                        {
+                            "id": 1524,
+                            "text": "de la"
+                        }
+                    ]
+                },
+                {
+                    "id": 382,
+                    "text": "2.\t……………..parfum vous voulez ?",
+                    "answers": [
+                        {
+                            "id": 1525,
+                            "text": "Quelles"
+                        },
+                        {
+                            "id": 1526,
+                            "text": "Quelle"
+                        },
+                        {
+                            "id": 1527,
+                            "text": "Quel"
+                        },
+                        {
+                            "id": 1528,
+                            "text": "Quels"
+                        }
+                    ]
+                },
+                {
+                    "id": 383,
+                    "text": "3.\tJe veux ……………….sucre.",
+                    "answers": [
+                        {
+                            "id": 1529,
+                            "text": "beaucoup"
+                        },
+                        {
+                            "id": 1530,
+                            "text": "un peu de"
+                        },
+                        {
+                            "id": 1531,
+                            "text": "plus"
+                        },
+                        {
+                            "id": 1532,
+                            "text": "très"
+                        }
+                    ]
+                },
+                {
+                    "id": 384,
+                    "text": "4.\t…… accessoires aimes - tu porter à la fête ?",
+                    "answers": [
+                        {
+                            "id": 1533,
+                            "text": "Quelle"
+                        },
+                        {
+                            "id": 1534,
+                            "text": "Quel"
+                        },
+                        {
+                            "id": 1535,
+                            "text": "Quels"
+                        },
+                        {
+                            "id": 1536,
+                            "text": "Quels"
+                        }
+                    ]
+                },
+                {
+                    "id": 385,
+                    "text": "5.\tTu aimes le tennis ? ......., je l'aime beaucoup.",
+                    "answers": [
+                        {
+                            "id": 1537,
+                            "text": "Oui"
+                        },
+                        {
+                            "id": 1538,
+                            "text": "Non"
+                        },
+                        {
+                            "id": 1539,
+                            "text": "Si"
+                        },
+                        {
+                            "id": 1540,
+                            "text": "Bof"
+                        }
+                    ]
+                },
+                {
+                    "id": 386,
+                    "text": "6.\tTu n'aimes pas le handball ?......,j'aime le tennis.",
+                    "answers": [
+                        {
+                            "id": 1541,
+                            "text": "Oui"
+                        },
+                        {
+                            "id": 1542,
+                            "text": "Non"
+                        },
+                        {
+                            "id": 1543,
+                            "text": "Si"
+                        },
+                        {
+                            "id": 1544,
+                            "text": "Ouais"
+                        }
+                    ]
+                },
+                {
+                    "id": 387,
+                    "text": "7.\tHuit mille sept cent cinquante et un=…….",
+                    "answers": [
+                        {
+                            "id": 1545,
+                            "text": "8753"
+                        },
+                        {
+                            "id": 1546,
+                            "text": "7851"
+                        },
+                        {
+                            "id": 1547,
+                            "text": "8751"
+                        },
+                        {
+                            "id": 1548,
+                            "text": "5751"
+                        }
+                    ]
+                },
+                {
+                    "id": 388,
+                    "text": "8.\tTu n’as pas vu ce fIlm ? ….., je l’ai vu.",
+                    "answers": [
+                        {
+                            "id": 1549,
+                            "text": "Ouais"
+                        },
+                        {
+                            "id": 1550,
+                            "text": "Si"
+                        },
+                        {
+                            "id": 1551,
+                            "text": "Non"
+                        },
+                        {
+                            "id": 1552,
+                            "text": "Oui"
+                        }
+                    ]
+                },
+                {
+                    "id": 389,
+                    "text": "9.\tSept cent quatre-vingts……..",
+                    "answers": [
+                        {
+                            "id": 1553,
+                            "text": "718"
+                        },
+                        {
+                            "id": 1554,
+                            "text": "870"
+                        },
+                        {
+                            "id": 1555,
+                            "text": "780"
+                        },
+                        {
+                            "id": 1556,
+                            "text": "708"
+                        }
+                    ]
+                },
+                {
+                    "id": 390,
+                    "text": "10.\t………tu as des frères ?",
+                    "answers": [
+                        {
+                            "id": 1557,
+                            "text": "Quand"
+                        },
+                        {
+                            "id": 1558,
+                            "text": "Est-ce que"
+                        },
+                        {
+                            "id": 1559,
+                            "text": "Qu'est-ce que"
+                        },
+                        {
+                            "id": 1560,
+                            "text": "Combien de"
+                        }
+                    ]
+                },
+                {
+                    "id": 391,
+                    "text": "11.\tTu ne veux pas aller au cinéma ?  …….., à quelle heure ?",
+                    "answers": [
+                        {
+                            "id": 1561,
+                            "text": "Bof"
+                        },
+                        {
+                            "id": 1562,
+                            "text": "Non"
+                        },
+                        {
+                            "id": 1563,
+                            "text": "Oui"
+                        },
+                        {
+                            "id": 1564,
+                            "text": "Si"
+                        }
+                    ]
+                },
+                {
+                    "id": 392,
+                    "text": "12.\t………tu prends ton petit-déjeuner ?",
+                    "answers": [
+                        {
+                            "id": 1565,
+                            "text": "Que"
+                        },
+                        {
+                            "id": 1566,
+                            "text": "Quand"
+                        },
+                        {
+                            "id": 1567,
+                            "text": "A quel temps"
+                        },
+                        {
+                            "id": 1568,
+                            "text": "Qui"
+                        }
+                    ]
+                },
+                {
+                    "id": 393,
+                    "text": "13.\tTu fais  …….. comme sport ?",
+                    "answers": [
+                        {
+                            "id": 1569,
+                            "text": "quel"
+                        },
+                        {
+                            "id": 1570,
+                            "text": "quelles"
+                        },
+                        {
+                            "id": 1571,
+                            "text": "quels"
+                        },
+                        {
+                            "id": 1572,
+                            "text": "quoi"
+                        }
+                    ]
+                },
+                {
+                    "id": 394,
+                    "text": "14.\tJe mange ….. mangues",
+                    "answers": [
+                        {
+                            "id": 1573,
+                            "text": "les"
+                        },
+                        {
+                            "id": 1574,
+                            "text": "trop"
+                        },
+                        {
+                            "id": 1575,
+                            "text": "assez"
+                        },
+                        {
+                            "id": 1576,
+                            "text": "beaucoup de"
+                        }
+                    ]
+                },
+                {
+                    "id": 395,
+                    "text": "15.\tPour maigrir, mangez …..!",
+                    "answers": [
+                        {
+                            "id": 1577,
+                            "text": "peu"
+                        },
+                        {
+                            "id": 1578,
+                            "text": "un peu de"
+                        },
+                        {
+                            "id": 1579,
+                            "text": "beaucoup de"
+                        },
+                        {
+                            "id": 1580,
+                            "text": "très"
+                        }
+                    ]
+                },
+                {
+                    "id": 396,
+                    "text": "16.\t…… as-tu mal au ventre? J'ai mange de gâteaux.",
+                    "answers": [
+                        {
+                            "id": 1581,
+                            "text": "Pourquoi"
+                        },
+                        {
+                            "id": 1582,
+                            "text": "Qu’"
+                        },
+                        {
+                            "id": 1583,
+                            "text": "Quand"
+                        },
+                        {
+                            "id": 1584,
+                            "text": "Où"
+                        }
+                    ]
+                },
+                {
+                    "id": 397,
+                    "text": "17.\t……..boisson aimes-tu prendre ?",
+                    "answers": [
+                        {
+                            "id": 1585,
+                            "text": "Quels"
+                        },
+                        {
+                            "id": 1586,
+                            "text": "Quelle"
+                        },
+                        {
+                            "id": 1587,
+                            "text": "Quel"
+                        },
+                        {
+                            "id": 1588,
+                            "text": "Quelles"
+                        }
+                    ]
+                },
+                {
+                    "id": 398,
+                    "text": "18.\tNous buvons……… sodas la journée.",
+                    "answers": [
+                        {
+                            "id": 1589,
+                            "text": "trop"
+                        },
+                        {
+                            "id": 1590,
+                            "text": "assez"
+                        },
+                        {
+                            "id": 1591,
+                            "text": "assez de"
+                        },
+                        {
+                            "id": 1592,
+                            "text": "un peu"
+                        }
+                    ]
+                },
+                {
+                    "id": 399,
+                    "text": "19.\tTu aimes le ski ? ......., je l'aime beaucoup",
+                    "answers": [
+                        {
+                            "id": 1593,
+                            "text": "Sûr"
+                        },
+                        {
+                            "id": 1594,
+                            "text": "Oui"
+                        },
+                        {
+                            "id": 1595,
+                            "text": "Non"
+                        },
+                        {
+                            "id": 1596,
+                            "text": "Si"
+                        }
+                    ]
+                },
+                {
+                    "id": 400,
+                    "text": "20.\tOn boit ………d'eau",
+                    "answers": [
+                        {
+                            "id": 1597,
+                            "text": "très"
+                        },
+                        {
+                            "id": 1598,
+                            "text": "assez de"
+                        },
+                        {
+                            "id": 1599,
+                            "text": "assez"
+                        },
+                        {
+                            "id": 1600,
+                            "text": "plus"
+                        }
+                    ]
+                },
+                {
+                    "id": 401,
+                    "text": "21.\t Un ami nous demande ”La piste cyclable, c’est quoi vous dites :",
+                    "answers": [
+                        {
+                            "id": 1601,
+                            "text": "ⓐ  C'est une route pour les piétons"
+                        },
+                        {
+                            "id": 1602,
+                            "text": "ⓑ  C'est une route pour les voitures."
+                        },
+                        {
+                            "id": 1603,
+                            "text": "ⓒ  C'est un terrain de foot"
+                        },
+                        {
+                            "id": 1604,
+                            "text": " C'est une route pour les vélos."
+                        }
+                    ]
+                },
+                {
+                    "id": 402,
+                    "text": "22.\tVous acceptez une invitation, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1605,
+                            "text": "ⓐ  Je t'invite à ma fête."
+                        },
+                        {
+                            "id": 1606,
+                            "text": "ⓑ  D'accord !"
+                        },
+                        {
+                            "id": 1607,
+                            "text": "ⓒ  Pardon, je suis malade"
+                        },
+                        {
+                            "id": 1608,
+                            "text": " C'est impossible !"
+                        }
+                    ]
+                },
+                {
+                    "id": 403,
+                    "text": "23.\tVous demandez à un copain de décrire son quartier, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1609,
+                            "text": "ⓐ Où se trouve ton quartier ?"
+                        },
+                        {
+                            "id": 1610,
+                            "text": "ⓑ Comment est ton quartier ?"
+                        },
+                        {
+                            "id": 1611,
+                            "text": "ⓒ Il est moderne"
+                        },
+                        {
+                            "id": 1612,
+                            "text": "Comment est ta vIlle ?"
+                        }
+                    ]
+                },
+                {
+                    "id": 404,
+                    "text": "24.\tVous parlez du lieu de travail d’un cuisinier, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1613,
+                            "text": "ⓐ Dans une pâtisserie"
+                        },
+                        {
+                            "id": 1614,
+                            "text": "ⓑ Dans une école."
+                        },
+                        {
+                            "id": 1615,
+                            "text": "ⓒ Dans un théâtre."
+                        },
+                        {
+                            "id": 1616,
+                            "text": "Dans un restaurant."
+                        }
+                    ]
+                },
+                {
+                    "id": 405,
+                    "text": "25.\tVous demandez à un ami ses projets pendant le week-end, vous dites :",
+                    "answers": [
+                        {
+                            "id": 1617,
+                            "text": "ⓐ Je vais à la patinoire."
+                        },
+                        {
+                            "id": 1618,
+                            "text": "ⓑ Quels projets tu fais le week-end ?"
+                        },
+                        {
+                            "id": 1619,
+                            "text": "?ⓒ Tu fais quoi au lycée"
+                        },
+                        {
+                            "id": 1620,
+                            "text": "Qu'est-ce que ton frère fait le week-end ?"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

@@ -1,0 +1,371 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 8,
+                "title": "Quiz 2",
+                "lecture_id": 124,
+                "duration_minutes": 180,
+                "order_index": 2,
+                "created_at": "2025-11-24T00:11:27.005298Z",
+                "updated_at": "2025-11-24T00:11:27.005298Z"
+            },
+            "questions": [
+                {
+                    "id": 230,
+                    "text": "1-Reckless drivers are supposed to ……… punishment for their carelessness.",
+                    "answers": [
+                        {
+                            "id": 917,
+                            "text": "a-deliver"
+                        },
+                        {
+                            "id": 918,
+                            "text": "b-receive"
+                        },
+                        {
+                            "id": 919,
+                            "text": "c-give"
+                        },
+                        {
+                            "id": 920,
+                            "text": "d-make"
+                        }
+                    ]
+                },
+                {
+                    "id": 231,
+                    "text": "2-The school ……… every effort to help new students.",
+                    "answers": [
+                        {
+                            "id": 921,
+                            "text": "a-does"
+                        },
+                        {
+                            "id": 922,
+                            "text": "b-makes"
+                        },
+                        {
+                            "id": 923,
+                            "text": "c-commits"
+                        },
+                        {
+                            "id": 924,
+                            "text": "d-sends"
+                        }
+                    ]
+                },
+                {
+                    "id": 232,
+                    "text": "3-Everyone is waiting for the World Cup draw with bated ……………. .",
+                    "answers": [
+                        {
+                            "id": 925,
+                            "text": "a-breath"
+                        },
+                        {
+                            "id": 926,
+                            "text": "b-breathe"
+                        },
+                        {
+                            "id": 927,
+                            "text": "c-breathing"
+                        },
+                        {
+                            "id": 928,
+                            "text": "d-breeze"
+                        }
+                    ]
+                },
+                {
+                    "id": 233,
+                    "text": "4-Our company is offering a better product ……….. a lower price nowadays.",
+                    "answers": [
+                        {
+                            "id": 929,
+                            "text": "a-at"
+                        },
+                        {
+                            "id": 930,
+                            "text": "b-of"
+                        },
+                        {
+                            "id": 931,
+                            "text": "c-on"
+                        },
+                        {
+                            "id": 932,
+                            "text": "d-in"
+                        }
+                    ]
+                },
+                {
+                    "id": 234,
+                    "text": "5- ………… seeing the policeman, the thief ran away.",
+                    "answers": [
+                        {
+                            "id": 933,
+                            "text": "a-On"
+                        },
+                        {
+                            "id": 934,
+                            "text": "b-During"
+                        },
+                        {
+                            "id": 935,
+                            "text": "c-While"
+                        },
+                        {
+                            "id": 936,
+                            "text": "d-Just as"
+                        }
+                    ]
+                },
+                {
+                    "id": 235,
+                    "text": "6-I'd rather you ………… out alone.",
+                    "answers": [
+                        {
+                            "id": 937,
+                            "text": "a-haven't gone"
+                        },
+                        {
+                            "id": 938,
+                            "text": "b-don’t go"
+                        },
+                        {
+                            "id": 939,
+                            "text": "c-didn’t go"
+                        },
+                        {
+                            "id": 940,
+                            "text": "d-aren't going"
+                        }
+                    ]
+                },
+                {
+                    "id": 236,
+                    "text": "7-Our problems multiplied ……….. last year.",
+                    "answers": [
+                        {
+                            "id": 941,
+                            "text": "a-for"
+                        },
+                        {
+                            "id": 942,
+                            "text": "b-ever"
+                        },
+                        {
+                            "id": 943,
+                            "text": "c-since"
+                        },
+                        {
+                            "id": 944,
+                            "text": "d-No word"
+                        }
+                    ]
+                },
+                {
+                    "id": 237,
+                    "text": "8-Our problems have multiplied ……………. the last year.",
+                    "answers": [
+                        {
+                            "id": 945,
+                            "text": "a-for"
+                        },
+                        {
+                            "id": 946,
+                            "text": "b-ever"
+                        },
+                        {
+                            "id": 947,
+                            "text": "c-since"
+                        },
+                        {
+                            "id": 948,
+                            "text": "d-No word"
+                        }
+                    ]
+                },
+                {
+                    "id": 238,
+                    "text": "9-A university ……… isn’t always an open sesame to a good job.",
+                    "answers": [
+                        {
+                            "id": 949,
+                            "text": "a-grade"
+                        },
+                        {
+                            "id": 950,
+                            "text": "b-degrade"
+                        },
+                        {
+                            "id": 951,
+                            "text": "c-degree"
+                        },
+                        {
+                            "id": 952,
+                            "text": "d-college"
+                        }
+                    ]
+                },
+                {
+                    "id": 239,
+                    "text": "10-After his three successive wins, the coach's strategy proved to be a …………..  .",
+                    "answers": [
+                        {
+                            "id": 953,
+                            "text": "a-syndrome"
+                        },
+                        {
+                            "id": 954,
+                            "text": "b-failure"
+                        },
+                        {
+                            "id": 955,
+                            "text": "c-successful"
+                        },
+                        {
+                            "id": 956,
+                            "text": "d-success"
+                        }
+                    ]
+                },
+                {
+                    "id": 240,
+                    "text": "11-I …….. dinner, so there're plates all over the table.",
+                    "answers": [
+                        {
+                            "id": 957,
+                            "text": "a-eat"
+                        },
+                        {
+                            "id": 958,
+                            "text": "b-have eaten"
+                        },
+                        {
+                            "id": 959,
+                            "text": "c-have been eating"
+                        },
+                        {
+                            "id": 960,
+                            "text": "d-have been eaten"
+                        }
+                    ]
+                },
+                {
+                    "id": 241,
+                    "text": "12-How long ago ………. Working here?",
+                    "answers": [
+                        {
+                            "id": 961,
+                            "text": "a-have you been"
+                        },
+                        {
+                            "id": 962,
+                            "text": "b-have you started"
+                        },
+                        {
+                            "id": 963,
+                            "text": "c-did you start"
+                        },
+                        {
+                            "id": 964,
+                            "text": "d-A&B"
+                        }
+                    ]
+                },
+                {
+                    "id": 242,
+                    "text": "13-Retal sang ………. Songs.",
+                    "answers": [
+                        {
+                            "id": 965,
+                            "text": "a-beauty"
+                        },
+                        {
+                            "id": 966,
+                            "text": "b-beautiful"
+                        },
+                        {
+                            "id": 967,
+                            "text": "c-beautifully"
+                        },
+                        {
+                            "id": 968,
+                            "text": "d-A&C"
+                        }
+                    ]
+                },
+                {
+                    "id": 243,
+                    "text": "14-Retal sang ……….. .",
+                    "answers": [
+                        {
+                            "id": 969,
+                            "text": "a-beauty"
+                        },
+                        {
+                            "id": 970,
+                            "text": "b-beautiful"
+                        },
+                        {
+                            "id": 971,
+                            "text": "c-beautifully"
+                        },
+                        {
+                            "id": 972,
+                            "text": "d-A&C"
+                        }
+                    ]
+                },
+                {
+                    "id": 244,
+                    "text": "15  - يعتمد النقل والكثير من الأنشطة الحياتية بشكل كامل علي النفط في مختلف المجالات، لذا نحن في حاجة الي البحث عن مصادر بديلة للطاقة المتجددة لأن النفط سينفذ في المستقبل.",
+                    "answers": [
+                        {
+                            "id": 973,
+                            "text": "a) Transport and a lot of life activities completely depend on natural gas in various fields, so we need to look for alternative sources of renewable energy because natural gas will run out in the future."
+                        },
+                        {
+                            "id": 974,
+                            "text": "b) Flights and many life activities completely depend on oil in various fields, so we need to look for alternative sources of non-renewable energy because oil will run out in the future."
+                        },
+                        {
+                            "id": 975,
+                            "text": "c) Transport and many life industries completely depend on oil in various fields, so we need to look for alternative resources of renewable energy because oil will run out in the future."
+                        },
+                        {
+                            "id": 976,
+                            "text": "d) Transport and a lot of life activities completely depend on oil in various fields, so we need to look for alternative sources of renewable energy because oil will run out in the future."
+                        }
+                    ]
+                },
+                {
+                    "id": 245,
+                    "text": "16. The main reason for establishing the new capital project was to alleviate traffic congestion. Cairo, our current capital, is already one of the world's most crowded cities.",
+                    "answers": [
+                        {
+                            "id": 977,
+                            "text": "(أ) السبب الرئيسي للتفكير في مشروع العاصمة الجديدة هو تخفيف الازدحام المروري. فالقاهرة، عاصمتنا الحالية، هي بالفعل واحدة من أكثر مدن العالم ازدحاما."
+                        },
+                        {
+                            "id": 978,
+                            "text": "(ب) كان السبب الرئيسي لانشاء مشروع العاصمة الجديدة هو القضاء علي  الازدحام المروري. فالقاهرة، عاصمتنا الحالية، هي بالفعل واحدة من أكثر مدن العالم ازدحاما."
+                        },
+                        {
+                            "id": 979,
+                            "text": "(ج) كان السبب الرئيسي لانشاء مشروع العاصمة الجديدة هو تخفيف الازدحام المروري. فالقاهرة، عاصمتنا الحالية، هي بالفعل واحدة من أكثر مدن العالم ازدحاما."
+                        },
+                        {
+                            "id": 980,
+                            "text": "(د) السبب الرئيسي لانشاء مشروع العاصمة الجديدة هو تخفيف التلوث المروري. فالقاهرة، عاصمتنا الحالية، هي بالفعل واحدة من أكثر عواصم العالم تلوثا."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}
