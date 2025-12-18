@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة الاختراق التعليمية | شاتي</title>
+    <title>منصة سو للاختبارات | شاتي</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -12,7 +12,6 @@
             --text-color: #c9d1d9;
             --accent-color: #58a6ff;
             --success-color: #238636;
-            --error-color: #da3633;
             --border-color: #30363d;
             --hover-color: #1f6feb;
         }
@@ -21,37 +20,36 @@
             font-family: 'Cairo', sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            margin: 0; padding: 0; overflow-x: hidden;
+            margin: 0; padding: 0;
         }
 
-        /* Dashboard */
         header {
-            text-align: center; padding: 30px 0;
+            text-align: center; padding: 30px;
             background: #161b22; border-bottom: 1px solid var(--border-color);
         }
 
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
         
         #searchBar {
-            width: 100%; max-width: 500px; padding: 12px; margin: 20px auto;
+            width: 100%; max-width: 400px; padding: 12px; margin: 15px auto;
             display: block; border-radius: 8px; border: 1px solid var(--border-color);
             background: #0d1117; color: white; font-family: inherit;
         }
 
         .exams-grid {
             display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 15px; margin-top: 20px;
+            gap: 15px;
         }
 
         .exam-card {
             background: var(--card-bg); border: 1px solid var(--border-color);
-            padding: 15px; border-radius: 10px; text-align: center;
+            padding: 20px; border-radius: 12px; text-align: center;
             cursor: pointer; transition: 0.3s;
         }
 
-        .exam-card:hover { border-color: var(--accent-color); transform: translateY(-3px); }
+        .exam-card:hover { border-color: var(--accent-color); transform: translateY(-5px); }
 
-        /* Quiz Overlay */
+        /* Quiz UI */
         #quiz-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: var(--bg-color); z-index: 1000; display: none;
@@ -60,33 +58,26 @@
 
         .question-card {
             background: var(--card-bg); border: 1px solid var(--border-color);
-            border-radius: 12px; padding: 20px; margin-bottom: 20px;
+            border-radius: 15px; padding: 25px; margin-bottom: 20px;
         }
-
-        .question-img { max-width: 100%; border-radius: 8px; margin: 15px 0; }
-
-        .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 
         .opt-btn {
             background: #21262d; border: 1px solid var(--border-color);
-            color: var(--text-color); padding: 12px; border-radius: 6px;
-            cursor: pointer; font-family: inherit; text-align: center;
+            color: var(--text-color); padding: 12px; border-radius: 8px;
+            cursor: pointer; width: 100%; margin-top: 10px; font-family: inherit;
         }
 
-        .opt-btn.selected { background: var(--hover-color); border-color: white; }
+        .opt-btn.selected { background: var(--hover-color); color: white; border-color: white; }
 
-        /* Actions */
-        .actions { text-align: center; margin-top: 30px; padding-bottom: 50px; }
-        .btn { padding: 12px 25px; border-radius: 6px; border: none; cursor: pointer; font-family: inherit; font-weight: bold; }
-        .btn-submit { background: var(--success-color); color: white; }
-        .btn-back { background: var(--border-color); color: white; margin-left: 10px; }
+        .btn-submit {
+            background: var(--success-color); color: white; padding: 15px 40px;
+            border-radius: 8px; border: none; cursor: pointer; font-weight: bold;
+            display: block; margin: 30px auto; font-family: inherit;
+        }
 
-        /* Results Modal */
-        #result-modal {
-            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            background: #21262d; padding: 30px; border-radius: 15px;
-            border: 2px solid var(--accent-color); z-index: 2000; display: none;
-            text-align: center; box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        #result-display {
+            padding: 20px; background: #23863622; border: 1px solid var(--success-color);
+            border-radius: 10px; margin-top: 20px; display: none; text-align: center;
         }
     </style>
 </head>
@@ -94,8 +85,8 @@
 
 <div id="dashboard">
     <header>
-        <h1>لوحة تحكم كويزات سو 🚀</h1>
-        <input type="text" id="searchBar" placeholder="ابحث برقم الامتحان (مثلاً 401)...">
+        <h1>لوحة تحكم سو 🚀</h1>
+        <input type="text" id="searchBar" placeholder="ابحث عن رقم الاختبار...">
     </header>
     <div class="container">
         <div class="exams-grid" id="exams-list"></div>
@@ -104,134 +95,107 @@
 
 <div id="quiz-overlay">
     <div class="container">
-        <button class="btn btn-back" onclick="closeQuiz()">⬅ إلغاء والعودة</button>
-        <h2 id="active-title" style="color: var(--accent-color);"></h2>
-        <div id="active-questions"></div>
-        <div class="actions">
-            <button class="btn btn-submit" onclick="submitExam()">تسليم الامتحان للسيرفر الأصلي</button>
-        </div>
+        <button onclick="location.reload()" style="background:none; border:none; color:var(--accent-color); cursor:pointer;">⬅ عودة</button>
+        <h2 id="quiz-title"></h2>
+        <div id="quiz-questions"></div>
+        <div id="result-display"></div>
+        <button class="btn-submit" id="submit-btn" onclick="submitExam()">إرسال الإجابات للسيرفر الأصلي</button>
     </div>
 </div>
 
-<div id="result-modal">
-    <h2 id="result-score"></h2>
-    <p id="result-msg"></p>
-    <button class="btn btn-back" onclick="location.reload()">إغلاق</button>
-</div>
-
 <script>
-    let currentExamId = null;
-    let userAnswers = [];
+    let currentId = null;
+    let userAnswers = {}; // الهيكل الجديد: Map (Object)
 
-    // 1. توليد البطاقات
-    function initDashboard() {
-        const list = document.getElementById('exams-list');
-        for (let i = 42; i <= 700; i++) {
-            const card = document.createElement('div');
-            card.className = 'exam-card';
-            card.onclick = () => openExam(i);
-            card.innerHTML = `<h3>امتحان #${i}</h3>`;
-            list.appendChild(card);
-        }
+    // إنشاء البطاقات
+    const list = document.getElementById('exams-list');
+    for(let i=42; i<=700; i++) {
+        const div = document.createElement('div');
+        div.className = 'exam-card';
+        div.innerHTML = `<h3>اختبار #${i}</h3>`;
+        div.onclick = () => openQuiz(i);
+        list.appendChild(div);
     }
 
-    // 2. فلترة البحث
+    // بحث
     document.getElementById('searchBar').oninput = (e) => {
-        const term = e.target.value;
-        document.querySelectorAll('.exam-card').forEach(card => {
-            card.style.display = card.innerText.includes(term) ? 'block' : 'none';
+        const val = e.target.value;
+        document.querySelectorAll('.exam-card').forEach(c => {
+            c.style.display = c.innerText.includes(val) ? 'block' : 'none';
         });
     };
 
-    // 3. فتح الامتحان وتحميل الداتا
-    async function openExam(id) {
-        currentExamId = id;
-        userAnswers = [];
-        const overlay = document.getElementById('quiz-overlay');
-        const container = document.getElementById('active-questions');
-        
-        overlay.style.display = 'block';
-        container.innerHTML = '<p>جاري التحميل من ملفاتك المحلية...</p>';
+    async function openQuiz(id) {
+        currentId = id;
+        userAnswers = {};
+        document.getElementById('quiz-overlay').style.display = 'block';
+        const qDiv = document.getElementById('quiz-questions');
+        qDiv.innerHTML = 'جاري تحميل الداتا...';
 
         try {
-            const response = await fetch(`الاختبارات/exam_${id}.json`);
-            const result = await response.json();
-            const data = result.data.data;
+            const res = await fetch(`الاختبارات/exam_${id}.json`);
+            const json = await res.json();
+            const data = json.data.data;
+            document.getElementById('quiz-title').innerText = data.exam.title;
+            qDiv.innerHTML = '';
 
-            document.getElementById('active-title').innerText = data.exam.title;
-            container.innerHTML = '';
-
-            data.questions.forEach((q) => {
-                const qCard = document.createElement('div');
-                qCard.className = 'question-card';
-                qCard.innerHTML = `
+            data.questions.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+                card.innerHTML = `
                     <p><strong>${q.text}</strong></p>
-                    ${q.image_url ? `<img src="${q.image_url}" class="question-img">` : ''}
-                    <div class="options-grid" id="q-${q.id}">
-                        ${q.answers.map(ans => `
-                            <button class="opt-btn" onclick="saveAns(${q.id}, ${ans.id}, this)">${ans.text}</button>
-                        `).join('')}
+                    ${q.image_url ? `<img src="${q.image_url}" style="max-width:100%">` : ''}
+                    <div id="group-${q.id}">
+                        ${q.answers.map(a => `<button class="opt-btn" onclick="save('${q.id}', '${a.id}', this)">${a.text}</button>`).join('')}
                     </div>
                 `;
-                container.appendChild(qCard);
+                qDiv.appendChild(card);
             });
-        } catch (e) {
-            container.innerHTML = `<p style="color:red;">❌ الملف exam_${id}.json مش موجود في فولدر "الاختبارات"</p>`;
-        }
+        } catch(e) { qDiv.innerHTML = '❌ الملف مش موجود'; }
     }
 
-    // 4. حفظ الإجابة محلياً
-    function saveAns(qId, aId, btn) {
-        const index = userAnswers.findIndex(a => a.question_id === qId);
-        if (index > -1) userAnswers[index].answer_id = aId;
-        else userAnswers.push({ question_id: qId, answer_id: aId });
-
-        // تلوين الاختيار
-        btn.parentElement.querySelectorAll('.opt-btn').forEach(b => b.classList.remove('selected'));
+    function save(qid, aid, btn) {
+        userAnswers[qid] = aid; // تخزين بصيغة { "qid": "aid" }
+        const parent = btn.parentElement;
+        parent.querySelectorAll('.opt-btn').forEach(b => b.classList.remove('selected'));
         btn.classList.add('selected');
     }
 
-    // 5. التسليم للسيرفر الأصلي (The Hacker Way)
     async function submitExam() {
-        if (!confirm("هل أنت متأكد من تسليم الإجابات للسيرفر الأصلي؟")) return;
+        const btn = document.getElementById('submit-btn');
+        btn.innerText = 'جاري الإرسال...';
+        btn.disabled = true;
 
-        const url = `https://api.coursatk.online/api/v1/user/exams/${currentExamId}/submit`;
+        const url = `https://api.coursatk.online/api/v1/user/exams/${currentId}/submit`;
         const headers = {
             "Content-Type": "application/json",
-            "Accept": "application/json",
             "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MTM1OSwicm9sZSI6InN0dWRlbnQiLCJ1dWlkIjoiNDAyOTZkM2YxMDg4ZGM5ZjRmMWQ2MTE0ZjcwM2U2MDQifQ.RoPKriladUHqzewaO3D1F9_XWVdLiqyYRh_06aorQQI"
         };
 
         try {
-            const response = await fetch(url, {
+            const res = await fetch(url, {
                 method: 'POST',
                 headers: headers,
-                body: JSON.stringify({ answers: userAnswers })
+                body: JSON.stringify({ answers: userAnswers }) // إرسال الـ Object مباشرة
             });
 
-            const resData = await response.json();
-            
-            if (response.status === 201 || response.status === 200) {
-                showResult(resData);
+            const result = await res.json();
+            const display = document.getElementById('result-display');
+            display.style.display = 'block';
+
+            if(res.ok) {
+                display.innerHTML = `<h3>✅ تم التسليم بنجاح</h3><p>الدرجة: ${result.score || 'شوفها في الموقع الأصلي'}</p>`;
             } else {
-                alert("السيرفر رفض الطلب. ممكن التوكن انتهى؟");
+                display.style.borderColor = 'red';
+                display.innerHTML = `<h3>❌ فشل: ${result.error || 'خطأ مجهول'}</h3>`;
             }
-        } catch (e) {
-            alert("فشل في الاتصال. تأكد من إيقاف حماية CORS في متصفحك أو تشغيله عبر Proxy.");
+        } catch(e) {
+            alert('مشكلة في CORS؟ فعل إضافة Allow CORS في الكروم.');
+        } finally {
+            btn.innerText = 'إرسال الإجابات للسيرفر الأصلي';
+            btn.disabled = false;
         }
     }
-
-    function showResult(data) {
-        const modal = document.getElementById('result-modal');
-        document.getElementById('result-score').innerText = `درجتك: ${data.score || 'تم الحفظ'}`;
-        document.getElementById('result-msg').innerText = "تم إرسال إجاباتك بنجاح للسيرفر الأصلي.";
-        modal.style.display = 'block';
-    }
-
-    function closeQuiz() { document.getElementById('quiz-overlay').style.display = 'none'; }
-
-    window.onload = initDashboard;
 </script>
-
 </body>
 </html>
