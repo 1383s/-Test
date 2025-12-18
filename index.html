@@ -9,28 +9,72 @@
         body { font-family: 'Cairo', sans-serif; background: var(--bg); color: var(--text); margin: 0; }
         header { background: var(--card); padding: 20px; text-align: center; border-bottom: 1px solid #30363d; }
         .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
-        .exam-card { background: var(--card); border: 1px solid #30363d; border-radius: 12px; padding: 20px; cursor: pointer; transition: 0.3s; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+        .exam-card { background: var(--card); border: 1px solid #30363d; border-radius: 12px; padding: 20px; cursor: pointer; transition: 0.3s; text-align: right; position: relative; overflow: hidden; }
         .exam-card:hover { border-color: var(--accent); transform: translateY(-5px); }
-        .exam-card h3 { margin: 10px 0; color: #fff; }
-        #search { width: 100%; max-width: 400px; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: #0b0e14; color: #fff; margin-bottom: 30px; }
+        .exam-card h3 { margin: 0 0 10px 0; color: #fff; font-size: 1.1rem; }
+        .exam-card .id-badge { background: #21262d; color: var(--accent); padding: 2px 8px; border-radius: 5px; font-size: 0.8rem; margin-bottom: 10px; display: inline-block; }
+        #search { width: 100%; max-width: 500px; padding: 15px; border-radius: 10px; border: 1px solid #30363d; background: #0b0e14; color: #fff; margin: 20px auto 40px auto; display: block; font-family: inherit; }
+        .loading-spinner { text-align: center; color: var(--accent); margin: 20px; }
     </style>
 </head>
 <body>
-    <header><h1>⚡ منصة سو التعليمية</h1></header>
-    <div class="container" style="text-align: center;">
-        <input type="text" id="search" placeholder="ابحث برقم الكويز...">
+    <header><h1>⚡ لوحة اختبارات سو</h1></header>
+    <div class="container">
+        <input type="text" id="search" placeholder="ابحث باسم الاختبار أو رقمه...">
+        <div id="loader" class="loading-spinner">جاري تحميل عناوين الاختبارات من ملفاتك...</div>
         <div class="grid" id="list"></div>
     </div>
+
     <script>
         const list = document.getElementById('list');
-        for(let i=42; i<=700; i++) {
-            const card = document.createElement('div');
-            card.className = 'exam-card';
-            card.innerHTML = `<h3>كويز رقم #${i}</h3><small>متاح الآن</small>`;
-            card.onclick = () => window.location.href = `quiz.html?id=${i}`;
-            list.appendChild(card);
+        const searchInput = document.getElementById('search');
+
+        async function loadExams() {
+            // هنلف من 42 لـ 700 زي ما إنت مثبت
+            for(let i = 42; i <= 700; i++) {
+                try {
+                    const res = await fetch(`الاختبارات/exam_${i}.json`);
+                    if (!res.ok) continue; // لو الملف مش موجود سكيب
+                    
+                    const json = await res.json();
+                    const examTitle = json.data.data.exam.title;
+
+                    const card = document.createElement('div');
+                    card.className = 'exam-card';
+                    card.setAttribute('data-title', examTitle.toLowerCase());
+                    card.setAttribute('data-id', i);
+                    card.innerHTML = `
+                        <div class="id-badge">ID: #${i}</div>
+                        <h3>${examTitle}</h3>
+                        <small style="color: #6e7681;">اضغط للبدء الآن</small>
+                    `;
+                    card.onclick = () => window.location.href = `quiz.html?id=${i}`;
+                    list.appendChild(card);
+                } catch(e) {
+                    // لو حصل خطأ في ملف معين بنكمل عادي
+                    console.log(`ملف رقم ${i} غير موجود`);
+                }
+            }
+            document.getElementById('loader').style.display = 'none';
         }
+
+        // دالة البحث الاحترافية
+        searchInput.oninput = (e) => {
+            const term = e.target.value.toLowerCase();
+            const cards = document.querySelectorAll('.exam-card');
+            cards.forEach(card => {
+                const title = card.getAttribute('data-title');
+                const id = card.getAttribute('data-id');
+                if (title.includes(term) || id.includes(term)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        };
+
+        loadExams();
     </script>
 </body>
 </html>
