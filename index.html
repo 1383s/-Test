@@ -1,191 +1,36 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl" class="dark">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHMED || Full Mark</title>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
-    
-    <script>
-        // 🚨 Firebase Config الجديدة اللي حطيتيها
-        const firebaseConfig = {
-          apiKey: "AIzaSyDH3cy-jkDphnPGzHUwd4rd9ogZDY7uUgM",
-          authDomain: "quest-full.firebaseapp.com",
-          projectId: "quest-full",
-          storageBucket: "quest-full.firebasestorage.app",
-          messagingSenderId: "501161882802",
-          appId: "1:501161882802:web:08d6230eb09741a5c8c5ab",
-          measurementId: "G-NDJ5YVHV1D"
-        };
-        
-        // 💡 تهيئة Firebase
-        const firebaseApp = firebase.initializeApp(firebaseConfig);
-        const db = firebase.database();
-        const CODES_REF_PATH = 'approvedStudents';
-        const STUDENT_CODE_KEY = "activeCode";
-
-        // 💡 تهيئة Tailwind والثيمات
-        const DARK_COLORS = {
-            'bg-main': '#020A07',     
-            'bg-card': '#0C241C',     
-            'accent': '#08402C',      
-            'text-primary': '#E6F0E8', 
-        };
-        const LIGHT_COLORS = {
-            'bg-main': '#F7F7F7',     
-            'bg-card': '#FFFFFF',     
-            'accent': '#00A86B',      
-            'text-primary': '#333333', 
-        };
-
-        window.tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        ...DARK_COLORS, // Default to dark for Tailwind classes
-                        'like': '#00A86B', // أخضر للـ Like
-                        'dislike': '#E74C3C', // أحمر للـ Dislike
-                        'mention': '#FFC300', // أصفر للمنشن
-                    },
-                    fontFamily: { sans: ['Cairo', 'sans-serif'] }
-                }
-            }
-        };
-
-        // 💡 دالة التبديل بين الثيمات (تُحفظ في localStorage)
-        window.toggleTheme = (theme) => {
-            if (theme === 'light') {
-                document.documentElement.classList.remove('dark');
-                localStorage.setItem('theme', 'light');
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('theme', 'dark');
-            }
-        };
-
-        // 💡 تطبيق الثيم عند التحميل
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        window.toggleTheme(savedTheme);
-
-        // 💡 دالة التحقق من الكود
-        async function checkCode(code) {
-            try {
-                // البحث في Firebase عن الكود المفعّل
-                const snapshot = await db.ref(`${CODES_REF_PATH}/${code}`).once('value');
-                const studentData = snapshot.val();
-
-                if (!studentData) {
-                    return { success: false, message: 'الكود غير صحيح أو غير مفعّل.' };
-                }
-                if (studentData.isBlocked) {
-                    return { success: false, message: 'عفوًا، تم حظر هذا الكود.' };
-                }
-                if (studentData.expiry < Date.now()) {
-                    return { success: false, message: 'عفوًا، انتهت صلاحية هذا الكود.' };
-                }
-                if (!studentData.section) {
-                    return { success: false, message: 'بيانات الشعبة غير مكتملة، يرجى التواصل مع الإدارة.' };
-                }
-
-                // لو الكود صحيح
-                return { success: true, studentData: studentData };
-
-            } catch (error) {
-                console.error("Firebase Check Error:", error);
-                return { success: false, message: 'حدث خطأ في الاتصال بالشبكة أو قاعدة البيانات.' };
-            }
-        }
-    </script>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>منصة سو | لوحة التحكم</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Cairo', sans-serif; transition: background-color 0.3s; }
-        .dark { background-color: #020A07; }
-        .dark .card { background-color: #0C241C; }
-        .light { background-color: #F7F7F7; }
-        .light .card { background-color: #FFFFFF; }
-        .accent-bg { background-color: var(--accent); }
+        :root { --bg: #0b0e14; --card: #151921; --accent: #58a6ff; --text: #adbac7; }
+        body { font-family: 'Cairo', sans-serif; background: var(--bg); color: var(--text); margin: 0; }
+        header { background: var(--card); padding: 20px; text-align: center; border-bottom: 1px solid #30363d; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+        .exam-card { background: var(--card); border: 1px solid #30363d; border-radius: 12px; padding: 20px; cursor: pointer; transition: 0.3s; text-align: center; }
+        .exam-card:hover { border-color: var(--accent); transform: translateY(-5px); }
+        .exam-card h3 { margin: 10px 0; color: #fff; }
+        #search { width: 100%; max-width: 400px; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: #0b0e14; color: #fff; margin-bottom: 30px; }
     </style>
 </head>
-
-<body class="h-screen flex items-center justify-center">
-
-<div id="login-app" class="p-6 rounded-xl shadow-2xl w-full max-w-sm card">
-    <div class="flex justify-between items-center mb-6">
-        <h2 class="text-2xl font-bold text-accent">دخول الطلاب 🚀</h2>
-        <div class="flex gap-2">
-            <button @click="toggleTheme('dark')" class="text-gray-400 hover:text-text-primary" title="Dark Theme">
-                <i class="ph ph-moon-stars text-xl"></i>
-            </button>
-            <button @click="toggleTheme('light')" class="text-gray-400 hover:text-text-primary" title="Light Theme">
-                <i class="ph ph-sun text-xl"></i>
-            </button>
-        </div>
+<body>
+    <header><h1>⚡ منصة سو التعليمية</h1></header>
+    <div class="container" style="text-align: center;">
+        <input type="text" id="search" placeholder="ابحث برقم الكويز...">
+        <div class="grid" id="list"></div>
     </div>
-    
-    <form @submit.prevent="handleLogin" class="space-y-4">
-        <input v-model="studentCodeInput" type="text" placeholder="أدخل كود التفعيل" required
-               class="w-full p-3 rounded border border-gray-600 focus:ring-accent focus:border-accent bg-gray-700 text-text-primary transition-colors">
-        
-        <button type="submit" :disabled="loading"
-                class="w-full p-3 rounded font-bold text-lg bg-accent text-white hover:bg-opacity-90 transition-opacity">
-            <span v-if="loading">التحقق من الكود...</span>
-            <span v-else>دخول المنصة</span>
-        </button>
-    </form>
-    
-    <p v-if="errorMessage" class="mt-4 text-center text-red-500 font-medium">{{ errorMessage }}</p>
-</div>
-
-<script>
-const { createApp, ref } = Vue;
-
-createApp({
-    setup() {
-        const studentCodeInput = ref(localStorage.getItem(STUDENT_CODE_KEY) || '');
-        const loading = ref(false);
-        const errorMessage = ref('');
-
-        const handleLogin = async () => {
-            const code = studentCodeInput.value.trim();
-            if (code.length === 0) {
-                errorMessage.value = 'يرجى إدخال الكود.';
-                return;
-            }
-            
-            loading.value = true;
-            errorMessage.value = '';
-
-            const result = await checkCode(code);
-            
-            if (result.success) {
-                // حفظ الكود في localStorage وتوجيه الطالب
-                localStorage.setItem(STUDENT_CODE_KEY, code);
-                localStorage.setItem('studentName', result.studentData.name || 'طالب');
-                localStorage.setItem('studentSection', result.studentData.section);
-                window.location.href = 'dashboard.html';
-            } else {
-                errorMessage.value = result.message;
-            }
-            
-            loading.value = false;
-        };
-
-        return { studentCodeInput, loading, errorMessage, handleLogin, toggleTheme };
-    }
-}).mount('#login-app');
-
-// 💡 إعادة توجيه لو الكود محفوظ بالفعل
-if (localStorage.getItem(STUDENT_CODE_KEY)) {
-    window.location.href = 'dashboard.html';
-}
-</script>
+    <script>
+        const list = document.getElementById('list');
+        for(let i=42; i<=700; i++) {
+            const card = document.createElement('div');
+            card.className = 'exam-card';
+            card.innerHTML = `<h3>كويز رقم #${i}</h3><small>متاح الآن</small>`;
+            card.onclick = () => window.location.href = `quiz.html?id=${i}`;
+            list.appendChild(card);
+        }
+    </script>
 </body>
 </html>
