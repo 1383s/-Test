@@ -2,23 +2,146 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>جاري الاختبار...</title>
+    
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
     <style>
-        body { font-family: 'Cairo'; background: #0b0e14; color: #adbac7; padding: 20px; }
+        :root {
+            --bg-dark: #0b0e14;
+            --card-bg: #151921;
+            --border-color: #30363d;
+            --text-main: #adbac7;
+            --accent-green: #238636;
+            --accent-blue: #1f6feb;
+        }
+
+        body { 
+            font-family: 'Cairo', sans-serif; 
+            background: var(--bg-dark); 
+            color: var(--text-main); 
+            padding: 20px; 
+            margin: 0; 
+        }
+
         .container { max-width: 800px; margin: 0 auto; }
-        .q-card { background: #151921; border-radius: 15px; padding: 25px; margin-bottom: 25px; border: 1px solid #30363d; }
-        .opt { display: block; width: 100%; padding: 15px; margin: 10px 0; background: #22272e; border: 1px solid #30363d; color: #fff; border-radius: 10px; cursor: pointer; text-align: right; }
-        .opt.selected { background: #1f6feb; border-color: #58a6ff; }
-        .submit-btn { background: #238636; color: #fff; padding: 15px 40px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; width: 100%; font-size: 1.1rem; }
+
+        /* الهيدر والأزرار */
+        .quiz-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 20px; 
+            border-bottom: 1px solid var(--border-color); 
+            padding-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .btn-action { 
+            background: transparent; 
+            border: 1px solid var(--border-color); 
+            color: var(--text-main); 
+            padding: 8px 15px; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            transition: 0.3s; 
+            text-decoration: none; 
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-action:hover { background: #22272e; border-color: var(--accent-blue); }
+        .btn-pdf { border-color: #f40f02; color: #f40f02; }
+        .btn-pdf:hover { background: rgba(244, 15, 2, 0.1); border-color: #f40f02; }
+
+        .q-count-badge { 
+            background: rgba(31, 111, 235, 0.2); 
+            color: #58a6ff; 
+            padding: 5px 12px; 
+            border-radius: 20px; 
+            font-size: 0.85rem; 
+            font-weight: bold; 
+        }
+
+        .q-card { 
+            background: var(--card-bg); 
+            border-radius: 15px; 
+            padding: 25px; 
+            margin-bottom: 25px; 
+            border: 1px solid var(--border-color); 
+            page-break-inside: avoid; /* عشان السؤال ميتفصلش في نص صفحتين PDF */
+        }
+
+        .opt { 
+            display: block; 
+            width: 100%; 
+            padding: 15px; 
+            margin: 10px 0; 
+            background: #22272e; 
+            border: 1px solid var(--border-color); 
+            color: #fff; 
+            border-radius: 10px; 
+            cursor: pointer; 
+            text-align: right; 
+            transition: 0.2s; 
+        }
+
+        .opt.selected { 
+            background: var(--accent-blue) !important; 
+            border-color: #58a6ff !important; 
+            font-weight: bold; 
+        }
+
+        .submit-btn { 
+            background: var(--accent-green); 
+            color: #fff; 
+            padding: 18px; 
+            border: none; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            width: 100%; 
+            font-size: 1.2rem; 
+            margin-top: 20px; 
+        }
+
+        #title { color: #fff; margin: 10px 0; }
+
+        /* إخفاء الأزرار عند الطباعة/الحفظ فقط */
+        .no-print { display: none; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2 id="title">جاري التحميل...</h2>
+
+    <div class="container" id="quizContent">
+        <div class="quiz-header">
+            <a href="javascript:history.back()" class="btn-action">
+                <i class="fas fa-chevron-right"></i> رجوع
+            </a>
+            
+            <button onclick="downloadPDF()" class="btn-action btn-pdf" id="pdfBtn">
+                <i class="fas fa-file-pdf"></i> حفظ الاختبار PDF
+            </button>
+
+            <span id="qCountDisplay" class="q-count-badge">جاري الحساب...</span>
+        </div>
+
+        <h2 id="title">جاري تحميل الاختبار...</h2>
+        
         <div id="questions"></div>
-        <button class="submit-btn" onclick="submit()">تسليم الاختبار وتصحيحه 🚀</button>
+        
+        <button class="submit-btn" id="finalSubmitBtn" onclick="submit()">
+            <i class="fas fa-paper-plane"></i> تسليم الاختبار وتصحيحه 🚀
+        </button>
     </div>
+
     <script>
         const params = new URLSearchParams(window.location.search);
         const examId = params.get('id');
@@ -29,30 +152,74 @@
             try {
                 const res = await fetch(`الاختبارات/exam_${examId}.json`);
                 const json = await res.json();
+                
                 document.getElementById('title').innerText = json.data.data.exam.title;
-                json.data.data.questions.forEach(q => {
+                
+                const questionsArray = json.data.data.questions;
+                document.getElementById('qCountDisplay').innerText = `عدد الأسئلة: ${questionsArray.length}`;
+
+                const questionsContainer = document.getElementById('questions');
+                questionsArray.forEach((q, index) => {
                     const div = document.createElement('div');
                     div.className = 'q-card';
-                    div.innerHTML = `<p><strong>${q.text}</strong></p>
-                        ${q.image_url ? `<img src="${q.image_url}" style="max-width:100%; border-radius:8px; margin-bottom:15px;">` : ''}
-                        <div id="q-${q.id}">${q.answers.map(a => `<button class="opt" onclick="sel('${q.id}','${a.id}',this)">${a.text}</button>`).join('')}</div>`;
-                    document.getElementById('questions').appendChild(div);
+                    div.innerHTML = `
+                        <p><strong>سؤال ${index + 1}:</strong> ${q.text}</p>
+                        ${q.image_url ? `<img src="${q.image_url}" style="max-width:100%; border-radius:12px; margin-bottom:15px; border: 1px solid #30363d;">` : ''}
+                        <div id="q-${q.id}">
+                            ${q.answers.map(a => `
+                                <button class="opt" onclick="sel('${q.id}','${a.id}',this)">${a.text}</button>
+                            `).join('')}
+                        </div>`;
+                    questionsContainer.appendChild(div);
                 });
-            } catch(e) { alert("ملف الاختبار مش موجود!"); }
+            } catch(e) { 
+                alert("ملف الاختبار مش موجود!"); 
+            }
         }
+
         function sel(qid, aid, btn) {
             userAnswers[qid] = aid;
-            btn.parentElement.querySelectorAll('.opt').forEach(b => b.classList.remove('selected'));
+            const parent = btn.parentElement;
+            parent.querySelectorAll('.opt').forEach(b => b.classList.remove('selected'));
             btn.classList.add('selected');
         }
+
+        // دالة حفظ الـ PDF
+        function downloadPDF() {
+            const element = document.getElementById('quizContent');
+            const examTitle = document.getElementById('title').innerText;
+            
+            // إخفاء الأزرار مؤقتاً عشان متطلعش في الـ PDF
+            const pdfBtn = document.getElementById('pdfBtn');
+            const submitBtn = document.getElementById('finalSubmitBtn');
+            pdfBtn.style.display = 'none';
+            submitBtn.style.display = 'none';
+
+            const opt = {
+                margin:       [10, 10, 10, 10],
+                filename:     `${examTitle}.pdf`,
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#0b0e14' },
+                jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            html2pdf().set(opt).from(element).save().then(() => {
+                // إرجاع الأزرار بعد الحفظ
+                pdfBtn.style.display = 'flex';
+                submitBtn.style.display = 'block';
+            });
+        }
+
         async function submit() {
             const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/${examId}/submit`, {
-                method: 'POST', headers: { "Content-Type": "application/json", "Authorization": TOKEN },
+                method: 'POST', 
+                headers: { "Content-Type": "application/json", "Authorization": TOKEN },
                 body: JSON.stringify({ answers: userAnswers })
             });
             const data = await res.json();
             if(res.ok) window.location.href = `results.html?rid=${data.data.result.result_id}`;
         }
+
         load();
     </script>
 </body>
