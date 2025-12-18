@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>جاري الاختبار...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo'; background: #0b0e14; color: #adbac7; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .q-card { background: #151921; border-radius: 15px; padding: 25px; margin-bottom: 25px; border: 1px solid #30363d; }
+        .opt { display: block; width: 100%; padding: 15px; margin: 10px 0; background: #22272e; border: 1px solid #30363d; color: #fff; border-radius: 10px; cursor: pointer; text-align: right; }
+        .opt.selected { background: #1f6feb; border-color: #58a6ff; }
+        .submit-btn { background: #238636; color: #fff; padding: 15px 40px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; width: 100%; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 id="title">جاري التحميل...</h2>
+        <div id="questions"></div>
+        <button class="submit-btn" onclick="submit()">تسليم الاختبار وتصحيحه 🚀</button>
+    </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const examId = params.get('id');
+        let userAnswers = {};
+        const TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MTM1OSwicm9sZSI6InN0dWRlbnQiLCJ1dWlkIjoiNDAyOTZkM2YxMDg4ZGM5ZjRmMWQ2MTE0ZjcwM2U2MDQifQ.RoPKriladUHqzewaO3D1F9_XWVdLiqyYRh_06aorQQI";
+
+        async function load() {
+            try {
+                const res = await fetch(`الاختبارات/exam_${examId}.json`);
+                const json = await res.json();
+                document.getElementById('title').innerText = json.data.data.exam.title;
+                json.data.data.questions.forEach(q => {
+                    const div = document.createElement('div');
+                    div.className = 'q-card';
+                    div.innerHTML = `<p><strong>${q.text}</strong></p>
+                        ${q.image_url ? `<img src="${q.image_url}" style="max-width:100%; border-radius:8px; margin-bottom:15px;">` : ''}
+                        <div id="q-${q.id}">${q.answers.map(a => `<button class="opt" onclick="sel('${q.id}','${a.id}',this)">${a.text}</button>`).join('')}</div>`;
+                    document.getElementById('questions').appendChild(div);
+                });
+            } catch(e) { alert("ملف الاختبار مش موجود!"); }
+        }
+        function sel(qid, aid, btn) {
+            userAnswers[qid] = aid;
+            btn.parentElement.querySelectorAll('.opt').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+        }
+        async function submit() {
+            const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/${examId}/submit`, {
+                method: 'POST', headers: { "Content-Type": "application/json", "Authorization": TOKEN },
+                body: JSON.stringify({ answers: userAnswers })
+            });
+            const data = await res.json();
+            if(res.ok) window.location.href = `results.html?rid=${data.data.result.result_id}`;
+        }
+        load();
+    </script>
+</body>
+</html>
