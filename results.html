@@ -8,6 +8,27 @@
         :root { --bg: #0b0e14; --card: #151921; --wrong: #f85149; --correct: #3fb950; --accent: #58a6ff; }
         body { background: var(--bg); color: #adbac7; font-family: 'Cairo'; margin: 0; padding: 20px; }
         .container { max-width: 900px; margin: 0 auto; }
+        
+        /* 1. هنا ستايل زرار العودة اللي بعته */
+        .back-nav {
+            background: #21262d;
+            color: var(--accent);
+            border: 1px solid #30363d;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Cairo';
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .back-nav:hover {
+            background: var(--accent);
+            color: white;
+        }
+
         .stats-bar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 30px 0; }
         .stat-card { background: var(--card); padding: 20px; border-radius: 12px; border: 1px solid #30363d; text-align: center; }
         .stat-card h2 { margin: 0; color: #fff; font-size: 2.2rem; }
@@ -24,34 +45,39 @@
 </head>
 <body>
     <div class="container">
+        <button class="back-nav" onclick="window.location.href='index.html'">
+            <span>←</span> العودة للرئيسية
+        </button>
+
         <h1 style="text-align: center; color: #fff;">نتيجتك النهائية</h1>
+        
         <div class="stats-bar" id="stats"></div>
+        
         <h2 style="margin: 40px 0 20px; border-right: 4px solid var(--accent); padding-right: 15px;">مراجعة الإجابات</h2>
+        
         <div id="details"></div>
     </div>
 
     <script>
+        // الكود بتاع الـ Fetch اللي عملناه قبل كدة بيفضل زي ما هو
         const rid = new URLSearchParams(window.location.search).get('rid');
         const TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MTM1OSwicm9sZSI6InN0dWRlbnQiLCJ1dWlkIjoiNDAyOTZkM2YxMDg4ZGM5ZjRmMWQ2MTE0ZjcwM2U2MDQifQ.RoPKriladUHqzewaO3D1F9_XWVdLiqyYRh_06aorQQI";
 
         async function init() {
             try {
-                // جلب النتيجة من السيرفر الأصلي
                 const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/result/${rid}`, { headers: { "Authorization": TOKEN }});
                 const serverData = (await res.json()).data.data;
                 const examId = serverData.result.exam_id;
 
-                // جلب نصوص الأسئلة من الملف المحلي لتعويض الـ undefined
                 const localRes = await fetch(`الاختبارات/exam_${examId}.json`);
                 const localData = (await localRes.json()).data.data;
 
-                // عرض الإحصائيات مع إضافة علامة النسبة المئوية %
+                // عرض النسبة المئوية %
                 document.getElementById('stats').innerHTML = `
                     <div class="stat-card"><h2>${serverData.result.score}%</h2><small>الدرجة النهائية</small></div>
                     <div class="stat-card"><h2>${serverData.result.correct_answers}</h2><small>إجابات صحيحة</small></div>
                     <div class="stat-card"><h2>${serverData.result.total_questions - serverData.result.correct_answers}</h2><small>إجابات خاطئة</small></div>`;
 
-                // عرض المراجعة بالتفصيل مع الربط بالبيانات المحلية
                 serverData.questions.forEach((q, i) => {
                     const originalQ = localData.questions.find(oq => oq.id == q.id);
                     const userOpt = originalQ ? originalQ.answers.find(a => a.id == q.user_answer_id) : null;
@@ -69,7 +95,7 @@
                         </div>`;
                     document.getElementById('details').appendChild(div);
                 });
-            } catch(e) { console.error("Error fetching data:", e); }
+            } catch(e) { console.error("Error:", e); }
         }
         init();
     </script>
