@@ -25,30 +25,15 @@
 
         /* لوحة أرقام الأسئلة */
         .nav-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 20px;
-            background: var(--card-bg);
-            padding: 15px;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            justify-content: center;
+            display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;
+            background: var(--card-bg); padding: 15px; border-radius: 12px;
+            border: 1px solid var(--border-color); justify-content: center;
         }
 
         .nav-item {
-            width: 35px;
-            height: 35px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 6px;
-            background: var(--accent-gray);
-            color: #fff;
-            cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: bold;
-            transition: 0.3s;
+            width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;
+            border-radius: 6px; background: var(--accent-gray); color: #fff; cursor: pointer;
+            font-size: 0.9rem; font-weight: bold; transition: 0.3s;
         }
 
         .nav-item.current { background: var(--accent-blue); border: 2px solid #fff; }
@@ -56,11 +41,8 @@
 
         /* منطقة السؤال */
         .q-card {
-            background: var(--card-bg);
-            border-radius: 15px;
-            padding: 25px;
-            border: 1px solid var(--border-color);
-            min-height: 300px;
+            background: var(--card-bg); border-radius: 15px; padding: 25px;
+            border: 1px solid var(--border-color); min-height: 300px;
             animation: fadeIn 0.4s ease;
         }
 
@@ -70,17 +52,18 @@
             display: block; width: 100%; padding: 15px; margin: 12px 0;
             background: #22272e; border: 1px solid var(--border-color);
             color: #fff; border-radius: 10px; cursor: pointer; text-align: right; font-size: 1rem;
+            transition: 0.2s;
         }
 
-        .opt.selected { background: var(--accent-blue) !important; border-color: #58a6ff !important; }
+        /* اللون الأزرق لما تختار إجابة */
+        .opt.selected { 
+            background: var(--accent-blue) !important; 
+            border-color: #58a6ff !important; 
+            font-weight: bold;
+        }
 
         /* الزراير السفلية */
-        .controls {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-            gap: 10px;
-        }
+        .controls { display: flex; justify-content: space-between; margin-top: 20px; gap: 10px; }
 
         .btn {
             flex: 1; padding: 12px; border: none; border-radius: 10px;
@@ -93,8 +76,6 @@
         .btn-submit { background: var(--accent-green); }
         .btn:disabled { opacity: 0.3; cursor: not-allowed; }
 
-        .btn:hover:not(:disabled) { filter: brightness(1.2); transform: translateY(-2px); }
-
         #title { font-size: 1.2rem; text-align: center; margin-bottom: 15px; color: #fff; }
     </style>
 </head>
@@ -102,9 +83,7 @@
 
     <div class="container">
         <h2 id="title">جاري التحميل...</h2>
-
         <div id="navGrid" class="nav-grid"></div>
-
         <div id="questionContainer"></div>
 
         <div class="controls">
@@ -114,7 +93,7 @@
             <button class="btn btn-next" id="nextBtn" onclick="changeQ(1)">
                 التالي <i class="fas fa-arrow-left"></i>
             </button>
-            <button class="btn btn-submit" id="submitBtn" onclick="submit()">
+            <button class="btn btn-submit" id="submitBtn" onclick="submit()" style="display:none;">
                 تسليم <i class="fas fa-paper-plane"></i>
             </button>
         </div>
@@ -140,20 +119,22 @@
             } catch(e) { alert("خطأ في تحميل الاختبار!"); }
         }
 
-        // رسم المربعات فوق
         function renderNav() {
             const grid = document.getElementById('navGrid');
             grid.innerHTML = '';
-            questions.forEach((_, i) => {
+            questions.forEach((q, i) => {
                 const item = document.createElement('div');
-                item.className = `nav-item ${i === currentIdx ? 'current' : ''} ${userAnswers[questions[i].id] ? 'answered' : ''}`;
+                // تلوين المربع لو السؤال الحالي أو لو الطالب جاوب عليه
+                let statusClass = (i === currentIdx) ? 'current' : '';
+                if (userAnswers[q.id]) statusClass += ' answered';
+                
+                item.className = `nav-item ${statusClass}`;
                 item.innerText = i + 1;
                 item.onclick = () => { currentIdx = i; renderQuestion(); renderNav(); };
                 grid.appendChild(item);
             });
         }
 
-        // رسم السؤال الحالي
         function renderQuestion() {
             const q = questions[currentIdx];
             const container = document.getElementById('questionContainer');
@@ -161,25 +142,34 @@
             container.innerHTML = `
                 <div class="q-card">
                     <p><strong>سؤال ${currentIdx + 1}:</strong> ${q.text}</p>
-                    ${q.image_url ? `<img src="${q.image_url}" style="max-width:100%; border-radius:10px; margin-bottom:15px;">` : ''}
+                    ${q.image_url ? `<img src="${q.image_url}" style="max-width:100%; border-radius:10px; margin-bottom:15px; border:1px solid #30363d;">` : ''}
                     <div id="options">
                         ${q.answers.map(a => `
                             <button class="opt ${userAnswers[q.id] === a.id ? 'selected' : ''}" 
-                                onclick="sel('${q.id}','${a.id}')">${a.text}</button>
+                                onclick="sel('${q.id}','${a.id}', this)">${a.text}</button>
                         `).join('')}
                     </div>
                 </div>
             `;
 
-            // تحديث حالة الزراير
+            // تحديث حالة الأزرار
             document.getElementById('prevBtn').disabled = (currentIdx === 0);
-            document.getElementById('nextBtn').style.display = (currentIdx === questions.length - 1) ? 'none' : 'flex';
-            document.getElementById('submitBtn').style.display = (currentIdx === questions.length - 1) ? 'flex' : 'none';
+            
+            const isLastQ = (currentIdx === questions.length - 1);
+            document.getElementById('nextBtn').style.display = isLastQ ? 'none' : 'flex';
+            document.getElementById('submitBtn').style.display = isLastQ ? 'flex' : 'none';
         }
 
-        function sel(qid, aid) {
-            userAnswers[qid] = aid;
-            renderQuestion();
+        // دالة اختيار الإجابة - تم إصلاحها
+        function sel(qid, aid, btn) {
+            userAnswers[qid] = aid; // حفظ الإجابة
+            
+            // شيل الـ selected من كل الزراير اللي في السؤال ده وحطها على اللي اتضغط عليه
+            const buttons = btn.parentElement.querySelectorAll('.opt');
+            buttons.forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+
+            // تحديث شبكة المربعات فوق عشان تبين إن السؤال اتحل
             renderNav();
         }
 
@@ -191,12 +181,15 @@
 
         async function submit() {
             if(!confirm("هل تريد تسليم الامتحان؟")) return;
-            const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/${examId}/submit`, {
-                method: 'POST', headers: { "Content-Type": "application/json", "Authorization": TOKEN },
-                body: JSON.stringify({ answers: userAnswers })
-            });
-            const data = await res.json();
-            if(res.ok) window.location.href = `results.html?rid=${data.data.result.result_id}`;
+            try {
+                const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/${examId}/submit`, {
+                    method: 'POST', 
+                    headers: { "Content-Type": "application/json", "Authorization": TOKEN },
+                    body: JSON.stringify({ answers: userAnswers })
+                });
+                const data = await res.json();
+                if(res.ok) window.location.href = `results.html?rid=${data.data.result.result_id}`;
+            } catch(e) { alert("فشل في إرسال الإجابات!"); }
         }
 
         load();
