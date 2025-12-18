@@ -1,0 +1,134 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 442,
+                "title": "امتحان علي عزم الازدواج و عزم ثنائي القطب",
+                "lecture_id": 3425,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:29:21.575449Z",
+                "updated_at": "2025-11-27T18:29:21.575449Z"
+            },
+            "questions": [
+                {
+                    "id": 9461,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/d3a6d98c4bd9315548e97e181c7fe00bf9751e331b8c.jpg",
+                    "answers": [
+                        {
+                            "id": 37822,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37823,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37824,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37825,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9462,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/e597003744f969a5af56e86bf5b6c576c07a7e8379f7.jpg",
+                    "answers": [
+                        {
+                            "id": 37826,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37827,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37828,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37829,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9463,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/098a382416c3c69f6a88064d0363e69fd0bca1009c4f.jpg",
+                    "answers": [
+                        {
+                            "id": 37830,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37831,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37832,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37833,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9464,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/d617defc7293a568040305d795858691d367b1500e79.jpg",
+                    "answers": [
+                        {
+                            "id": 37834,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37835,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37836,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37837,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9465,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/4f05944b05db3c73c0da20b79d398d0b3b7853ba0085.jpg",
+                    "answers": [
+                        {
+                            "id": 37838,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37839,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37840,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37841,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

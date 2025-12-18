@@ -1,0 +1,203 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 444,
+                "title": "تراكمي المحاضرة التانية الفصل الأول",
+                "lecture_id": 3428,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:29:24.98161Z",
+                "updated_at": "2025-11-27T18:29:24.98161Z"
+            },
+            "questions": [
+                {
+                    "id": 9480,
+                    "text": "1",
+                    "image_url": "https://i.ibb.co/fYBX4VDc/question-1.jpg",
+                    "answers": [
+                        {
+                            "id": 37897,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37898,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37899,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37900,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9481,
+                    "text": "2",
+                    "image_url": "https://i.ibb.co/KjdYhW2S/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 37901,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37902,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37903,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37904,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9482,
+                    "text": "3",
+                    "image_url": "https://i.ibb.co/ynCmPrpM/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 37905,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37906,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37907,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37908,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9483,
+                    "text": "4",
+                    "image_url": "https://i.ibb.co/vWTG0K9/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 37909,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37910,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37911,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37912,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9484,
+                    "text": "5",
+                    "image_url": "https://i.ibb.co/jZsbd5pb/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 37913,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37914,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37915,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37916,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9485,
+                    "text": "6",
+                    "image_url": "https://i.ibb.co/Mk9wYs2m/question-6.jpg",
+                    "answers": [
+                        {
+                            "id": 37917,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37918,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37919,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37920,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9486,
+                    "text": "7",
+                    "image_url": "https://i.ibb.co/pj1KcfXM/question-7.jpg",
+                    "answers": [
+                        {
+                            "id": 37921,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37922,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37923,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37924,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9487,
+                    "text": "8",
+                    "image_url": "https://i.ibb.co/d0M1HC3w/question-8.jpg",
+                    "answers": [
+                        {
+                            "id": 37925,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37926,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37927,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37928,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

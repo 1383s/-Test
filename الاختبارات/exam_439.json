@@ -1,0 +1,134 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 439,
+                "title": "امتحان المحاضرة 4 الفصل 2",
+                "lecture_id": 3421,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:29:16.999599Z",
+                "updated_at": "2025-11-27T18:29:16.999599Z"
+            },
+            "questions": [
+                {
+                    "id": 9431,
+                    "text": "1",
+                    "image_url": "https://files.coursatk.online/images/questions/cf0e509a43603c50190371f19b7760da349fa4d32f91.jpg",
+                    "answers": [
+                        {
+                            "id": 37702,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37703,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37704,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37705,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9432,
+                    "text": "2",
+                    "image_url": "https://files.coursatk.online/images/questions/1d732570b8cee57a640c9048fae112d6ca42f62a1c7d.jpg",
+                    "answers": [
+                        {
+                            "id": 37706,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37707,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37708,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37709,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9433,
+                    "text": "3",
+                    "image_url": "https://files.coursatk.online/images/questions/f3fdf585392a8653712b76107e0d7a47d135e265bc3b.jpg",
+                    "answers": [
+                        {
+                            "id": 37710,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37711,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37712,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37713,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9434,
+                    "text": "4",
+                    "image_url": "https://files.coursatk.online/images/questions/ac58b762a9ccaf05caebcbf0d3c36b6ea5e6494eb50e.jpg",
+                    "answers": [
+                        {
+                            "id": 37714,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37715,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37716,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37717,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 9435,
+                    "text": "5",
+                    "image_url": "https://files.coursatk.online/images/questions/168cbba89947711850f797ec7f0e6e9e57a9c06958fa.jpg",
+                    "answers": [
+                        {
+                            "id": 37718,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 37719,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 37720,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 37721,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

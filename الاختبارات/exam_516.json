@@ -1,0 +1,456 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 516,
+                "title": "واجب [13] - أسئلة الثانوية العامة 🔥",
+                "lecture_id": 3572,
+                "duration_minutes": 180,
+                "order_index": 3,
+                "created_at": "2025-11-27T18:32:18.444678Z",
+                "updated_at": "2025-11-27T18:32:18.444678Z"
+            },
+            "questions": [
+                {
+                    "id": 11149,
+                    "text": "اسئلة ثانوية عامة : السؤال 1",
+                    "image_url": "https://files.coursatk.online/images/questions/41d22f833d299ac9ef3e79e6c8859a0c2e7daaf3e6a9.jpg",
+                    "answers": [
+                        {
+                            "id": 44571,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44572,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44573,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44574,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11150,
+                    "text": "اسئلة ثانوية عامة : السؤال 2",
+                    "image_url": "https://files.coursatk.online/images/questions/00d52362bef1d78a01d7acf808c7c93d65b5a3be448b.jpg",
+                    "answers": [
+                        {
+                            "id": 44575,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44576,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44577,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44578,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11151,
+                    "text": "اسئلة ثانوية عامة : السؤال3",
+                    "image_url": "https://files.coursatk.online/images/questions/22f3eef31737ce2c2ff80e928cd35de4326e83182da0.jpg",
+                    "answers": [
+                        {
+                            "id": 44579,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44580,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44581,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44582,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11152,
+                    "text": "اسئلة ثانوية عامة : السؤال 4",
+                    "image_url": "https://files.coursatk.online/images/questions/0601220ddcf0338cdc5b2d472c742be5f82fe9ee66da.jpg",
+                    "answers": [
+                        {
+                            "id": 44583,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44584,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44585,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44586,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11153,
+                    "text": "اسئلة ثانوية عامة : السؤال 5",
+                    "image_url": "https://files.coursatk.online/images/questions/3414b916660dc42ad173a8bbfa442ecff5c30d52cdcb.jpg",
+                    "answers": [
+                        {
+                            "id": 44587,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44588,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44589,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44590,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11154,
+                    "text": "اسئلة ثانوية عامة : السؤال 6",
+                    "image_url": "https://files.coursatk.online/images/questions/f43e7ec54cbe2ce2c6c2d3b9de24b660d8e6c2d15013.jpg",
+                    "answers": [
+                        {
+                            "id": 44591,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44592,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44593,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44594,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11155,
+                    "text": "اسئلة ثانوية عامة : السؤال 7",
+                    "image_url": "https://files.coursatk.online/images/questions/91a1b84f3d011180ba74c198b96b796cb434e35d6292.jpg",
+                    "answers": [
+                        {
+                            "id": 44595,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44596,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44597,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44598,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11156,
+                    "text": "اسئلة ثانوية عامة : السؤال 8",
+                    "image_url": "https://files.coursatk.online/images/questions/6c6d384d07c86f741bf73cf109c9af91a7bc3499b164.jpg",
+                    "answers": [
+                        {
+                            "id": 44599,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44600,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44601,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44602,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11157,
+                    "text": "اسئلة ثانوية عامة : السؤال 9",
+                    "image_url": "https://files.coursatk.online/images/questions/ee77552e8ab3f3a46260f3636a82ac3cca20610e5569.jpg",
+                    "answers": [
+                        {
+                            "id": 44603,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44604,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44605,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44606,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11158,
+                    "text": "اسئلة ثانوية عامة : السؤال 10",
+                    "image_url": "https://files.coursatk.online/images/questions/abe41fc75ddf5e38e109ea31e493577334ba0784bba5.jpg",
+                    "answers": [
+                        {
+                            "id": 44607,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44608,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44609,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44610,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11159,
+                    "text": "اسئلة ثانوية عامة : السؤال 11",
+                    "image_url": "https://files.coursatk.online/images/questions/6241d25b4cef3b0639dae2d9afaa7f47ec208ae8d09f.jpg",
+                    "answers": [
+                        {
+                            "id": 44611,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44612,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44613,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44614,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11160,
+                    "text": "اسئلة ثانوية عامة : السؤال 12",
+                    "image_url": "https://files.coursatk.online/images/questions/f469044845d5af69530a4ed40204501cf5f250570c17.jpg",
+                    "answers": [
+                        {
+                            "id": 44615,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44616,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44617,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44618,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11161,
+                    "text": "اسئلة ثانوية عامة : السؤال 13",
+                    "image_url": "https://files.coursatk.online/images/questions/ba84791ebfdef1e023cc02f1950e03615d46d5feecf5.jpg",
+                    "answers": [
+                        {
+                            "id": 44619,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44620,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44621,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44622,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11162,
+                    "text": "اسئلة ثانوية عامة : السؤال 14",
+                    "image_url": "https://files.coursatk.online/images/questions/9b3e32e77164d1c402b4238d87655eb8b2da25bf034f.jpg",
+                    "answers": [
+                        {
+                            "id": 44623,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44624,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44625,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44626,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11163,
+                    "text": "اسئلة ثانوية عامة : السؤال 15",
+                    "image_url": "https://files.coursatk.online/images/questions/9ae1aae496294f4092a9bc4e9bf0e6ad1a3df1c86060.jpg",
+                    "answers": [
+                        {
+                            "id": 44627,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44628,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44629,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44630,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11164,
+                    "text": "اسئلة ثانوية عامة : السؤال 16",
+                    "image_url": "https://files.coursatk.online/images/questions/a4446ed663ed0f007428ce4ada5bf32db2646487ee6b.jpg",
+                    "answers": [
+                        {
+                            "id": 44631,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44632,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44633,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44634,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11165,
+                    "text": "اسئلة ثانوية عامة : السؤال 17",
+                    "image_url": "https://files.coursatk.online/images/questions/59e056aa88c02ac1af906dccce4ceb84e238bd0acf26.jpg",
+                    "answers": [
+                        {
+                            "id": 44635,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44636,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44637,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44638,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11166,
+                    "text": "اسئلة ثانوية عامة : السؤال18",
+                    "image_url": "https://files.coursatk.online/images/questions/bfcb56ac004daa1490600a165d5dce7da79f969461e5.jpg",
+                    "answers": [
+                        {
+                            "id": 44639,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44640,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44641,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44642,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11167,
+                    "text": "اسئلة ثانوية عامة : السؤال 19",
+                    "image_url": "https://files.coursatk.online/images/questions/60a531ae8a4c669f72c542d75a25709e10e197a2ecc2.jpg",
+                    "answers": [
+                        {
+                            "id": 44643,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 44644,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 44645,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 44646,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}
