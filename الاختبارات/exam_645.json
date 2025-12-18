@@ -1,0 +1,744 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 645,
+                "title": "امتحان على المحاضرة الثانية عشرة - 3ث",
+                "lecture_id": 3823,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-12-04T16:31:59.117509Z",
+                "updated_at": "2025-12-04T16:31:59.117509Z"
+            },
+            "questions": [
+                {
+                    "id": 14265,
+                    "text": "<p> <span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:#0400;mso-bidi-language:AR-EG'><br/></span></p><p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:#0400;mso-bidi-language:AR-EG'>ميز نوع المصدر الوارد بالشطر الثاني:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/content/20251204_6d7ef05f24894866d530b58a3a6877c8.jpg",
+                    "answers": [
+                        {
+                            "id": 57017,
+                            "text": "رباعي."
+                        },
+                        {
+                            "id": 57018,
+                            "text": "خماسي."
+                        },
+                        {
+                            "id": 57019,
+                            "text": "ثلاثي."
+                        },
+                        {
+                            "id": 57020,
+                            "text": "مؤول."
+                        }
+                    ]
+                },
+                {
+                    "id": 14266,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-EG'>ميز</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:#0400;mso-bidi-language:AR-EG'> نوع المشتق (منأى - مُتَعَزَّل) علي الترتيب </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family: \"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language: #0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>.</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a710a5886b4c8ad0da4c5dd82e989cf5b83ed0e52456.jpg",
+                    "answers": [
+                        {
+                            "id": 57021,
+                            "text": "كلاهما اسم زمان."
+                        },
+                        {
+                            "id": 57022,
+                            "text": "كلاهما اسم مكان."
+                        },
+                        {
+                            "id": 57023,
+                            "text": "اسم مكان - اسم زمان."
+                        },
+                        {
+                            "id": 57024,
+                            "text": "اسم زمان - اسم مكان."
+                        }
+                    ]
+                },
+                {
+                    "id": 14267,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-EG'>جملة</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:#0400;mso-bidi-language:AR-EG'> واحدة اشتملت على مصدر لفعل رباعي.</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57025,
+                            "text": "ما أجمل إتيانك الخير!"
+                        },
+                        {
+                            "id": 57026,
+                            "text": "إباق العبيد معناه الهروب من السيد."
+                        },
+                        {
+                            "id": 57027,
+                            "text": "يسعدني إمارة شوقي للشعر."
+                        },
+                        {
+                            "id": 57028,
+                            "text": "لا جدال مع الحمقى والأغبياء."
+                        }
+                    ]
+                },
+                {
+                    "id": 14268,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«تبادل اللاعبون الكرة» </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>عند البناء للمجهول تصبح الجملة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57029,
+                            "text": "بُدِّلت الكرة."
+                        },
+                        {
+                            "id": 57030,
+                            "text": "تُبُودلت الكرة."
+                        },
+                        {
+                            "id": 57031,
+                            "text": "بُودلت الكرة."
+                        },
+                        {
+                            "id": 57032,
+                            "text": "تُبُودل اللاعبون."
+                        }
+                    ]
+                },
+                {
+                    "id": 14269,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«استعنت بالله». </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family: \"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language: #0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>عند بناء الفعل للمجهول فإن الجملة الصحيحة هي:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57033,
+                            "text": "استُعِن بالله."
+                        },
+                        {
+                            "id": 57034,
+                            "text": "استُعِين بالله."
+                        },
+                        {
+                            "id": 57035,
+                            "text": "استُعان بالله."
+                        },
+                        {
+                            "id": 57036,
+                            "text": "الله المستعان."
+                        }
+                    ]
+                },
+                {
+                    "id": 14270,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«المتفوق <a name=\"_Hlk183352261\">مَمنوحٌ</a> بفضل جهده <u>مكافأة</u>». </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>إعراب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57037,
+                            "text": "مفعول به ثانٍ."
+                        },
+                        {
+                            "id": 57038,
+                            "text": "مضاف إليه."
+                        },
+                        {
+                            "id": 57039,
+                            "text": "فاعل."
+                        },
+                        {
+                            "id": 57040,
+                            "text": "نائب فاعل."
+                        }
+                    ]
+                },
+                {
+                    "id": 14271,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>“ يعجبني شابٌّ.......في الخير “.<br/><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">املأ</span><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\"> الفراغ في المقولة السابقة بمصدر ميمي.</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57041,
+                            "text": "مرجوّ."
+                        },
+                        {
+                            "id": 57042,
+                            "text": "مجالسته."
+                        },
+                        {
+                            "id": 57043,
+                            "text": "مزاحه."
+                        },
+                        {
+                            "id": 57044,
+                            "text": "مسعاه."
+                        }
+                    ]
+                },
+                {
+                    "id": 14272,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>سبَّني الحقود</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'>».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">عند بناء الجملة للمجهول تصبح:</span> </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57045,
+                            "text": "سَبيتُ."
+                        },
+                        {
+                            "id": 57046,
+                            "text": "سَبيت الحقود."
+                        },
+                        {
+                            "id": 57047,
+                            "text": "سُبِبْتُ."
+                        },
+                        {
+                            "id": 57048,
+                            "text": "سُب الحقود."
+                        }
+                    ]
+                },
+                {
+                    "id": 14273,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-EG'>ميز</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:#0400;mso-bidi-language:AR-EG'> نوع الكلمتين: ( مفتاح - مصباح ) في البيت السابق.</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/2efbcac25d4b4b163d3d709aeef06e7d522bbfdea884.jpg",
+                    "answers": [
+                        {
+                            "id": 57049,
+                            "text": "كلتا الكلمتين اسم آلة جامد(غير مشتق)."
+                        },
+                        {
+                            "id": 57050,
+                            "text": "كلتا الكلمتين اسم آلة قياسي(مشتق)."
+                        },
+                        {
+                            "id": 57051,
+                            "text": "كلتا الكلمتين صيغة مبالغة دلت علي الكثرة."
+                        },
+                        {
+                            "id": 57052,
+                            "text": "الأولي اسم آلة مشتق والثانية اسم آلة جامد."
+                        }
+                    ]
+                },
+                {
+                    "id": 14274,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family: \"Somar Rounded\";mso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language: #0400;mso-fareast-language:#0400;mso-bidi-language:AR-EG'><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 13pt; color: rgb(0, 112, 192);\">الكلمة الصحيحة مكان النقط</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 13pt; color: rgb(0, 112, 192);\">:</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/bd91326da4011eb7b43d582c7ff09c6e7d1e2b6f4178.jpg",
+                    "answers": [
+                        {
+                            "id": 57053,
+                            "text": "آباؤهم."
+                        },
+                        {
+                            "id": 57054,
+                            "text": "آباءهم."
+                        },
+                        {
+                            "id": 57055,
+                            "text": "آبائهم."
+                        },
+                        {
+                            "id": 57056,
+                            "text": "أبيهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 14275,
+                    "text": "<p> <p><span style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:#0400;mso-bidi-language:AR-EG'>”<span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span> إذا حان المغرِسُ أسرع الزرّاع إلي غرس ما يريدون من الشجر</span><span dir=\"LTR\"></span><span dir=\"LTR\"></span><span dir=\"LTR\"></span><span dir=\"LTR\"></span>”</span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family: \"Somar Rounded\";mso-fareast-font-family:SimSun;color:#C00000;mso-ansi-language: #0400;mso-fareast-language:#0400;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>.<br/> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:13.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> حدد نوع الكلمتين (المغرس، غرس) في العبارة السابقة.</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57057,
+                            "text": "مصدر ميمي، مصدر سماعي."
+                        },
+                        {
+                            "id": 57058,
+                            "text": "اسم زمان، مصدر سماعي."
+                        },
+                        {
+                            "id": 57059,
+                            "text": "اسم مكان، مصدر سماعي."
+                        },
+                        {
+                            "id": 57060,
+                            "text": "مصدر ميمي، مصدر قياسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 14276,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:#0400; mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-EG\">«لا شك أنَّ تنمية العلاقات الاجتماعية بعيدًا عن الأمور الخلافية لها آثارًا إيجابية في تهذيب الشخصية».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ميز المصدر الصناعي الوارد في العبارة السابقة:</span></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57061,
+                            "text": "الشخصية."
+                        },
+                        {
+                            "id": 57062,
+                            "text": "الاجتماعية."
+                        },
+                        {
+                            "id": 57063,
+                            "text": "الخلافية."
+                        },
+                        {
+                            "id": 57064,
+                            "text": "إيجابية."
+                        }
+                    ]
+                },
+                {
+                    "id": 14277,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif;} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:black;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:black;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-EG'>أصبحت</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:black;mso-ansi-language:EN-US;mso-fareast-language:#0400; mso-bidi-language:AR-EG'> مسألة التّرادف بين الألفاظ من أبرز القضايا التي تشغل الباحثين للحفاظ علي اللغة العربية وصيانتها من تعدّي الجاهلين</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:black;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>».<br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif;} </style> <![endif]--> </p><div align=\"right\"> <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" class=\"MsoNormalTable\" dir=\"rtl\" style=\"margin-left:14.1pt;border-collapse:collapse;border:none;mso-border-alt:  solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt;  mso-table-dir:bidi;mso-border-insideh:.5pt solid windowtext;mso-border-insidev:  .5pt solid windowtext\"> <tbody><tr style=\"mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes\"> <td style=\"width:464.35pt;border:solid windowtext 1.0pt;   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt\" valign=\"top\" width=\"619\"> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:14.1pt;text-align:justify;   text-justify:kashida;text-kashida:0%;text-indent:-14.1pt;mso-list:l0 level1 lfo1\"><span style='font-size:13.0pt;mso-bidi-font-size:15.0pt;font-family:\"Segoe UI Symbol\",sans-serif;   mso-fareast-font-family:\"Segoe UI Symbol\";mso-bidi-font-family:\"Segoe UI Symbol\";   color:#0070C0'><span style=\"mso-list:Ignore\"><span style='font:7.0pt \"Times New Roman\"'>                </span></span></span><span dir=\"RTL\"></span><span lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\";color:#0070C0;mso-bidi-language:   AR-EG'>استخرج من العبارة مصدراً رباعيا، وزنه</span><span lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";color:#0070C0'>:</span><span lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";color:#C00000'></span></p> </td> </tr> </tbody></table> </div> <p><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57065,
+                            "text": "الترادف، التفاعُل."
+                        },
+                        {
+                            "id": 57066,
+                            "text": "الحفاظ، الفِعال."
+                        },
+                        {
+                            "id": 57067,
+                            "text": "صيانة، فِعالة."
+                        },
+                        {
+                            "id": 57068,
+                            "text": "تعدّيم، تفعُّل."
+                        }
+                    ]
+                },
+                {
+                    "id": 14278,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>حدد العبارة التي تضمّنت مصدراً سداسيًّا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA'>.</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57069,
+                            "text": "استواء الطرق مفيد في تقليل الحوادث."
+                        },
+                        {
+                            "id": 57070,
+                            "text": "استياء الفريق من أنانية الفرد أمر طبيعي ."
+                        },
+                        {
+                            "id": 57071,
+                            "text": "استيلاء اليهود علي غزّة جريمة وعار."
+                        },
+                        {
+                            "id": 57072,
+                            "text": "استباق الأحداث وسوء الظن يدمّر العلاقة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14279,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>ميز نوع المصدرين علي الترتيب: (نهضتهم - اضمحلال)</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA'>:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/1671aca12bb09eac6e01d2f94e7f112ed09bfa5affde.jpg",
+                    "answers": [
+                        {
+                            "id": 57073,
+                            "text": "الأول سماعي والثاني قياسي."
+                        },
+                        {
+                            "id": 57074,
+                            "text": "كلاهما مصدر سماعي."
+                        },
+                        {
+                            "id": 57075,
+                            "text": "كلاهما مصدر قياسي."
+                        },
+                        {
+                            "id": 57076,
+                            "text": "الأول قياسي والثاني سماعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 14280,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'>عند صياغة اسم التفضيل من الفعل «لا يهمل» تكون:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 57077,
+                            "text": "الكسول أهمل إنسان."
+                        },
+                        {
+                            "id": 57078,
+                            "text": "ما أكثر إهمال الكسول."
+                        },
+                        {
+                            "id": 57079,
+                            "text": "المجتهد لا يهمل."
+                        },
+                        {
+                            "id": 57080,
+                            "text": "المجتهد أجدر ألا يهمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 14281,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>في ضوء دراستك أدب القصة القصيرة استنتج ما يبرهن على براعة كاتب القصة القصيرة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/3b68580bf02a7cc99787b144deffbdac96d573fe6365.jpg",
+                    "answers": [
+                        {
+                            "id": 57081,
+                            "text": "القدرة علي تناول لحظة واحدة لتوصيل فكرة ما بصورة مباشرة."
+                        },
+                        {
+                            "id": 57082,
+                            "text": "إجادة اختيار موقف واحد وتجسيده في بناء فني قوامه التكثيف."
+                        },
+                        {
+                            "id": 57083,
+                            "text": "براعة تحقيق الانسجام بين مجموعة من الأحداث المتشابكة."
+                        },
+                        {
+                            "id": 57084,
+                            "text": "القدرة علي تناول حياة شخص واحد وإبراز أهم لحظاته فيها."
+                        }
+                    ]
+                },
+                {
+                    "id": 14282,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>استنتج من </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-EG'>القول</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:#0400;mso-bidi-language:AR-EG'> السابق أهم ما ميّز روايات نجيب محفوظ في مراحلها المتأخرة.</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/93d6675ea71d2c039367091b9de811e1d1cdbf88ea2f.jpg",
+                    "answers": [
+                        {
+                            "id": 57085,
+                            "text": "اقترابها من قضايا المجتمع وتناولها بأسلوب مباشر حاسم ."
+                        },
+                        {
+                            "id": 57086,
+                            "text": "وجهتها لمحاكاة الواقع بلغة قريبة مما يتخاطب به الناس."
+                        },
+                        {
+                            "id": 57087,
+                            "text": "اقتصارها علي الفصحي التراثية ترفعا عن اللغات الأعجمية."
+                        },
+                        {
+                            "id": 57088,
+                            "text": "نجاحها في معالجة قضايا الواقع بصورة بعيدة عن المباشرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14283,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#00B0F0;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'>ماذا قصد صابر بقوله: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#FF3399;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'>كتبت كل حاجة؛ اللي قلتيه كله وزيادة كمان</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#006600;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>» في الفقرة الرابعة؟</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#00B0F0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/f9a7d21a9fe8f35d45cf30db989e090a29dc4f129d4a.jpg",
+                    "answers": [
+                        {
+                            "id": 57089,
+                            "text": "إظهار عنايته ودقته في كتابة الخطاب."
+                        },
+                        {
+                            "id": 57090,
+                            "text": "التعبير عن تضجره وضيقه من إلحاحها."
+                        },
+                        {
+                            "id": 57091,
+                            "text": "توضيح رغبته في الاطمئنان على «سلَّام»."
+                        },
+                        {
+                            "id": 57092,
+                            "text": "محاولة طمأنتها، والتغطية على خداعه لها."
+                        }
+                    ]
+                },
+                {
+                    "id": 14284,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#00B0F0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>استنتج دلالة عبارة: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#FF3399;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>فظل فم العجوز مطبقًا لحظة، ثم فتحته قليلًا وأخذت تدير لسانها وكأنها تبحث عن ريقها الجاف</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#006600;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في الفقرة الأولى:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/7df79d28c25fcd11579c2c76cc4148cac2e6d5bc7d81.jpg",
+                    "answers": [
+                        {
+                            "id": 57093,
+                            "text": "الريبة والشك في كلام صابر."
+                        },
+                        {
+                            "id": 57094,
+                            "text": "الحزن والحيرة بحثًا عن أمل."
+                        },
+                        {
+                            "id": 57095,
+                            "text": "الضعف الذي أصاب سمعها وكلامها."
+                        },
+                        {
+                            "id": 57096,
+                            "text": "التفكير في طريقة أخرى للاتصال بـ «سلَّام»."
+                        }
+                    ]
+                },
+                {
+                    "id": 14285,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">بيِّن نوع الخيال وقيمته الفنية في عبارة: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>تغيب عنه الابتسامة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>» في الفقرة الثانية:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/fe23713be0afd5c7935c302080f8cc1be804774d7218.jpg",
+                    "answers": [
+                        {
+                            "id": 57097,
+                            "text": "استعارة تصريحية، أبرزت حنين الأم إلى ملامح «سلَّام» وابتسامته."
+                        },
+                        {
+                            "id": 57098,
+                            "text": "تشبيه بليغ، أبرز حسن ملامح «سلَّام» وتفاؤله بالمستقبل الرائع."
+                        },
+                        {
+                            "id": 57099,
+                            "text": "استعارة مكنية، جعل الابتسامة في صورة مادية لإشراقة وجه «سلَّام»."
+                        },
+                        {
+                            "id": 57100,
+                            "text": "مجاز مرسل، جعل الابتسامة دليلًا على حسن ملامح «سلَّام»."
+                        }
+                    ]
+                },
+                {
+                    "id": 14286,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#00B0F0;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'>حدِّد </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Sakkal Majalla\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#006600; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family: \"Sakkal Majalla\";mso-fareast-font-family:SimSun;color:#006600;mso-ansi-language: #0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:SimSun;color:#006600;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'> المقولة التي تعبر عن حال الأم في القصة:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/727c76a478c06daab7f04eef05d0f1339745c090d215.jpg",
+                    "answers": [
+                        {
+                            "id": 57101,
+                            "text": "أبعدك القدر عني، لكن شعوري بأنك موجود يملكني، هنا ألم يخنق أنفاسي، لكن حضورك بإحساسي يفرحني."
+                        },
+                        {
+                            "id": 57102,
+                            "text": "أشتاق إليك يا ولدي، ولا أستطيع وصالك إلا بكلمات ينبض بها قلبي، وأنكر كل قول يقتل حلمي."
+                        },
+                        {
+                            "id": 57103,
+                            "text": "فرقتنا الأيام، ولكن لي أحلامًا فيك، والحزن يعصرني؛ لبعدك الذي طال عني، وأتمنى ألا يستمر كثيرًا."
+                        },
+                        {
+                            "id": 57104,
+                            "text": "ابني الحبيب، كلما اشتقت إليك توسلت السماء أن تطبق جفنيها وتنثر على ثراك غيثها ليزداد طيبًا وطهرًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 14287,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#00B0F0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>وازن بين العبارتين السابقتين من حيث دلالة الألفاظ على عاطفة الكاتب:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/e29c7562d717ba70c46d33d28630660b5950f25d5192.jpg",
+                    "answers": [
+                        {
+                            "id": 57105,
+                            "text": "ألفاظ الكاتب «الكئيبتين، اختلج، زائغ، أمل، شك» أبرزت بقوة حيرة الأم ولهفتها على سماع أخبار الغائب، أما ألفاظ أصلان «التصاقًا، ذاكرتي، أبناء جيلي» فكانت أقل قوة في إبراز تعلقه بذكرياته عن الزمان والمكان."
+                        },
+                        {
+                            "id": 57106,
+                            "text": "ألفاظ الكاتب: «الكئيبتين، اختلج، زائغ، أمل، شك» أبرزت مشاعر غضب الأم ضيقًا لتأخر رسائل ابنها، أما ألفاظ أصلان «التصاقًا، ذاكرتي، أبناء جيلي» فقد أبرزت عاطفة الانتماء إلى قريته.*"
+                        },
+                        {
+                            "id": 57107,
+                            "text": "ألفاظ أصلان «التصاقًا، ذاكرتي، أبناء جيلي» أظهرت قوة الشعور بالغربة، لكن ألفاظ الكاتب «الكئيبتين، اختلج، زائغ، أمل، شك» أقل قوة في إظهار حيرة الأم ولهفتها على سماع أخبار الغائب."
+                        },
+                        {
+                            "id": 57108,
+                            "text": "كلتاهما أبرزتا مشاعر الضجر والضيق من واقع البيئة الفقيرة التي انتميا إليها، كما في قول أصلان: «انتظارنا مدفع الإفطار، وقول الكاتب و«تنهَّدت»."
+                        }
+                    ]
+                },
+                {
+                    "id": 14288,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#00B0F0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>بيِّن الأسلوب الذي استخدمه الكاتب في الفقرة الثانية، لجعل القارئ يعايش أفكار المرأة ومشاعرها الدفينة، وليتمكن من تفسير مظهرها وتصرفاتها:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#00B0F0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/4ca7bf9cdb522788f0e36f7b4d158a098999240f2ef4.jpg",
+                    "answers": [
+                        {
+                            "id": 57109,
+                            "text": "الحوار المتخيل الذي تبادلته «أم سلام» مع ابنها."
+                        },
+                        {
+                            "id": 57110,
+                            "text": "الحوار المتبادل بين «أم سلام» وبين «صابر»."
+                        },
+                        {
+                            "id": 57111,
+                            "text": "الوصف على لسان كاتب القصة والحوار الداخلي للمرأة."
+                        },
+                        {
+                            "id": 57112,
+                            "text": "تبادل الحوار بين صابر وبين ناظر المحطة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14289,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#006600; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>متى خَبر الكاتب «اللذة الفنية»، لأول مرة في حياته؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a0307c0ec76971871c7096f317d358772e38f73f798c.jpg",
+                    "answers": [
+                        {
+                            "id": 57113,
+                            "text": "عندما سمع صوت شيخه يتلو القرآن ويؤذن."
+                        },
+                        {
+                            "id": 57114,
+                            "text": "وقت مغادرة التلاميذ للبنادر بمدارسها وكتاتيبها."
+                        },
+                        {
+                            "id": 57115,
+                            "text": "حين كان يحاكي تلاوة شيخه للقرآن الكريم."
+                        },
+                        {
+                            "id": 57116,
+                            "text": "حين قرر شيخه أن يغادر العزبة ساخطًا ناقمًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 14290,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">كيف عرف الكاتب أنه يتمتع بصوت جميل؟</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/f1698cfacf80d4faf4c64353331bb17169192e82c966.jpg",
+                    "answers": [
+                        {
+                            "id": 57117,
+                            "text": "من آراء بعض من سمعوا تلاوته ومدحوا صوته."
+                        },
+                        {
+                            "id": 57118,
+                            "text": "عن طريق محاكاته تلاوة شيخه الذي حفظه القرآن الكريم."
+                        },
+                        {
+                            "id": 57119,
+                            "text": "من خلال اللذة التي كان يشعر بها عندما يتلو القرآن الكريم."
+                        },
+                        {
+                            "id": 57120,
+                            "text": "عن طريق تلقي القرآن الكريم على يد شيخ صوته عذب جميل."
+                        }
+                    ]
+                },
+                {
+                    "id": 14291,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt; font-family:\"Somar Rounded\";mso-fareast-font-family:SimSun;color:#006600; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>لماذا أحضروا للكاتب شيخًا يعلمه القرآن في البيت؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/ba9c7b955a652fdd85567e20d091154264b4e5277161.jpg",
+                    "answers": [
+                        {
+                            "id": 57121,
+                            "text": "استثمارًا لوقت الإجازة الصيفية، وتعويضًا عن بعد الكُتَّاب عن العزبة."
+                        },
+                        {
+                            "id": 57122,
+                            "text": "لتمتع الشيخ بجمال الصوت، حتى ينمي لدى الصبي إحساسه بالجمال الفني."
+                        },
+                        {
+                            "id": 57123,
+                            "text": "لا يوجد مسجد في العزبة؛ فالشيخ يقيم في بيتهم، ويؤذن على شاطئ الترعة."
+                        },
+                        {
+                            "id": 57124,
+                            "text": "ليعطي أهل العزبة دروسًا دينية، ويعلمهم بأوقات الصلوات أثناء عملهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 14292,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:13.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun;mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#006600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">«</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:13.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#FF3399;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ولاحظ أخي الصغير ذلك منه بما جُبِل عليه من روح المداعبة الخبيثة، فتربص به حتى غرق في النوم</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:13.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:SimSun; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#006600;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>». استنتج العلاقة بين عبارة «فتربص به» بما قبلها:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/0bd115c7723fd13d42867dc86487bdd328edae92bf74.jpg",
+                    "answers": [
+                        {
+                            "id": 57125,
+                            "text": "استدراك."
+                        },
+                        {
+                            "id": 57126,
+                            "text": "تفصيل."
+                        },
+                        {
+                            "id": 57127,
+                            "text": "تعليل."
+                        },
+                        {
+                            "id": 57128,
+                            "text": "نتيجة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14293,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">حدِّد - مِمَّا يلي - العبارة التي تنبئ بالسبب الذي جعل الشيخ يصر على مغادرة العزبة بأسرها بعد المداعبة الخبيثة التي قام بها الصبي:</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/c77dc6bc1a7e0069bd856075525a2dd013559a811e30.jpg",
+                    "answers": [
+                        {
+                            "id": 57129,
+                            "text": "سافِرْ تجد عوضًا عمَّن تفارقهم ***وانصب فإن لذيذ العيش في النصب"
+                        },
+                        {
+                            "id": 57130,
+                            "text": "اطلبوا الحوائج بعزة الأنفس؛ فإن الأمور تجري بمقادير."
+                        },
+                        {
+                            "id": 57131,
+                            "text": "لا خير يرجى ممن يجهلون لأهل العلم قدرهم، ولا يأخذون على يد المسيء."
+                        },
+                        {
+                            "id": 57132,
+                            "text": "لا خير في قوم لا يتناصحون، ولا يقبلون النصيحة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14294,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">هات من النص ما يدل على أن النفس الإنسانية بفطرتها تنجذب إلى كل جميل:</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/22bfce37d596d4b9570807840300568ef248598c80c6.jpg",
+                    "answers": [
+                        {
+                            "id": 57133,
+                            "text": "لست أذكر بالضبط متى كان أول انفعال لي بالجمال الفني."
+                        },
+                        {
+                            "id": 57134,
+                            "text": "كان الإعجاب بصوت هذا الشيخ حافزًا لي على محاكاته، فكنت أحفظ ما يلقنني إياه من الآيات."
+                        },
+                        {
+                            "id": 57135,
+                            "text": "لعل أول مظهر من مظاهره اتخذ صورة التلاوة القرآنية الجميلة."
+                        },
+                        {
+                            "id": 57136,
+                            "text": "كان ذلك الشيخ الذي أحضروه جميـل الصـوت، يعلمني ويحفظنـي سـاعـة ويتلو القرآن الكريم ساعة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14295,
+                    "text": "<p><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'> <span lang=\"AR-SA\">وازن بين وصف طه حسين لمكانة الشيوخ في الريف والقرى، وبين ذكريات توفيق الحكيم عن الشيخ الذي كان يعلمه القرآن الكريم من حيث مكانة كل منهم بين أهل القرية:</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/bdb31cb2696b31173259b7b6372834d07e98ad23bf10.jpg",
+                    "answers": [
+                        {
+                            "id": 57137,
+                            "text": "الشيوخ في سيرتي الأديبين يحظون بمكانة مرموقة عند أهل القرى، ويسعون دومًا لاستضافتهم لتعليم الأبناء."
+                        },
+                        {
+                            "id": 57138,
+                            "text": "الشيخ في سيرة توفيق الحكيم لم يختلف حاله ومكانته عن الشيوخ في سيرة طه حسين، وما تعرض له مجرد عبث أطفال."
+                        },
+                        {
+                            "id": 57139,
+                            "text": "الشيخ في سيرة توفيق الحكيم لم يحظ بمكانة شيوخ الريف في سيرة طه حسين؛ لأنه يعيش في البندر."
+                        },
+                        {
+                            "id": 57140,
+                            "text": "الشيوخ في سيرة طه حسين يوقرهم أهل الريف، ويحترمونهم، أما شيخ توفيق الحكيم فلم يحظ بتلك المكانة بين أهل العزبة."
+                        }
+                    ]
+                },
+                {
+                    "id": 14296,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#058BA9;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:12.0pt;font-family:\"Somar Rounded\";mso-fareast-font-family: SimSun;color:#006600;mso-ansi-language:#0400;mso-fareast-language:#0400; mso-bidi-language:AR-SA'>حدِّد مما يأتي النموذج الذي اتبعه الكاتب في ترتيب الفقرتين السابقتين:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/0c08ebb023152ba9ab42775cdf2691736398401065f5.jpg",
+                    "answers": [
+                        {
+                            "id": 57141,
+                            "text": "رأي – دليل."
+                        },
+                        {
+                            "id": 57142,
+                            "text": "ظاهرة – تفسير."
+                        },
+                        {
+                            "id": 57143,
+                            "text": "مقدمة – نتيجة."
+                        },
+                        {
+                            "id": 57144,
+                            "text": "زعم - تفنيد."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

@@ -1,0 +1,479 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 642,
+                "title": "امتحان _ المــحاضرة الثانية عشرة 3 ث",
+                "lecture_id": 3803,
+                "duration_minutes": 45,
+                "order_index": 2,
+                "created_at": "2025-12-03T01:20:03.984482Z",
+                "updated_at": "2025-12-03T01:20:03.984482Z"
+            },
+            "questions": [
+                {
+                    "id": 14173,
+                    "text": "السؤال الأول  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/c437eb5859b10531a8217ade7d185f00673b746cd8bc.jpg",
+                    "answers": [
+                        {
+                            "id": 56649,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56650,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56651,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56652,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14174,
+                    "text": "السؤال 2  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/38822084ee210f3d9605cb0617efbd6e6a535f8d5b14.jpg",
+                    "answers": [
+                        {
+                            "id": 56653,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56654,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56655,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56656,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14175,
+                    "text": "السؤال 3  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/5636c2c24f1afde23335f735b63b3ff46a6580785e63.jpg",
+                    "answers": [
+                        {
+                            "id": 56657,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56658,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56659,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56660,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14176,
+                    "text": "السؤال 4  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/cfee5b70f9ce77b57e2d794502e9eefa387d4ddebe2f.jpg",
+                    "answers": [
+                        {
+                            "id": 56661,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56662,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56663,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56664,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14177,
+                    "text": "السؤال 5  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/3ad4cdd09ebd9255907b338f9e182deef461e943f959.jpg",
+                    "answers": [
+                        {
+                            "id": 56665,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56666,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56667,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56668,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14178,
+                    "text": "السؤال 6  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/94b1b269e3c1003b5ad7a573da72cbe19d3e643e9f6b.jpg",
+                    "answers": [
+                        {
+                            "id": 56669,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56670,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56671,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56672,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14179,
+                    "text": "السؤال 7  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/dc34bb98ebe8b1ef90ead307839596a8945db0f79115.jpg",
+                    "answers": [
+                        {
+                            "id": 56673,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56674,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56675,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56676,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14180,
+                    "text": "السؤال 8  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/2a5b0b40ba3810411c29d92564a1cace0511c366bd0f.jpg",
+                    "answers": [
+                        {
+                            "id": 56677,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56678,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56679,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56680,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14181,
+                    "text": "السؤال 9  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/3c263b56f74969bfac3ae39a5b3ca504e8c9a33682bc.jpg",
+                    "answers": [
+                        {
+                            "id": 56681,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56682,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56683,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56684,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14182,
+                    "text": "السؤال 10  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/78e0abc46b97620f2d9e9890db552ea83dcc941ec687.jpg",
+                    "answers": [
+                        {
+                            "id": 56685,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56686,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56687,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56688,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14183,
+                    "text": "السؤال 11  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/7aa1f88145460155d0af375c937d1d89a220373088e7.jpg",
+                    "answers": [
+                        {
+                            "id": 56689,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56690,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56691,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56692,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14184,
+                    "text": "السؤال 12  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/e0af44b7d51e9e9cf8fa156c3f13bc4204816da33cd4.jpg",
+                    "answers": [
+                        {
+                            "id": 56693,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56694,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56695,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56696,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14185,
+                    "text": "السؤال 13  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/d740333b17a47c90af1b2150f06d5e6fa54eccbf7511.jpg",
+                    "answers": [
+                        {
+                            "id": 56697,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56698,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56699,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56700,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14186,
+                    "text": "السؤال 14  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/a75486bfe8a5c6cf863f133d0aac66d44330bb56d518.jpg",
+                    "answers": [
+                        {
+                            "id": 56701,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56702,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56703,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56704,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14187,
+                    "text": "السؤال 15  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/2404312306848aa99e925683a9659f7944ab126e9112.jpg",
+                    "answers": [
+                        {
+                            "id": 56705,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56706,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56707,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56708,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14188,
+                    "text": "السؤال 16  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/9093abd1b877d682546342fce21fdbe64dd3f17e9814.jpg",
+                    "answers": [
+                        {
+                            "id": 56709,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56710,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56711,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56712,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14189,
+                    "text": "السؤال 17  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/b150a4e9805bc81636ace6a48d73a0eda94226a78501.jpg",
+                    "answers": [
+                        {
+                            "id": 56713,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56714,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56715,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56716,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14190,
+                    "text": "السؤال 18  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/258d49fe08e5d2a6374c133d5f28b34725345480e0ee.jpg",
+                    "answers": [
+                        {
+                            "id": 56717,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56718,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56719,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56720,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14191,
+                    "text": "السؤال 19  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/57b0c2e4e71bafeac43e7dddad61c785c52738d7eca2.jpg",
+                    "answers": [
+                        {
+                            "id": 56721,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56722,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56723,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56724,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14192,
+                    "text": "السؤال 20  _ اختر الإجابة الصحيحة :",
+                    "image_url": "https://files.coursatk.online/images/questions/bc6f437402e9f6c744045eb50da2f4312517ca9ee8a9.jpg",
+                    "answers": [
+                        {
+                            "id": 56725,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56726,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56727,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56728,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

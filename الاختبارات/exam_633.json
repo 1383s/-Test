@@ -1,0 +1,203 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 633,
+                "title": "الاختبار التراكمي-المحاضرة الحادية عشر-الفصل الثانى",
+                "lecture_id": 3440,
+                "duration_minutes": 45,
+                "order_index": 1,
+                "created_at": "2025-12-01T12:20:54.717883Z",
+                "updated_at": "2025-12-01T12:20:54.717883Z"
+            },
+            "questions": [
+                {
+                    "id": 14042,
+                    "text": "1",
+                    "image_url": "https://files.coursatk.online/images/questions/29db55cd9521563f2d16c53a587369cac8c1024ccd75.jpg",
+                    "answers": [
+                        {
+                            "id": 56125,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56126,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56127,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56128,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14043,
+                    "text": "2",
+                    "image_url": "https://files.coursatk.online/images/questions/acc0cc7399fae8dc9f08ae6ddad0fc0d6d292a58be5f.jpg",
+                    "answers": [
+                        {
+                            "id": 56129,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56130,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56131,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56132,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14044,
+                    "text": "3",
+                    "image_url": "https://files.coursatk.online/images/questions/b84aaa1008565bfd73bf4aea9d856d03c9c9f88f3092.jpg",
+                    "answers": [
+                        {
+                            "id": 56133,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56134,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56135,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56136,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14045,
+                    "text": "4",
+                    "image_url": "https://files.coursatk.online/images/questions/304bd7934f65de352173840f5ee82cef1e06d93d6751.jpg",
+                    "answers": [
+                        {
+                            "id": 56137,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56138,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56139,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56140,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14046,
+                    "text": "5",
+                    "image_url": "https://files.coursatk.online/images/questions/8e3a33b7518804294f74d4ad04498b0b00312d41de91.jpg",
+                    "answers": [
+                        {
+                            "id": 56141,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56142,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56143,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56144,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14047,
+                    "text": "6",
+                    "image_url": "https://files.coursatk.online/images/questions/5a043c684d44f36ae0ef741fa2b0b73974855b607c8a.jpg",
+                    "answers": [
+                        {
+                            "id": 56145,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56146,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56147,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56148,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14048,
+                    "text": "7",
+                    "image_url": "https://files.coursatk.online/images/questions/3ba7b7bd6321e62eff17c7c6bb5a8e1ae90c80865737.jpg",
+                    "answers": [
+                        {
+                            "id": 56149,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56150,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56151,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56152,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14049,
+                    "text": "8",
+                    "image_url": "https://files.coursatk.online/images/questions/4f6a183ef6233660af9470b9f41a9f8afeba2df5ba29.jpg",
+                    "answers": [
+                        {
+                            "id": 56153,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56154,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56155,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56156,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

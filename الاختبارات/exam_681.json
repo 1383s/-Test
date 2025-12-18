@@ -1,0 +1,134 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 681,
+                "title": "امتحان على الاوميتر",
+                "lecture_id": 3881,
+                "duration_minutes": 45,
+                "order_index": 1,
+                "created_at": "2025-12-08T02:14:21.135837Z",
+                "updated_at": "2025-12-08T02:14:21.135837Z"
+            },
+            "questions": [
+                {
+                    "id": 15084,
+                    "text": "1",
+                    "image_url": "https://files.coursatk.online/images/questions/562f8f6adbae5c48650d01a7772171a32e3755faba0a.jpg",
+                    "answers": [
+                        {
+                            "id": 60292,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60293,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60294,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60295,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15085,
+                    "text": "2",
+                    "image_url": "https://files.coursatk.online/images/questions/8742008097b9fe432a8be4768835dd33f8de1e512424.jpg",
+                    "answers": [
+                        {
+                            "id": 60296,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60297,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60298,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60299,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15086,
+                    "text": "3",
+                    "image_url": "https://files.coursatk.online/images/questions/6b512f253ab53f1f10378bb4ea776cfb2408670b3e59.jpg",
+                    "answers": [
+                        {
+                            "id": 60300,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60301,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60302,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60303,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15087,
+                    "text": "4",
+                    "image_url": "https://files.coursatk.online/images/questions/04dd8aad9c25f956748f776ecb6837f306cfc4de10ef.jpg",
+                    "answers": [
+                        {
+                            "id": 60304,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60305,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60306,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60307,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15088,
+                    "text": "5",
+                    "image_url": "https://files.coursatk.online/images/questions/14488f903b3ae5ba46738de04dee133acf886b60e590.jpg",
+                    "answers": [
+                        {
+                            "id": 60308,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60309,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60310,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60311,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

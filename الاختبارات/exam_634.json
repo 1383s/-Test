@@ -1,0 +1,88 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 634,
+                "title": "أسئلة المحاضرة الرابعة الفصل الثاني",
+                "lecture_id": 3440,
+                "duration_minutes": 45,
+                "order_index": 2,
+                "created_at": "2025-12-01T12:21:02.691722Z",
+                "updated_at": "2025-12-01T12:21:02.691722Z"
+            },
+            "questions": [
+                {
+                    "id": 14050,
+                    "text": "1",
+                    "image_url": "https://files.coursatk.online/images/questions/0ed4ed355c5277425173e5869997156336f9b31b6249.jpg",
+                    "answers": [
+                        {
+                            "id": 56157,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56158,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56159,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56160,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14051,
+                    "text": "1",
+                    "image_url": "https://files.coursatk.online/images/questions/f9d6685dd0ceb20797dfdfb7c9d925578d772a3a3bf7.jpg",
+                    "answers": [
+                        {
+                            "id": 56161,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56162,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56163,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56164,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14052,
+                    "text": "1",
+                    "image_url": "https://files.coursatk.online/images/questions/9e878911ee368636a2eff251b1a0633f34a78213b73e.jpg",
+                    "answers": [
+                        {
+                            "id": 56165,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56166,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56167,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56168,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

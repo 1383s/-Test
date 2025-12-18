@@ -1,0 +1,157 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 632,
+                "title": "امتحان علي الجلفانومتر و الاميتر",
+                "lecture_id": 3809,
+                "duration_minutes": 45,
+                "order_index": 1,
+                "created_at": "2025-12-01T11:58:48.413123Z",
+                "updated_at": "2025-12-01T11:58:48.413123Z"
+            },
+            "questions": [
+                {
+                    "id": 14036,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/2f49c55701ce0ac2564fc5ee67dbf777121a3a781e18.jpg",
+                    "answers": [
+                        {
+                            "id": 56101,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56102,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56103,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56104,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14037,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/352ec832ecca42f09189a81912c49a8a5a646250abbf.jpg",
+                    "answers": [
+                        {
+                            "id": 56105,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56106,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56107,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56108,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14038,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/1b14686b42c78a11e0e20a4c07dd58e866d45f9183d6.jpg",
+                    "answers": [
+                        {
+                            "id": 56109,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56110,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56111,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56112,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14039,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/e091a848d4d5d7a54ae3b766a7e9c61b8eccf01451f5.jpg",
+                    "answers": [
+                        {
+                            "id": 56113,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56114,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56115,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56116,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14040,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/f9c1dadbe27dc5f7a080cd36dcedb45f3c5df977fa2b.jpg",
+                    "answers": [
+                        {
+                            "id": 56117,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56118,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56119,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56120,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 14041,
+                    "text": "اختر الاجابة الصحيحة",
+                    "image_url": "https://files.coursatk.online/images/questions/4d475be6268894d973c49218b74942224239653d9344.jpg",
+                    "answers": [
+                        {
+                            "id": 56121,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 56122,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 56123,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 56124,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

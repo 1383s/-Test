@@ -1,0 +1,130 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 680,
+                "title": "امتحان علي الفولتميتر",
+                "lecture_id": 3827,
+                "duration_minutes": 45,
+                "order_index": 1,
+                "created_at": "2025-12-08T02:13:57.826247Z",
+                "updated_at": "2025-12-08T02:13:57.826247Z"
+            },
+            "questions": [
+                {
+                    "id": 15079,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/f9db1d90a0da419caf6ff9546c01f9a3e8094dcca41c.jpg",
+                    "answers": [
+                        {
+                            "id": 60273,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60274,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60275,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60276,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15080,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/8cb45a0e7b21931be468a0a1f98a1049204bb86a987b.jpg",
+                    "answers": [
+                        {
+                            "id": 60277,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60278,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60279,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60280,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15081,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/ffa33191f4ce63de2554ea3ef67a39b8bc809d907143.jpg",
+                    "answers": [
+                        {
+                            "id": 60281,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60282,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60283,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60284,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 15082,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/0a5c2411daf951a0b066dcab36ed102c2259fd8d6e96.jpg",
+                    "answers": [
+                        {
+                            "id": 60285,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60286,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60287,
+                            "text": "ج"
+                        }
+                    ]
+                },
+                {
+                    "id": 15083,
+                    "text": "اختر الاجابه الصحيحه",
+                    "image_url": "https://files.coursatk.online/images/questions/d33ad4a0ec6fa01a6775024d76e07d3b11b4d08d37e7.jpg",
+                    "answers": [
+                        {
+                            "id": 60288,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 60289,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 60290,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 60291,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}
