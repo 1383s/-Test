@@ -179,19 +179,27 @@
             renderNav();
         }
 
-        async function submit() {
-            if(!confirm("هل تريد تسليم الامتحان؟")) return;
-            try {
-                const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/${examId}/submit`, {
-                    method: 'POST', 
-                    headers: { "Content-Type": "application/json", "Authorization": TOKEN },
-                    body: JSON.stringify({ answers: userAnswers })
-                });
-                const data = await res.json();
-                if(res.ok) window.location.href = `results.html?rid=${data.data.result.result_id}`;
-            } catch(e) { alert("فشل في إرسال الإجابات!"); }
-        }
+async function submit() {
+    if(!confirm("هل تريد تسليم الامتحان؟")) return;
+    try {
+        const targetUrl = `https://api.coursatk.online/api/v1/user/exams/${examId}/submit`;
+        // بنستخدم بروكسي بيسمح بطلبات الـ POST
+        const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
 
+        const res = await fetch(proxyUrl, {
+            method: 'POST', 
+            headers: { 
+                "Content-Type": "application/json", 
+                "Authorization": TOKEN 
+            },
+            body: JSON.stringify({ answers: userAnswers })
+        });
+        const data = await res.json();
+        if(res.ok) window.location.href = `results.html?rid=${data.data.result.result_id}`;
+    } catch(e) { 
+        alert("فشل في إرسال الإجابات! جرب تستخدم إضافة CORS Unblock مؤقتاً لو البروكسي رفض طلب الـ POST"); 
+    }
+}
         load();
     </script>
 </body>
