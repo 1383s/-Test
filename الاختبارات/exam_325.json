@@ -1,0 +1,1178 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 325,
+                "title": "الامتحان الاسترشادي الأول -المراجعة النهائية",
+                "lecture_id": 2140,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:09:38.843015Z",
+                "updated_at": "2025-11-27T02:09:38.843015Z"
+            },
+            "questions": [
+                {
+                    "id": 7213,
+                    "text": "<p> <span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(255, 51, 153);\">قال تعالى:</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"> ﴿إِنَّ فِي ذَلِكَ لَعِبْرَةً لِّمَن يَخْشَى﴾. <span style=\"color: rgb(0, 112, 192);\"> ميِّز </span></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Tahoma, sans-serif; color: rgb(0, 112, 192);\">–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(0, 112, 192);\"> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Tahoma, sans-serif; color: rgb(0, 112, 192);\">–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(0, 112, 192);\"> إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(255, 51, 153);\">يخشى</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(0, 112, 192);\">»:</span> </p>",
+                    "answers": [
+                        {
+                            "id": 28830,
+                            "text": "فعل مضارع مرفوع بالضمة المقدرة."
+                        },
+                        {
+                            "id": 28831,
+                            "text": "فعل مضارع مرفوع بالضمة الظاهرة."
+                        },
+                        {
+                            "id": 28832,
+                            "text": "فعل مضارع مجزوم بالسكون"
+                        },
+                        {
+                            "id": 28833,
+                            "text": "فعل مضارع مجزوم بحذف حرف العلة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7214,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(إنَّ أصحابكم أصحابكم في الشدائد فتمسكوا بأصحابكم الكرام).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">عند وضع كلمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(255, 51, 153);\">أصدقاء</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">» مكان «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(255, 51, 153);\">أصحاب</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">» تكون:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28834,
+                            "text": "أصدقائكم – أصدقاؤكم – أصدقاءكم."
+                        },
+                        {
+                            "id": 28835,
+                            "text": "أصدقاؤكم – أصدقاءكم – أصدقائكم."
+                        },
+                        {
+                            "id": 28836,
+                            "text": "أصدقاءكم – أصدقائكم – أصدقاؤكم."
+                        },
+                        {
+                            "id": 28837,
+                            "text": "أصدقاءكم – أصدقاؤكم – أصدقائكم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7215,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز المحل الإعرابي لجملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>تبكي عهد عزتها</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في الشطر الأول:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/cSxR26B3/1742847400-QJt-Cyx.png",
+                    "answers": [
+                        {
+                            "id": 28838,
+                            "text": "لا محل لها."
+                        },
+                        {
+                            "id": 28839,
+                            "text": "نصب حال."
+                        },
+                        {
+                            "id": 28840,
+                            "text": "جر مضاف إليه."
+                        },
+                        {
+                            "id": 28841,
+                            "text": "نصب مفعول به ثانٍ."
+                        }
+                    ]
+                },
+                {
+                    "id": 7216,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(من واجبنا أن نحفِّز أبناءنا على السعي نحو التفوق والتميز، ليصبحوا قادة المستقبل المبدعين).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">بيِّن التركيب الصحيح عند تحويل المصدر المؤول إلى صريح:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28842,
+                            "text": "تحفّز أبنائنا."
+                        },
+                        {
+                            "id": 28843,
+                            "text": "حفز أبناؤنا."
+                        },
+                        {
+                            "id": 28844,
+                            "text": "تحفيز أبنائنا."
+                        },
+                        {
+                            "id": 28845,
+                            "text": "إحفاز أبناءنا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7217,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(اعمل على ما تصبو إليه من هدف). <span style=\"color:#0070C0\">صُغ الجملة السابقة بحيث تكون «</span><span style=\"color:#FF3399\">ما</span><span style=\"color:#0070C0\">» شرطية:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28846,
+                            "text": "اعمل على ما تصبُ من أمل."
+                        },
+                        {
+                            "id": 28847,
+                            "text": "ما تصبوا إليه من هدف فاعمل عليه."
+                        },
+                        {
+                            "id": 28848,
+                            "text": "ما تصبو إليه من هدف اعمل عليه."
+                        },
+                        {
+                            "id": 28849,
+                            "text": "ما تصبُ إليه من هدف فاعمل عليه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7218,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> سبب اقتران جواب الشرط بالفاء في البيت السابق:</span><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 17pt; font-family: Somar;\">          </span></p> </p>",
+                    "image_url": "https://i.ibb.co/r275FHp7/1742849012-PYn-ND6.png",
+                    "answers": [
+                        {
+                            "id": 28850,
+                            "text": "طلبية."
+                        },
+                        {
+                            "id": 28851,
+                            "text": "مبدوءة بجامد."
+                        },
+                        {
+                            "id": 28852,
+                            "text": "منفية."
+                        },
+                        {
+                            "id": 28853,
+                            "text": "اسمية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7219,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ميِّز الجملة التي تشتمل على مضارع مرفوع وجوبًا:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28854,
+                            "text": "إنْ تضع الأمانة تندم."
+                        },
+                        {
+                            "id": 28855,
+                            "text": "لا تهمل في عملك فيرقى قدرك."
+                        },
+                        {
+                            "id": 28856,
+                            "text": "لا تتردَّدْ في اتخاذ القرار تسعد."
+                        },
+                        {
+                            "id": 28857,
+                            "text": "لا تفرط في الأمانة تندم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7220,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(من يرد الفلاح فليبذل جهده وعرقه). <span style=\"color:#0070C0\">ميِّز إعراب الفعل «</span><span style=\"color:#FF3399\">يبذل</span><span style=\"color:#0070C0\">» في الجملة السابقة:</span></span><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 17pt; font-family: Somar;\">              </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28858,
+                            "text": "مجزوم بلام الأمر."
+                        },
+                        {
+                            "id": 28859,
+                            "text": "مجزوم في جواب الشرط."
+                        },
+                        {
+                            "id": 28860,
+                            "text": "منصوب بفاء السببية."
+                        },
+                        {
+                            "id": 28861,
+                            "text": "مرفوع بعد فاء الجزاء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7221,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> المفضل في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/fYQ6LDN3/1742849329-C6-Ko-YT.png",
+                    "answers": [
+                        {
+                            "id": 28862,
+                            "text": "أسباب."
+                        },
+                        {
+                            "id": 28863,
+                            "text": "الضمير المتصل."
+                        },
+                        {
+                            "id": 28864,
+                            "text": "تباين."
+                        },
+                        {
+                            "id": 28865,
+                            "text": "محذوف."
+                        }
+                    ]
+                },
+                {
+                    "id": 7222,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(تصان الأوطان وتضحيات المخلصين).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">بيِّن الصياغة الصحيحة للجملة السابقة عند تحويل «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(255, 51, 153);\">المفعول معه</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">» إلى «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(255, 51, 153);\">حال</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">»:</span></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28866,
+                            "text": "تصان الأوطان ونحن مضحين."
+                        },
+                        {
+                            "id": 28867,
+                            "text": "تصان الأوطان والتضحيات المخلصة."
+                        },
+                        {
+                            "id": 28868,
+                            "text": "تصان الأوطان ونحن مضحون."
+                        },
+                        {
+                            "id": 28869,
+                            "text": "نصون أوطانًا نضحي من أجلها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7223,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(إنَّ على المخلصين وبخاصةٍ <span style=\"color:#FF3399\">أهل</span> الفكر والرؤى المستنيرة توعية الشباب).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">ميِّز</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt;\"> <span style=\"color:#0070C0\">إعراب «</span><span style=\"color:#FF3399\">أهل</span><span style=\"color:#0070C0\">» في العبارة السابقة:</span>  </span> </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28870,
+                            "text": "خبر مرفوع بالضمة الظاهرة."
+                        },
+                        {
+                            "id": 28871,
+                            "text": "مضاف إليه مجرور بالكسرة."
+                        },
+                        {
+                            "id": 28872,
+                            "text": "مبتدأ مؤخر مرفوع بالضمة."
+                        },
+                        {
+                            "id": 28873,
+                            "text": "مفعول به منصوب بالفتحة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7224,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(أي صدقة ......... الفقراء فسوف تنالين أجرها). <span style=\"color:#0070C0\">ميِّز </span></span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> فعل الشرط المناسب مكان النقط:</span><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 17pt; font-family: Somar;\">            </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28874,
+                            "text": "تعطيها."
+                        },
+                        {
+                            "id": 28875,
+                            "text": "تعطينها."
+                        },
+                        {
+                            "id": 28876,
+                            "text": "تعطها."
+                        },
+                        {
+                            "id": 28877,
+                            "text": "فتعطيها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7225,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(نَيل الإنسان محبة الناس مرهون بطاعة ربه).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"> الصياغة الصحيحة للجملة عند وضعها في أسلوب شرط مقترن جوابه بالفاء:</span></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28878,
+                            "text": "أيان يرهن الإنسان طاعة ربه فسينال محبة الناس."
+                        },
+                        {
+                            "id": 28879,
+                            "text": "متى يطيع الإنسان ربه فسوف ينال محبة الناس."
+                        },
+                        {
+                            "id": 28880,
+                            "text": "إذا يطع الإنسان ربه فقد ينال محبة الناس"
+                        },
+                        {
+                            "id": 28881,
+                            "text": "أي إنسان يطع ربه فهو ينال محبة الناس."
+                        }
+                    ]
+                },
+                {
+                    "id": 7226,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(متى ارتقى علمك سمت أخلاقك). <span style=\"color:#0070C0\">بيِّن  الصياغة الصحيحة عند جعل فعل الشرط وجوابه مضارعين:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28882,
+                            "text": "متى يرتقي علمك تسمو أخلاقك."
+                        },
+                        {
+                            "id": 28883,
+                            "text": "متى يرتق علمك فتسمو أخلاقك."
+                        },
+                        {
+                            "id": 28884,
+                            "text": "متى يرتقي علمك فستسمو أخلاقك."
+                        },
+                        {
+                            "id": 28885,
+                            "text": "متى يرتق علمك تسم أخلاقك."
+                        }
+                    ]
+                },
+                {
+                    "id": 7227,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز إعراب الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>تهتك</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/xtmxRPky/1742858356-gx-Cl-VG.png",
+                    "answers": [
+                        {
+                            "id": 28886,
+                            "text": "مضارع مرفوع بالضمة."
+                        },
+                        {
+                            "id": 28887,
+                            "text": "مضارع منصوب بالفتحة."
+                        },
+                        {
+                            "id": 28888,
+                            "text": "مضارع مجزوم بالسكون."
+                        },
+                        {
+                            "id": 28889,
+                            "text": "مضارع مبني على الفتح."
+                        }
+                    ]
+                },
+                {
+                    "id": 7228,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(تأثَّر أولو الألباب بالقيم الإنسانية النبيلة). <span style=\"color:#0070C0\">صُغ من فعل الجملة السابقة تعجبًا قياسيًّا.</span></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28890,
+                            "text": "ما أروع تأثير أولي الألباب!"
+                        },
+                        {
+                            "id": 28891,
+                            "text": "ما أروع تأثُّر أولي الألباب!"
+                        },
+                        {
+                            "id": 28892,
+                            "text": "أروع بأثر أولي الألباب!"
+                        },
+                        {
+                            "id": 28893,
+                            "text": "أروع بإيثار أولي الألباب!"
+                        }
+                    ]
+                },
+                {
+                    "id": 7229,
+                    "text": "<p> <span dir=\"RTL\" style=\"font-size: 17pt; font-family: Somar; color: rgb(0, 112, 192);\"> <span lang=\"AR-SA\">ماذا يقصد الشاعر بقوله «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(255, 51, 153);\">تكاليف السيادة</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar; color: rgb(0, 112, 192);\">» في البيت الأخير؟</span> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28894,
+                            "text": "ما يكسبه المحاربون من الغنائم."
+                        },
+                        {
+                            "id": 28895,
+                            "text": "ما يجود به الأغنياء على الفقراء."
+                        },
+                        {
+                            "id": 28896,
+                            "text": "ما يتحلى به السادة من نبيل الأخلاق."
+                        },
+                        {
+                            "id": 28897,
+                            "text": "ما يبذله طالبو السيادة من أموال."
+                        }
+                    ]
+                },
+                {
+                    "id": 7230,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ما دلالة لفظة «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تقامر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في البيت الأول؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28898,
+                            "text": "خداع الدنيا وتقلُّب أحوالها."
+                        },
+                        {
+                            "id": 28899,
+                            "text": "جهل الإنسان بحقيقة الدنيا."
+                        },
+                        {
+                            "id": 28900,
+                            "text": "حقيقة الدنيا اللهو واللعب."
+                        },
+                        {
+                            "id": 28901,
+                            "text": "كثرة سبل الفساد في الدنيا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7231,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ما الذي يمكن أن تستنتجه من البيت الرابع؟</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28902,
+                            "text": "أنَّ الصبر هو الأفضل للإنسان حين تضيق الأمور."
+                        },
+                        {
+                            "id": 28903,
+                            "text": "أنَّ الصبر ليس فضيلة عند اضطرار الإنسان إليه."
+                        },
+                        {
+                            "id": 28904,
+                            "text": "أنَّ الإنسان يصل بالصبر إلى ما يريد من الأهداف."
+                        },
+                        {
+                            "id": 28905,
+                            "text": "أنَّ الإنسان لا يصبر إلَّا في حال الضيق والاضطرار."
+                        }
+                    ]
+                },
+                {
+                    "id": 7232,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج المغزى الضمني من قول الشاعر: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>أَساءَتْ ضُحَى غَدٍ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في البيت الثاني:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28906,
+                            "text": "تناقض الحياة بين الإحسان والإساءة."
+                        },
+                        {
+                            "id": 28907,
+                            "text": "قِصر فترة إحسان الدنيا لأهلها."
+                        },
+                        {
+                            "id": 28908,
+                            "text": "عجز الإنسان أمام أحداث الحياة."
+                        },
+                        {
+                            "id": 28909,
+                            "text": "سرعة تبدُّل حال الدنيا إلى السوء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7233,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">بيِّن المبدأ الذي تبناه الشاعر في البيت التاسع: </span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28910,
+                            "text": "ضرورة الحذر من الحياة وتقلُّباتها."
+                        },
+                        {
+                            "id": 28911,
+                            "text": "ضرورة أن يستفيد الإنسان من تجارب الحياة."
+                        },
+                        {
+                            "id": 28912,
+                            "text": "الأمل في تبدُّل الأحوال إلى أحسن منها."
+                        },
+                        {
+                            "id": 28913,
+                            "text": "القناعة بأن الحياة متقلِّبة بين الحلو والمر."
+                        }
+                    ]
+                },
+                {
+                    "id": 7234,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span lang=\"AR-SA\"><br/></span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28914,
+                            "text": "ولولا تكاليف السيادة لم يَخِبْ *** جبان ولم يحو الفضيلة ثائر"
+                        },
+                        {
+                            "id": 28915,
+                            "text": "ومَن لم يذق حلو الزمان ومُرَّه *** فما هو إلا طائش اللب نافر"
+                        },
+                        {
+                            "id": 28916,
+                            "text": "صبرتُ على كره لما قد أصابني *** ومن لم يجد مندوحة فهو صابر"
+                        },
+                        {
+                            "id": 28917,
+                            "text": "وإن هو لم يصبر على ما أصابه *** فليس له في معرض الحق ناصر"
+                        }
+                    ]
+                },
+                {
+                    "id": 7235,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج العاطفة المسيطرة على الشاعر في الأبيات السابقة:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28918,
+                            "text": "الحذر والترقُّب."
+                        },
+                        {
+                            "id": 28919,
+                            "text": "الحزن والجزع."
+                        },
+                        {
+                            "id": 28920,
+                            "text": "الصبر والأمل."
+                        },
+                        {
+                            "id": 28921,
+                            "text": "اليأس والتشاؤم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7236,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ميِّز اللون البياني في قول الشاعر: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>والخطب كاشر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>»، وسر جماله في البيت السادس:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28922,
+                            "text": "تشبيه بليغ، التوضيح."
+                        },
+                        {
+                            "id": 28923,
+                            "text": "استعارة تصريحية، التجسيم."
+                        },
+                        {
+                            "id": 28924,
+                            "text": "تشبيه مجمل، التوضيح."
+                        },
+                        {
+                            "id": 28925,
+                            "text": "استعارة مكنية، التشخيص."
+                        }
+                    ]
+                },
+                {
+                    "id": 7237,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج من البيتين اللون التجديدي الذي اتجه إليه تلاميذ البارودي في موضوعاتهم:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/F4WBcjpR/1742873074-Tqw-Ejd.png",
+                    "answers": [
+                        {
+                            "id": 28926,
+                            "text": "معالجة القضايا الاجتماعية."
+                        },
+                        {
+                            "id": 28927,
+                            "text": "وصف المنجزات العصرية."
+                        },
+                        {
+                            "id": 28928,
+                            "text": "الاتجاه للمعارضة السياسية."
+                        },
+                        {
+                            "id": 28929,
+                            "text": "التعبير عن العاطفة الدينية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7238,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج في ضوء فهمك للأبيات السمة البارزة من سمات المدرسة الكلاسيكية:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Cs8MrGwj/1742866644-85-Yl-M7.png",
+                    "answers": [
+                        {
+                            "id": 28930,
+                            "text": "قوة الأسلوب وجزالة الألفاظ."
+                        },
+                        {
+                            "id": 28931,
+                            "text": "معارضة الشعراء القدامى."
+                        },
+                        {
+                            "id": 28932,
+                            "text": "معالجة القضايا الوطنية."
+                        },
+                        {
+                            "id": 28933,
+                            "text": "البدء بالمقدمة الغزلية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7239,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> من خلال البيتين السابقين </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'> كيف طبَّق الشاعر سمات مدرسة الديوان:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/s9b3wdW2/1742873121-kr-Tn-Rf.png",
+                    "answers": [
+                        {
+                            "id": 28934,
+                            "text": "تأمل في الطبيعة واستخلص منها العبرة."
+                        },
+                        {
+                            "id": 28935,
+                            "text": "أظهر حبه للطبيعة وتأثره بمظاهرها المتنوعة."
+                        },
+                        {
+                            "id": 28936,
+                            "text": "غلَّب الجانب الذهني وطغى عليه العقل."
+                        },
+                        {
+                            "id": 28937,
+                            "text": "بالغ في إظهار تشاؤمه واستسلامه للأحزان."
+                        }
+                    ]
+                },
+                {
+                    "id": 7240,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن كيف طبَّق الشاعر سمات مدرسة الشعر الجديد في الأسطر السابقة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/nNF5M6RM/1742873202-2lf8-FJ.png",
+                    "answers": [
+                        {
+                            "id": 28938,
+                            "text": "التأمل في حقائق الكون والحياة."
+                        },
+                        {
+                            "id": 28939,
+                            "text": "تحدَّث عن النهاية والموت."
+                        },
+                        {
+                            "id": 28940,
+                            "text": "الميل للحزن والتشاؤم والاستسلام للأحزان."
+                        },
+                        {
+                            "id": 28941,
+                            "text": "استخدم الكلمات الرمزية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7241,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">أي من الكلمات التالية تعبر عن معنى عبارة: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>يتردد حتى ما يكاد يبين</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في الفقرة الأولى؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/KxLKsHVd/1742873306-TIp7v-D.png",
+                    "answers": [
+                        {
+                            "id": 28942,
+                            "text": "يتألم."
+                        },
+                        {
+                            "id": 28943,
+                            "text": "يتلعثَم."
+                        },
+                        {
+                            "id": 28944,
+                            "text": "يتأنَّي."
+                        },
+                        {
+                            "id": 28945,
+                            "text": "يتمهَّل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7242,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج مبعث رضا صاحب الدار الذي قصده الكاتب في قوله: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>وكان يرضيه أن يأكل جميعهم أحسن الطعام إذا جاء وقت الطعام، ومن طلب منهم المنام فله ذلك</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في الفقرة الثانية:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/KxLKsHVd/1742873306-TIp7v-D.png",
+                    "answers": [
+                        {
+                            "id": 28946,
+                            "text": "التضحية من أجلهم."
+                        },
+                        {
+                            "id": 28947,
+                            "text": "إحراز مكانة مرموقة."
+                        },
+                        {
+                            "id": 28948,
+                            "text": "التعفف وحسن الجوار."
+                        },
+                        {
+                            "id": 28949,
+                            "text": "قضاء حوائج الناس."
+                        }
+                    ]
+                },
+                {
+                    "id": 7243,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج مغزى عبارة: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>لا أحد في الإقليم يجرؤ على أن يُسِرَّ لهذا الرجل عداوة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في ضوء فهم الموضوع:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/KxLKsHVd/1742873306-TIp7v-D.png",
+                    "answers": [
+                        {
+                            "id": 28950,
+                            "text": "التأكيد على أن الناس جميعًا يجتمعون على حبّه."
+                        },
+                        {
+                            "id": 28951,
+                            "text": "إظهار شدة رغبة الناس في التودد إليه والتقرب منه."
+                        },
+                        {
+                            "id": 28952,
+                            "text": "بيان أثر هذا الرجل في حياة الآخرين."
+                        },
+                        {
+                            "id": 28953,
+                            "text": "الترغيب في نبذ العداوة والتخلي عنها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7244,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">بيِّن نوع الصورة وقيمتها الفنية في عبارة: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ونزيل عنه بعض الكُرب</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في الفقرة الأخيرة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/KxLKsHVd/1742873306-TIp7v-D.png",
+                    "answers": [
+                        {
+                            "id": 28954,
+                            "text": "تشبيه بليغ، يظهر شدة الارتباط بالآخرين."
+                        },
+                        {
+                            "id": 28955,
+                            "text": "استعارة مكنية، توضح كرم الطبع وحسن العشرة."
+                        },
+                        {
+                            "id": 28956,
+                            "text": "استعارة مكنية، تبرز القدرة على التأثير فيه."
+                        },
+                        {
+                            "id": 28957,
+                            "text": "تشبيه بليغ، يؤكد تغير أحواله وتبدلها إلى أحسن حال."
+                        }
+                    ]
+                },
+                {
+                    "id": 7245,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">هات من الفقرة الثالثة ما يدل على احتياج الرجل إلى الكاتب قريبًا منه على الدوام:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/KxLKsHVd/1742873306-TIp7v-D.png",
+                    "answers": [
+                        {
+                            "id": 28958,
+                            "text": "عزاني عن فقد الأب أحسن العزاء."
+                        },
+                        {
+                            "id": 28959,
+                            "text": "يستدرجني إليه بشتى الوسائل."
+                        },
+                        {
+                            "id": 28960,
+                            "text": "يؤذيني في رزقي انقطاعي عن عملي."
+                        },
+                        {
+                            "id": 28961,
+                            "text": "كان يؤثرني ويحبني ويعطف عليَّ."
+                        }
+                    ]
+                },
+                {
+                    "id": 7246,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استخرج من النص تشبيهًا، وبيِّن سر جماله:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/KxLKsHVd/1742873306-TIp7v-D.png",
+                    "answers": [
+                        {
+                            "id": 28962,
+                            "text": "«وداره واسعة متعددة الأبنية»، وسر جماله التجسيم."
+                        },
+                        {
+                            "id": 28963,
+                            "text": "«إذا فرعوا على موضع النزاع في يسر»، وسر جماله التوضيح."
+                        },
+                        {
+                            "id": 28964,
+                            "text": "«كان قادرًا على أن يأخذ نفسه بالحلم»، وسر جماله التشخيص."
+                        },
+                        {
+                            "id": 28965,
+                            "text": "«وكان هذا الخبر لي بمثابة الصاعقة»، وسر جماله التوضيح."
+                        }
+                    ]
+                },
+                {
+                    "id": 7247,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">وازن بين العبارتين من حيث استخدام مصادر الموسيقى:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/6cTc9sxd/1742875232-clba-Fu.png",
+                    "answers": [
+                        {
+                            "id": 28966,
+                            "text": "كلاهما اقتصر على الألفاظ الموحية كمصدر للموسيقى."
+                        },
+                        {
+                            "id": 28967,
+                            "text": "كلاهما جمع بين المحسنات اللفظية والألفاظ الموحية."
+                        },
+                        {
+                            "id": 28968,
+                            "text": "جمع الكاتب بين المحسنات اللفظية والألفاظ الموحية، بينما اقتصر أصلان على الألفاظ الموحية."
+                        },
+                        {
+                            "id": 28969,
+                            "text": "اقتصر الكاتب على الألفاظ الموحية، بينما جمع أصلان بين المحسنات اللفظية والألفاظ الموحية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7248,
+                    "text": "<p> <p><span style=\"background-color: rgb(255, 255, 255);\"><span dir=\"RTL\" style=\"\"></span><span dir=\"RTL\" style=\"\"></span><span dir=\"RTL\" style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 17pt; font-family: Somar; color: rgb(0, 112, 192);\"><span dir=\"RTL\" style=\"\"></span><span dir=\"RTL\" style=\"\"></span> <span lang=\"AR-SA\" style=\"\">بيِّن مظاهر إحكام البناء لدى الكاتب في هذه القصة:</span></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28970,
+                            "text": "حرص على محدودية الشخصيات وقلة الأحداث وإيجاز اللفظ."
+                        },
+                        {
+                            "id": 28971,
+                            "text": "أسهب في لغة السرد من أجل محاكاة الواقع والإقناع به."
+                        },
+                        {
+                            "id": 28972,
+                            "text": "سارع في الأحداث رغم المدى الزمني البعيد، واهتم بالمقاطع الحوارية."
+                        },
+                        {
+                            "id": 28973,
+                            "text": "عدَّد الأماكن التي تتحرك فيها الشخصيات ووصفها وصفًا دقيقًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7249,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">في ضوء العبارة حدِّد ما يمكن أن يكون قصة قصيرة مما يلي:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/cSwMHHqQ/1742877779-E25d-GE.png",
+                    "answers": [
+                        {
+                            "id": 28974,
+                            "text": "قصة الناصر صلاح الدين ولقائه بملك الفرنج عقب انتصاره في حطين."
+                        },
+                        {
+                            "id": 28975,
+                            "text": "قصة سعد زغلول ورفاقه مع المندوب السامي البريطاني قبيل ۱۹۱۹م."
+                        },
+                        {
+                            "id": 28976,
+                            "text": "قصة أهل قرية دنشواي مع الضابط الإنجليزي والأحكام الجائرة بحقهم."
+                        },
+                        {
+                            "id": 28977,
+                            "text": "قصة أحد الأطفال الذين فقدوا حنان الأم ومعاناته مع زوجة الأب وأبنائها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7250,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>في ضوء فهمك للنص، ما المصدر المثالي المتوقع أن يُعتمد عليه لإنتاج الطاقة في المستقبل؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/xtTxr8g3/1742877879-Kk-Ycq0.png",
+                    "answers": [
+                        {
+                            "id": 28978,
+                            "text": "الوقود الأحفوري."
+                        },
+                        {
+                            "id": 28979,
+                            "text": "الانشطار النووي."
+                        },
+                        {
+                            "id": 28980,
+                            "text": "الاندماج النووي."
+                        },
+                        {
+                            "id": 28981,
+                            "text": "ضوء الشمس."
+                        }
+                    ]
+                },
+                {
+                    "id": 7251,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ماذا أفادت عبارة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>عمليات استخراج النفط هي التي ستَبلغ الذروة أولًا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في الفقرة الأولى؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/mrRZWw87/1742883138-q-MQw-Gt.png",
+                    "answers": [
+                        {
+                            "id": 28982,
+                            "text": "زيادة الاعتماد على النفط."
+                        },
+                        {
+                            "id": 28983,
+                            "text": "قلة مصادر النفط في الأرض."
+                        },
+                        {
+                            "id": 28984,
+                            "text": "كثرة التلوث الناتج عن النفط."
+                        },
+                        {
+                            "id": 28985,
+                            "text": "تحوُّل معظم الطاقة من النفط إلى الغاز."
+                        }
+                    ]
+                },
+                {
+                    "id": 7252,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج علاقة جملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>سواء كان من الفحم أو النفط أو الغاز</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» بما قبلها في الفقرة الأولى:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/mrRZWw87/1742883138-q-MQw-Gt.png",
+                    "answers": [
+                        {
+                            "id": 28986,
+                            "text": "استدراك."
+                        },
+                        {
+                            "id": 28987,
+                            "text": "نتيجة."
+                        },
+                        {
+                            "id": 28988,
+                            "text": "تفصيل."
+                        },
+                        {
+                            "id": 28989,
+                            "text": "تعليل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7253,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>وسيَعني هذا بطبيعة الحال تخصيص جزء من سطح الأرض لالتقاط الطاقة الشمسية</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt;\">استنتج المعنى الذي قصده الكاتب في العبارة السابقة في ضوء فهمك للفقرة الأخيرة:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/mrRZWw87/1742883138-q-MQw-Gt.png",
+                    "answers": [
+                        {
+                            "id": 28990,
+                            "text": "عجز سكان الأرض عن استغلال طاقة الشمس."
+                        },
+                        {
+                            "id": 28991,
+                            "text": "عدم سطوع الشمس على جميع مناطق الأرض."
+                        },
+                        {
+                            "id": 28992,
+                            "text": "اهتمام الناس في المستقبل بالطاقة المستدامة."
+                        },
+                        {
+                            "id": 28993,
+                            "text": "زيادة الوعي بالحفاظ على ثروات البيئة المختلفة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7254,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>هات من الفقرة الثانية ما يُشير إلى وجود مصادر للطاقة المستدامة يعجز الإنسان عن استخدامها:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/xtTxr8g3/1742877879-Kk-Ycq0.png",
+                    "answers": [
+                        {
+                            "id": 28994,
+                            "text": "وإذا أمكن ترويضه، فستكون كميةُ إمدادات المواد «الاندماجية» أكبر بقيمٍ أُسِّيَّة كاملة."
+                        },
+                        {
+                            "id": 28995,
+                            "text": "أمَّا طاقة الانشطار النووي فتعتمد على إمداداتٍ محدودة من المواد الانشطارية."
+                        },
+                        {
+                            "id": 28996,
+                            "text": "أنَّ الشمس ستظل المصدر المهيمِن بين مصادر إمداد الغِلاف الحيوي بالطاقة."
+                        },
+                        {
+                            "id": 28997,
+                            "text": "الآفاق المستقبلية المحتملة لتوليد الطاقة من اليورانيوم والثوريوم الانشطاريَّين أكثر إشراقًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7255,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد ممَّا يأتي الطريقة التي اتبعها الكاتب في عرض أفكار الموضوع:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/mrRZWw87/1742883138-q-MQw-Gt.png",
+                    "answers": [
+                        {
+                            "id": 28998,
+                            "text": "تقديم حقائق لدعم استخدام الناس لأنواع الطاقة الأحفورية المختلفة."
+                        },
+                        {
+                            "id": 28999,
+                            "text": "استثارة التعاطف للبحث عن مصادر بديلة للطاقة غير المستدامة."
+                        },
+                        {
+                            "id": 29000,
+                            "text": "تقديم حقائق للمقارنة بين مصادر مختلفة للطاقة على الأرض."
+                        },
+                        {
+                            "id": 29001,
+                            "text": "استثارة مشاعر التحسُّر بسبب الاستخدام الخاطئ لمصادر الطاقة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7256,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بِمَ تُعلِّل: دعوة الكاتب الشباب إلى خدمة الأفكار السامية كما تفهم من الفقرة الأخيرة؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/MD6nn54g/1742880342-x-V2fpg.png",
+                    "answers": [
+                        {
+                            "id": 29002,
+                            "text": "ليشغل وقت فراغه بهذه الاهتمامات."
+                        },
+                        {
+                            "id": 29003,
+                            "text": "ليحصل على مقابل أو لذة مادية منشودة."
+                        },
+                        {
+                            "id": 29004,
+                            "text": "لينفع الناس بها ويشعر بالسعادة الدائمة."
+                        },
+                        {
+                            "id": 29005,
+                            "text": "ليكون مسرورًا كباقي الشباب في عملهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7257,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>كيف دلّل الكاتب في الفقرة الأولى على فشل طالبي المسرَّات المادية في تحقيق هدفهم؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/MD6nn54g/1742880342-x-V2fpg.png",
+                    "answers": [
+                        {
+                            "id": 29006,
+                            "text": "ببذل الناس كثيرًا من الجهد والتعب في سبيلها."
+                        },
+                        {
+                            "id": 29007,
+                            "text": "باضطراب معنى هذه الكلمة واختلاف مدلولها."
+                        },
+                        {
+                            "id": 29008,
+                            "text": "بفشل مئات من الناس في الوصول إلى السعادة."
+                        },
+                        {
+                            "id": 29009,
+                            "text": "بزيادة طمعهم ورغبتهم في الاستكثار منها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7258,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج دلالة قول الكاتب: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>لا يراها غيرنا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في الفقرة الثالثة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/tTwRXKy3/1742880550-1t-Vj-GL.png",
+                    "answers": [
+                        {
+                            "id": 29010,
+                            "text": "الحسد الذي يشكو منه صاحب العلم."
+                        },
+                        {
+                            "id": 29011,
+                            "text": "التميُّز والتفرُّد في التفكير والاجتهاد."
+                        },
+                        {
+                            "id": 29012,
+                            "text": "الاختلاف في مستوى المسرَّات بين الناس."
+                        },
+                        {
+                            "id": 29013,
+                            "text": "الضيق من الجهل المسيطر على بعض الناس."
+                        }
+                    ]
+                },
+                {
+                    "id": 7259,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج المغزى الضمني لقول الكاتب: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>تستغرق كُلَّ اهتمامك</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في سياق الفقرة الأخيرة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/tTwRXKy3/1742880550-1t-Vj-GL.png",
+                    "answers": [
+                        {
+                            "id": 29014,
+                            "text": "صعوبة الوصول إلى السعادة."
+                        },
+                        {
+                            "id": 29015,
+                            "text": "كثرة مَن يطلبون السعادة."
+                        },
+                        {
+                            "id": 29016,
+                            "text": "ارتباط السعادة بجانب الفلسفة."
+                        },
+                        {
+                            "id": 29017,
+                            "text": "علاقة السعادة بمجال الفنون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7260,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>دلِّل من الفقرة الثانية على الرغبة في التزوُّد بالسعادة الفكرية بدون ملل أو نهاية:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/tTwRXKy3/1742880550-1t-Vj-GL.png",
+                    "answers": [
+                        {
+                            "id": 29018,
+                            "text": "«هذه الملذَّات أو المسرَّات المادية تنتهي إلى نهاية»."
+                        },
+                        {
+                            "id": 29019,
+                            "text": "«فنحن نلتذُّ الطعام والشراب، ونُسَرُّ بالأثاث الجميل»."
+                        },
+                        {
+                            "id": 29020,
+                            "text": "«لن نشبع منها كما نشبع من الملذَّات المادية»."
+                        },
+                        {
+                            "id": 29021,
+                            "text": "«أننا نسعد بالفكرة وليس بالمادة»."
+                        }
+                    ]
+                },
+                {
+                    "id": 7261,
+                    "text": "<p> <p></span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>وازن بين اللذة التي ذكرها «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>طه حسين</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» واللذة التي ذكرها الكاتب من حيث المصدر:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/tTwRXKy3/1742880550-1t-Vj-GL.png",
+                    "answers": [
+                        {
+                            "id": 29022,
+                            "text": "كان مصدر اللذة التي ذكرها «طه حسين» فكريًّا مرتبطًا بحضور دروس العلم في الأزهر، وهو يتفق مع مصدر اللذة الذي ذكره الكاتب."
+                        },
+                        {
+                            "id": 29023,
+                            "text": "كان مصدر اللذة عند «طه حسين» مادِّيًّا من الطعام الذي يشتريه، أمَّا مصدر اللذة الذي ذكره الكاتب فهو معنوي أساسه الفكر والعلم."
+                        },
+                        {
+                            "id": 29024,
+                            "text": "كان مصدر اللذة عند «طه حسين» معنويًّا من مجالس العلم في الأزهر، أمَّا مصدر اللذة الذي ذكره الكاتب فهو مادي كالمال والطعام وغيرهما."
+                        },
+                        {
+                            "id": 29025,
+                            "text": "كان مصدر اللذة التي ذكرها «طه حسين» مادِّيًّا من التين المرطب الذي يشتريه مع ابن خالته، وهو يتفق مع مصدر اللذة الذي ذكره الكاتب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7262,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«بات أهم ما يهدد البشرية سباق التسلح بين الدول المتعادية». <br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">حدِّد </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"> التفصيلة التي يجدر بالكاتب حذفها؛ لتكون كتابته وثيقة الصلة بمضمون الفقرة السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29026,
+                            "text": "قد تتنافس مجموعتان أو أكثر على اكتساب القدرة أو التفوق العسكري."
+                        },
+                        {
+                            "id": 29027,
+                            "text": "بدأت الحرب الباردة بين روسيا وأمريكا منذ تفجير روسيا القنبلة الذرية."
+                        },
+                        {
+                            "id": 29028,
+                            "text": "بدأت ترسانة الأسلحة في أزمنة ما قبل التاريخ مع الرماح والأدوات الحجرية."
+                        },
+                        {
+                            "id": 29029,
+                            "text": "لعبت التكنولوجيا دورًا في تمكين الدول من معدات ذات تقنية عسكرية أفضل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7263,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد النموذج الذي اتبعه الكاتب في ترتيب الفقرتين اللتين يتألف منهما المقال السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/kVptHhq4/1742881386-LLzzj-X.png",
+                    "answers": [
+                        {
+                            "id": 29030,
+                            "text": "ظاهرة - تفسير."
+                        },
+                        {
+                            "id": 29031,
+                            "text": "إجمال - تفصيل."
+                        },
+                        {
+                            "id": 29032,
+                            "text": "رأي - دليل."
+                        },
+                        {
+                            "id": 29033,
+                            "text": "مقدمة - نتيجة."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

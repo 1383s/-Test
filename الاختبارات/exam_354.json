@@ -1,0 +1,962 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 354,
+                "title": "تسليم الواجب - المحاضرة الثالثة - محمد صلاح 3ث",
+                "lecture_id": 3335,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:27:33.340199Z",
+                "updated_at": "2025-11-27T18:27:33.340199Z"
+            },
+            "questions": [
+                {
+                    "id": 8053,
+                    "text": "السؤال الأول - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/0484e252f635a19e23b8ec77a9818cb158277effa8c0.jpg",
+                    "answers": [
+                        {
+                            "id": 32190,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32191,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32192,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32193,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8054,
+                    "text": "السؤال 2 - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/f0b3a0e8e83dffc3489dcb0cdc2bc2397c505ee0b442.jpg",
+                    "answers": [
+                        {
+                            "id": 32194,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32195,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32196,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32197,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8055,
+                    "text": "السؤال 3 - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/416fa19507a917ad9ca35c8f47e8b0b5cb2198bbd528.jpg",
+                    "answers": [
+                        {
+                            "id": 32198,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32199,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32200,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32201,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8056,
+                    "text": "السؤال 4 - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/9eb79829b0411f962a23a83983993064b3b8e6f8ec46.jpg",
+                    "answers": [
+                        {
+                            "id": 32202,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32203,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32204,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32205,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8057,
+                    "text": "السؤال 5 - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/09cb89023d86300adef36856a5fa891f8efd3b336f86.jpg",
+                    "answers": [
+                        {
+                            "id": 32206,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32207,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32208,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32209,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8058,
+                    "text": "السؤال 6 - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/349bd81fc32a3c9d557d9e10dcb68075578d36a1ba0b.jpg",
+                    "answers": [
+                        {
+                            "id": 32210,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32211,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32212,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32213,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8059,
+                    "text": "السؤال 7 - النحو - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/9276c978545f7a7b60058c8f65abd635cf3be1201f3f.jpg",
+                    "answers": [
+                        {
+                            "id": 32214,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32215,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32216,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32217,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8060,
+                    "text": "السؤال الأول - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/4490b147473c85069a4bb0c651c5e6b956abc9f5e586.jpg",
+                    "answers": [
+                        {
+                            "id": 32218,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32219,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32220,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32221,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8061,
+                    "text": "السؤال 2 - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/9ba7a4cc681dd14e787039e341fa7ae610d8bd32f416.jpg",
+                    "answers": [
+                        {
+                            "id": 32222,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32223,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32224,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32225,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8062,
+                    "text": "السؤال 3 - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/b3565ce41c6dfa44edc7d8aef63c1221d0099a2d0c7b.jpg",
+                    "answers": [
+                        {
+                            "id": 32226,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32227,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32228,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32229,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8063,
+                    "text": "السؤال 4 - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/3f68cf99f094ab6ae75f0c7e9d0d1af4bd8cce0fd8ca.jpg",
+                    "answers": [
+                        {
+                            "id": 32230,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32231,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32232,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32233,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8064,
+                    "text": "السؤال 5 - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/7368e5a4dcf6e8fe091e147c7e65114203aff758fa84.jpg",
+                    "answers": [
+                        {
+                            "id": 32234,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32235,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32236,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32237,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8065,
+                    "text": "السؤال 6 - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/e932c2444e344346282be08115e7c56e66c953302ca6.jpg",
+                    "answers": [
+                        {
+                            "id": 32238,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32239,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32240,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32241,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8066,
+                    "text": "السؤال 7 - النحو - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/7fffe0ef3ebf39df5642b87c9a9866735fa98e67d175.jpg",
+                    "answers": [
+                        {
+                            "id": 32242,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32243,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32244,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32245,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8067,
+                    "text": "السؤال الأول - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/6d2780bcc5cd8dc3ad5748a0f639c2a868aed9986971.jpg",
+                    "answers": [
+                        {
+                            "id": 32246,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32247,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32248,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32249,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8068,
+                    "text": "السؤال 2 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/e50391bfdda1bc325cbccf59fdfc0b7f7c097e559b7a.jpg",
+                    "answers": [
+                        {
+                            "id": 32250,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32251,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32252,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32253,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8069,
+                    "text": "السؤال 3 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/6a8b5896c840afad28ad0307225feba6a3d926da037e.jpg",
+                    "answers": [
+                        {
+                            "id": 32254,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32255,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32256,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32257,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8070,
+                    "text": "السؤال 4 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/bb50328fbfe74571098ab143e398eb2c3b63d582d678.jpg",
+                    "answers": [
+                        {
+                            "id": 32258,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32259,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32260,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32261,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8071,
+                    "text": "السؤال 5 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/777b14aef2be12d2cc2294a07ff90fc36cb8a46d6d01.jpg",
+                    "answers": [
+                        {
+                            "id": 32262,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32263,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32264,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32265,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8072,
+                    "text": "السؤال 6 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/061f9506a9ad37ac2fce03bc23fe1d240be7d5209737.jpg",
+                    "answers": [
+                        {
+                            "id": 32266,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32267,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32268,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32269,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8073,
+                    "text": "السؤال 7 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/4b1aac0b009e8e9d14c8420123fdc7098acd1c12baa8.jpg",
+                    "answers": [
+                        {
+                            "id": 32270,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32271,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32272,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32273,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8074,
+                    "text": "السؤال 8 - النصوص",
+                    "image_url": "https://files.coursatk.online/images/questions/fda8d6c073682ccce2806d5f2104552536f83b0638f5.jpg",
+                    "answers": [
+                        {
+                            "id": 32274,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32275,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32276,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32277,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8075,
+                    "text": "السؤال الأول - النصوص - إيدك معانا فالبلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/23e1cc801bd83f72a491f78e1a2501c1cee3a2522f65.jpg",
+                    "answers": [
+                        {
+                            "id": 32278,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32279,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32280,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32281,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8076,
+                    "text": "السؤال 2 - النصوص - إيدك معانا فالبلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/6f6c99db33cb1da48e992630ed76dbb25990ec67a526.jpg",
+                    "answers": [
+                        {
+                            "id": 32282,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32283,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32284,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32285,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8077,
+                    "text": "السؤال 3 - النصوص - إيدك معانا فالبلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/71e746eecda7674f7da0ee6185dbb887bdb5470b021b.jpg",
+                    "answers": [
+                        {
+                            "id": 32286,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32287,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32288,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32289,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8078,
+                    "text": "السؤال الأول - القراءة",
+                    "image_url": "https://files.coursatk.online/images/questions/02600d55ff9f000ba130e22264a633107e983795a148.jpg",
+                    "answers": [
+                        {
+                            "id": 32290,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32291,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32292,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32293,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8079,
+                    "text": "السؤال 2 - القراءة",
+                    "image_url": "https://files.coursatk.online/images/questions/16d0dbfb85d46d5ec15a66709c9262c3cf75dcb668fa.jpg",
+                    "answers": [
+                        {
+                            "id": 32294,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32295,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32296,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32297,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8080,
+                    "text": "السؤال 3 - القراءة",
+                    "image_url": "https://files.coursatk.online/images/questions/feca9224a23ddb76c8fd7a2d91a0f91ce776c80d193b.jpg",
+                    "answers": [
+                        {
+                            "id": 32298,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32299,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32300,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32301,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8081,
+                    "text": "السؤال 4 - القراءة",
+                    "image_url": "https://files.coursatk.online/images/questions/520869a5208b5ee1188de366b9f3954ff8c08549f578.jpg",
+                    "answers": [
+                        {
+                            "id": 32302,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32303,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32304,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32305,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8082,
+                    "text": "السؤال 5 - القراءة",
+                    "image_url": "https://files.coursatk.online/images/questions/a3476e4a30f40bc9c55af355e39669940ddb9aca227e.jpg",
+                    "answers": [
+                        {
+                            "id": 32306,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32307,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32308,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32309,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8083,
+                    "text": "السؤال 6 - القراءة",
+                    "image_url": "https://files.coursatk.online/images/questions/8966e57e44addd938cef54690817f07217076907da3e.jpg",
+                    "answers": [
+                        {
+                            "id": 32310,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32311,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32312,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32313,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8084,
+                    "text": "السؤال الأول - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/d3fb6064cdcb47d885a6c7c4659b7cc15bdabe2893e4.jpg",
+                    "answers": [
+                        {
+                            "id": 32314,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32315,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32316,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32317,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8085,
+                    "text": "السؤال 2 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/3a1b0777150b9084bee6ba85497a1f79927faa2750a1.jpg",
+                    "answers": [
+                        {
+                            "id": 32318,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32319,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32320,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32321,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8086,
+                    "text": "السؤال 3 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/3291302400dae4444a07d6f53c2f4dcfe009095c1144.jpg",
+                    "answers": [
+                        {
+                            "id": 32322,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32323,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32324,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32325,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8087,
+                    "text": "السؤال 4 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/7b598f87fd0069e18b16f82fcd42b485507dc828b040.jpg",
+                    "answers": [
+                        {
+                            "id": 32326,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32327,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32328,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32329,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8088,
+                    "text": "السؤال 5 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/f203178f5dc8c5dcc4cea314384654018d3fab89c928.jpg",
+                    "answers": [
+                        {
+                            "id": 32330,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32331,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32332,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32333,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8089,
+                    "text": "السؤال 6 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/8eef462d0db7c0248ba368f21aa0bea72a9f9250b0ba.jpg",
+                    "answers": [
+                        {
+                            "id": 32334,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32335,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32336,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32337,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8090,
+                    "text": "السؤال 7 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/cb33c13adf66568e76bfd21e3d56971ca2e461fdb5ec.jpg",
+                    "answers": [
+                        {
+                            "id": 32338,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32339,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32340,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32341,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8091,
+                    "text": "السؤال 8 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/0f18bd253d9a4d4fd8c0edec7d7db168c7383a8eaccf.jpg",
+                    "answers": [
+                        {
+                            "id": 32342,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32343,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32344,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32345,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8092,
+                    "text": "السؤال 9 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/9f0094e0945c4d0c05ffffd7fc6156442c9cfa92844f.jpg",
+                    "answers": [
+                        {
+                            "id": 32346,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32347,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32348,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32349,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8093,
+                    "text": "السؤال 10 - التعبير",
+                    "image_url": "https://files.coursatk.online/images/questions/93cd63d74dd828432cea5e00f96954c1be69c34311e5.jpg",
+                    "answers": [
+                        {
+                            "id": 32350,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 32351,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 32352,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 32353,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

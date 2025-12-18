@@ -1,0 +1,790 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 323,
+                "title": "امتحان افتتاحي المحاضرة 26",
+                "lecture_id": 2129,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:09:19.815645Z",
+                "updated_at": "2025-11-27T02:09:19.815645Z"
+            },
+            "questions": [
+                {
+                    "id": 7150,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ما للجندي يقظًا ليله، حذرًا أعداءه!<span style=\"color:black\">». <br/></span></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز سبب نصب كلمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حذرًا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في الجملة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28578,
+                            "text": "حال."
+                        },
+                        {
+                            "id": 28579,
+                            "text": "نعت."
+                        },
+                        {
+                            "id": 28580,
+                            "text": "تمييز."
+                        },
+                        {
+                            "id": 28581,
+                            "text": "مفعول به."
+                        }
+                    ]
+                },
+                {
+                    "id": 7151,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن سبب اقتران جواب الشرط بالفاء في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/hFGGJQ0m/1739713839-k4r-D2y.png",
+                    "answers": [
+                        {
+                            "id": 28582,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 28583,
+                            "text": "مبدوء بقد."
+                        },
+                        {
+                            "id": 28584,
+                            "text": "جملة طلبية."
+                        },
+                        {
+                            "id": 28585,
+                            "text": "مبدوء بجامد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7152,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لعلَّ من أنبل المشاعر الإنسانية التي تنشر الود في المجتمع أن نوقظ شعور المحبة بيننا».<span style=\"mso-spacerun:yes\">    <br/></span></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> في العبارة السابقة </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> اسم الحرف الناسخ (لعلَّ) ونوعه: </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28586,
+                            "text": "المشاعر الإنسانية – اسم ظاهر."
+                        },
+                        {
+                            "id": 28587,
+                            "text": "شعور المحبة – اسم ظاهر."
+                        },
+                        {
+                            "id": 28588,
+                            "text": "أن نوقظ – مصدر مؤول."
+                        },
+                        {
+                            "id": 28589,
+                            "text": "التي – اسم موصول."
+                        }
+                    ]
+                },
+                {
+                    "id": 7153,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«الذي يدعو ربه مخلصًا يحظى بالإجابة». </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>صُغ من الجملة السابقة جمع مؤنث سالمًا:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28590,
+                            "text": "اللائي يدعين يحظين."
+                        },
+                        {
+                            "id": 28591,
+                            "text": "اللائي يدعون يحظين."
+                        },
+                        {
+                            "id": 28592,
+                            "text": "اللائي يدعون يحظون."
+                        },
+                        {
+                            "id": 28593,
+                            "text": "اللائي يدعين يحظون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7154,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><a name=\"_Hlk190528976\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family: Somar;mso-fareast-font-family:\"Times New Roman\";color:black;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span></a><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:red;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الصلاة</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:black;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>؛ فإنها تنجي صاحبها من المهالك<a name=\"_Hlk190528984\">»</a> - « </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family: Somar;mso-fareast-font-family:\"Times New Roman\";color:red;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الصلاة</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> عماد الدين، لأنها تنجي من المهالك». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن إعراب ما تحته خط على الترتيب:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28594,
+                            "text": "كلاهما مفعول به منصوب."
+                        },
+                        {
+                            "id": 28595,
+                            "text": "كلاهما مبتدأ مرفوع."
+                        },
+                        {
+                            "id": 28596,
+                            "text": "مبتدأ مرفوع – مفعول به منصوب."
+                        },
+                        {
+                            "id": 28597,
+                            "text": "مفعول به منصوب- مبتدأ مرفوع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7155,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز المحل الإعرابي لجملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>يغطي</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/20FFWv6y/1739713813-V7k-Zw0.png",
+                    "answers": [
+                        {
+                            "id": 28598,
+                            "text": "رفع نعت."
+                        },
+                        {
+                            "id": 28599,
+                            "text": "نصب حال."
+                        },
+                        {
+                            "id": 28600,
+                            "text": "رفع خبر."
+                        },
+                        {
+                            "id": 28601,
+                            "text": "جر مضاف إليه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7156,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«يا فاطمة، اخشعي في الصلاة ................ بالسكينة في قلبك». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>املأ الفراغ بمضارع مجزوم في جواب الطلب مما يلي:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28602,
+                            "text": "فتشعري."
+                        },
+                        {
+                            "id": 28603,
+                            "text": "تشعري."
+                        },
+                        {
+                            "id": 28604,
+                            "text": "تشعرين."
+                        },
+                        {
+                            "id": 28605,
+                            "text": "تشعر."
+                        }
+                    ]
+                },
+                {
+                    "id": 7157,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>الإعراب الصحيح لكلمة ( <b><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; mso-ansi-font-size:20.0pt;font-family:\"Al-Kharashi 3\";mso-ascii-font-family: \"MCS Taybah S_U normal\\.\";mso-fareast-font-family:\"Traditional Arabic\"; mso-hansi-font-family:\"MCS Taybah S_U normal\\.\";color:#C00000;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>أسًى</span></u></b>) في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/1Y2smqsX/1739715268-pj-CUve.png",
+                    "answers": [
+                        {
+                            "id": 28606,
+                            "text": "تمييز."
+                        },
+                        {
+                            "id": 28607,
+                            "text": "مفعول لأجله."
+                        },
+                        {
+                            "id": 28608,
+                            "text": "حال."
+                        },
+                        {
+                            "id": 28609,
+                            "text": "نائب عن المفعول المطلق."
+                        }
+                    ]
+                },
+                {
+                    "id": 7158,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«والله لسوف تسعى نحو التنمية».<span style=\"color:#0070C0\"> حدِّد التغيير الصحيح للجملة السابقة عند حذف (سوف):</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28610,
+                            "text": "والله لَتسعنَّ الدولة نحو التنمية."
+                        },
+                        {
+                            "id": 28611,
+                            "text": "والله لَتسعينَّ الدولة نحو التنمية."
+                        },
+                        {
+                            "id": 28612,
+                            "text": "والله لَتسعى الدولة نحو التنمية."
+                        },
+                        {
+                            "id": 28613,
+                            "text": "والله تسعينَّ الدولة نحو التنمية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7159,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«تهون النفس عند صاحبها </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'> تكون عند غيره أهون». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن التغيير الصحيح عند الربط بين الجملتين بأداة شرط جازمة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28614,
+                            "text": "أيان تهون – تكن."
+                        },
+                        {
+                            "id": 28615,
+                            "text": "أيان تهن – تكن."
+                        },
+                        {
+                            "id": 28616,
+                            "text": "أيان تهن – فستكن."
+                        },
+                        {
+                            "id": 28617,
+                            "text": "أيان تهون – فستكون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7160,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«ما كوفئ أحد من المتفوقين <u><span style=\"color:#C00000\">غير</span></u>ُ الأول». <span style=\"color:#0070C0\">ميِّز مما يلي سبب رفع «</span><span style=\"color:#C00000\">غير</span><span style=\"color:#0070C0\">» في الجملة السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28618,
+                            "text": "فاعل."
+                        },
+                        {
+                            "id": 28619,
+                            "text": "نائب فاعل."
+                        },
+                        {
+                            "id": 28620,
+                            "text": "مستثنى."
+                        },
+                        {
+                            "id": 28621,
+                            "text": "بدل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7161,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«انتبه حين <u><span style=\"color:#C00000\">تُتلى الآيات</span></u>». <span style=\"color:#0070C0\">حدِّد الموقع الإعرابي للجملة التي تحتها خط:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28622,
+                            "text": "في محل جر مضاف إليه."
+                        },
+                        {
+                            "id": 28623,
+                            "text": "في محل نصب مفعول به."
+                        },
+                        {
+                            "id": 28624,
+                            "text": "لا محل لها من الإعراب."
+                        },
+                        {
+                            "id": 28625,
+                            "text": "في محل نصب حال."
+                        }
+                    ]
+                },
+                {
+                    "id": 7162,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«يا بني لا تدع للشر». <span style=\"color:#0070C0\">ميِّز مما يلي حكم توكيد الفعل بالنون:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28626,
+                            "text": "واجب."
+                        },
+                        {
+                            "id": 28627,
+                            "text": "جائز."
+                        },
+                        {
+                            "id": 28628,
+                            "text": "ممتنع."
+                        },
+                        {
+                            "id": 28629,
+                            "text": "قليل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7163,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميز بناء الفعل \"يعرفن\" في البيت السابق</span></p> </p>",
+                    "image_url": "https://i.ibb.co/KpWvHtPz/1739716097-5-XYBv-N.png",
+                    "answers": [
+                        {
+                            "id": 28630,
+                            "text": "مبني على الفتح المقدر."
+                        },
+                        {
+                            "id": 28631,
+                            "text": "مبني على الفتح الظاهر."
+                        },
+                        {
+                            "id": 28632,
+                            "text": "مبني على السكون."
+                        },
+                        {
+                            "id": 28633,
+                            "text": "مبني على الضم المقدر."
+                        }
+                    ]
+                },
+                {
+                    "id": 7164,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لعلَّ ذوي الأرحام في رضا». <span style=\"color:#0070C0\">بيِّن الصياغة الصحيحة عند إدخال «عسى» بدلًا من «لعلَّ»:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28634,
+                            "text": "عسى ذوو الأرحام أن يرضوا."
+                        },
+                        {
+                            "id": 28635,
+                            "text": "عسى ذوي الأرحام أن يرضوا."
+                        },
+                        {
+                            "id": 28636,
+                            "text": "عسى ذوو الأرحام يرضوا."
+                        },
+                        {
+                            "id": 28637,
+                            "text": "عسى ذوو الأرحام راضين."
+                        }
+                    ]
+                },
+                {
+                    "id": 7165,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ما الذي يتعجب منه الشاعر، كما فهمت من البيت الأول؟:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28638,
+                            "text": "سكون القبور ومَنْ فيها من الراحلين عنَّا."
+                        },
+                        {
+                            "id": 28639,
+                            "text": ". خلو القبور رغم أنَّها تضم ملايين الموتى."
+                        },
+                        {
+                            "id": 28640,
+                            "text": "رحيل سكان القبور من الدُّنيا إليها طائعين."
+                        },
+                        {
+                            "id": 28641,
+                            "text": "إفصاح القبور عن أنباء العصور الماضية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7166,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج المغزى من قول الشاعر «</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>وَلَسَوفَ تَطوينَا وَتَبقَى خَالِيَةٌ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في البيت الثاني</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28642,
+                            "text": "تأكيد تآكل الأجساد واندثارها عبر الزمان."
+                        },
+                        {
+                            "id": 28643,
+                            "text": ".بيان قوة القبور وقدرتها على طيّ الإنسان."
+                        },
+                        {
+                            "id": 28644,
+                            "text": "إظهار ضعف الإنسان رغم ما لديه من قوة."
+                        },
+                        {
+                            "id": 28645,
+                            "text": "إبراز حقيقة الفناء التي لا يفر منها الجميع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7167,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>استنتج مرجع ضمير الغائب في قول الشاعر: </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>«</span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-EG'>سَحَقَتهُمُ كَفُّ القضاء القاسية</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-EG'>» في البيت الرابع.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28646,
+                            "text": "الملايين الكثيرة."
+                        },
+                        {
+                            "id": 28647,
+                            "text": "الجبابر والملوك."
+                        },
+                        {
+                            "id": 28648,
+                            "text": "القبور الفانية."
+                        },
+                        {
+                            "id": 28649,
+                            "text": "العصور الماضية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7168,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>بيِّن المبدأ الذي طبَّقه الشاعر في قوله: «</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>فَلَسَوفَ تَمضِي وَالكَواكِبُ باقِيَةً</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>» في سياق البيت الأخير</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28650,
+                            "text": "الرغبة في الموت والتعلق به."
+                        },
+                        {
+                            "id": 28651,
+                            "text": "كبر السن والشيخوخة التي فيها."
+                        },
+                        {
+                            "id": 28652,
+                            "text": "التمتع بالحياة رغم قسوة الزمان."
+                        },
+                        {
+                            "id": 28653,
+                            "text": "اليأس من عودة المحبوبة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7169,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>دلل من الأبيات على أنَّ الموت نهاية حتميَّة لكل حي:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28654,
+                            "text": "أَينَ المَهَا وَعُيونُهَا وَفُتُونُهَا."
+                        },
+                        {
+                            "id": 28655,
+                            "text": "مَتِّعْ لِحَاظَكَ فِي النَّجومِ وَحُسْنِهَا."
+                        },
+                        {
+                            "id": 28656,
+                            "text": "مَا لِلقُبُورِ كَأَنمَا لا سَاكِنٌ فِيهَا."
+                        },
+                        {
+                            "id": 28657,
+                            "text": "أَعْمَارُنَا أَبْيَاتُهَا وَالمَوتُ فِيهَا القَافِيَة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7170,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>استنتج العاطفة المسيطرة على الشاعر في الأبيات:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28658,
+                            "text": "الحزن على فراق الدنيا وما فيها من أحباب."
+                        },
+                        {
+                            "id": 28659,
+                            "text": "الضيق من الموت وما فيه من قسوة."
+                        },
+                        {
+                            "id": 28660,
+                            "text": "التعجب من قدرة الموت على إفناء الأحياء."
+                        },
+                        {
+                            "id": 28661,
+                            "text": ".الطموح للوصول للكواكب ومجاورة النجوم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7171,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Traditional Arabic\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>ميز الصورة البيانية في قول الشاعر : (إِنَّ الحَياةَ قَصِيدَةٌ) في البيت الخامس</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28662,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 28663,
+                            "text": ".استعارة تصريحية"
+                        },
+                        {
+                            "id": 28664,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 28665,
+                            "text": "تشبيه مجمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7172,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>استنتج سمة من سمات مدرسة المهاجر من حيث المضمون اتضحت في الأبيات.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w1cWWtB/1739716264-Bg-Uov-U.png",
+                    "answers": [
+                        {
+                            "id": 28666,
+                            "text": "التأمل في حقائق الكون و الحياة والموت."
+                        },
+                        {
+                            "id": 28667,
+                            "text": "التصرف في الأوزان والقوافي."
+                        },
+                        {
+                            "id": 28668,
+                            "text": "استبطان النفس الإنسانية."
+                        },
+                        {
+                            "id": 28669,
+                            "text": "اتخاذهم القصة وسيلة للتعبير عما في صدورهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7173,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>دلل على السمة التي اتضحت في هذا البيت من سمات المهاجر من حيث الموضوع</span>    </p> </p>",
+                    "image_url": "https://i.ibb.co/4ZvZqVnL/1739717102-Jz3yy3.png",
+                    "answers": [
+                        {
+                            "id": 28670,
+                            "text": "التصادم مع الواقع المؤلم في الغربة."
+                        },
+                        {
+                            "id": 28671,
+                            "text": "إعلاء الحق ونشر الخير والجمال."
+                        },
+                        {
+                            "id": 28672,
+                            "text": "الشعور بحنين جارف نحو وطنهم الأم."
+                        },
+                        {
+                            "id": 28673,
+                            "text": "الدعوة إلى المحبة والتساند الاجتماعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 7174,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Traditional Arabic\";color:#4472C4; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>استنتج من البيتين سمة من سمات التجديد في المضمون لدي شعراء المهاجر</span></p> </p>",
+                    "image_url": "https://i.ibb.co/6756p1mj/1739717176-n-Zwd-XN.png",
+                    "answers": [
+                        {
+                            "id": 28674,
+                            "text": "الإيمان بالأخوة الإنسانية، والإيثار في العطاء."
+                        },
+                        {
+                            "id": 28675,
+                            "text": "تأمل الشاعر ذاته البائسة التي تعاندها الدنيا."
+                        },
+                        {
+                            "id": 28676,
+                            "text": "نشأة النزعة الروحية بسبب استغراقهم في التأمل."
+                        },
+                        {
+                            "id": 28677,
+                            "text": "الشعور بحنين جارف للعودة إلى الوطن الأم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7175,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-no-proof:yes\">ترى الكاتبة أن أسهل الطرق لوقف الإبداع أو قتله هو:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Y70GSD7H/1739717261-o-SQ3u3.png",
+                    "answers": [
+                        {
+                            "id": 28678,
+                            "text": "التوقف عن القراءة والمطالعة وعمل الأبحاث."
+                        },
+                        {
+                            "id": 28679,
+                            "text": "تقليد الآخرين في أعمالهم وإبداعاتهم."
+                        },
+                        {
+                            "id": 28680,
+                            "text": "الاستخدام الزائد لوسائل التواصل الاجتماعي."
+                        },
+                        {
+                            "id": 28681,
+                            "text": "العزلة والانطواء والبعد عن بقية أفراد المجتمع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7176,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span style=\"color:#0070C0\">من مشاكل وسائل التواصل الاجتماعي في ضوء الفقرة الأولى.</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Y70GSD7H/1739717261-o-SQ3u3.png",
+                    "answers": [
+                        {
+                            "id": 28682,
+                            "text": "معرفة الموقع الجغرافي ومكان الشخص."
+                        },
+                        {
+                            "id": 28683,
+                            "text": "الالتزام بقواعد اللغة."
+                        },
+                        {
+                            "id": 28684,
+                            "text": "معرفة مقدار الوقت الذي يقضيه المستخدم"
+                        },
+                        {
+                            "id": 28685,
+                            "text": "استخدام أكثر من حساب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7177,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>تنادى كاتبة المقال بـ:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Y70GSD7H/1739717261-o-SQ3u3.png",
+                    "answers": [
+                        {
+                            "id": 28686,
+                            "text": "الامتناع تمامًا عن استخدام وسائل التواصل الاجتماعي."
+                        },
+                        {
+                            "id": 28687,
+                            "text": "التفرع التام لاستخدام وسائل التواصل الاجتماعي."
+                        },
+                        {
+                            "id": 28688,
+                            "text": "استخدام وسائل التواصل الاجتماعي استخداما معتدلًا."
+                        },
+                        {
+                            "id": 28689,
+                            "text": "حجب البيانات الشخصية عن مواقع التواصل الاجتماعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 7178,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>أكثر الناس إفراطًا في استخدام وسائل التواصل في رأى الكاتبة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Y70GSD7H/1739717261-o-SQ3u3.png",
+                    "answers": [
+                        {
+                            "id": 28690,
+                            "text": "كبار السن."
+                        },
+                        {
+                            "id": 28691,
+                            "text": "المراهقون."
+                        },
+                        {
+                            "id": 28692,
+                            "text": "الأطفال."
+                        },
+                        {
+                            "id": 28693,
+                            "text": "النساء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7179,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-no-proof:yes\">علاقة قولها: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>كتابة أوقات استخدام مواقع التواصل الاجتماعي</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في الفقرة الأخيرة بما قبله:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Y70GSD7H/1739717261-o-SQ3u3.png",
+                    "answers": [
+                        {
+                            "id": 28694,
+                            "text": "تعليل."
+                        },
+                        {
+                            "id": 28695,
+                            "text": ".نتيجة."
+                        },
+                        {
+                            "id": 28696,
+                            "text": "تفسير."
+                        },
+                        {
+                            "id": 28697,
+                            "text": "تفصيل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7180,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span>  <span style=\"mso-no-proof:yes\"><span style=\"mso-spacerun:yes\"></span>الأجيال الحالية قد تستعمل اللغة استعمالًا غير صحيح بسبب:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/Y70GSD7H/1739717261-o-SQ3u3.png",
+                    "answers": [
+                        {
+                            "id": 28698,
+                            "text": "عدم التحدث بها على وسائل التواصل."
+                        },
+                        {
+                            "id": 28699,
+                            "text": "تركيزهم على اللهجة العامية."
+                        },
+                        {
+                            "id": 28700,
+                            "text": "الاختصارات التي تتم عبر الرسائل."
+                        },
+                        {
+                            "id": 28701,
+                            "text": "استخدام التعبيرات التي تعبر عن الحالة المزاجية بدلًا من اللغة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7181,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0D0D0D; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>من</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'> خلال قراءة الفقرتين نتوقع رد فعل كاتب الفقرة الأولى إذا كان يؤدي الامتحان أمام شيوخ الأزهر مثل طه حسين أنه:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/xKTRqbgh/1739718169-p-Wzbn-T.png",
+                    "answers": [
+                        {
+                            "id": 28702,
+                            "text": "سوف يشعر تجاه ممتحنيه بالسخط ويحتقر الامتحان."
+                        },
+                        {
+                            "id": 28703,
+                            "text": "سيشعر بالخجل من نجاحه الخادع ويصب غضبه على ممتحنيه."
+                        },
+                        {
+                            "id": 28704,
+                            "text": "سيغضب لنجاح غيره من التلاميذ لعدم إجادتهم العلوم التي يجيدها."
+                        },
+                        {
+                            "id": 28705,
+                            "text": "سيرضى بنجاحه شاكرًا ما يظنه رفقًا من الممتحنين بالطلاب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7182,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0D0D0D; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span style=\"mso-spacerun:yes\"> </span>حدِّد</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'> مِمَّا يلي النموذج الذي اتبعه الكاتب في ترتيب الفقرتين اللتين يتألف منهما المقال السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/zTfMZdc6/1739718279-ig-Akle.png",
+                    "answers": [
+                        {
+                            "id": 28706,
+                            "text": "مشكلة وحل."
+                        },
+                        {
+                            "id": 28707,
+                            "text": "زعم وتفنيد."
+                        },
+                        {
+                            "id": 28708,
+                            "text": "ظاهرة وتفسير."
+                        },
+                        {
+                            "id": 28709,
+                            "text": "رأي ودليل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7183,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0D0D0D;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\">  </span>حدِّد</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'> مِمَّا يأتي التفصيلة الأكثر أهميةً ليضمِّنها النادي حملته الترويجية لإقناع جمهور العملاء بصدق مقولته السابقة</span></p> </p>",
+                    "image_url": "https://i.ibb.co/pv6JF9Zc/1739718680-Hpc-WTS.png",
+                    "answers": [
+                        {
+                            "id": 28710,
+                            "text": "خريطة تبيِّن مساحة النادي وأقسامه، ومرافقه، وملاعبه، وصالاته"
+                        },
+                        {
+                            "id": 28711,
+                            "text": "بيان أسماء مدربي ومدربات النادي وسيرهم الذاتية، والتواصل معهم واستشارتهم للتعرف على أنشطة النادي."
+                        },
+                        {
+                            "id": 28712,
+                            "text": "خريطة بأهمِّ ألعاب النادي وأنشطته المتاحة وكيفية الاشتراك بها."
+                        },
+                        {
+                            "id": 28713,
+                            "text": "قائمة بأسماء أبطال وبطلات النادي الذين حققوا بطولات مشرفة محليًّا وعالميًّا بفضل برامج النادي وأنشطته."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

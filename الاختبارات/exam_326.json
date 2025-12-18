@@ -1,0 +1,786 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 326,
+                "title": "امتحان افتتاحي المحاضرة الثانية - مراجعة نهائية",
+                "lecture_id": 2141,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:09:42.286947Z",
+                "updated_at": "2025-11-27T02:09:42.286947Z"
+            },
+            "questions": [
+                {
+                    "id": 7264,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«اسمُ بخلقك </span><u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family: Somar;mso-fareast-font-family:Batang;color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">ترق</span></u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"> مكانتك» - «اسمُ بخلقك </span><u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">فترقى</span></u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\"> مكانتك».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(192, 0, 0);\">ما تحته خط في الجملتين على الترتيب فعل مضارع: </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29034,
+                            "text": "مرفوع وعلامة الرفع الضمة المقدرة - منصوب وعلامة النصب الفتحة المقدرة."
+                        },
+                        {
+                            "id": 29035,
+                            "text": "مجزوم وعلامة الجزم حذف حرف العلة - مرفوع وعلامة الرفع الضمة المقدرة."
+                        },
+                        {
+                            "id": 29036,
+                            "text": "مجزوم وعلامة الجزم حذف حرف العلة - منصوب وعلامة النصب الفتحة الظاهرة."
+                        },
+                        {
+                            "id": 29037,
+                            "text": "مجزوم وعلامة الجزم حذف حرف العلة - منصوب وعلامة النصب الفتحة المقدرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7265,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif; mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"> مما يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\"> الجملة التي يصحُّ جزم المضارع في جواب طلبها:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29038,
+                            "text": "لعلك تصبر تحقق ما ترجوه."
+                        },
+                        {
+                            "id": 29039,
+                            "text": "أكرِمْ فقيرًا يلتمس مَن يكرمه."
+                        },
+                        {
+                            "id": 29040,
+                            "text": "لا تصاحب الكاذب تصبح مثله."
+                        },
+                        {
+                            "id": 29041,
+                            "text": "لا تُهمل تفشل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7266,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لا تدعُ إلى الخير و</span><u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#C00000;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">تأتي</span></u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"> سيِّئ الفِعال». </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">إعراب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29042,
+                            "text": "مضارع مرفوع بالضمة المقدرة."
+                        },
+                        {
+                            "id": 29043,
+                            "text": "مضارع منصوب بالفتحة المقدرة."
+                        },
+                        {
+                            "id": 29044,
+                            "text": "مضارع منصوب بالفتحة الظاهرة."
+                        },
+                        {
+                            "id": 29045,
+                            "text": "مضارع مجزوم بحذف حرف العلة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7267,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«متى .............. يوفقكِ الله».<span style=\"color:#0070C0\"> فعل الشرط المناسب الجملة هو:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29046,
+                            "text": "تتوبوا."
+                        },
+                        {
+                            "id": 29047,
+                            "text": "تتوبا."
+                        },
+                        {
+                            "id": 29048,
+                            "text": "تتوبي."
+                        },
+                        {
+                            "id": 29049,
+                            "text": "تَتُب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7268,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«ألَا تصبروا وتتقوا فتفوزون بمرضاة الله».</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA\"> </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family: Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">تصويب الجملة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29050,
+                            "text": "ألَا تصبروا وتتقوا فتفوزوا."
+                        },
+                        {
+                            "id": 29051,
+                            "text": "ألَا تصبرون وتتقوا فتفوزون."
+                        },
+                        {
+                            "id": 29052,
+                            "text": "ألَا تصبروا وتتقوا فتفوزون."
+                        },
+                        {
+                            "id": 29053,
+                            "text": "ألَا تصبرون وتتقون فتفوزوا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7269,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#ED7D31;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA\">إنْ تتحدث إلى كبار السن فلن في حديثك معهم<span style=\"color:#ED7D31\">)</span><span style=\"color:#0070C0\">.<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">ميِّز سبب اقترن جواب الشرط بالفاء في الجملة السابقة</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">:<span style=\"background:yellow;mso-highlight:yellow\"></span></span><span style=\"color:#0070C0\"></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29054,
+                            "text": "جملة فعلية مبدوءة بـ«لن»."
+                        },
+                        {
+                            "id": 29055,
+                            "text": "جملة طلبية."
+                        },
+                        {
+                            "id": 29056,
+                            "text": "جملة فعلية فعلها جامد."
+                        },
+                        {
+                            "id": 29057,
+                            "text": "جملة اسمية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7270,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«اتقِ الله في كل شئونك وإلَّا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:Batang;color:#C00000; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes\">تكن</span></u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"> من الخاسرين».</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family: Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\"> أعرب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29058,
+                            "text": "فعل مضارع مجزوم بحذف حرف العلة."
+                        },
+                        {
+                            "id": 29059,
+                            "text": "فعل مضارع مرفوع بالضمة."
+                        },
+                        {
+                            "id": 29060,
+                            "text": "فعل مضارع منصوب بالفتحة."
+                        },
+                        {
+                            "id": 29061,
+                            "text": "فعل مضارع مجزوم بالسكون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7271,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«إنك لتحاول بناء مستقبلك فتخطط له وتتأنى وتصبر لتحقق أملك المنشود».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">المضارع المنصوب في العبارة السابقة:</span></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29062,
+                            "text": "تحاول."
+                        },
+                        {
+                            "id": 29063,
+                            "text": "تخطط."
+                        },
+                        {
+                            "id": 29064,
+                            "text": "تصبر."
+                        },
+                        {
+                            "id": 29065,
+                            "text": "تحقق."
+                        }
+                    ]
+                },
+                {
+                    "id": 7272,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«يكتسب الإنسان الخبرات بتقدمه في العمر».</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\"> أسلوب الشرط الصحيح من الجملة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29066,
+                            "text": "يكتسب الخبرات مَن يقدم في العمر."
+                        },
+                        {
+                            "id": 29067,
+                            "text": "أي إنسانٌ يتقدم في العمر يكتسب الخبرات."
+                        },
+                        {
+                            "id": 29068,
+                            "text": "أي إنسانٍ يتقدم في العمر يكتسب الخبرات."
+                        },
+                        {
+                            "id": 29069,
+                            "text": "مَن يتقدم في العمر سيكتسب الخبرات."
+                        }
+                    ]
+                },
+                {
+                    "id": 7273,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\">لا أعاتب الناس ف</span><u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">يحقروني</span></u><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\">». إعراب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29070,
+                            "text": "مضارع مرفوع بثبوت النون."
+                        },
+                        {
+                            "id": 29071,
+                            "text": "مضارع منصوب بالفتحة المقدرة."
+                        },
+                        {
+                            "id": 29072,
+                            "text": "مضارع مرفوع بالضمة المقدرة."
+                        },
+                        {
+                            "id": 29073,
+                            "text": "مضارع منصوب بحذف النون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7274,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\">إنْ تحافظين على النظام فسوف تكوني جديرة بالاحترام</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">»</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"> </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\">عند تصويب الخطأ نقول:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29074,
+                            "text": "إنْ تحافظي على النظام فسوف تكوني جديرة بالاحترام."
+                        },
+                        {
+                            "id": 29075,
+                            "text": "إنْ تحافظين على النظام فسوف تكونين جديرة بالاحترام."
+                        },
+                        {
+                            "id": 29076,
+                            "text": "إنْ تحافظي على النظام فسوف تكونين جديرة بالاحترام."
+                        },
+                        {
+                            "id": 29077,
+                            "text": "إنْ تحافظي على النظام سوف تكونين جديرة بالاحترام."
+                        }
+                    ]
+                },
+                {
+                    "id": 7275,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif; mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"> مما يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\"> الجملة التي لا يصحُّ جزم المضارع في جواب طلبها</span><!--[if gte vml 1]><v:shapetype  id=\"_x0000_t116\" coordsize=\"21600,21600\" o:spt=\"116\" path=\"m3475,qx,10800,3475,21600l18125,21600qx21600,10800,18125,xe\">  <v:stroke joinstyle=\"miter\"/>  <v:path gradientshapeok=\"t\" o:connecttype=\"rect\" textboxrect=\"1018,3163,20582,18437\"/> </v:shapetype><v:shape id=\"_x0000_s1026\" type=\"#_x0000_t116\" style='position:absolute;  left:0;text-align:left;margin-left:429.25pt;margin-top:4.05pt;width:16.9pt;  height:15.9pt;z-index:-251532288;mso-position-horizontal-relative:text;  mso-position-vertical-relative:text' fillcolor=\"#ff9\" strokecolor=\"#c00000\"  strokeweight=\"1pt\">  <v:shadow on=\"t\" type=\"perspective\" color=\"black\" origin=\",.5\" offset=\"0,0\"   matrix=\",-56756f,,.5\"/>  <w:wrap anchorx=\"page\"/> </v:shape><![endif]--><!--[if !vml]--><span style=\"mso-ignore:vglayout;position: absolute;z-index:-1895699456;left:0px;margin-left:571px;margin-top:4px; width:41px;height:24px\"></span><!--[endif]--><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\">: </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29078,
+                            "text": "صاحب رجلًا تثق في خلقه."
+                        },
+                        {
+                            "id": 29079,
+                            "text": "ساعد الفقير تؤجر."
+                        },
+                        {
+                            "id": 29080,
+                            "text": "لا تقترب من النار تسلم."
+                        },
+                        {
+                            "id": 29081,
+                            "text": "لا تهمل العلم تأمن الجهل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7276,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">لم تفشل عزائمه</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">» ميِّز الصياغة الصحيحة عند وضع «لن» بدلًا من «لم» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/j91mmKHd/1743928222-w8-Ck1l.png",
+                    "answers": [
+                        {
+                            "id": 29082,
+                            "text": "لن تفشلَ."
+                        },
+                        {
+                            "id": 29083,
+                            "text": "لن تفشلْ."
+                        },
+                        {
+                            "id": 29084,
+                            "text": "فلن تفشلْ."
+                        },
+                        {
+                            "id": 29085,
+                            "text": "فلن تفشلَ."
+                        }
+                    ]
+                },
+                {
+                    "id": 7277,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\">إذا خشيتَ الله حظيتَ برضاه</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt;\">ميِّز الصياغة الصحيحة عند وضع (إنْ) بدلًا من (إذا) وجعل الفعلين مضارعين:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29086,
+                            "text": "إنْ تخشى الله تحظ برضاه."
+                        },
+                        {
+                            "id": 29087,
+                            "text": "إنْ تخش الله تحظ برضاه."
+                        },
+                        {
+                            "id": 29088,
+                            "text": "إنْ تخشى الله تحظى برضاه."
+                        },
+                        {
+                            "id": 29089,
+                            "text": "إنْ تخش الله تحظى برضاه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7278,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\">تحلَّى المؤمن بخلق العفو والصفح - ما يزداد إلَّا عزًّا</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">». عند الربط بأداة شرط جازمة تصبح الجملة: </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29090,
+                            "text": "إنْ تحلَّى المؤمن بخلق العفو والصفح فما يَزْدَادُ إِلَّا عزًّا."
+                        },
+                        {
+                            "id": 29091,
+                            "text": "إنْ تحلَّى المؤمن بخلق العفو والصفح فما يزْدَدْ إِلَّا عزًّا."
+                        },
+                        {
+                            "id": 29092,
+                            "text": "إنْ تحلَّى المؤمن بخلق العفو والصفح ما يزْدَدْ إِلَّا عزًّا."
+                        },
+                        {
+                            "id": 29093,
+                            "text": "إنْ تَحلَّ المؤمن بخلق العفو والصفح فما يَزْدَادُ إِلَّا عزًّا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7279,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#C00000;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">قال تعالى:</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar; mso-fareast-font-family:Batang;color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"> </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\">«</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family: Somar;mso-fareast-font-family:Batang;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA\">فَمَنْ جاءَهُ مَوْعِظَةٌ مِنْ رَبِّهِ فَانْتَهى فَلَهُ ما سَلَفَ».<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">ميِّز سبب اقترن جواب الشرط بالفاء في الآية السابقة: </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 29094,
+                            "text": "جملة طلبية."
+                        },
+                        {
+                            "id": 29095,
+                            "text": "مبدوء بجامد."
+                        },
+                        {
+                            "id": 29096,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 29097,
+                            "text": "جملة فعلية مبدوء بـ «ما»"
+                        }
+                    ]
+                },
+                {
+                    "id": 7280,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">متى أعلن الكاتب ورفاقه الحرب على تلك الشجرة وتوعية الناس بخطورة وجودها لديهم؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29098,
+                            "text": "حين بلغ التعلّق بها حد التقديس."
+                        },
+                        {
+                            "id": 29099,
+                            "text": "بعدما أتقنوا العلوم والمعارف المختلفة."
+                        },
+                        {
+                            "id": 29100,
+                            "text": "عندما حلَّ العمى أو العَوَر بمَن يستخدمونها."
+                        },
+                        {
+                            "id": 29101,
+                            "text": "لمَّا رأوا استجابة البعض واعترافهم بالجهل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7281,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">استنتج دلالة جملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family: Somar;mso-fareast-font-family:Batang;color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">كانوا يهزون رءوسهم ويقولون: سيبك يا شيخ، القطرة برضك أنضف</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes\">» في الفقرة الأخيرة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29102,
+                            "text": "السخرية والضيق من كلام الكاتب ورفاقه."
+                        },
+                        {
+                            "id": 29103,
+                            "text": "التظاهر بالاقتناع؛ مجاراة للموقف الدائر."
+                        },
+                        {
+                            "id": 29104,
+                            "text": "ثبات البسطاء على مبدئهم، ورفضهم النصح."
+                        },
+                        {
+                            "id": 29105,
+                            "text": "انتشار الوعي بالقرى، والتقدم الطبي بها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7282,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">استنتج المغزى من حرص الكاتب في الفقرة الرابعة على سرد العلوم والمعارف المختلفة التي تعلمها هو ورفاقه:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29106,
+                            "text": "تبرير أسباب سخطهم مِن التبرّك بالشجرة."
+                        },
+                        {
+                            "id": 29107,
+                            "text": "تفسیر سبب اختلافهم عن أهل بلدتهم."
+                        },
+                        {
+                            "id": 29108,
+                            "text": "بيان دور العلم في محاربة الجهل والخرافة."
+                        },
+                        {
+                            "id": 29109,
+                            "text": "إظهار أنهم أعلى مكانة من أهل بلدتهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7283,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\" style=\"color:#0070C0;mso-no-proof:yes\">هات من النص ما يدل على أن شخصية الكاتب جمعت بين اللين والشدة:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29110,
+                            "text": "«كنا نتحدث بذلك فيما بيننا» – «وظللنا أيامًا كثيرة نكلم الناس ونناقشهم»."
+                        },
+                        {
+                            "id": 29111,
+                            "text": "«وأصبحنا تلامذة وتعلّمنا» – «وعرفنا التاريخ والجغرافيا والهندسة والطب»."
+                        },
+                        {
+                            "id": 29112,
+                            "text": "«فأخذنا أوراقًا من الشجرة» – «كنّا نسألهم عن السبب ونحن مذهولون»."
+                        },
+                        {
+                            "id": 29113,
+                            "text": "«لا ضَيْر عليكم من استعمال الشجرة» – «وبدأنا نكفر بتلك الشجرة جهرةً»."
+                        }
+                    ]
+                },
+                {
+                    "id": 7284,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">استخرج من النص استعارة مكنية، وبيِّن سر جمالها:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29114,
+                            "text": "«فأخذنا أوراقًا من الشجرة»، سر جمالها التوضيح."
+                        },
+                        {
+                            "id": 29115,
+                            "text": "«ولم تنتظر حتى يهبط الندى»، سر جمالها التوضيح."
+                        },
+                        {
+                            "id": 29116,
+                            "text": "«ويُكنون لها أعمق التقدير»، سر جمالها التشخيص."
+                        },
+                        {
+                            "id": 29117,
+                            "text": "«الشجرة من نوع نادر الوجود»، سر جمالها التوضيح."
+                        }
+                    ]
+                },
+                {
+                    "id": 7285,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«تعددت مستويات اللغة المستخدمة في القصة السابقة».<br/><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- هات من النص ما يثبت صحة المقولة السابقة أو يفندها.</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29118,
+                            "text": "وحَّد الكاتب اللغة المستخدمة في القصة، وقصرها على اللغة العامية، كما في قوله: «لا مؤاخذة يا فندي انت وهو»."
+                        },
+                        {
+                            "id": 29119,
+                            "text": "تعددت مستويات اللغة بين الفصحى، كقوله: «وحُفَّ بها نوع من التقديس»، وبين الفصحى القريبة من العامية كقوله: «غزا الطب الريف»."
+                        },
+                        {
+                            "id": 29120,
+                            "text": "وحَّد الكاتب اللغة المستخدمة، وقصرها على اللغة الفصيحة الجزلة، كما في قوله: «وبدأنا نكفر بهذه الشجرة جهرةً»."
+                        },
+                        {
+                            "id": 29121,
+                            "text": "تعددت مستويات اللغة بين الفصحى، كما في قوله: «لا ضَيْر عليكم من استعمال الشجرة»، وبين اللغة العامية، كما في قوله: «سيبك يا شيخ، القطرة برضك أنضف»."
+                        }
+                    ]
+                },
+                {
+                    "id": 7286,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">كيف نقل الكاتب فكره ومشاعره للقراء في الفقرة الأخيرة؟ </span></p> </p>",
+                    "image_url": "https://i.ibb.co/hJ5s82Lw/1743944542-p6-SAj-L.png",
+                    "answers": [
+                        {
+                            "id": 29122,
+                            "text": "جمع بين الحقيقة والخيال في رسم ملامح الشخصيات، وسرد الأحداث والصراع."
+                        },
+                        {
+                            "id": 29123,
+                            "text": "اعتمد على أسلوب الحوار القصصي؛ ليبرز مدى الصراع بين الشخصيات."
+                        },
+                        {
+                            "id": 29124,
+                            "text": "اعتمد على أسلوب الإلقاء المباشر؛ ليظهر مدى التناقض بين الشخصيات، ويبرز الصراع بينها."
+                        },
+                        {
+                            "id": 29125,
+                            "text": "جمع بين السرد الداخلي والحوار بين الشخصيات؛ ليشاركه القراء مكنونات عقله ووجدانه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7287,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">حدِّد إلى أي أنواع الأدب ينتمي هذا النص، وادعم رأيك من واقع فهمك له:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/bMxSMm3L/1744043653-eb0-Tcw.png",
+                    "answers": [
+                        {
+                            "id": 29126,
+                            "text": "قصة قصيرة، رصدت علاقة الكاتب بأهل بلدته في سياق مكاني محدود."
+                        },
+                        {
+                            "id": 29127,
+                            "text": "مقال نقدي، رصد نموذجًا لانتشار الجهل والخرافة عند البسطاء من أهل القرى."
+                        },
+                        {
+                            "id": 29128,
+                            "text": "جزء من سيرة ذاتية، عرض فيها الكاتب جانبًا من حياته وعلاقاته الاجتماعية."
+                        },
+                        {
+                            "id": 29129,
+                            "text": "مقال اجتماعي، تناول شكل العلاقة بين الكاتب وأهل بلدته في قالب سرد قصصي."
+                        }
+                    ]
+                },
+                {
+                    "id": 7288,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#C00000;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">يقول أحد النقاد:</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA\"> </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\">«تقدِّم القصة الحقة </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Tahoma, sans-serif;\">–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"> في رأينا </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Tahoma, sans-serif;\">–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"> مجالًا أكثر ملاءمة، دون شك، لتدريب القرائح الأرقى سموًا، مما يمكن أن تقدمه مجالات النثر العادية الأخرى».<br/><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- اختر </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif; mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"> مما يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\"> ما يتسق مع طبيعة البناء الفني للقصة القصيرة</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; color: rgb(0, 112, 192);\">:</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/nMcqkrXv/1744102896-Gebe-Lt.jpg",
+                    "answers": [
+                        {
+                            "id": 29130,
+                            "text": "تتصف لغة السرد فيها بالإسهاب."
+                        },
+                        {
+                            "id": 29131,
+                            "text": "البطل هو الراوي للأحداث."
+                        },
+                        {
+                            "id": 29132,
+                            "text": "محدودة الشخصيات."
+                        },
+                        {
+                            "id": 29133,
+                            "text": "ممتدة المدى الزمني."
+                        }
+                    ]
+                },
+                {
+                    "id": 7289,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">ما سبب شغف الكاتب منذ بواكير صباه بالكون وعلومه؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29134,
+                            "text": "انبهاره بقراءة كتاب (أينشتين) عن الفلك وعلوم الكون وهو طالب بالمرحلة الثانوية."
+                        },
+                        {
+                            "id": 29135,
+                            "text": "عدم نسيانه ما قرأ في كتاب عن (الهندسة الوراثية) الذي ترجمه الدكتور أحمد مستجير."
+                        },
+                        {
+                            "id": 29136,
+                            "text": "عدم معرفته على وجه الدقة ماذا فعل هؤلاء العلماء."
+                        },
+                        {
+                            "id": 29137,
+                            "text": "اهتمامه الشديد بالأبحاث التي تدور حول الكون الصغير وما يحمل من إعجاز مطلق."
+                        }
+                    ]
+                },
+                {
+                    "id": 7290,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">استدل من خلال الموضوع على إعجاب العلماء بالكون الآخر الصغير:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29138,
+                            "text": "وبهرت للكون الذي وجدته فى الكتاب، وذلك الكون الكبير."
+                        },
+                        {
+                            "id": 29139,
+                            "text": "ولكني لم أكن أعرف على وجه الدقة ماذا فعل هؤلاء العلماء."
+                        },
+                        {
+                            "id": 29140,
+                            "text": "نشوة لم أحسها منذ أن كان عمري أربعة عشر عامًا."
+                        },
+                        {
+                            "id": 29141,
+                            "text": "دلج العلماء إلى هذا الكون ليبهرهم تلك الدقة الشديدة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7291,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes\">استنتج من التركيب اللغوي للموضوع أنه ينتمي إلى فن أدب الرحلات:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29142,
+                            "text": "ثلاثة أيام على شاطئ البحر الفسيح الممتد عشتها في حيز لا يتعدى حجمه الواحد على المليون من الملليمتر المكعب."
+                        },
+                        {
+                            "id": 29143,
+                            "text": "نشوة لم أحسها منذ أن كان عمري أربعة عشر عامًا."
+                        },
+                        {
+                            "id": 29144,
+                            "text": "ووقع في يدي وأنا طالب ثانوي كتاب عن الفلك أو علم الأكوان الحديث."
+                        },
+                        {
+                            "id": 29145,
+                            "text": "ولكني لم أكن أعرف على وجه الدقة ماذا فعل هؤلاء العلماء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7292,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\" style=\"color:#0070C0\">«</span><span lang=\"AR-SA\">دلج العلماء إلى هذا الكون فأبهرتهم تلك الدقةُ الشديدة<span style=\"color:#0070C0\">». استنتج العلاقة بين عبارة «</span>فأبهرتهم تلك الدقة<span style=\"color:#0070C0\">» بما قبلها:</span></span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29146,
+                            "text": "تعليل."
+                        },
+                        {
+                            "id": 29147,
+                            "text": "نتيجة."
+                        },
+                        {
+                            "id": 29148,
+                            "text": "استدراك."
+                        },
+                        {
+                            "id": 29149,
+                            "text": "تفصيل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7293,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">حدِّد علاقة علم الحواسيب بعلم الهندسة الوراثية كما يراه الكاتب:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29150,
+                            "text": "العلاقة بينهما علاقة طردية."
+                        },
+                        {
+                            "id": 29151,
+                            "text": "اعتماد الهندسة الوراثية على القدرات الإلكترونية للحواسيب."
+                        },
+                        {
+                            "id": 29152,
+                            "text": "سيطرة الهندسة الوراثية على علم الحواسيب."
+                        },
+                        {
+                            "id": 29153,
+                            "text": "العلاقة بينهما علاقة عكسية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7294,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">بيِّن القيمة الدلالية لمقولة: «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\">وجوائز نوبل تَتْرى على علماء الهندسة الوراثية</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">»:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29154,
+                            "text": "قيمة منجزات الهندسة الوراثية واهتمام العلماء والدولة بها."
+                        },
+                        {
+                            "id": 29155,
+                            "text": "اهتمام الناس بمنجزات الهندسة الوراثية."
+                        },
+                        {
+                            "id": 29156,
+                            "text": "حب الكُتّاب لعلوم الهندسة الوراثية."
+                        },
+                        {
+                            "id": 29157,
+                            "text": "حاجة البيئة للتطوير باستخدام الهندسة الوراثية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7295,
+                    "text": "<p> <p><br/></p><p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">وازن بين موقف الكاتب وبين طه حسين من حيث النظرة إلى العلم في بواكير الصبا: </span></p> </p>",
+                    "image_url": "https://i.ibb.co/yF8f076Q/1743992438-j-Cm-Swv.png",
+                    "answers": [
+                        {
+                            "id": 29158,
+                            "text": "الكاتب يقرأ ما يحب، وطه حسين كان يمل ما يُقدَّم إليه."
+                        },
+                        {
+                            "id": 29159,
+                            "text": "أظهرت الفقرتان حب الكاتب للعلوم الكونية فقط، وحب طه حسين للعلوم الغيبية."
+                        },
+                        {
+                            "id": 29160,
+                            "text": "الكاتب يرى كثرة ما يُقدَّم إليه من علوم، وطه حسين يرى قلة ما يُقدَّم إليه من علوم."
+                        },
+                        {
+                            "id": 29161,
+                            "text": "أظهرت الفقرتان حب كليهما للعلم والإقبال عليه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7296,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">حدِّد </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Tahoma\",sans-serif; mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family: Batang;color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes\"> </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt;font-family:Somar;mso-fareast-font-family:Batang; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA\">مما يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Tahoma\",sans-serif;mso-fareast-font-family:Batang;color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">التفصيلة التي يجدر بالكاتب حذفها لتكون كتابته وثيقة الصلة بمضمون الفقرة السابقة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/60gpPqWd/1743993591-WZ9-OFk.png",
+                    "answers": [
+                        {
+                            "id": 29162,
+                            "text": "قررت هيئة الأرصاد الإعلان عن العلاقة بين الزلازل والتنقيب عن مصادر الطاقة."
+                        },
+                        {
+                            "id": 29163,
+                            "text": "يقوم العلماء بتطوير أبحاث الزلازل والتنبؤ بها قبل حدوثها."
+                        },
+                        {
+                            "id": 29164,
+                            "text": "أشارت الأبحاث الحديثة إلى وجود علاقة بين انفجار البراكين  وحدوث الزلازل."
+                        },
+                        {
+                            "id": 29165,
+                            "text": "تقوم هيئات الإغاثة العالمية بالمساهمة الفعالة للتخفيف من أضرار الزلازل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7297,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size:17.0pt; font-family:Somar;mso-fareast-font-family:Batang;color:#0070C0;mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">حدِّد مما يلي النموذج الذي اتبعه الكاتب في عرض فكرته:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/bg6z74Gn/1743993668-Gfm-G0-K.png",
+                    "answers": [
+                        {
+                            "id": 29166,
+                            "text": "مقدمة - نتيجة."
+                        },
+                        {
+                            "id": 29167,
+                            "text": "ظاهرة - تفسير"
+                        },
+                        {
+                            "id": 29168,
+                            "text": "رأي - دليل."
+                        },
+                        {
+                            "id": 29169,
+                            "text": "زعم – تفنيد"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

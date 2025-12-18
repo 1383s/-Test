@@ -1,0 +1,985 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 368,
+                "title": "تسليم الواجب - المحاضرة العاشرة - محمد صلاح 3ث",
+                "lecture_id": 3343,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:27:53.803424Z",
+                "updated_at": "2025-11-27T18:27:53.803424Z"
+            },
+            "questions": [
+                {
+                    "id": 8449,
+                    "text": "السؤال الأول - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/f36480d34d0ecc877c9bfd4824b019e4b60e1f023ff7.jpg",
+                    "answers": [
+                        {
+                            "id": 33774,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33775,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33776,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33777,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8450,
+                    "text": "السؤال 2 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/59fe3bdaf8be1cf290629b347bdce54be5ef015b4137.jpg",
+                    "answers": [
+                        {
+                            "id": 33778,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33779,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33780,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33781,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8451,
+                    "text": "السؤال 3 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/0ed4a3f40cdcaaed73dbf89e1e2bcb6e21e8395d05a0.jpg",
+                    "answers": [
+                        {
+                            "id": 33782,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33783,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33784,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33785,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8452,
+                    "text": "السؤال 4 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/ca59e3960ee52b422c1359ddb3da7abad1696d724dc0.jpg",
+                    "answers": [
+                        {
+                            "id": 33786,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33787,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33788,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33789,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8453,
+                    "text": "السؤال 5 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/d590452659e3f4dbeffc68f5ad701e4ef7c25b3826d9.jpg",
+                    "answers": [
+                        {
+                            "id": 33790,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33791,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33792,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33793,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8454,
+                    "text": "السؤال 6 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/5728939a862ed103914085e2b4dc6278837225ec4107.jpg",
+                    "answers": [
+                        {
+                            "id": 33794,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33795,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33796,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33797,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8455,
+                    "text": "السؤال 7 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/b03e093d70595bf40fda7c23968f8cebf42b213f7dd1.jpg",
+                    "answers": [
+                        {
+                            "id": 33798,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33799,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33800,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33801,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8456,
+                    "text": "السؤال الأول - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/ad033abb017c9d4b6ef10f459adb44cf017728d2990e.jpg",
+                    "answers": [
+                        {
+                            "id": 33802,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33803,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33804,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33805,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8457,
+                    "text": "السؤال 2 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/8ce8963d5003b61735f57672781b519f1648b13e2430.jpg",
+                    "answers": [
+                        {
+                            "id": 33806,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33807,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33808,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33809,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8458,
+                    "text": "السؤال 3 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/5a0c1f1e6d17313cc9a4f655397e46d27ea2392a85ee.jpg",
+                    "answers": [
+                        {
+                            "id": 33810,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33811,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33812,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33813,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8459,
+                    "text": "السؤال 4 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/df976ccf60b44c0337384a1f2dd5019af2ac49d0d4d8.jpg",
+                    "answers": [
+                        {
+                            "id": 33814,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33815,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33816,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33817,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8460,
+                    "text": "السؤال 5 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/aa835c8e824b69fae8063a92f8ad29a16742a09a0f9b.jpg",
+                    "answers": [
+                        {
+                            "id": 33818,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33819,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33820,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33821,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8461,
+                    "text": "السؤال 6 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/faef179476045818325898bfc398c75d5e6c9ec1243f.jpg",
+                    "answers": [
+                        {
+                            "id": 33822,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33823,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33824,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33825,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8462,
+                    "text": "السؤال 7 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/3e85aeb5c5c203311500a287064bb30afdf507d6e3d5.jpg",
+                    "answers": [
+                        {
+                            "id": 33826,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33827,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33828,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33829,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8463,
+                    "text": "السؤال الأول - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/2abdb7a27bfc582ee7dae7a428826a7fa8c654d7ed81.jpg",
+                    "answers": [
+                        {
+                            "id": 33830,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33831,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33832,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33833,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8464,
+                    "text": "السؤال 2 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/ca51e1c4991dfce4b100fcd25a82f491d2b51d3537f5.jpg",
+                    "answers": [
+                        {
+                            "id": 33834,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33835,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33836,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33837,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8465,
+                    "text": "السؤال 3 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/7fd8331045c913231cad1dacbf7702194e02bdae5341.jpg",
+                    "answers": [
+                        {
+                            "id": 33838,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33839,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33840,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33841,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8466,
+                    "text": "السؤال 4 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/4b5ba6c00913a6b9413dfe8d0bdc6137afcf89dae474.jpg",
+                    "answers": [
+                        {
+                            "id": 33842,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33843,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33844,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33845,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8467,
+                    "text": "السؤال 5 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/40c34b74fb9e904425e80b9d89171cd6852ea686821d.jpg",
+                    "answers": [
+                        {
+                            "id": 33846,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33847,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33848,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33849,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8468,
+                    "text": "السؤال 6 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/512ef030f0e8d85855f9a1ac6fe155ca42478908eb26.jpg",
+                    "answers": [
+                        {
+                            "id": 33850,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33851,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33852,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33853,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8469,
+                    "text": "السؤال 7 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/1a6b7bb1108782effd702062c164fb641e621d37dd09.jpg",
+                    "answers": [
+                        {
+                            "id": 33854,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33855,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33856,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33857,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8470,
+                    "text": "السؤال 8 - النص الأول",
+                    "image_url": "https://files.coursatk.online/images/questions/4f4d2bcee9f4e3aa4b40a6eb3576dd11e71123260b12.jpg",
+                    "answers": [
+                        {
+                            "id": 33858,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33859,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33860,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33861,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8471,
+                    "text": "السؤال الأول - إيدك معانا في البلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/f689695f92117e4a525463a173bfe74ddf425085c3a5.jpg",
+                    "answers": [
+                        {
+                            "id": 33862,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33863,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33864,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33865,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8472,
+                    "text": "السؤال 2 - إيدك معانا في البلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/5880ce5baaa46b9dd10b4d53fe1de59a40b25da8f87c.jpg",
+                    "answers": [
+                        {
+                            "id": 33866,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33867,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33868,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33869,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8473,
+                    "text": "السؤال 3 - إيدك معانا في البلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/cb24e9be67c445a0f90ad2abb5a5de196f5a58b12497.jpg",
+                    "answers": [
+                        {
+                            "id": 33870,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33871,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33872,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33873,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8474,
+                    "text": "السؤال الأول - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/d5e8ca9c0374146e9933485e922f14d8f17e1be60b3d.jpg",
+                    "answers": [
+                        {
+                            "id": 33874,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33875,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33876,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33877,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8475,
+                    "text": "السؤال 2 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/ef7c1226e6508f78113a954d5d77cff522553cca4232.jpg",
+                    "answers": [
+                        {
+                            "id": 33878,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33879,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33880,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33881,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8476,
+                    "text": "السؤال 3 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/fc71510e6fbd8eb45ec97ea36c1e562f8ce5b6c50ccd.jpg",
+                    "answers": [
+                        {
+                            "id": 33882,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33883,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33884,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33885,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8477,
+                    "text": "السؤال 4 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/26b94da3956b92d8d1877af4f37d23edc136b9074dfd.jpg",
+                    "answers": [
+                        {
+                            "id": 33886,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33887,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33888,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33889,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8478,
+                    "text": "السؤال 5 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/7e01defe79665ec7584f878a8d581ed8861b780e841a.jpg",
+                    "answers": [
+                        {
+                            "id": 33890,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33891,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33892,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33893,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8479,
+                    "text": "السؤال 6 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/eb8d24dec64cd878aa576238a0093ff355c759e75fa2.jpg",
+                    "answers": [
+                        {
+                            "id": 33894,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33895,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33896,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33897,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8480,
+                    "text": "السؤال 7 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/ed6565f314fddaf91bc446d05e68566b5597c1198b7a.jpg",
+                    "answers": [
+                        {
+                            "id": 33898,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33899,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33900,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33901,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8481,
+                    "text": "السؤال 8 - النص الثاني",
+                    "image_url": "https://files.coursatk.online/images/questions/dd581f973814eccd9ad5c2d813c93f820af122ebff29.jpg",
+                    "answers": [
+                        {
+                            "id": 33902,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33903,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33904,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33905,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8482,
+                    "text": "السؤال الأول - إيدك معانا في البلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/05603bcc96ca425537f3be2b13d0decf85e2192b0953.jpg",
+                    "answers": [
+                        {
+                            "id": 33906,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33907,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33908,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33909,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8483,
+                    "text": "السؤال 2 - إيدك معانا في البلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/58a3f2e509226e5e5d71fc4f050b7fc4932e071ba53a.jpg",
+                    "answers": [
+                        {
+                            "id": 33910,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33911,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33912,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33913,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8484,
+                    "text": "السؤال 3 - إيدك معانا في البلاغة",
+                    "image_url": "https://files.coursatk.online/images/questions/87bbe4feb1d070fde956f5581f7f700205de9589656e.jpg",
+                    "answers": [
+                        {
+                            "id": 33914,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33915,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33916,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33917,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8485,
+                    "text": "السؤال الأول - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/98749c039bc9f1705e6cf792d03434cc76a8371e7448.jpg",
+                    "answers": [
+                        {
+                            "id": 33918,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33919,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33920,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33921,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8486,
+                    "text": "السؤال 2 - المجموعة الأولى",
+                    "image_url": "https://files.coursatk.online/images/questions/68fd4e0448ef4641312942a2d272861954a96a8e4f6a.jpg",
+                    "answers": [
+                        {
+                            "id": 33922,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33923,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33924,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33925,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8487,
+                    "text": "السؤال الأول - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/8ecf8079ced661d0bcdeaeb5367d2c63d8011c135f1c.jpg",
+                    "answers": [
+                        {
+                            "id": 33926,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33927,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33928,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33929,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8488,
+                    "text": "السؤال 2 - المجموعة الثانية",
+                    "image_url": "https://files.coursatk.online/images/questions/b9bcb4bda6fe17935871e837353fe1902bd05847ea3d.jpg",
+                    "answers": [
+                        {
+                            "id": 33930,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33931,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33932,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33933,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8489,
+                    "text": "السؤال الأول - المجموعة الثالثة",
+                    "image_url": "https://files.coursatk.online/images/questions/5de29b1750625c1087b05baa10c3cb328b59555f5e87.jpg",
+                    "answers": [
+                        {
+                            "id": 33934,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33935,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33936,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33937,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8490,
+                    "text": "السؤال 2 - المجموعة الثالثة",
+                    "image_url": "https://files.coursatk.online/images/questions/297295927684681f05d059b098de7b6a1bfef5d1fd1b.jpg",
+                    "answers": [
+                        {
+                            "id": 33938,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 33939,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 33940,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 33941,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

@@ -1,0 +1,571 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 350,
+                "title": "تسليم الواجب - المحاضرة الأولى",
+                "lecture_id": 3333,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:27:27.689044Z",
+                "updated_at": "2025-11-27T18:27:27.689044Z"
+            },
+            "questions": [
+                {
+                    "id": 7959,
+                    "text": "السؤال الأول - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/DPVSwLNF/2-Oq-Lw7-Xng-Vwpe-DZUg552mz-XB6-KBQi3yg0-PSFVus-G.jpg",
+                    "answers": [
+                        {
+                            "id": 31814,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31815,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31816,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31817,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7960,
+                    "text": "السؤال 2 - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/21GZfjKP/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 31818,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31819,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31820,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31821,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7961,
+                    "text": "السؤال 3 - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/Rp5FKd3t/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 31822,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31823,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31824,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31825,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7962,
+                    "text": "السؤال 4 - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/N65S6r05/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 31826,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31827,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31828,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31829,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7963,
+                    "text": "السؤال 5 - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/gZDTVHWn/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 31830,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31831,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31832,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31833,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7964,
+                    "text": "السؤال 6 - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/wrM1fzFh/question-6.jpg",
+                    "answers": [
+                        {
+                            "id": 31834,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31835,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31836,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31837,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7965,
+                    "text": "السؤال 7 - النحو - المجموعة الأولى",
+                    "image_url": "https://i.ibb.co/5bsbLWt/question-7.jpg",
+                    "answers": [
+                        {
+                            "id": 31838,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31839,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31840,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31841,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7966,
+                    "text": "السؤال الأول - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/tgRfT9j/question-8.jpg",
+                    "answers": [
+                        {
+                            "id": 31842,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31843,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31844,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31845,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7967,
+                    "text": "السؤال 2 - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/CpRbh2Fq/question-9.jpg",
+                    "answers": [
+                        {
+                            "id": 31846,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31847,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31848,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31849,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7968,
+                    "text": "السؤال 3 - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/2YdkHLbN/question-10.jpg",
+                    "answers": [
+                        {
+                            "id": 31850,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31851,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31852,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31853,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7969,
+                    "text": "السؤال 4 - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/Y7NN3FxR/question-11.jpg",
+                    "answers": [
+                        {
+                            "id": 31854,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31855,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31856,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31857,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7970,
+                    "text": "السؤال 5 - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/j9STNqNr/question-12.jpg",
+                    "answers": [
+                        {
+                            "id": 31858,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31859,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31860,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31861,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7971,
+                    "text": "السؤال 6 - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/Qv7sd9S0/question-13.jpg",
+                    "answers": [
+                        {
+                            "id": 31862,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31863,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31864,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31865,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7972,
+                    "text": "السؤال 7 - النحو - المجموعة الثانية",
+                    "image_url": "https://i.ibb.co/Kj7ckYCc/question-14.jpg",
+                    "answers": [
+                        {
+                            "id": 31866,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31867,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31868,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31869,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7973,
+                    "text": "السؤال الأول - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/PqcjBpR/question-15.jpg",
+                    "answers": [
+                        {
+                            "id": 31870,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31871,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31872,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31873,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7974,
+                    "text": "السؤال 2 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/L7JS0rx/question-16.jpg",
+                    "answers": [
+                        {
+                            "id": 31874,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31875,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31876,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31877,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7975,
+                    "text": "السؤال 3 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/tMMBnvmM/question-17.jpg",
+                    "answers": [
+                        {
+                            "id": 31878,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31879,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31880,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31881,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7976,
+                    "text": "السؤال 4 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/7t3JK3mD/question-18.jpg",
+                    "answers": [
+                        {
+                            "id": 31882,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31883,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31884,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31885,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7977,
+                    "text": "السؤال 5 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/27FkJsjR/question-19.jpg",
+                    "answers": [
+                        {
+                            "id": 31886,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31887,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31888,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31889,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7978,
+                    "text": "السؤال 6 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/zk5jC7F/question-20.jpg",
+                    "answers": [
+                        {
+                            "id": 31890,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31891,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31892,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31893,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7979,
+                    "text": "السؤال 7 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/Cp52t62T/question-21.jpg",
+                    "answers": [
+                        {
+                            "id": 31894,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31895,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31896,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31897,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7980,
+                    "text": "السؤال 8 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/GQDr6fhX/question-22.jpg",
+                    "answers": [
+                        {
+                            "id": 31898,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31899,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31900,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31901,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7981,
+                    "text": "السؤال 9 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/whWDQGnD/question-23.jpg",
+                    "answers": [
+                        {
+                            "id": 31902,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31903,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31904,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31905,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7982,
+                    "text": "السؤال 10 - الأدب - تدريبات إضافية",
+                    "image_url": "https://i.ibb.co/XZPfw5xQ/question-24.jpg",
+                    "answers": [
+                        {
+                            "id": 31906,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31907,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31908,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31909,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

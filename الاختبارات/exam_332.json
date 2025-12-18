@@ -1,0 +1,111 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 332,
+                "title": "كويز المحاضرة الثانيه",
+                "lecture_id": 2309,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:11:44.751848Z",
+                "updated_at": "2025-11-27T02:11:44.751848Z"
+            },
+            "questions": [
+                {
+                    "id": 7460,
+                    "text": "السؤال الاول",
+                    "image_url": "https://i.ibb.co/0Y6mps0/IMG-20240820-231141-662.jpg",
+                    "answers": [
+                        {
+                            "id": 29818,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29819,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29820,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29821,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7461,
+                    "text": "السؤال الثاني",
+                    "image_url": "https://i.ibb.co/8jrTvw3/IMG-20240820-231217-147.jpg",
+                    "answers": [
+                        {
+                            "id": 29822,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29823,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29824,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29825,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7462,
+                    "text": "السؤال الثالث",
+                    "image_url": "https://i.ibb.co/z4qsc8r/IMG-20240820-231239-658.jpg",
+                    "answers": [
+                        {
+                            "id": 29826,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29827,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29828,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29829,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7463,
+                    "text": "السؤال الرابع",
+                    "image_url": "https://i.ibb.co/CMSNvgj/IMG-20240820-231314-464.jpg",
+                    "answers": [
+                        {
+                            "id": 29830,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29831,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29832,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29833,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

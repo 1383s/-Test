@@ -1,0 +1,513 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 304,
+                "title": "امتحان افتتاحي المحاضرة 4",
+                "lecture_id": 2106,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:30.186793Z",
+                "updated_at": "2025-11-27T02:08:30.186793Z"
+            },
+            "questions": [
+                {
+                    "id": 6578,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>حدِّد الاسم المعرب بعلامة فرعية في البيت السابق:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/Bwq1562/1725392648-XWu-Xk9.png",
+                    "answers": [
+                        {
+                            "id": 26290,
+                            "text": "الشعر."
+                        },
+                        {
+                            "id": 26291,
+                            "text": "السماء."
+                        },
+                        {
+                            "id": 26292,
+                            "text": "حمامات."
+                        },
+                        {
+                            "id": 26293,
+                            "text": "ريح."
+                        }
+                    ]
+                },
+                {
+                    "id": 6579,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:21.2pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-18.0pt;mso-list:l0 level1 lfo1\"><!--[if !supportLists]--><span dir=\"RTL\"></span><span style='font-size:20.0pt;mso-bidi-font-size:15.0pt; font-family:\"Segoe UI Symbol\",sans-serif;mso-fareast-font-family:\"Segoe UI Symbol\"; mso-bidi-font-family:\"Segoe UI Symbol\";color:#C00000;mso-bidi-language:AR-EG'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'>  </span></span><!--[endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";color:#6600CC'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> (أقمت) همزته قطع؛ لأنها:</span><span dir=\"LTR\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; color:#6600CC'><o:p></o:p></span></p> </p>",
+                    "image_url": "https://i.ibb.co/L84TL4b/1725392770-C7n-QLU.png",
+                    "answers": [
+                        {
+                            "id": 26294,
+                            "text": "أمر رباعي."
+                        },
+                        {
+                            "id": 26295,
+                            "text": "ماضٍ رباعي."
+                        },
+                        {
+                            "id": 26296,
+                            "text": "ماضٍ ثلاثي."
+                        },
+                        {
+                            "id": 26297,
+                            "text": "ماضٍ خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6580,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:26.05pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-17.85pt;mso-list:l0 level1 lfo1\"><span lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";color:#6600CC; mso-no-proof:yes'>ميِّز </span><span lang=\"AR-SA\" style='font-size:15pt; font-family:\"Sakkal Majalla\";color:#6600CC;mso-no-proof:yes'>–</span><span lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; color:#6600CC;mso-no-proof:yes'> مما يلي </span><span lang=\"AR-SA\" style='font-size:15pt;font-family:\"Sakkal Majalla\";color:#6600CC;mso-no-proof: yes'>–</span><span lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; color:#6600CC;mso-no-proof:yes'> الجملة التي بها كلمة متصلة بهاء الضمير:</span><span dir=\"LTR\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";color:#6600CC; mso-no-proof:yes'><o:p></o:p></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26298,
+                            "text": "وجه الرجل بين الناس مشرق."
+                        },
+                        {
+                            "id": 26299,
+                            "text": "تسربت المياه داخل التربة."
+                        },
+                        {
+                            "id": 26300,
+                            "text": "غيرت الطائرة اتجاهها."
+                        },
+                        {
+                            "id": 26301,
+                            "text": "تنزه عن الكسب غير المشروع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6581,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>قال تعالى:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'> «يا أيها الذين آمنوا إذا لقيتم فئة فاثبتوا».<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>سبب رسم الهمزة على نبرة في كلمة (فئة) الواردة في الآية السابقة:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26302,
+                            "text": "مكسورة."
+                        },
+                        {
+                            "id": 26303,
+                            "text": "ساكنة وما قبلها مكسور."
+                        },
+                        {
+                            "id": 26304,
+                            "text": "مفتوحة وما قبلها مفتوح."
+                        },
+                        {
+                            "id": 26305,
+                            "text": "مفتوحة وما قبلها مكسور."
+                        }
+                    ]
+                },
+                {
+                    "id": 6582,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أصدقاؤنا حلفاؤنا في الحياة). عند إدخال (أصبح) على الجملة السابقة تصبح:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26306,
+                            "text": "أصبح أصدقائنا حلفاؤنا في الحياة."
+                        },
+                        {
+                            "id": 26307,
+                            "text": "أصبح أصدقاؤنا حلفاءنا في الحياة."
+                        },
+                        {
+                            "id": 26308,
+                            "text": "أصبح أصدقاءنا حلفاؤنا في الحياة."
+                        },
+                        {
+                            "id": 26309,
+                            "text": "أصبح أصدقاؤنا حلفائنا في الحياة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6583,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>(المعلم<u>و</u>ن يرب<u>و</u>ن النشء). نوع الواو فيما تحته خط على الترتيب:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26310,
+                            "text": "واو الجماعة – واو أصلية."
+                        },
+                        {
+                            "id": 26311,
+                            "text": "واو أصلية – واو الجماعة."
+                        },
+                        {
+                            "id": 26312,
+                            "text": "واو الجمع – واو الجماعة."
+                        },
+                        {
+                            "id": 26313,
+                            "text": "واو الجماعة – واو الجمع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6584,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span style=\"color:#6600CC\">(احرص على وقتك وإلَّا <u>تندم</u>). إعراب ما تحته خط:</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26314,
+                            "text": "فعل مضارع مرفوع بالضمة."
+                        },
+                        {
+                            "id": 26315,
+                            "text": "فعل مضارع مجزوم؛ لأنه جواب شرط."
+                        },
+                        {
+                            "id": 26316,
+                            "text": "فعل مضارع مجزوم؛ لأنه فعل شرط."
+                        },
+                        {
+                            "id": 26317,
+                            "text": "فعل مضارع مبني على السكون."
+                        }
+                    ]
+                },
+                {
+                    "id": 6585,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(عليكم ألَّا <u>تفرطوا</u> في الفرائض). إعراب ما تحته خط:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#6600CC; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26318,
+                            "text": "فعل مضارع مرفوع."
+                        },
+                        {
+                            "id": 26319,
+                            "text": "فعل مضارع منصوب."
+                        },
+                        {
+                            "id": 26320,
+                            "text": "فعل مضارع مجزوم."
+                        },
+                        {
+                            "id": 26321,
+                            "text": "فعل مضارع مبني."
+                        }
+                    ]
+                },
+                {
+                    "id": 6586,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أدَّتْ <u>إبتهال</u> <u>ابتهالًا</u> خاشعًا). <br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط على الترتيب همزته (قطع، وصل)؛ لأنه:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26322,
+                            "text": "مصدر خماسي – عَلَم."
+                        },
+                        {
+                            "id": 26323,
+                            "text": "عَلَم – مصدر خماسي."
+                        },
+                        {
+                            "id": 26324,
+                            "text": "عَلَم – مصدر سداسي."
+                        },
+                        {
+                            "id": 26325,
+                            "text": "عَلَم – مصدر ثلاثي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6587,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(قابلتُ عَمْرو). تصويب الخطأ في الجملة السابقة:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26326,
+                            "text": "قابلتُ عَمرً."
+                        },
+                        {
+                            "id": 26327,
+                            "text": "قابلتُ عَمروًا."
+                        },
+                        {
+                            "id": 26328,
+                            "text": "قابلتُ عَمرًا."
+                        },
+                        {
+                            "id": 26329,
+                            "text": "قابلتُ عَمروً."
+                        }
+                    ]
+                },
+                {
+                    "id": 6588,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(المؤمنون <u>يرجون</u> الجنة) - (المؤمنات <u>يرجون</u> الجنة).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt;\">نوع الواو ووزن الفعل فيما تحته خط في الجملتين السابقتين على الترتيب:</span> </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26330,
+                            "text": "واو الجمع (يفعلون) – واو أصلية (يفعون)."
+                        },
+                        {
+                            "id": 26331,
+                            "text": "واو الجماعة (يفعون) – واو أصلية (يفعلن)."
+                        },
+                        {
+                            "id": 26332,
+                            "text": "واو الجماعة (يفعلن) – واو الجمع (يفعلون)."
+                        },
+                        {
+                            "id": 26333,
+                            "text": "واو أصلية (يفعلن) – واو الجماعة (يفعون)."
+                        }
+                    ]
+                },
+                {
+                    "id": 6589,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(فهمتُ الدرس من معلمي ......... أجبت عن أسئلة الواجب).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt;\">الاختيار المناسب مكان النقط:</span> </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26334,
+                            "text": "ثُمَّت."
+                        },
+                        {
+                            "id": 26335,
+                            "text": "ألَّا."
+                        },
+                        {
+                            "id": 26336,
+                            "text": "ثَمَّ."
+                        },
+                        {
+                            "id": 26337,
+                            "text": "ثَمَّة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6590,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>قال تعالى:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'> «أَلا تُحِبُّونَ أَنْ يَغْفِرَ الله لَكُمْ وَالله غَفُورٌ رَحِيمٌ».<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>ميِّز إعراب الفعل (تحبون):</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26338,
+                            "text": "مرفوع بالواو."
+                        },
+                        {
+                            "id": 26339,
+                            "text": "مرفوع بثبوت النون."
+                        },
+                        {
+                            "id": 26340,
+                            "text": "منصوب بالفتحة المقدرة."
+                        },
+                        {
+                            "id": 26341,
+                            "text": "مجزوم بالسكون."
+                        }
+                    ]
+                },
+                {
+                    "id": 6591,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«فاعِلوا الخير سابَقُو إليه».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#6600CC;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> صوب الخطأ في الجملة السابقة:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26342,
+                            "text": "فاعلوا الخير سابَقُوا إليه."
+                        },
+                        {
+                            "id": 26343,
+                            "text": "فاعلو الخير سابَقُو إليه."
+                        },
+                        {
+                            "id": 26344,
+                            "text": "فاعلو الخير سابَقُوا إليه."
+                        },
+                        {
+                            "id": 26345,
+                            "text": "فاعلو الخير يسابقوا إليه."
+                        }
+                    ]
+                },
+                {
+                    "id": 6592,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>استنتج من البيت السابق أحد العوامل التي دفعت تلامذة البارودي نحو التجديد:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/zh0yS22/1725401225-fw-O7-VM.png",
+                    "answers": [
+                        {
+                            "id": 26346,
+                            "text": "الدعوة إلى الإصلاح السياسي."
+                        },
+                        {
+                            "id": 26347,
+                            "text": "حرية الصحافة."
+                        },
+                        {
+                            "id": 26348,
+                            "text": "ترسيخ الإحساس بتراث الأجداد."
+                        },
+                        {
+                            "id": 26349,
+                            "text": "دعوة قاسم أمين إلى تحرير المرأة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6593,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج من البيت السابق مظهرًا من مظاهر التطوير لدى تلاميذ البارودي:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/52MMY99/1725472218-5sr-Mpr.png",
+                    "answers": [
+                        {
+                            "id": 26350,
+                            "text": "إفساح المجال لمزيد من التجارب الذاتية."
+                        },
+                        {
+                            "id": 26351,
+                            "text": "الاهتمام بعلاج مشكلات المجتمع."
+                        },
+                        {
+                            "id": 26352,
+                            "text": "الاهتمام بغيرهم أكثر من الذات."
+                        },
+                        {
+                            "id": 26353,
+                            "text": "التنديد بالاحتلال ومظالمه."
+                        }
+                    ]
+                },
+                {
+                    "id": 6594,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج من البيت سمة من سمات مدرسة الإحياء والبعث:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/LSrmT9D/1725401960-Uc-Xtjn.png",
+                    "answers": [
+                        {
+                            "id": 26354,
+                            "text": "الاهتمام بغيرهم أكثر من الذات."
+                        },
+                        {
+                            "id": 26355,
+                            "text": "الجمع بين الثقافة العربية والغربية."
+                        },
+                        {
+                            "id": 26356,
+                            "text": "أشعارهم تربط المضمون بأحداث العصر."
+                        },
+                        {
+                            "id": 26357,
+                            "text": "الاهتمام بالتجارب الذاتية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6595,
+                    "text": "<p> <p><span style='color: rgb(102, 0, 204); font-family: \"Somar Sans SemiBold\"; font-size: 16px;'>ما الأمنية التي يودها من يسعده الحظ في ضوء فهمك للفقرة الأولى؟</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/CJbzwQp/1725897092-057-Mas.png",
+                    "answers": [
+                        {
+                            "id": 26358,
+                            "text": "أن يرى البغلة وهي تهز رأسها."
+                        },
+                        {
+                            "id": 26359,
+                            "text": "أن يشرب من الماء الذي جاءت به البغلة."
+                        },
+                        {
+                            "id": 26360,
+                            "text": "أن يستحيل الماء في زيره إلى ذهب وجواهر."
+                        },
+                        {
+                            "id": 26361,
+                            "text": "أن يسمع رنين أجراس البغلة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6596,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج المغزى من قول الكاتب: «بل كنا نناقش تفاصيلها في الليلة السابقة لعاشوراء» في سياق الفقرة الثانية:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/CJbzwQp/1725897092-057-Mas.png",
+                    "answers": [
+                        {
+                            "id": 26362,
+                            "text": "إظهار مدى سذاجة الأصدقاء وسطحية تفكيرهم."
+                        },
+                        {
+                            "id": 26363,
+                            "text": "إظهار حلاوة ذكريات الطفولة وما بها من أحداث."
+                        },
+                        {
+                            "id": 26364,
+                            "text": "التعبير عن الفرحة بالمواسم الدينية والاحتفال بها."
+                        },
+                        {
+                            "id": 26365,
+                            "text": "التعبير عن قوة الصداقة واستمرارية التقائهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6597,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>هات مما أورده الكاتب ما يدل على تعلق النفس بالآمال والأحلام:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/CJbzwQp/1725897092-057-Mas.png",
+                    "answers": [
+                        {
+                            "id": 26366,
+                            "text": "لم نكن نشك في صدقها صغارًا."
+                        },
+                        {
+                            "id": 26367,
+                            "text": "يستيقظ في هدأة الليل ويظل ساهدًا في فرق."
+                        },
+                        {
+                            "id": 26368,
+                            "text": "لا نكتفي بتصديق تلك القصة."
+                        },
+                        {
+                            "id": 26369,
+                            "text": "يجازف بالخروج من المنزل ويطوف بالطرقات."
+                        }
+                    ]
+                },
+                {
+                    "id": 6598,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج علاقة قول الكاتب: «آملًا أن يسمع الأجراس» بما قبله في الفقرة الثانية:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/CJbzwQp/1725897092-057-Mas.png",
+                    "answers": [
+                        {
+                            "id": 26370,
+                            "text": "توضيح."
+                        },
+                        {
+                            "id": 26371,
+                            "text": "تعليل."
+                        },
+                        {
+                            "id": 26372,
+                            "text": "نتيجة."
+                        },
+                        {
+                            "id": 26373,
+                            "text": "تفصيل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6599,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><br/></span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#6600CC;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>وازن بين ذكريات الطفولة لكل من الكاتب وطه حسين، في ضوء ما أورده كل منهما في حديثه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/CJbzwQp/1725897092-057-Mas.png",
+                    "answers": [
+                        {
+                            "id": 26374,
+                            "text": "أظهر طه حسين ما كان يؤمن به في طفولته من خرافة، أما الكاتب فيغلب عليه رفضها ."
+                        },
+                        {
+                            "id": 26375,
+                            "text": "أظهر طه حسين رغبته في الفوز بخاتم الأحلام، والكاتب يسخر من نفسه حين يتذكر تصديقه للقصة."
+                        },
+                        {
+                            "id": 26376,
+                            "text": "كلا الكاتبين عبّر عن أمنياته المبنية على خيالات وأحلام لا تمت للواقع بصلة."
+                        },
+                        {
+                            "id": 26377,
+                            "text": "كلا الكاتبين محب للقصص الخيالية الخرافية، عاشق لذكريات الطفولة وسحرها."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

@@ -1,0 +1,465 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 305,
+                "title": "امتحان افتتاحي المحاضرة 5",
+                "lecture_id": 2107,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:32.119499Z",
+                "updated_at": "2025-11-27T02:08:32.119499Z"
+            },
+            "questions": [
+                {
+                    "id": 6600,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"text-align:justify;text-justify:kashida; text-kashida:0%;line-height:115%;tab-stops:right 56.65pt 85.0pt\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size:15pt;line-height:115%; font-family:\"Somar Sans SemiBold\";color:#0070C0'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(ينبغي عليكم ألَّا تقصروا في أداء واجباتكم وإلَّا تندموا)</span><span dir=\"LTR\" style='font-size:15pt;line-height:115%;font-family:\"Somar Sans SemiBold\"; color:#0070C0'><o:p></o:p></span></p><p><span dir=\"RTL\"></span> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>بيِّن إعراب الفعلين (تقصروا - تندموا) على الترتيب في المقولة السابقة:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/3TJcwJd/1726483478-d-Mu7m-Q.png",
+                    "answers": [
+                        {
+                            "id": 26378,
+                            "text": "مضارع مبني – مضارع مجزوم."
+                        },
+                        {
+                            "id": 26379,
+                            "text": "مضارع منصوب – مضارع مجزوم."
+                        },
+                        {
+                            "id": 26380,
+                            "text": "مضارع مجزوم – مضارع منصوب."
+                        },
+                        {
+                            "id": 26381,
+                            "text": "مضارع منصوب – مضارع منصوب."
+                        }
+                    ]
+                },
+                {
+                    "id": 6601,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>أنتن </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تدعون</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>لمستقبل باهر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ما نوع الواو ووزن الفعل في الجملة السابقة؟</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26382,
+                            "text": "واو أصلية – تفعلون."
+                        },
+                        {
+                            "id": 26383,
+                            "text": "واو الجمع – تفعون."
+                        },
+                        {
+                            "id": 26384,
+                            "text": "واو جماعة – تفعلن."
+                        },
+                        {
+                            "id": 26385,
+                            "text": "واو أصلية – تفعلن."
+                        }
+                    ]
+                },
+                {
+                    "id": 6602,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ثَمَّة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>عوائق ليست بالسهلة في سبيل محاولاتنا لتعزيز الرعاية الصحية</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><br/> بيِّن إعراب كلمة (عوائق) الوارة في العبارة السابقة:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26386,
+                            "text": "خبر مرفوع."
+                        },
+                        {
+                            "id": 26387,
+                            "text": "مضاف إليه مجرور."
+                        },
+                        {
+                            "id": 26388,
+                            "text": "مبتدأ مؤخر مرفوع."
+                        },
+                        {
+                            "id": 26389,
+                            "text": "نعت مرفوع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6603,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أدعو إلى رعاية حقوق الوالدين</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'>). كلمة (أدعو) همزتها قطع؛ لأنها:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26390,
+                            "text": "اسم."
+                        },
+                        {
+                            "id": 26391,
+                            "text": "فعل مضارع."
+                        },
+                        {
+                            "id": 26392,
+                            "text": "فعل ماضٍ ثلاثي."
+                        },
+                        {
+                            "id": 26393,
+                            "text": "فعل ماضٍ خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6604,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ميز الصيغة الصحيحة مكان النقط فيما سبق:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/g4RYp41/1726491773-k-NN8h-F.jpg",
+                    "answers": [
+                        {
+                            "id": 26394,
+                            "text": "عمرٌو."
+                        },
+                        {
+                            "id": 26395,
+                            "text": "عمرِو"
+                        },
+                        {
+                            "id": 26396,
+                            "text": "عمرًو"
+                        },
+                        {
+                            "id": 26397,
+                            "text": "عمْرٍ"
+                        }
+                    ]
+                },
+                {
+                    "id": 6605,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«اللهُ غفّارٌ </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>الذنوب</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>». </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>إعراب ما تحته خط: </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26398,
+                            "text": "مضاف إليه مجرور."
+                        },
+                        {
+                            "id": 26399,
+                            "text": "خبر مرفوع."
+                        },
+                        {
+                            "id": 26400,
+                            "text": "مفعول به منصوب."
+                        },
+                        {
+                            "id": 26401,
+                            "text": "فاعل مرفوع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6606,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«نعم صديقًا الباسم ثغره!». إعراب «ثغره»:</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26402,
+                            "text": "مضاف إليه مجرور بالكسرة."
+                        },
+                        {
+                            "id": 26403,
+                            "text": "مفعول به منصوب بالفتحة."
+                        },
+                        {
+                            "id": 26404,
+                            "text": "فاعل مرفوع بالضمة."
+                        },
+                        {
+                            "id": 26405,
+                            "text": "نائب فاعل مرفوع بالضمة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6607,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(هل معطاءٌ أبوك ذا الحاجة </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>مالًا</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>). إعراب ما تحته خط:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26406,
+                            "text": "مفعول به أول منصوب."
+                        },
+                        {
+                            "id": 26407,
+                            "text": "مفعول به ثان منصوب."
+                        },
+                        {
+                            "id": 26408,
+                            "text": "حال منصوبة."
+                        },
+                        {
+                            "id": 26409,
+                            "text": "تمييز منصوب."
+                        }
+                    ]
+                },
+                {
+                    "id": 6608,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«المثقَّف مؤدٍّ </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>واجباته</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>». إعراب «واجباته»:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26410,
+                            "text": "فاعل مرفوع بالضمة."
+                        },
+                        {
+                            "id": 26411,
+                            "text": "مفعول به منصوب بالفتحة."
+                        },
+                        {
+                            "id": 26412,
+                            "text": "مفعول به منصوب بالكسرة."
+                        },
+                        {
+                            "id": 26413,
+                            "text": "مضاف إليه مجرور بالكسرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6609,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«محمد معوانٌ .............». الاختيار الصحيح مكان النقط:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26414,
+                            "text": "أصدقاءه."
+                        },
+                        {
+                            "id": 26415,
+                            "text": "أصدقاؤه."
+                        },
+                        {
+                            "id": 26416,
+                            "text": "أصدقائه."
+                        },
+                        {
+                            "id": 26417,
+                            "text": "أصدقاءوه."
+                        }
+                    ]
+                },
+                {
+                    "id": 6610,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(المؤمن راجٍ </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>عفو</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'> ربه) </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Sakkal Majalla\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>–</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'> (المؤمن راجي </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>عفو</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'> ربه). إعراب ما تحته خط على الترتيب:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26418,
+                            "text": "مفعول به – مفعول به."
+                        },
+                        {
+                            "id": 26419,
+                            "text": "مفعول به – نائب فاعل."
+                        },
+                        {
+                            "id": 26420,
+                            "text": "مفعول به – مضاف إليه."
+                        },
+                        {
+                            "id": 26421,
+                            "text": "مضاف إليه – مضاف إليه."
+                        }
+                    ]
+                },
+                {
+                    "id": 6611,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>(ما حَذِرٌ العدو إلا </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>المنتبه</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>)</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>.</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>سبب إعمال صيغة المبالغة في الجملة السابقة وإعراب ما تحته خط: </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26422,
+                            "text": "اعتمدت على نفي – فاعل."
+                        },
+                        {
+                            "id": 26423,
+                            "text": "اعتمدت على نداء – مبتدأ."
+                        },
+                        {
+                            "id": 26424,
+                            "text": "اعتمدت على موصوف – خبر."
+                        },
+                        {
+                            "id": 26425,
+                            "text": "اعتمدت على مبتدأ – فاعل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6612,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أنصحُ المهملي </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>الصلاة</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>) </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Sakkal Majalla\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>–</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'> (أنصحُ المهملين </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>الصلاة</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>). إعراب ما تحته خط على الترتيب:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26426,
+                            "text": "مضاف إليه – مفعول به."
+                        },
+                        {
+                            "id": 26427,
+                            "text": "مفعول به – مضاف إليه."
+                        },
+                        {
+                            "id": 26428,
+                            "text": "مضاف إليه – نائب فاعل."
+                        },
+                        {
+                            "id": 26429,
+                            "text": "نائب فاعل – مفعول به."
+                        }
+                    ]
+                },
+                {
+                    "id": 6613,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(الجنديُّ مُنفِّذٌ </span><u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>القوانين</span></u><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>). إعراب ما تحته خط:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26430,
+                            "text": "فاعل مرفوع بالضمة."
+                        },
+                        {
+                            "id": 26431,
+                            "text": "مفعول به منصوب بالياء."
+                        },
+                        {
+                            "id": 26432,
+                            "text": "مضاف إليه مجرور بالكسرة."
+                        },
+                        {
+                            "id": 26433,
+                            "text": "مفعول به منصوب بالفتحة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6614,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-EG'>ميِّز الجملة التي تشتمل على صيغة مبالغة فيما يلي:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26434,
+                            "text": "النهر مستفيض ماؤه."
+                        },
+                        {
+                            "id": 26435,
+                            "text": "الرجل قويٌّ بأعوانه."
+                        },
+                        {
+                            "id": 26436,
+                            "text": "الشاهد مُؤتمَن على شهادته."
+                        },
+                        {
+                            "id": 26437,
+                            "text": "النتائجُ مستخلَصة من مقدماتها."
+                        }
+                    ]
+                },
+                {
+                    "id": 6615,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(الكاظم غيظه لا يحيا إلا بسلامة صدر وراحة بال</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>).<br/></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ميِّز -مما يلي- إعراب كلمة(غيظ) الواردة في المقولة السابقة:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26438,
+                            "text": "فاعل."
+                        },
+                        {
+                            "id": 26439,
+                            "text": "مفعول به."
+                        },
+                        {
+                            "id": 26440,
+                            "text": "خبر."
+                        },
+                        {
+                            "id": 26441,
+                            "text": "مبتدأ مؤخر."
+                        }
+                    ]
+                },
+                {
+                    "id": 6616,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج من البيت السابق مظهرًا من مظاهر التجديد في شعر شوقي: </span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/7gHmyzq/1726501907-k8vs-ED.jpg",
+                    "answers": [
+                        {
+                            "id": 26442,
+                            "text": "تصوير المنجزات العصرية."
+                        },
+                        {
+                            "id": 26443,
+                            "text": "اتجه في شعره اتجاهًا إسلاميًّا."
+                        },
+                        {
+                            "id": 26444,
+                            "text": "اتجاهه للشعر المسرحي."
+                        },
+                        {
+                            "id": 26445,
+                            "text": "العدول من المديح إلى التاريخ."
+                        }
+                    ]
+                },
+                {
+                    "id": 6617,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\"; color: rgb(68, 114, 196); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;'>استنتج من الأبيات السابقة أحد الأسباب التي دفعت تلاميذ البارودي إلى التجديد:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/2gw4rb1/1726493254-10bw-Br.jpg",
+                    "answers": [
+                        {
+                            "id": 26446,
+                            "text": "تغير الحياة في الثقافة والتعليم."
+                        },
+                        {
+                            "id": 26447,
+                            "text": "مواجهة المستعمر الإنجليزي والحث على الثورة."
+                        },
+                        {
+                            "id": 26448,
+                            "text": "الاهتمام بالصحافة."
+                        },
+                        {
+                            "id": 26449,
+                            "text": "الإحساس بتراث الأجداد."
+                        }
+                    ]
+                },
+                {
+                    "id": 6618,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج مكونًا لمقومات ثقافة شوقي من خلال فهمك للبيت السابق:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/pZNGv56/1726404980-DGDs-Z9.png",
+                    "answers": [
+                        {
+                            "id": 26450,
+                            "text": "ارتباط جيله بالصحافة."
+                        },
+                        {
+                            "id": 26451,
+                            "text": "انشغاله بقضايا وطنه."
+                        },
+                        {
+                            "id": 26452,
+                            "text": "قراءته للشعر العربي القديم."
+                        },
+                        {
+                            "id": 26453,
+                            "text": "ثقافته الأوروبية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6619,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>تنبأ المسلك الذي سيتخذه الصبي إذا كان باستطاعته الرؤية في ضوء فهمك لحديثه في الفقرة السابقة:</span>    <br/></p> </p>",
+                    "image_url": "https://i.ibb.co/d412Rpj/1726504596-4-Ow-PQK.jpg",
+                    "answers": [
+                        {
+                            "id": 26454,
+                            "text": "عصيانه لأوامر والدته وفعله ما يشاء."
+                        },
+                        {
+                            "id": 26455,
+                            "text": "مشاركته لإخوته وأخواته ونهوضه بما يفعلون."
+                        },
+                        {
+                            "id": 26456,
+                            "text": "اعتزاله لأهله والخروج مع أصحابه وقت النهار."
+                        },
+                        {
+                            "id": 26457,
+                            "text": "اضطراره للمكوث في المنزل حتى لا يغضب والديه."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

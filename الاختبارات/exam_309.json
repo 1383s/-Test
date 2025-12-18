@@ -1,0 +1,792 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 309,
+                "title": "امتحان افتتاحي المحاضرة 10",
+                "lecture_id": 2112,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:42.200305Z",
+                "updated_at": "2025-11-27T02:08:42.200305Z"
+            },
+            "questions": [
+                {
+                    "id": 6736,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(العاقل يصل قاطعيه ............. للودِّ).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'> الكلمة المناسبة مكان النقط:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Vmzp1zn/1730138440-VStbin.png",
+                    "answers": [
+                        {
+                            "id": 26922,
+                            "text": "إستبقاءًا."
+                        },
+                        {
+                            "id": 26923,
+                            "text": "استبقاءًا."
+                        },
+                        {
+                            "id": 26924,
+                            "text": "أستبقاءً."
+                        },
+                        {
+                            "id": 26925,
+                            "text": "استبقاءً."
+                        }
+                    ]
+                },
+                {
+                    "id": 6737,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>ميز نوع كلمة «موعد» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/pjkCPjJ/1730138378-UCv-Hdj.png",
+                    "answers": [
+                        {
+                            "id": 26926,
+                            "text": "اسم مكان."
+                        },
+                        {
+                            "id": 26927,
+                            "text": "مصدر ميمي."
+                        },
+                        {
+                            "id": 26928,
+                            "text": "اسم زمان."
+                        },
+                        {
+                            "id": 26929,
+                            "text": "اسم مفعول."
+                        }
+                    ]
+                },
+                {
+                    "id": 6738,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(الإسعافات الأولية تحتاج إلى عقول ذكية وسواعد سوية وقدر كبير من الإنسانية).</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Sakkal Majalla\"; color: rgb(0, 112, 192);'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\"> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Sakkal Majalla\"; color: rgb(0, 112, 192);'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\"> المصدر الصناعي في الجملة السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26930,
+                            "text": "الإنسانية."
+                        },
+                        {
+                            "id": 26931,
+                            "text": "سوية."
+                        },
+                        {
+                            "id": 26932,
+                            "text": "الأولية."
+                        },
+                        {
+                            "id": 26933,
+                            "text": "ذكية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6739,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(معلمون المدرسة يحققوا نتائج مبهرة لطلابهم). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>الجملة خطأ وتصويبها:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26934,
+                            "text": "معلموا المدرسة يحققون نتائج مبهرة لطلابهم."
+                        },
+                        {
+                            "id": 26935,
+                            "text": "معلمو المدرسة يحققوا نتائج مبهرة لطلابهم."
+                        },
+                        {
+                            "id": 26936,
+                            "text": "معلمي المدرسة يحققون نتائج مبهرة لطلابهم."
+                        },
+                        {
+                            "id": 26937,
+                            "text": "معلمو المدرسة يحققون نتائج مبهرة لطلابهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6740,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>إعراب كلمة (</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>أهله</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>) في الشطر الثاني:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/VtBP9X3/1730138501-8sg-B4-G.png",
+                    "answers": [
+                        {
+                            "id": 26938,
+                            "text": "مفعول به."
+                        },
+                        {
+                            "id": 26939,
+                            "text": "مضاف إليه."
+                        },
+                        {
+                            "id": 26940,
+                            "text": "فاعل."
+                        },
+                        {
+                            "id": 26941,
+                            "text": "نعت."
+                        }
+                    ]
+                },
+                {
+                    "id": 6741,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>ميِّز الجملة التي اشتملت على اسم مكان:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26942,
+                            "text": "المساء مرجعنا للبيت."
+                        },
+                        {
+                            "id": 26943,
+                            "text": "يوم الجمعة مجتمع العائلة."
+                        },
+                        {
+                            "id": 26944,
+                            "text": "القلب مستقر الهموم والأحزان."
+                        },
+                        {
+                            "id": 26945,
+                            "text": "الليل مأوى الناس."
+                        }
+                    ]
+                },
+                {
+                    "id": 6742,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(البشوش </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>وجهه</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> يحبه الناس). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>إعراب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26946,
+                            "text": "مفعول به منصوب."
+                        },
+                        {
+                            "id": 26947,
+                            "text": "فاعل مرفوع."
+                        },
+                        {
+                            "id": 26948,
+                            "text": "نائب فاعل مرفوع."
+                        },
+                        {
+                            "id": 26949,
+                            "text": "مضاف إليه مجرور."
+                        }
+                    ]
+                },
+                {
+                    "id": 6743,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(اسأل نفسك: ماذا صنعتَ لتصبح من أفضل الرجال؟).</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">بيِّن حكم اسم التفضيل الوارد بالعبارة السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26950,
+                            "text": "يلزم الإفراد والتذكير."
+                        },
+                        {
+                            "id": 26951,
+                            "text": "يطابق في العدد والنوع."
+                        },
+                        {
+                            "id": 26952,
+                            "text": "يطابق في الإعراب."
+                        },
+                        {
+                            "id": 26953,
+                            "text": "يجوز أن يلزم الإفراد والتذكير أو يطابق."
+                        }
+                    ]
+                },
+                {
+                    "id": 6744,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(الفلاح جانٍ </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>محصوله</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>) - (الفلاح مَجنيٌّ </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>محصوله</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>إعراب ما تحته في الجملتين على الترتيب:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26954,
+                            "text": "فاعل مرفوع – مفعول به منصوب."
+                        },
+                        {
+                            "id": 26955,
+                            "text": "مفعول به منصوب – مفعول به منصوب."
+                        },
+                        {
+                            "id": 26956,
+                            "text": "مفعول به منصوب – فاعل مرفوع."
+                        },
+                        {
+                            "id": 26957,
+                            "text": "مفعول به منصوب – نائب فاعل مرفوع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6745,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> «لا بد من </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>تسوية</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> الخلافات حتى يتحقق </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>التقدم</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>».</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ما تحته خط على الترتيب:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26958,
+                            "text": "مصدر ثلاثي – مصدر خماسي."
+                        },
+                        {
+                            "id": 26959,
+                            "text": "مصدر رباعي – مصدر خماسي."
+                        },
+                        {
+                            "id": 26960,
+                            "text": "مصد رباعي – مصدر رباعي."
+                        },
+                        {
+                            "id": 26961,
+                            "text": "مصدر خماسي – مصدر خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6746,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>بين نوع كلمة (المِجهر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>) في البيت السابق:</span>    </p> </p>",
+                    "image_url": "https://i.ibb.co/fpZ9fn6/1730138573-Udy5do.png",
+                    "answers": [
+                        {
+                            "id": 26962,
+                            "text": "اسم مكان."
+                        },
+                        {
+                            "id": 26963,
+                            "text": "مصدر ميمي."
+                        },
+                        {
+                            "id": 26964,
+                            "text": "اسم مفعول."
+                        },
+                        {
+                            "id": 26965,
+                            "text": "اسم آلة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6747,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>ما تحته خط في البيت السابق:</span>    </p> </p>",
+                    "image_url": "https://i.ibb.co/qr2ZYVt/1730138598-Dxoiiz.png",
+                    "answers": [
+                        {
+                            "id": 26966,
+                            "text": "مصدر ميمي."
+                        },
+                        {
+                            "id": 26967,
+                            "text": "اسم مكان."
+                        },
+                        {
+                            "id": 26968,
+                            "text": "اسم زمان."
+                        },
+                        {
+                            "id": 26969,
+                            "text": "اسم مفعول."
+                        }
+                    ]
+                },
+                {
+                    "id": 6748,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>حدِّد المصدر القياسي في البيت السابق</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/RpZVN2Q/1730139044-l-Li-O2-Z.png",
+                    "answers": [
+                        {
+                            "id": 26970,
+                            "text": "اغتراب."
+                        },
+                        {
+                            "id": 26971,
+                            "text": "فخر."
+                        },
+                        {
+                            "id": 26972,
+                            "text": "بدء."
+                        },
+                        {
+                            "id": 26973,
+                            "text": "الفناء."
+                        }
+                    ]
+                },
+                {
+                    "id": 6749,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(يجب </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>التصدي</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> لكل صور </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>الإرهاب</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#C00000; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>ما تحته خط على الترتيب:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26974,
+                            "text": "مصدر خماسي – مصدر ثلاثي."
+                        },
+                        {
+                            "id": 26975,
+                            "text": "مصدر رباعي – مصدر خماسي."
+                        },
+                        {
+                            "id": 26976,
+                            "text": "مصدر رباعي – مصدر ثلاثي."
+                        },
+                        {
+                            "id": 26977,
+                            "text": "مصدر خماسي – مصدر رباعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6750,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> (ينبغي عليك أن تزداد يقينًا بقدراتك حين تتكلم أمام الناس).</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- </span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">بيِّن المحل الإعرابي للمصدرالمؤول في الجملة السابقة</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26978,
+                            "text": "رفع فاعل."
+                        },
+                        {
+                            "id": 26979,
+                            "text": "جر مضاف إليه."
+                        },
+                        {
+                            "id": 26980,
+                            "text": "نصب مفعول به."
+                        },
+                        {
+                            "id": 26981,
+                            "text": "رفع نائب فاعل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6751,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>ما موقف الشرق من وفاة أمين الرافعي كما فهمت من البيت السابع؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 26982,
+                            "text": "لم يتأثر برحيله، ولم يحزن لوفاته."
+                        },
+                        {
+                            "id": 26983,
+                            "text": "أصابه فيضان عظيم مدمر."
+                        },
+                        {
+                            "id": 26984,
+                            "text": "بكاه أحر البكاء، وحزن عليه أشد الحزن."
+                        },
+                        {
+                            "id": 26985,
+                            "text": "صار قدوة حسنة لكل أبناء الشرق."
+                        }
+                    ]
+                },
+                {
+                    "id": 6752,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>المغزى الضمني من قوله في البيت الثاني:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 26986,
+                            "text": "الإشارة إلى ضرورة الحفاظ على الحياة."
+                        },
+                        {
+                            "id": 26987,
+                            "text": "التنبيه على الاعتدال والتفكير الصحيح في الحياة."
+                        },
+                        {
+                            "id": 26988,
+                            "text": "بيان أنَّه قضى حياته في كل ما يفيد دينه ووطنه."
+                        },
+                        {
+                            "id": 26989,
+                            "text": "بيان أهمية الحياة وقيمتها."
+                        }
+                    ]
+                },
+                {
+                    "id": 6753,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استنتج دلالة قوله: </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>«باعوا المُخَلَّدَ بالحطام الفاني» </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>في البيت الأول:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 26990,
+                            "text": "النظرة الدونية للحياة."
+                        },
+                        {
+                            "id": 26991,
+                            "text": "حب الدنيا والافتتان بها، وعدم الالتفات إلى الدار الآخرة."
+                        },
+                        {
+                            "id": 26992,
+                            "text": "الحكمة في تناول الأمور والمصلحة الشخصية أولًا."
+                        },
+                        {
+                            "id": 26993,
+                            "text": "الموقف المخزي لبعض الخائنين، وفساد عقولهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6754,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(موت أمين الرافعي كان فاجعة لكل الدنيا). ما يؤكد ذلك المعنى من الأبيات:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 26994,
+                            "text": "الروض تُغري والقطوف دواني."
+                        },
+                        {
+                            "id": 26995,
+                            "text": "وبدا الصباح مقرح الأجفان."
+                        },
+                        {
+                            "id": 26996,
+                            "text": "تلك الحياة أمانة أديتها."
+                        },
+                        {
+                            "id": 26997,
+                            "text": "وشريت بالأغلى من الأثمان."
+                        }
+                    ]
+                },
+                {
+                    "id": 6755,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استنتج المبدأ الذي يتبناه الشاعر في البيت الرابع:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 26998,
+                            "text": "الدفاع عن الأوطان واجب على كل إنسان."
+                        },
+                        {
+                            "id": 26999,
+                            "text": "لكل إنسان الحق في التعبير عن رأيه."
+                        },
+                        {
+                            "id": 27000,
+                            "text": "بذل الجهد من أجل تحقيق مكانة مرموقة."
+                        },
+                        {
+                            "id": 27001,
+                            "text": "الارتقاء بالفِكْر ارتقاء بالمجتمع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6756,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>الصورة البيانية في قوله: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>تلك الحياة أمانة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>» في البيت الثاني:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 27002,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 27003,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 27004,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 27005,
+                            "text": "مجاز مرسل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6757,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استنتج العاطفة المسيطرة على الشاعر في مجمل الأبيات:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 27006,
+                            "text": "المدح والإعجاب والحزن."
+                        },
+                        {
+                            "id": 27007,
+                            "text": "التهكم والسخرية."
+                        },
+                        {
+                            "id": 27008,
+                            "text": "التفاؤل والأمل."
+                        },
+                        {
+                            "id": 27009,
+                            "text": "التشاؤم واليأس."
+                        }
+                    ]
+                },
+                {
+                    "id": 6758,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استنتج من خلال الأبيات السمة التي عابها مطران على الإحيائيين، وخالف فيها منهجه:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GPW5D8s/1730139087-Icqq-Wu.png",
+                    "answers": [
+                        {
+                            "id": 27010,
+                            "text": "عدم مراعاة الوحدة الفنية."
+                        },
+                        {
+                            "id": 27011,
+                            "text": "الاهتمام بشعر المناسبات."
+                        },
+                        {
+                            "id": 27012,
+                            "text": "جزالة الألفاظ وغرابتها."
+                        },
+                        {
+                            "id": 27013,
+                            "text": "الاهتمام بالناحية الذهنية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6759,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استنتج في ضوء فهمك البيتين السابقين السمة التي اتضحت من سمات الرومانتيكية:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/3RG1Tw1/1730139528-a-Q1j-YR.png",
+                    "answers": [
+                        {
+                            "id": 27014,
+                            "text": "الدعوة إلى التساند الاجتماعي."
+                        },
+                        {
+                            "id": 27015,
+                            "text": "معالجة مشكلات عصرهم ومجتمعهم."
+                        },
+                        {
+                            "id": 27016,
+                            "text": "التعبير عن تجربة ذاتية في هوى محبوبته والعاطفة الجياشة."
+                        },
+                        {
+                            "id": 27017,
+                            "text": "الاهتمام بالطبيعة والامتزاج بها."
+                        }
+                    ]
+                },
+                {
+                    "id": 6760,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استنتج في ضوء فهمك هذا البيت أساسًا من الأسس التي يقوم عليها الاتجاه الوجداني:</span>    </p> </p>",
+                    "image_url": "https://i.ibb.co/FmFNy9N/1730139546-FAa-WVU.png",
+                    "answers": [
+                        {
+                            "id": 27018,
+                            "text": "الدعوة للنهوض بالنفس."
+                        },
+                        {
+                            "id": 27019,
+                            "text": "معالجة مشكلات المجتمع."
+                        },
+                        {
+                            "id": 27020,
+                            "text": "غلبة الجانب الفكري."
+                        },
+                        {
+                            "id": 27021,
+                            "text": "التشاؤم واليأس من تحقيق الآمال."
+                        }
+                    ]
+                },
+                {
+                    "id": 6761,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> ما المقصود بـ «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>السمنة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>» كما فهمت من الموضوع؟</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'></span></p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27022,
+                            "text": "تناول كميات كبيرة من الأطعمة والسكريات."
+                        },
+                        {
+                            "id": 27023,
+                            "text": "زيادة كمية الدهون في مناطق مختلفة بالجسم."
+                        },
+                        {
+                            "id": 27024,
+                            "text": "تغير الشكل الجمالي للجسم."
+                        },
+                        {
+                            "id": 27025,
+                            "text": "مرض مزمن بسبب اضطرابات الأكل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6762,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> كم بلغت نسبة الذين يعانون من السمنة المفرطة بين من زادت أعمارهم على ١٨ عاما؟ </span></p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27026,
+                            "text": "الثلث تقريبًا."
+                        },
+                        {
+                            "id": 27027,
+                            "text": "الربع تقريبًا."
+                        },
+                        {
+                            "id": 27028,
+                            "text": "نصفهم."
+                        },
+                        {
+                            "id": 27029,
+                            "text": "ثلاثة أرباعهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6763,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>استنتج علاقة عبارة: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>وتشمل العواقب النفسية الرئيسة للسمنة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>» بما بعدها في الفقرة الثالثة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27030,
+                            "text": "تفصيل بعده إجمال."
+                        },
+                        {
+                            "id": 27031,
+                            "text": "إبهام يليه توضيح."
+                        },
+                        {
+                            "id": 27032,
+                            "text": "سبب يليه نتيجة."
+                        },
+                        {
+                            "id": 27033,
+                            "text": "إجمال بعده تفصيل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6764,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> استنتج سبب لجوء الكاتب إلى الإحصاء في عرض فكرة الموضوع:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27034,
+                            "text": "إقناع المصابين بأمراض السمنة باتباع نظم غذائي سليم وصحي."
+                        },
+                        {
+                            "id": 27035,
+                            "text": "إبراز دور العلماء والباحثين في دراسة أمراض العصـر ومنها السمنة."
+                        },
+                        {
+                            "id": 27036,
+                            "text": "إقناع القارئ بمخاطر السمنة وزيادة الوزن على صحة سكان العالم."
+                        },
+                        {
+                            "id": 27037,
+                            "text": "إبراز دور منظمة الصحة العالمية في الارتقاء بصحة سكان الدول النامية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6765,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>هات من الموضوع ما يؤكد على خطورة السمنة وآثارها السلبية على الفرد:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27038,
+                            "text": "تضاعفت معدلات السمنة في جميع أنحاء العالم ٣ مرات تقريبًا منذ عام 1975م."
+                        },
+                        {
+                            "id": 27039,
+                            "text": "تُعرِّف منظمة الصحة العالمية الوزن الزائد والسمنة بأنهما تراكم غير طبيعي أو مفرط للدهون قد يضـر بالصحة."
+                        },
+                        {
+                            "id": 27040,
+                            "text": "بخلاف الاضطرابات والمشكلات الصحية التي قد تُسبِّبها السمنة وقد تصل تبعاتها إلى حد الوفاة."
+                        },
+                        {
+                            "id": 27041,
+                            "text": "ومن المتوقع أن تشهد البلدان المنخفضة والمتوسطة الدخل في إفريقيا وآسيا أكبر الارتفاعات في عدد الذين يعانون من السمنة أو زيادة الوزن."
+                        }
+                    ]
+                },
+                {
+                    "id": 6766,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج دلالة قول الكاتب: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>وفي تقرير صادر عن الاتحاد العالمي للسمنة نبَّه فيه إلى أن أكثر من نصف سكان العالم سيصنفون على أنهم مصابون بالسمنة...</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>» في الفقرة الرابعة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27042,
+                            "text": "الإشارة إلى أهمية دور العلماء والباحثين في دراسة أمراض العصر ومنها السمنة."
+                        },
+                        {
+                            "id": 27043,
+                            "text": "إظهار الآثار الإيجابية لمرض السمنة."
+                        },
+                        {
+                            "id": 27044,
+                            "text": "الإشارة إلى مدى انحسار مرض السمنة والعمل على القضاء عليه."
+                        },
+                        {
+                            "id": 27045,
+                            "text": "بيان مدى سرعة انتشار مرض السمنة لدى الأطفال عن غيرهم من المراحل العمرية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6767,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">اقترح من خلال فهمك للموضوع حلًا يجب اتباعه للوقاية من السمنة المفرطة:</span></span>        </p> </p>",
+                    "image_url": "https://i.ibb.co/c6P9ntj/1730139573-Qlp4c-E.png",
+                    "answers": [
+                        {
+                            "id": 27046,
+                            "text": "تناول كميات كبيرة من الطعام الذي يحتوي على سعرات حرارية عالية."
+                        },
+                        {
+                            "id": 27047,
+                            "text": "ممارسة التمارين الرياضية بشكل دوري وأبسطها رياضة المشي."
+                        },
+                        {
+                            "id": 27048,
+                            "text": "متابعة الوزن واستشارة طبيب التغذية على فترات متباعدة."
+                        },
+                        {
+                            "id": 27049,
+                            "text": "الاعتماد على الوجبات السريعة بشكل أساسي كحل بديل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6768,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>وازن- من خلال الفقرتين- بين ذكريات كل من طه حسين والكاتب عن رفاق مرحلة الصبا:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/smMrgGw/1730141375-a-SRefi.png",
+                    "answers": [
+                        {
+                            "id": 27050,
+                            "text": "أبرزت ذكريات الكاتبين سيطرة مشاعر التضجر والاستياء من سلوك أصحاب الصبا."
+                        },
+                        {
+                            "id": 27051,
+                            "text": "أظهرت الذكريات مشاعر ضيق لدي طه حسين، ومشاعر مرح وبراءة لدي الكاتب."
+                        },
+                        {
+                            "id": 27052,
+                            "text": "أظهرت ذكريات الكاتبين استغرابهما ودهشتهما من سلوك أصحابهما."
+                        },
+                        {
+                            "id": 27053,
+                            "text": "أبرزت ذكريات طه حسين مجاراته لأصحابه، أما الكاتب فكان ينفر منهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6769,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>حدِّد مِمَّا يأتي النموذج الذي اتبعه الكاتب في ترتيب الفقرة السابقة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/1vh1GrM/1730141413-q-Duz4-J.png",
+                    "answers": [
+                        {
+                            "id": 27054,
+                            "text": "ظاهرة – تفسير."
+                        },
+                        {
+                            "id": 27055,
+                            "text": "مشكلة – حل."
+                        },
+                        {
+                            "id": 27056,
+                            "text": "رأي – دليل."
+                        },
+                        {
+                            "id": 27057,
+                            "text": "زعم – تفنيد."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

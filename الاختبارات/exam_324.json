@@ -1,0 +1,676 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 324,
+                "title": "امتحان افتتاحي المحاضرة 28",
+                "lecture_id": 2131,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:09:24.175942Z",
+                "updated_at": "2025-11-27T02:09:24.175942Z"
+            },
+            "questions": [
+                {
+                    "id": 7184,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لِتحذرنَّ الإفراط في تجاوز الحد». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> مما يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> حكم توكيد الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>لِتحذرنَّ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» بالنون في الجملة السابقة: </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28714,
+                            "text": "واجب."
+                        },
+                        {
+                            "id": 28715,
+                            "text": "ممتنع."
+                        },
+                        {
+                            "id": 28716,
+                            "text": "جائز."
+                        },
+                        {
+                            "id": 28717,
+                            "text": "قليل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7185,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>الجملة التي اشتملت على نائب عن المفعول المطلق:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28718,
+                            "text": "تعلمتُ الكثير من معلِّمي."
+                        },
+                        {
+                            "id": 28719,
+                            "text": "حقق المجدون كثيرًا من طموحاتهم."
+                        },
+                        {
+                            "id": 28720,
+                            "text": "عجبتُ للمقصر عجبًا كثيرًا."
+                        },
+                        {
+                            "id": 28721,
+                            "text": "اعتدل الجو كثيرًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7186,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز خبر المبتدأ بالبيت السابق، وبيِّن نوعه:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/5XxWZG0z/1740499363-Xm5-HLb.png",
+                    "answers": [
+                        {
+                            "id": 28722,
+                            "text": "من أهل الغِنى – شبه جملة."
+                        },
+                        {
+                            "id": 28723,
+                            "text": "سواء – مفرد."
+                        },
+                        {
+                            "id": 28724,
+                            "text": "في حق الحياة – شبه جملة."
+                        },
+                        {
+                            "id": 28725,
+                            "text": "في حق الحياة سواء – جملة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7187,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>« الأمهات يُضحِّينَ بسعادتهِنَّ مِنْ أَجْلِ راحة الأبناء».<br/></span></b> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ما المحل الإعرابي لجملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>يُضحِّينَ بسعادتهِنَّ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في الجملة السابقة؟</span></b></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28726,
+                            "text": "في محل رفع خبر المبتدأ."
+                        },
+                        {
+                            "id": 28727,
+                            "text": "في محل نصب حال."
+                        },
+                        {
+                            "id": 28728,
+                            "text": "في محل رفع نعت."
+                        },
+                        {
+                            "id": 28729,
+                            "text": "في محل رفع نعت."
+                        }
+                    ]
+                },
+                {
+                    "id": 7188,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز الجملة التي تحتوي على اسم تفضيل يجوز فيه المطابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28730,
+                            "text": "ما أكرم الفقير إلا كريم."
+                        },
+                        {
+                            "id": 28731,
+                            "text": "عاون أكرم الطلاب على فهم المعضلات."
+                        },
+                        {
+                            "id": 28732,
+                            "text": "أحمد أكرم الطلاب على الإطلاق."
+                        },
+                        {
+                            "id": 28733,
+                            "text": "أحمد أكرم طالب بين الطلاب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7189,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«لا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#C00000; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>منافق</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:black; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> محترمٌ». </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>إعراب ما تحته خط: </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28734,
+                            "text": "اسم لا منصوب بالفتحة."
+                        },
+                        {
+                            "id": 28735,
+                            "text": "اسم لا مبني على الفتحة."
+                        },
+                        {
+                            "id": 28736,
+                            "text": "اسم لا مبني على الفتح."
+                        },
+                        {
+                            "id": 28737,
+                            "text": "مبتدأ مرفوع بالضمة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7190,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز المحل الإعرابي لجملة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>وإنْ حَرَصتَ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>»:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/tpNLtykg/1740499968-SGMWm-B.png",
+                    "answers": [
+                        {
+                            "id": 28738,
+                            "text": "خبر أنَّ."
+                        },
+                        {
+                            "id": 28739,
+                            "text": "لا محل لها من الإعراب."
+                        },
+                        {
+                            "id": 28740,
+                            "text": "حال."
+                        },
+                        {
+                            "id": 28741,
+                            "text": "نعت."
+                        }
+                    ]
+                },
+                {
+                    "id": 7191,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>فسِّر - مما يلي - سبب نصب كلمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>غيظًا</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» الواردة في الشطر الثاني:</span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/SDqWx2y2/1742288071-Adbs-UO.jpg",
+                    "answers": [
+                        {
+                            "id": 28742,
+                            "text": "مفعول به."
+                        },
+                        {
+                            "id": 28743,
+                            "text": "مفعول لأجله."
+                        },
+                        {
+                            "id": 28744,
+                            "text": "نائب عن المفعول المطلق."
+                        },
+                        {
+                            "id": 28745,
+                            "text": "تمييز."
+                        }
+                    ]
+                },
+                {
+                    "id": 7192,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«أُخلِص في عملي».<span style=\"color:#0070C0\"> عند جعل الفعل المضارع السابق مبنيًا تصبح الجملة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28746,
+                            "text": "لَأخلصنَّ في عملي."
+                        },
+                        {
+                            "id": 28747,
+                            "text": "أخلصنا في عملنا."
+                        },
+                        {
+                            "id": 28748,
+                            "text": "النساء أخلصن في عملهن."
+                        },
+                        {
+                            "id": 28749,
+                            "text": "أيها العمال، أخلصوا في عملكم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7193,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«الذي يرضى بقضاء الله ينال الجنة». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG; mso-no-proof:yes'>ابدأ الجملة السابقة بـــالاسم الموصول( </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:red;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-EG;mso-no-proof:yes'>اللائي</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-EG;mso-no-proof:yes'>):</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28750,
+                            "text": "اللائي يرضون بقضاء الله ينالون الجنة."
+                        },
+                        {
+                            "id": 28751,
+                            "text": "اللائي يرضين بقضاء الله ينلن الجنة."
+                        },
+                        {
+                            "id": 28752,
+                            "text": "اللائي يرضون بقضاء الله ينلن الجنة."
+                        },
+                        {
+                            "id": 28753,
+                            "text": "اللائي يرضين بقضاء الله ينالن الجنة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7194,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ما حكم توكيد الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>أبيتنَّ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» بالنون؟ ولماذا؟</span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/LG2G3Vn/1740500914-yjwke-T.png",
+                    "answers": [
+                        {
+                            "id": 28754,
+                            "text": "جائز؛ لأنه سُبِقَ بتَمَنٍّ."
+                        },
+                        {
+                            "id": 28755,
+                            "text": "واجب؛ لأنه دال على الاستقبال."
+                        },
+                        {
+                            "id": 28756,
+                            "text": "واجب؛ لأنه سُبِقَ بترجٍّ."
+                        },
+                        {
+                            "id": 28757,
+                            "text": "جائز؛ لأنه سُبِقَ باستفهام."
+                        }
+                    ]
+                },
+                {
+                    "id": 7195,
+                    "text": "<p> <p><!--[if !mso]> <style> v\\:* {behavior:url(#default#VML);} o\\:* {behavior:url(#default#VML);} w\\:* {behavior:url(#default#VML);} .shape {behavior:url(#default#VML);} </style> <![endif]--> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>علامة بناء العقل \" ارج \" فالمقولة السابقة .</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28758,
+                            "text": "حذف النون"
+                        },
+                        {
+                            "id": 28759,
+                            "text": "السكون"
+                        },
+                        {
+                            "id": 28760,
+                            "text": "الفتح"
+                        },
+                        {
+                            "id": 28761,
+                            "text": "حذف حرف العلة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7196,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«أكرمنا أباك أفضل إكرام» - «أكرمنا أبوك أفضل إكرام».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>  <br/></span></b> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ما علامة بناء الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>أكرم</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في الجملتين السابقتين، على الترتيب؟</span></b></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28762,
+                            "text": "السكون – الفتح."
+                        },
+                        {
+                            "id": 28763,
+                            "text": "الفتح – الفتح."
+                        },
+                        {
+                            "id": 28764,
+                            "text": "الفتح – السكون."
+                        },
+                        {
+                            "id": 28765,
+                            "text": "السكون – السكون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7197,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(المصلحون يدعون إلى الخير)<br/></span></b> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>عند جعل المتبدأ لجمع المؤنث:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28766,
+                            "text": "المصلحات يدعت إلى الخير"
+                        },
+                        {
+                            "id": 28767,
+                            "text": "المصلحات يدعين إلى الخير"
+                        },
+                        {
+                            "id": 28768,
+                            "text": "المصلحات يدعون إلى الخير"
+                        },
+                        {
+                            "id": 28769,
+                            "text": "المصلحات يدعوات إلى الخير"
+                        }
+                    ]
+                },
+                {
+                    "id": 7198,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>من خلال فهمك لقول الشاعر: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>وعلى مُحَيَّاهِ القسيمِ سماحةُ الحزنِ الصموتْ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»، بِمَ وصف </span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>الشاعر حال ذلك الإنسان؟</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span style=\"mso-tab-count:1\">              </span></span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/5xn48BYk/1740501373-BLj1n6.png",
+                    "answers": [
+                        {
+                            "id": 28770,
+                            "text": "بوضوح الحزن على وجهه، مع سماحته وجمال قسماته."
+                        },
+                        {
+                            "id": 28771,
+                            "text": "بالحياء يبدو على قسمات وجهه وملامحه."
+                        },
+                        {
+                            "id": 28772,
+                            "text": "بتجاهل سكرات الوفاة التي يمرُّ بها في صمت حزين."
+                        },
+                        {
+                            "id": 28773,
+                            "text": "بالغضَبِ والصمت الحزين"
+                        }
+                    ]
+                },
+                {
+                    "id": 7199,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>وضِّح، من خلال فهمك للنص، المغزى الذي أراده الشاعر من هذين السطرين:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/rf58PNsY/1740502191-NFm-U4a.png",
+                    "answers": [
+                        {
+                            "id": 28774,
+                            "text": "تأكيد الإنسان عدم رضاه بما مرَّ به، وتعريضه بمن داسوه في طريقهم ليُحقِّقوا أغراضهم."
+                        },
+                        {
+                            "id": 28775,
+                            "text": "بيان سعادة ذلك الإنسان بما مرَّ به من أحداث طَيِّبة وإلقائه السلام على من كان سببًا في ذلك."
+                        },
+                        {
+                            "id": 28776,
+                            "text": "إظهار السلام وسماحة النفس التي يتمتَّع بها ذلك الإنسان رغم ما لاقاه من إهمال في حياته."
+                        },
+                        {
+                            "id": 28777,
+                            "text": "تأكيد السخرية التي يقابل بها ذلك الإنسان المصاعب التي واجهها، ولوم من آذوه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7200,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج دلالة قول الشاعر: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>والنُّورُ، والسعداءُ منْ حولِى، وقافلةُ البيوتْ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/5xn48BYk/1740501373-BLj1n6.png",
+                    "answers": [
+                        {
+                            "id": 28778,
+                            "text": "بؤس ذلك الإنسان في مقابل سعادة من حوله."
+                        },
+                        {
+                            "id": 28779,
+                            "text": "شجاعة ذلك الإنسان في مواجهة الموت واستهانته به."
+                        },
+                        {
+                            "id": 28780,
+                            "text": "حسرة ذلك الإنسان لرحيله عن النور وبيوت قومه."
+                        },
+                        {
+                            "id": 28781,
+                            "text": "حزن ذلك الإنسان وإحساسه بالخجل لخضوعه وعجزه"
+                        }
+                    ]
+                },
+                {
+                    "id": 7201,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>أي من الأسطر الآتية يُشير إلى شدة بؤس ذلك الإنسان وأنه لم يحصل من حياته على شيء يذكر؟</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#C00000; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span style=\"mso-tab-count:1\"> </span></span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/5xn48BYk/1740501373-BLj1n6.png",
+                    "answers": [
+                        {
+                            "id": 28782,
+                            "text": "ومضَى، ولا حسٌّ، ولا ظلٌّ كمَا يمضِي ملاكْ."
+                        },
+                        {
+                            "id": 28783,
+                            "text": "إنِّي انهَزمتُ، ولمْ أُصبْ مِن وُسْعِها إلا الجدارْ"
+                        },
+                        {
+                            "id": 28784,
+                            "text": "تكوَّرتْ أضلاعُه، سَاقَاهُ، فيْ ركنٍ هنَاكْ"
+                        },
+                        {
+                            "id": 28785,
+                            "text": "وامتدتِ الأنفاسُ مُجهَدةً تراوغُ أنْ تبوحَ بالانكسار"
+                        }
+                    ]
+                },
+                {
+                    "id": 7202,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ما القيمة الفنية لتكرار الشاعر لمقولة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ألقَى السَّلامْ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/5xn48BYk/1740501373-BLj1n6.png",
+                    "answers": [
+                        {
+                            "id": 28786,
+                            "text": "إقرار حقيقة أن الجميع خذل ذلك الإنسان في حياته وبعد مماته."
+                        },
+                        {
+                            "id": 28787,
+                            "text": "التدليل على استسلامه المطلق وعدم تركه أي أثر بعد رحيله."
+                        },
+                        {
+                            "id": 28788,
+                            "text": "تأكيد صفاء ذلك الإنسان وسلامه الممتد حتى نهاية حياته."
+                        },
+                        {
+                            "id": 28789,
+                            "text": "استدعاء هالة من البطولة الزائفة على حياة ذلك الإنسان."
+                        }
+                    ]
+                },
+                {
+                    "id": 7203,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>مَيِّز نوع الصورة البيانية في قول الشاعر: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>وامتدَّتِ الأنفاسُ مُجهَدةً</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»: </span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/5xn48BYk/1740501373-BLj1n6.png",
+                    "answers": [
+                        {
+                            "id": 28790,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 28791,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 28792,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 28793,
+                            "text": "تشبيه مجمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7204,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج السمة التي اتَّضحت في الأسطر السابقة من سمات المدرسة الواقعية: </span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/5xn48BYk/1740501373-BLj1n6.png",
+                    "answers": [
+                        {
+                            "id": 28794,
+                            "text": "الالتصاق بالواقع والإحساس بهموم الإنسان وشيوع ذكر الموت."
+                        },
+                        {
+                            "id": 28795,
+                            "text": "موقف الإنسان من التاريخ والأساطير."
+                        },
+                        {
+                            "id": 28796,
+                            "text": "الابتعاد عن التقريرية والتعبير المباشر، ورمزية التعبير."
+                        },
+                        {
+                            "id": 28797,
+                            "text": "الانشغال بقضايا الوطن وإحياء التراث."
+                        }
+                    ]
+                },
+                {
+                    "id": 7205,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG; mso-no-proof:yes'>استنتج السمة التي تميز بها الشعر الواقعي من حيث الموضوع، وتنطبق على هذين السطرين: </span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/kVMqVZy7/1740503253-0u4m-JM.png",
+                    "answers": [
+                        {
+                            "id": 28798,
+                            "text": "توظيف الرمز والأسطورة."
+                        },
+                        {
+                            "id": 28799,
+                            "text": "التعبير عن موقف الإنسان من التاريخ."
+                        },
+                        {
+                            "id": 28800,
+                            "text": "المزج بين التراث والعصرية."
+                        },
+                        {
+                            "id": 28801,
+                            "text": "النزعة الروحية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7206,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#C00000; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>استنتج السمة التي تميز بها الشعر الواقعي من حيث الموضوع، وتنطبق على هذين السطرين:</span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/mFqpRxyC/1740503597-Och4dc.png",
+                    "answers": [
+                        {
+                            "id": 28802,
+                            "text": "تصوير هموم ومشاكل الناس."
+                        },
+                        {
+                            "id": 28803,
+                            "text": "الاستسلام للأحزان والآلام."
+                        },
+                        {
+                            "id": 28804,
+                            "text": "التأمل في الكون."
+                        },
+                        {
+                            "id": 28805,
+                            "text": "التعبير عن تناقضات الحياة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7207,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>يعدُّ تفسير نشوء الصناعة المرتبط بوجود مصادر للثروة المعدنية أو الطاقة خاضعًا لمبدأ:</span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/1YyZCWLk/1740503680-dk9-NUx.png",
+                    "answers": [
+                        {
+                            "id": 28806,
+                            "text": "التفاعل المتبادل."
+                        },
+                        {
+                            "id": 28807,
+                            "text": "السببية."
+                        },
+                        {
+                            "id": 28808,
+                            "text": "المسببية."
+                        },
+                        {
+                            "id": 28809,
+                            "text": "لكل فعل رد فعل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7208,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><b><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span><span lang=\"AR-SA\" style=\"color:#0070C0;mso-no-proof:yes\">ما يندرج تحت مهام الجغرافيا الاقتصادية</span><span lang=\"AR-SA\" style=\"color:#0070C0\">:</span></span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/1YyZCWLk/1740503680-dk9-NUx.png",
+                    "answers": [
+                        {
+                            "id": 28810,
+                            "text": "تحديد أماكن استخراج المعادن والأراضي الصالحة للزراعة."
+                        },
+                        {
+                            "id": 28811,
+                            "text": "إیجاد حلول للارتقاء بالاقتصاد."
+                        },
+                        {
+                            "id": 28812,
+                            "text": "دراسة التأثير المتبادل بين الاقتصاد والبيئة الجغرافية."
+                        },
+                        {
+                            "id": 28813,
+                            "text": "متابعة المؤشرات الاقتصادية للأسواق العالمية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7209,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><b><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span><span lang=\"AR-SA\" style=\"color:#0070C0;mso-no-proof:yes\">استنتج</span><span lang=\"AR-SA\" style=\"color:#0070C0\"> علاقة «</span><span lang=\"AR-SA\" style=\"color:#C00000\">ذلك هو مبدأ التفاعل المتبادل بين المكان الطبيعي والإنسان</span><span lang=\"AR-SA\" style=\"color:#0070C0\">» بما قبلها:</span></span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/1YyZCWLk/1740503680-dk9-NUx.png",
+                    "answers": [
+                        {
+                            "id": 28814,
+                            "text": "نتيجة."
+                        },
+                        {
+                            "id": 28815,
+                            "text": "توضيح."
+                        },
+                        {
+                            "id": 28816,
+                            "text": "تعليل."
+                        },
+                        {
+                            "id": 28817,
+                            "text": "تفصيل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7210,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> العلاقة بين الجغرافيا الاقتصادية والجغرافيا التجارية:</span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/1YyZCWLk/1740503680-dk9-NUx.png",
+                    "answers": [
+                        {
+                            "id": 28818,
+                            "text": "الجغرافيا التجارية مدخل أساسي لدراسة الجغرافيا الاقتصادية."
+                        },
+                        {
+                            "id": 28819,
+                            "text": "الجغرافيا التجارية ارتبط ظهورها بالجغرافيا الاقتصادي."
+                        },
+                        {
+                            "id": 28820,
+                            "text": "الجغرافيا الاقتصادية ظهرت نتيجة الحاجة للجغرافيا التجارية."
+                        },
+                        {
+                            "id": 28821,
+                            "text": "كل منهما معنى بدراسة سلوك الإنسان."
+                        }
+                    ]
+                },
+                {
+                    "id": 7211,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>في ضوء فهمك للقطعة اختر الحل الأنسب للأزمة الاقتصادية في بعض الدول:</span></b></p> </p>",
+                    "image_url": "https://i.ibb.co/1YyZCWLk/1740503680-dk9-NUx.png",
+                    "answers": [
+                        {
+                            "id": 28822,
+                            "text": "الانفتاح على اقتصاد الدول المتقدمة."
+                        },
+                        {
+                            "id": 28823,
+                            "text": "التدرج في مراحل التقدم الاقتصادي."
+                        },
+                        {
+                            "id": 28824,
+                            "text": "إنشاء البنوك الزراعية والصناعية."
+                        },
+                        {
+                            "id": 28825,
+                            "text": "السعي وراء تطوير الاقتصاد اعتمادًا على ربطه بطبيعة البلاد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7212,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:black;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>«تأثرت مصر تأثرًا كبيرًا بالحرب الأوكرانية، وحرب الإبادة في غزة». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>حدِّد -ممَّا يلي- التفصيلة التي يجدر على الكاتب حذفها؛ لتكون كتابته وثيقة الصلة بمضمون العبارة السابقة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/1YyZCWLk/1740503680-dk9-NUx.png",
+                    "answers": [
+                        {
+                            "id": 28826,
+                            "text": "يتوقع انخفاض الناتج المحلي الإجمالي لمصر بسبب الحرب بنسب تترواح بين 2.6% و 3.0 % ."
+                        },
+                        {
+                            "id": 28827,
+                            "text": "افتتحت مصر عددًا من المشروعات مثل المشروع القومي للصوامع والقطار الكهربي السريع."
+                        },
+                        {
+                            "id": 28828,
+                            "text": "قلة الصادرات والواردات مما أدي إلى ارتفاع الأسعار وقلة المنتجات الغذائية والطاقة."
+                        },
+                        {
+                            "id": 28829,
+                            "text": "تضغط تداعيات الحرب في غزة على مسار الإصلاح الاقتصادي والتنمية في مصر."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

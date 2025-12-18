@@ -1,0 +1,557 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 310,
+                "title": "امتحان افتتاحي المحاضرة 11",
+                "lecture_id": 2113,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:44.040239Z",
+                "updated_at": "2025-11-27T02:08:44.040239Z"
+            },
+            "questions": [
+                {
+                    "id": 6770,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«ما مريدٌ رفعة الأوطان إلا كل وطني». حدد نوع المشتق والفعل الذي اشتق منه:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27058,
+                            "text": "اسم فاعل – راد."
+                        },
+                        {
+                            "id": 27059,
+                            "text": "اسم مفعول - أُريد."
+                        },
+                        {
+                            "id": 27060,
+                            "text": "مصدر ميمي – أراد."
+                        },
+                        {
+                            "id": 27061,
+                            "text": "اسم فاعل - أراد."
+                        }
+                    ]
+                },
+                {
+                    "id": 6771,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>استفتِ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'> قلبك ولو أفتاك الناس).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'> ما تحته خط ألفه وصل؛ لأنه:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27062,
+                            "text": "أمر رباعي."
+                        },
+                        {
+                            "id": 27063,
+                            "text": "أمر ثلاثي."
+                        },
+                        {
+                            "id": 27064,
+                            "text": "أمر سداسي."
+                        },
+                        {
+                            "id": 27065,
+                            "text": "أمر خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6772,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>نوع المصدرين (</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>المحبة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family: \"Sakkal Majalla\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>تَجَنِّيه</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>) على الترتيب</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/5FtxVXY/1730806601-MQdos5.png",
+                    "answers": [
+                        {
+                            "id": 27066,
+                            "text": "مصدر رباعي – مصدر خماسي."
+                        },
+                        {
+                            "id": 27067,
+                            "text": "مصدر ثلاثي – مصدر خماسي."
+                        },
+                        {
+                            "id": 27068,
+                            "text": "مصدر خماسي – مصدر رباعي."
+                        },
+                        {
+                            "id": 27069,
+                            "text": "مصدر ميمي – مصدر خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6773,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>ما تحته خط</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/zR5kj5f/1730819719-g-E4ana.png",
+                    "answers": [
+                        {
+                            "id": 27070,
+                            "text": "اسم زمان."
+                        },
+                        {
+                            "id": 27071,
+                            "text": "مصدر ميمي."
+                        },
+                        {
+                            "id": 27072,
+                            "text": "اسم مكان."
+                        },
+                        {
+                            "id": 27073,
+                            "text": "مصدر ثلاثي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6774,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\" style=\"color: rgb(192, 0, 0);\"></span><span dir=\"RTL\" style=\"color: rgb(192, 0, 0);\"></span><span style=\"color: rgb(192, 0, 0);\">(هل باعثٌ </span></span><span style='color: rgb(192, 0, 0); font-family: \"Somar Sans SemiBold\"; font-size: 17.3333px;'>أخوك</span><span style='color: rgb(192, 0, 0); font-family: \"Somar Sans SemiBold\"; font-size: 20pt;'> </span><u style='color: rgb(192, 0, 0); font-family: \"Somar Sans SemiBold\"; font-size: 20pt;'>البهجة</u><span style='color: rgb(192, 0, 0); font-family: \"Somar Sans SemiBold\"; font-size: 20pt;'> فيكم؟). </span><span style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'>ميِّز إعراب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27074,
+                            "text": "مضاف إليه."
+                        },
+                        {
+                            "id": 27075,
+                            "text": "فاعل."
+                        },
+                        {
+                            "id": 27076,
+                            "text": "مفعول به."
+                        },
+                        {
+                            "id": 27077,
+                            "text": "نائب فاعل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6775,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>بيِّن المفضل عليه في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/YBZHf7P/1730828410-Pui-FYC.png",
+                    "answers": [
+                        {
+                            "id": 27078,
+                            "text": "يراعًا."
+                        },
+                        {
+                            "id": 27079,
+                            "text": "العدو."
+                        },
+                        {
+                            "id": 27080,
+                            "text": "الحسام."
+                        },
+                        {
+                            "id": 27081,
+                            "text": "هيّاب."
+                        }
+                    ]
+                },
+                {
+                    "id": 6776,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>الجملة التي تحتوي على اسم زمان من الفعل «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>استقبل</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>»:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27082,
+                            "text": "المتفائل مستقبل يومه بالبسمة دائمًا."
+                        },
+                        {
+                            "id": 27083,
+                            "text": "أرضنا العربية مستقبل الأحرار."
+                        },
+                        {
+                            "id": 27084,
+                            "text": "الخبر مستقبل بالبشر والسرور."
+                        },
+                        {
+                            "id": 27085,
+                            "text": "مستقبل مصر مُبشِّر بالخير."
+                        }
+                    ]
+                },
+                {
+                    "id": 6777,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>أي الجمل الآتية ورد فيها مصدرًا للفعل «اتَّبع»؟</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27086,
+                            "text": "تتبُّع أخطاء الناس يكسبك كرههم."
+                        },
+                        {
+                            "id": 27087,
+                            "text": "تتابعت الأخبار عن غرق السفينة تتابعًا سريعًا."
+                        },
+                        {
+                            "id": 27088,
+                            "text": "اتِّباع تعليمات المرور يقينا الحوادث."
+                        },
+                        {
+                            "id": 27089,
+                            "text": "عاد الجنود تِباعًا عقب انتهاء المعركة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6778,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'>ميِّز الجملة التي وردت بها كلمة مجتمع اسم مفعول:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27090,
+                            "text": "المساء مجتمع الأسرة."
+                        },
+                        {
+                            "id": 27091,
+                            "text": "المجتمع المصري مجتمع مترابط."
+                        },
+                        {
+                            "id": 27092,
+                            "text": "الموظفون مجتمع بهم."
+                        },
+                        {
+                            "id": 27093,
+                            "text": "أسعدني مجتمع الأصدقاء."
+                        }
+                    ]
+                },
+                {
+                    "id": 6779,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><a name=\"_Hlk172564659\"><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>الهمجيَّة</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'> </span></a><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'>شعار أصحاب الأخلاق </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>الفوضويَّة</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'>). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:#0400;mso-fareast-language: #0400;mso-bidi-language:AR-SA'>ما تحته خط على الترتيب:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27094,
+                            "text": "مصدر صناعي – مصدر صريح."
+                        },
+                        {
+                            "id": 27095,
+                            "text": "مصدر صناعي – اسم منسوب."
+                        },
+                        {
+                            "id": 27096,
+                            "text": "اسم منسوب – مصدر صناعي."
+                        },
+                        {
+                            "id": 27097,
+                            "text": "مصدر صريح – مصدر صناعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6780,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>جملة واحدة مما يلي تحتوي على اسم مرة من الفعل «أدار»:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27098,
+                            "text": "أدار المذيع الحوار إدارة."
+                        },
+                        {
+                            "id": 27099,
+                            "text": "أدار المذيع الحوار دورة."
+                        },
+                        {
+                            "id": 27100,
+                            "text": "أدار المذيع الحوار دورة واحدة."
+                        },
+                        {
+                            "id": 27101,
+                            "text": "أدار المذيع الحوار إدارة واحدة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6781,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>ميِّز الجملة التي اشتملت على اسم هيئة مما يلي:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27102,
+                            "text": "ضرب اللاعب الكرة ضَربة."
+                        },
+                        {
+                            "id": 27103,
+                            "text": "أكل الجائع أكلة."
+                        },
+                        {
+                            "id": 27104,
+                            "text": "ثار الشعب ثورة واحدة."
+                        },
+                        {
+                            "id": 27105,
+                            "text": "يعيش الشعب في رِخوة مريحة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6782,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>ميِّز الجملة التي تشتمل على اسم مقصور:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27106,
+                            "text": "إن ذا الخُلُق محبوب."
+                        },
+                        {
+                            "id": 27107,
+                            "text": "قضى الإسلام على الظلم في الميراث."
+                        },
+                        {
+                            "id": 27108,
+                            "text": "الرضا بالقليل يغنيك عن الناس."
+                        },
+                        {
+                            "id": 27109,
+                            "text": "متى نستيقظ مِن غفلتنا؟"
+                        }
+                    ]
+                },
+                {
+                    "id": 6783,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«أنتَ الأعلى قدرًا».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> التغيير الصحيح عند جمع الجملة جمع مؤنث سالمًا:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27110,
+                            "text": "أنتن الأعليات قدرًا."
+                        },
+                        {
+                            "id": 27111,
+                            "text": "أنتن العليات قدرًا."
+                        },
+                        {
+                            "id": 27112,
+                            "text": "أنتن العلييات قدرًا."
+                        },
+                        {
+                            "id": 27113,
+                            "text": "أنتن العليوات قدرًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 6784,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>إعراب كلمة (العلا) في نهاية البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/GxbsLX0/1730830914-I6m-VIn.png",
+                    "answers": [
+                        {
+                            "id": 27114,
+                            "text": "مضاف إليه مجرور بالكسرة الظاهرة."
+                        },
+                        {
+                            "id": 27115,
+                            "text": "اسم مجرور بالكسرة المقدرة."
+                        },
+                        {
+                            "id": 27116,
+                            "text": "مضاف إليه مجرور بالكسرة المقدرة."
+                        },
+                        {
+                            "id": 27117,
+                            "text": "نعت مجرور بالكسرة المقدرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6785,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Somar Sans SemiBold\";'>أقرباؤك ............. أولَى الناس بمساعدتك».</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'> التكملة الصحيحة مكان النقط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27118,
+                            "text": "الأدنيان."
+                        },
+                        {
+                            "id": 27119,
+                            "text": "الأدنَون."
+                        },
+                        {
+                            "id": 27120,
+                            "text": "الأدنيون."
+                        },
+                        {
+                            "id": 27121,
+                            "text": "الأدنَين."
+                        }
+                    ]
+                },
+                {
+                    "id": 6786,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>يقول أحد النقاد: \"القصة القصيرة شريحة موجزة وتلغرافية\". حدد التفصيلة الدقيقة التي تفسر المقولة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27122,
+                            "text": "القصة القصيرة تنقل الرسالة للمتلقي في تكثيف دون ثرثرة."
+                        },
+                        {
+                            "id": 27123,
+                            "text": "القصة القصيرة سريعة الوصول كثيرة الشخصيات قليلة الأحداث."
+                        },
+                        {
+                            "id": 27124,
+                            "text": "القصة القصيرة اختصار للرواية يتميز بإحكام البناء والقصر."
+                        },
+                        {
+                            "id": 27125,
+                            "text": "القصة القصيرة يمكن حذف بعض المشاهد فيها للوصول إلى الهدف."
+                        }
+                    ]
+                },
+                {
+                    "id": 6787,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-SA'>يتسم السر</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language: AR-EG'>د</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:#0400;mso-fareast-language:#0400;mso-bidi-language:AR-SA'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:#0400; mso-fareast-language:#0400;mso-bidi-language:AR-SA'>في القصة القصيرة بـ....</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27126,
+                            "text": "الإطالة والإسهاب."
+                        },
+                        {
+                            "id": 27127,
+                            "text": "محدودة الشخصيات ."
+                        },
+                        {
+                            "id": 27128,
+                            "text": "التنويع بين الإيجاز والإطناب."
+                        },
+                        {
+                            "id": 27129,
+                            "text": "الإيجاز والقصد."
+                        }
+                    ]
+                },
+                {
+                    "id": 6788,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- ما المقصود بمصطلح «سلطة الآباء» في ضوء فهمك للفقرة الثانية؟ </span></p> </p>",
+                    "image_url": "https://i.ibb.co/w0kkRX8/1730833024-WEy-V2y.png",
+                    "answers": [
+                        {
+                            "id": 27130,
+                            "text": "دور الآباء في رعاية الأبناء وإسداء النصح لهم."
+                        },
+                        {
+                            "id": 27131,
+                            "text": "تعلق الأبناء بآبائهم تلبية لمتطلباتهم."
+                        },
+                        {
+                            "id": 27132,
+                            "text": "حكم الآباء في المنزل وتدبير الحاجات المادية للأسرة."
+                        },
+                        {
+                            "id": 27133,
+                            "text": "قسوة الآباء وتشددهم مع أبنائهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6789,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- الفكرة الرئيسة التي تدور حولها الفقرة الثالثة:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w0kkRX8/1730833024-WEy-V2y.png",
+                    "answers": [
+                        {
+                            "id": 27134,
+                            "text": "تأثير الإنترنت على سلوكيات الشباب."
+                        },
+                        {
+                            "id": 27135,
+                            "text": "الهدف من توفير التكنولوجيا أن يكونوا شبانًا حضاريين."
+                        },
+                        {
+                            "id": 27136,
+                            "text": "الغاية الضرورية للتكنولوجيا هي الإثارة واللهو."
+                        },
+                        {
+                            "id": 27137,
+                            "text": "التكنولوجيا متوفرة في كل مكان."
+                        }
+                    ]
+                },
+                {
+                    "id": 6790,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- حدِّد علاقة قوله: «لكن الغاية من ذلك يجب أن تكون واضحة للآباء» في الفقرة الخامسة بما قبله:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w0kkRX8/1730833024-WEy-V2y.png",
+                    "answers": [
+                        {
+                            "id": 27138,
+                            "text": "استدراك."
+                        },
+                        {
+                            "id": 27139,
+                            "text": "تفصيل."
+                        },
+                        {
+                            "id": 27140,
+                            "text": "تعليل."
+                        },
+                        {
+                            "id": 27141,
+                            "text": "نتيجة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6791,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>ما يترتب على عدم وضوح الغاية الحقيقية من استخدام الأبناء للإنترنت:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/w0kkRX8/1730833024-WEy-V2y.png",
+                    "answers": [
+                        {
+                            "id": 27142,
+                            "text": "فقد الآباء السيطرة على أبنائهم."
+                        },
+                        {
+                            "id": 27143,
+                            "text": "زيادة تطورهم الحضاري."
+                        },
+                        {
+                            "id": 27144,
+                            "text": "يصبح الإنترنت خطرًا داهمًا لأخلاقيات وسلوكيات الشباب."
+                        },
+                        {
+                            "id": 27145,
+                            "text": "اللحاق بالتقدم والركب الحضاري."
+                        }
+                    ]
+                },
+                {
+                    "id": 6792,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>تنبأ في ضوء فهمك للفقرة السابقة هل يستطيع الصبي تنفيذ مشورة أخيه الأزهري ولماذا: </span></p> </p>",
+                    "image_url": "https://i.ibb.co/Pg4zYXz/1730834527-6-TTlp-K.png",
+                    "answers": [
+                        {
+                            "id": 27146,
+                            "text": "لا يستطيع تنفيذ مشورته؛ لأنه صغير السن."
+                        },
+                        {
+                            "id": 27147,
+                            "text": "يستطيع تنفيذ مشورته؛ لأنه يريد أن يكون ذا مكانة مثل أخيه الأزهري."
+                        },
+                        {
+                            "id": 27148,
+                            "text": "لا يستطيع؛ لأن الصبي لا يقدر العلم ولا يهتم به."
+                        },
+                        {
+                            "id": 27149,
+                            "text": "يستطيع، ولكن ليس عنده الدافع إلى ذلك وعدم القدرة على الحفظ."
+                        }
+                    ]
+                },
+                {
+                    "id": 6793,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>حدِّد </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Sakkal Majalla\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> مما يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family: \"Sakkal Majalla\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> النموذج الذي اتبعه الكاتب في ترتيب الفقرتين السابقتين:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'></span></p> </p>",
+                    "image_url": "https://i.ibb.co/VVL5n77/1730839111-1be-HL0.png",
+                    "answers": [
+                        {
+                            "id": 27150,
+                            "text": "رأي – دليل."
+                        },
+                        {
+                            "id": 27151,
+                            "text": "ظاهرة – تفسير."
+                        },
+                        {
+                            "id": 27152,
+                            "text": "مقدمة – نتيجة."
+                        },
+                        {
+                            "id": 27153,
+                            "text": "زعم – تفنيد."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

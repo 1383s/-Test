@@ -1,0 +1,479 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 351,
+                "title": "امتحان على المحاضرة الأولى",
+                "lecture_id": 3333,
+                "duration_minutes": 180,
+                "order_index": 2,
+                "created_at": "2025-11-27T18:27:28.045277Z",
+                "updated_at": "2025-11-27T18:27:28.045277Z"
+            },
+            "questions": [
+                {
+                    "id": 7983,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/KxHB3DjY/question-1.jpg",
+                    "answers": [
+                        {
+                            "id": 31910,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31911,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31912,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31913,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7984,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/tppYhTx5/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 31914,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31915,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31916,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31917,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7985,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/zTvWLbLS/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 31918,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31919,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31920,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31921,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7986,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/GQTXQVtZ/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 31922,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31923,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31924,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31925,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7987,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/rKczQH5X/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 31926,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31927,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31928,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31929,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7988,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/Xf50fFFX/question-6.jpg",
+                    "answers": [
+                        {
+                            "id": 31930,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31931,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31932,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31933,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7989,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/gLsK3yX4/question-7.jpg",
+                    "answers": [
+                        {
+                            "id": 31934,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31935,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31936,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31937,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7990,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/gbz7hL6K/question-8.jpg",
+                    "answers": [
+                        {
+                            "id": 31938,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31939,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31940,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31941,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7991,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/xtSRVTmR/question-9.jpg",
+                    "answers": [
+                        {
+                            "id": 31942,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31943,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31944,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31945,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7992,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/HyhhbzV/question-10.jpg",
+                    "answers": [
+                        {
+                            "id": 31946,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31947,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31948,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31949,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7993,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/5gM3Lm3W/question-11.jpg",
+                    "answers": [
+                        {
+                            "id": 31950,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31951,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31952,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31953,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7994,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/zTp5j6wP/question-12.jpg",
+                    "answers": [
+                        {
+                            "id": 31954,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31955,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31956,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31957,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7995,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/sJRzCS9c/question-13.jpg",
+                    "answers": [
+                        {
+                            "id": 31958,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31959,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31960,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31961,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7996,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/kgqdqfQD/question-14.jpg",
+                    "answers": [
+                        {
+                            "id": 31962,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31963,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31964,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31965,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7997,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/cK34FnbQ/question-15.jpg",
+                    "answers": [
+                        {
+                            "id": 31966,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31967,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31968,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31969,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7998,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/vxmRgTWY/question-16.jpg",
+                    "answers": [
+                        {
+                            "id": 31970,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31971,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31972,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31973,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7999,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/SX7Hgs0W/question-17.jpg",
+                    "answers": [
+                        {
+                            "id": 31974,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31975,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31976,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31977,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8000,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/GKPWBPp/question-18.jpg",
+                    "answers": [
+                        {
+                            "id": 31978,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31979,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31980,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31981,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8001,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/YTbCBFCg/question-19.jpg",
+                    "answers": [
+                        {
+                            "id": 31982,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31983,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31984,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31985,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 8002,
+                    "text": "اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/3yqvCDBJ/question-20.jpg",
+                    "answers": [
+                        {
+                            "id": 31986,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 31987,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 31988,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 31989,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

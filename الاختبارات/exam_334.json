@@ -1,0 +1,226 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 334,
+                "title": "كويز المحاضره الاولى ",
+                "lecture_id": 2464,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:14:12.681292Z",
+                "updated_at": "2025-11-27T02:14:12.681292Z"
+            },
+            "questions": [
+                {
+                    "id": 7469,
+                    "text": "السؤال الاول ",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184255_KrLSXT.PNG",
+                    "answers": [
+                        {
+                            "id": 29854,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29855,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29856,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29857,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7470,
+                    "text": "السؤال الثاني",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184301_wcXa8a.PNG",
+                    "answers": [
+                        {
+                            "id": 29858,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29859,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29860,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29861,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7471,
+                    "text": "السؤال الثالث",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184354_0BJOHn.PNG",
+                    "answers": [
+                        {
+                            "id": 29862,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29863,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29864,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29865,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7472,
+                    "text": "السؤال الرابع",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184410_VpjwQq.PNG",
+                    "answers": [
+                        {
+                            "id": 29866,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29867,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29868,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29869,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7473,
+                    "text": "السؤال الخامس",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184462_WB0G9R.PNG",
+                    "answers": [
+                        {
+                            "id": 29870,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29871,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29872,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29873,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7474,
+                    "text": "السؤال السادس",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184552_Rlx3y4.PNG",
+                    "answers": [
+                        {
+                            "id": 29874,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29875,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29876,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29877,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7475,
+                    "text": "السؤال السابع",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184608_NmazZw.PNG",
+                    "answers": [
+                        {
+                            "id": 29878,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29879,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29880,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29881,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7476,
+                    "text": "السؤال الثامن",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184658_jxxCcY.PNG",
+                    "answers": [
+                        {
+                            "id": 29882,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29883,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29884,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29885,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 7477,
+                    "text": "السؤال التاسع",
+                    "image_url": "https://abdelmaaboud.com/storage/uploads/questions/1724184699_J4XaKZ.PNG",
+                    "answers": [
+                        {
+                            "id": 29886,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 29887,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 29888,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 29889,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

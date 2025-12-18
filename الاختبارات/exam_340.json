@@ -1,0 +1,557 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 340,
+                "title": "امتحان افتتاحي المحاضرة الثالثــــــــة",
+                "lecture_id": 3320,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:26:53.363411Z",
+                "updated_at": "2025-11-27T18:26:53.363411Z"
+            },
+            "questions": [
+                {
+                    "id": 7635,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(<span style=\"color:#FF3399\">نحن في مجتمع يقدر العلم والمعرفة</span>). نوع الخبر في الجملة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30518,
+                            "text": "شبه جملة."
+                        },
+                        {
+                            "id": 30519,
+                            "text": "مفرد."
+                        },
+                        {
+                            "id": 30520,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 30521,
+                            "text": "جملة فعلية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7636,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(<u><span style=\"color:#FF3399\">لأبوك</span></u> عظيمُ). <span style=\"color:#0070C0\">ما تحته خط إعرابه:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30522,
+                            "text": "اسم مجرور بالكسرة."
+                        },
+                        {
+                            "id": 30523,
+                            "text": "خبر شبه جملة مقدم."
+                        },
+                        {
+                            "id": 30524,
+                            "text": "مبتدأ مرفوع بالواو."
+                        },
+                        {
+                            "id": 30525,
+                            "text": "مبتدأ مرفوع محلًّا مجرور لفظًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7637,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(الجهلاء <u><span style=\"color:#FF3399\">حيارى</span></u> في حل مشكلاتهم). <span style=\"color:#0070C0\">ما تحته خط خبر مرفوع:</span></span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Lama Sans Medium\";'>                         </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30526,
+                            "text": "بالألف."
+                        },
+                        {
+                            "id": 30527,
+                            "text": "بالضمة الظاهرة."
+                        },
+                        {
+                            "id": 30528,
+                            "text": "بالضمة المقدرة."
+                        },
+                        {
+                            "id": 30529,
+                            "text": "بالياء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7638,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>( وراء كل مجتهد أم عظيمة تدفعه للنجاح). </span><span style='color: rgb(0, 112, 192); font-family: \"Lama Sans Medium\"; font-size: 20pt;'>المبتدأ في الجملة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30530,
+                            "text": "وراء."
+                        },
+                        {
+                            "id": 30531,
+                            "text": "كل."
+                        },
+                        {
+                            "id": 30532,
+                            "text": "مجتهد."
+                        },
+                        {
+                            "id": 30533,
+                            "text": "أم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7639,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>الجملة التي تقدم فيها الخبر جوازا:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30534,
+                            "text": "للعلم آثاره."
+                        },
+                        {
+                            "id": 30535,
+                            "text": "في الصباح النور والإشراق."
+                        },
+                        {
+                            "id": 30536,
+                            "text": "متى الرحلة؟"
+                        },
+                        {
+                            "id": 30537,
+                            "text": "في الحياة ألم وأمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7640,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الجملة التي اشتملت على مبتدأ محذوف خبره:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30538,
+                            "text": "لولا العلمُ لضلَّ النَّاس."
+                        },
+                        {
+                            "id": 30539,
+                            "text": "كيف حال أبيك؟"
+                        },
+                        {
+                            "id": 30540,
+                            "text": "الصدق نعم الصفة."
+                        },
+                        {
+                            "id": 30541,
+                            "text": "ما أروع الصفات الحسنة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7641,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(بئس الخلق الغدر )المحذوف من الجملة: </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30542,
+                            "text": "المبتدأ وجوبًا."
+                        },
+                        {
+                            "id": 30543,
+                            "text": "المبتدأ جوازًا."
+                        },
+                        {
+                            "id": 30544,
+                            "text": "الخبر جوازًا."
+                        },
+                        {
+                            "id": 30545,
+                            "text": "الفاعل وجوبًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7642,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(كيف السبيل إلى الإخاء؟).</span><span style='color: rgb(0, 112, 192); font-family: \"Lama Sans Medium\"; font-size: 20pt;'>بيِّن حكم تقديم الخبر على المبتدأ:</span><span style='font-family: \"Lama Sans Medium\"; font-size: 20pt;'> </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30546,
+                            "text": "واجب."
+                        },
+                        {
+                            "id": 30547,
+                            "text": "جائز."
+                        },
+                        {
+                            "id": 30548,
+                            "text": "ممتنع."
+                        },
+                        {
+                            "id": 30549,
+                            "text": "قليل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7643,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدِّد المبتدأ المؤخر في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a1cfa5ed7583860f250381ddd53fb0762425f710f146.jpg",
+                    "answers": [
+                        {
+                            "id": 30550,
+                            "text": "ومن نكد الدنيا."
+                        },
+                        {
+                            "id": 30551,
+                            "text": "ما من صداقته بُدُّ."
+                        },
+                        {
+                            "id": 30552,
+                            "text": "أن يرى."
+                        },
+                        {
+                            "id": 30553,
+                            "text": "عدوًّا له."
+                        }
+                    ]
+                },
+                {
+                    "id": 7644,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(كل فرد يقوم بعمله فالطالب وكتابه والمعلم وفصله).</span><span style='color: rgb(0, 112, 192); font-family: \"Lama Sans Medium\"; font-size: 20pt;'>المحذوف من المثال:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30554,
+                            "text": "الخبر وتقديره موجود."
+                        },
+                        {
+                            "id": 30555,
+                            "text": "الخبر وتقديره موجودان."
+                        },
+                        {
+                            "id": 30556,
+                            "text": "الفاعل وتقديره موجود."
+                        },
+                        {
+                            "id": 30557,
+                            "text": "الخبر وتقديره متلازمان."
+                        }
+                    ]
+                },
+                {
+                    "id": 7645,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط مبتدأ حدِّد خبره ونوع الخبر:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/d0dfb269d1184c5cf1b33b91a0d9a37f62037862482c.jpg",
+                    "answers": [
+                        {
+                            "id": 30558,
+                            "text": "قوم النفس (جملة اسمية)."
+                        },
+                        {
+                            "id": 30559,
+                            "text": "للأخلاق مرجعه (جملة اسمية)."
+                        },
+                        {
+                            "id": 30560,
+                            "text": "للأخلاق مرجعه (شبه جملة)."
+                        },
+                        {
+                            "id": 30561,
+                            "text": "تستقم (جملة فعلية)."
+                        }
+                    ]
+                },
+                {
+                    "id": 7646,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> «خير الناس أحسنهم خلقًا وبخاصة.........»</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20pt; font-family: \"Lama Sans Medium\";'>. </span><span style='color: rgb(0, 112, 192); font-family: \"Lama Sans Medium\"; font-size: 20pt;'>حدِّد – ممَّا يلي – الإجابة الصحيحة التي توضع مكان النقط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30562,
+                            "text": "أولي التقى."
+                        },
+                        {
+                            "id": 30563,
+                            "text": "ذوو التقى."
+                        },
+                        {
+                            "id": 30564,
+                            "text": "ذوي التقى."
+                        },
+                        {
+                            "id": 30565,
+                            "text": "ذي التقى."
+                        }
+                    ]
+                },
+                {
+                    "id": 7647,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\" style=\"color:#0070C0\">(</span><span lang=\"AR-SA\" style=\"color:#FF3399\">لكل وطن علماؤه الحريصون على رفعته، فكيف تنكر ذلك؟</span><span lang=\"AR-SA\" style=\"color:#0070C0\">).</span></span><span style='color: rgb(0, 112, 192); font-family: \"Lama Sans Medium\"; font-size: 20pt;'>ميِّز – ممَّا يلي – سبب تقديم الخبر على المبتدأ في العبارة السابقة.</span><span style='color: rgb(0, 112, 192); font-family: \"Lama Sans Medium\"; font-size: 20pt;'> </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30566,
+                            "text": "الخبر من الأسماء التي لها الصدارة في الكلام."
+                        },
+                        {
+                            "id": 30567,
+                            "text": "اتصال المبتدأ بضمير عائد على بعض الخبر."
+                        },
+                        {
+                            "id": 30568,
+                            "text": "الخبر شبه جملة والمبتدأ موصوف."
+                        },
+                        {
+                            "id": 30569,
+                            "text": "الخبر شبه جملة والمبتدأ نكرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7648,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(للنّجاح أبناؤه – للنّجاح أبناء). <span style=\"color:#0070C0\">ميِّز – ممَّا يلي – حكم تقديم الخبر في كل عبارة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30570,
+                            "text": "جائز – واجب."
+                        },
+                        {
+                            "id": 30571,
+                            "text": "واجب - جائز."
+                        },
+                        {
+                            "id": 30572,
+                            "text": "جائز - جائز."
+                        },
+                        {
+                            "id": 30573,
+                            "text": "واجب - واجب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7649,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\" style=\"color:#0070C0\">(ممَّا يغيظ الحاسد رؤيته الناس في نعمة). ميِّز الموقع الإعرابي لكلمة «</span><span lang=\"AR-SA\" style=\"color:#FF3399\">رؤيته</span><span lang=\"AR-SA\" style=\"color: #0070C0\">»: </span><span lang=\"AR-SA\"> </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30574,
+                            "text": "مبتدأ وخبره (في نعمة)."
+                        },
+                        {
+                            "id": 30575,
+                            "text": "مبتدأ مؤخر وجوبًا."
+                        },
+                        {
+                            "id": 30576,
+                            "text": "خبر لمبتدأ."
+                        },
+                        {
+                            "id": 30577,
+                            "text": "مبتدأ مؤخر جوازًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7650,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> نوع الصورة في قوله: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>نسيانك الجاني فضيلة</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/985cba7eaecf6ef8ac536e08786eb9f26c0f2ff2b6ef.jpg",
+                    "answers": [
+                        {
+                            "id": 30578,
+                            "text": "تشبيه مجمل."
+                        },
+                        {
+                            "id": 30579,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 30580,
+                            "text": "تشبيه مفصَّل."
+                        },
+                        {
+                            "id": 30581,
+                            "text": "استعارة مكنية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7651,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> (</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>زمن الشباب رَحَلَت غير مذمَّم<span style=\"color:#0070C0\">) نوع الصورة وسر جمالها:</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/8853c9bdc153acad1961fc19949dfaff8aaba7ea29bb.jpg",
+                    "answers": [
+                        {
+                            "id": 30582,
+                            "text": "تشبيه بليغ – توضيح."
+                        },
+                        {
+                            "id": 30583,
+                            "text": "تشبيه تمثيلي – توضيح."
+                        },
+                        {
+                            "id": 30584,
+                            "text": "استعارة مكنية – تشخيص."
+                        },
+                        {
+                            "id": 30585,
+                            "text": "استعارة تصريحية – توضيح."
+                        }
+                    ]
+                },
+                {
+                    "id": 7652,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>وسيلة القصر في الشطر الأول من البيت الأخير: </span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a0725f903310f8188b7a0288e768ea5ee146916a263b.jpg",
+                    "answers": [
+                        {
+                            "id": 30586,
+                            "text": "النفي والاستثناء."
+                        },
+                        {
+                            "id": 30587,
+                            "text": "تقديم المفعول به على الفاعل."
+                        },
+                        {
+                            "id": 30588,
+                            "text": "تعريف طرفي الجملة."
+                        },
+                        {
+                            "id": 30589,
+                            "text": "تقديم الخبر على المبتدأ."
+                        }
+                    ]
+                },
+                {
+                    "id": 7653,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> ما نوع البديع في قوله (خمود - نار)؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/4693e3bdaa6180f435158597a4bcef44c01f29599bd6.jpg",
+                    "answers": [
+                        {
+                            "id": 30590,
+                            "text": "جناس."
+                        },
+                        {
+                            "id": 30591,
+                            "text": "طباق سلب."
+                        },
+                        {
+                            "id": 30592,
+                            "text": "طباق إيجاب."
+                        },
+                        {
+                            "id": 30593,
+                            "text": "تورية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7654,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> (أربأ بنفسك والحياة قصيرة) أسلوب إنشائي أمر غرضه:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30594,
+                            "text": "الدعاء."
+                        },
+                        {
+                            "id": 30595,
+                            "text": "النصح."
+                        },
+                        {
+                            "id": 30596,
+                            "text": "التخيير."
+                        },
+                        {
+                            "id": 30597,
+                            "text": "الاستعطاف."
+                        }
+                    ]
+                },
+                {
+                    "id": 7655,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>البيتان يترجمان عن سبب عامل من التجديد في الشعر لدى تلامذة البارودي وهو:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/872792567379eeb027f67582befc547cec55d59de74e.jpg",
+                    "answers": [
+                        {
+                            "id": 30598,
+                            "text": "العناية بقضايا المجتمع ومشكلاته."
+                        },
+                        {
+                            "id": 30599,
+                            "text": "الدعوة إلى الوحدة الوطنية وتماسك الجبهة الداخلية."
+                        },
+                        {
+                            "id": 30600,
+                            "text": "النضال الوطني ضد المحتل والتنديد بجرائمه."
+                        },
+                        {
+                            "id": 30601,
+                            "text": "الوعي الثقافي لدى الشباب والدعوة لتحرير المرأة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7656,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>تناول البيتان السابقان قضية اجتماعية عرضها تلامذة البارودي وهي:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/3730850e4a9071541f4d14399d2f36c0ca7015682ec8.jpg",
+                    "answers": [
+                        {
+                            "id": 30602,
+                            "text": "المساواة بين البنين والبنات في العناية والاهتمام."
+                        },
+                        {
+                            "id": 30603,
+                            "text": "دور الأخلاق في بناء مجتمع جادٍ متطور."
+                        },
+                        {
+                            "id": 30604,
+                            "text": "دور المرأة في تربية الأبناء تربية تقوم على الأخلاق النبيلة."
+                        },
+                        {
+                            "id": 30605,
+                            "text": "العناية ببناء المدارس باعتباره حجر الأساس في نهضة الأمم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7657,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>في ضوء فهمك لسمات مدرسة الإحياء والبعث ما السمة البارزة في هذا البيت؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/6418d37b5acc0923ba1215861fa670fbd67c4d1c7daa.jpg",
+                    "answers": [
+                        {
+                            "id": 30606,
+                            "text": "التأمل في الكون وأسرار الوجود."
+                        },
+                        {
+                            "id": 30607,
+                            "text": "التشاؤم واليأس والاستسلام للأحزان."
+                        },
+                        {
+                            "id": 30608,
+                            "text": "العناية بالناحية البيانية."
+                        },
+                        {
+                            "id": 30609,
+                            "text": "الميل إلى الطبيعة والتعلق بها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7658,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt; font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-EG;mso-no-proof:yes'>البيت </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20.0pt;font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>يؤكد</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size: 20.0pt;font-family:\"Lama Sans Medium\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-EG;mso-no-proof:yes'> سمة تدل على حيوية تلامذة البارودي . فما هي</span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Lama Sans Medium\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG;mso-no-proof:yes'> ؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/594d1240f5ae1c388dfdd16a13228ac4a07ae8444fe9.jpg",
+                    "answers": [
+                        {
+                            "id": 30610,
+                            "text": "التمسك بتقاليد القصيدة القديمة باعتبارها تراثًا لا يُمس."
+                        },
+                        {
+                            "id": 30611,
+                            "text": "الثورة على الشكل التقليدي للقصيدة والميل للتجديد في الشكل والمضمون."
+                        },
+                        {
+                            "id": 30612,
+                            "text": "المواءمة بين القديم والجديد عن طريق الأخذ من التراث والالتفات إلى ثقافة العصر."
+                        },
+                        {
+                            "id": 30613,
+                            "text": "الميل إلى جزالة الألفاظ وتراثية الصور."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

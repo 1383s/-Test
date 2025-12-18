@@ -1,0 +1,744 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 319,
+                "title": "امتحان افتتاحي المحاضرة 22",
+                "lecture_id": 2125,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:09:08.610961Z",
+                "updated_at": "2025-11-27T02:09:08.610961Z"
+            },
+            "questions": [
+                {
+                    "id": 7028,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(ليكن حلمك مَرسومةً <u><span style=\"color:#C00000\">خطته</span></u> واضحةً <u><span style=\"color:#C00000\">أهدافه</span></u>).<br/><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 20pt; color: rgb(0, 112, 192);\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span> إعراب ما تحته خط على الترتيب في الجملتين السابقتين:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28090,
+                            "text": "نائب فاعل – فاعل."
+                        },
+                        {
+                            "id": 28091,
+                            "text": "مفعول به – فاعل."
+                        },
+                        {
+                            "id": 28092,
+                            "text": "نائب فاعل – مفعول به."
+                        },
+                        {
+                            "id": 28093,
+                            "text": "فاعل – نائب فاعل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7029,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(يُثاب </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>كل</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> العاملين المخلصين) – (يُثاب العاملون المخلصون </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>كل</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> الإثابة).</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 20pt; color: rgb(0, 112, 192);\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>   - إعراب ما تحته خط على الترتيب في الجملتين السابقتين:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28094,
+                            "text": "نائب عن المفعول المطلق – مفعول به."
+                        },
+                        {
+                            "id": 28095,
+                            "text": "نائب فاعل – نائب عن المفعول المطلق."
+                        },
+                        {
+                            "id": 28096,
+                            "text": "توكيد معنوي – نائب عن المفعول المطلق."
+                        },
+                        {
+                            "id": 28097,
+                            "text": "فاعل – مفعول مطلق."
+                        }
+                    ]
+                },
+                {
+                    "id": 7030,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>إعراب ما تحته خط في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/8gtH5kBH/1737290369-v-Bla-HO.png",
+                    "answers": [
+                        {
+                            "id": 28098,
+                            "text": "حال منصوبة بالفتحة."
+                        },
+                        {
+                            "id": 28099,
+                            "text": "تمييز منصوب الفتحة."
+                        },
+                        {
+                            "id": 28100,
+                            "text": "مفعول به منصوب بالفتحة"
+                        },
+                        {
+                            "id": 28101,
+                            "text": "نعت منصوب بالفتحة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7031,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(كن الأعلى خُلقًا تصبح الأرقى). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>عند جعل الجملة للمثنى المؤنث تصبح:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28102,
+                            "text": "كونا العليين خلقًا تصبحا الرقيين."
+                        },
+                        {
+                            "id": 28103,
+                            "text": "كوننا العليتين خلقًا تصبحا الرقيتين."
+                        },
+                        {
+                            "id": 28104,
+                            "text": "كونا العلييان خلقًا تصبحا الرقييان."
+                        },
+                        {
+                            "id": 28105,
+                            "text": "كونا العلييين خلقًا تصبحا الرقييين."
+                        }
+                    ]
+                },
+                {
+                    "id": 7032,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>إعراب ما تحته خط في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/KjQh76B9/1737291687-UTs-EMl.png",
+                    "answers": [
+                        {
+                            "id": 28106,
+                            "text": "اسم لا مبني على الفتح في محل نصب."
+                        },
+                        {
+                            "id": 28107,
+                            "text": "اسم لا منصوب بالفتحة."
+                        },
+                        {
+                            "id": 28108,
+                            "text": "اسم مجرور بالكسرة."
+                        },
+                        {
+                            "id": 28109,
+                            "text": "اسم لا مبني على السكون."
+                        }
+                    ]
+                },
+                {
+                    "id": 7033,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>نوع خبر الحرف الناسخ الوارد في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/yBXV867T/1737292090-J85tv-Y.png",
+                    "answers": [
+                        {
+                            "id": 28110,
+                            "text": "مفرد."
+                        },
+                        {
+                            "id": 28111,
+                            "text": "شبه جملة."
+                        },
+                        {
+                            "id": 28112,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 28113,
+                            "text": "جملة فعلية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7034,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الجملة التي لم تشتمل على حال فيما يلي:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28114,
+                            "text": "جئنا مسرعين."
+                        },
+                        {
+                            "id": 28115,
+                            "text": "لن نغفل والعدو متربص."
+                        },
+                        {
+                            "id": 28116,
+                            "text": "جئنا بكم جميعًا."
+                        },
+                        {
+                            "id": 28117,
+                            "text": "تنزهنا والقمر."
+                        }
+                    ]
+                },
+                {
+                    "id": 7035,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(بدأت </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>البلاد</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> في العمل من أجل التنمية)</span><b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Sakkal Majalla\";mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-EG'> </span><span dir=\"RTL\" lang=\"AR-EG\" style='font-size:20.0pt;font-family:\"Sakkal Majalla\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'>–</span></b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> (بدأت </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>البلاد</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'> تعمل من أجل التنمية).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 20pt; color: rgb(0, 112, 192);\">إعراب كلمة «البلاد» في الجملتين السابقتين:</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28118,
+                            "text": "اسم بدأ – فاعل."
+                        },
+                        {
+                            "id": 28119,
+                            "text": "اسم بدأ – اسم بدأ."
+                        },
+                        {
+                            "id": 28120,
+                            "text": "فاعل – فاعل."
+                        },
+                        {
+                            "id": 28121,
+                            "text": "فاعل – اسم بدأ."
+                        }
+                    ]
+                },
+                {
+                    "id": 7036,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>كلمة «تطرية»في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/231Y00CD/1737369445-Xz-Y7lm.png",
+                    "answers": [
+                        {
+                            "id": 28122,
+                            "text": "مصدر صناعي."
+                        },
+                        {
+                            "id": 28123,
+                            "text": "مصدر قياسي."
+                        },
+                        {
+                            "id": 28124,
+                            "text": "مصدر سماعي."
+                        },
+                        {
+                            "id": 28125,
+                            "text": "اسم منسوب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7037,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>كلتا المرأتين فاهمة) <span style=\"color:#0070C0\">لجعل «</span><span style=\"color:red\">كلتا</span><span style=\"color:#0070C0\">» توكيدًا معنويًا تصبح الجملة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28126,
+                            "text": "المرأتان كلتاهما فاهمتان."
+                        },
+                        {
+                            "id": 28127,
+                            "text": "المرأتين كلتيهما فاهمة."
+                        },
+                        {
+                            "id": 28128,
+                            "text": "المرأتان كلتاهما فاهمة."
+                        },
+                        {
+                            "id": 28129,
+                            "text": "المرأتين كلتاهما فاهمتين."
+                        }
+                    ]
+                },
+                {
+                    "id": 7038,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>خرجت <u><span style=\"color:#C00000\">وطلوع</span></u> الشمس – خرجت <u><span style=\"color:#C00000\">والشمس</span></u> ساطعة)<span style=\"color:#0070C0\"> إعراب ما تحته خط:<br/></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28130,
+                            "text": "مبتدأ – مفعول به"
+                        },
+                        {
+                            "id": 28131,
+                            "text": "مفعول به - مبتدأ"
+                        },
+                        {
+                            "id": 28132,
+                            "text": "مفعول معه - مبتدأ"
+                        },
+                        {
+                            "id": 28133,
+                            "text": "مبتدأ – مفعول معه"
+                        }
+                    ]
+                },
+                {
+                    "id": 7039,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>الأخلاق الطيبة سلوك <u><span style=\"color:red\">يدفع المرء</span></u> للخير)<span style=\"color:#0070C0\"> المحل الإعرابي لما تحته خط:<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 20pt; color: rgb(0, 112, 192);\">المحل الإعرابي للجملة التي تحتها خط:</span><span style=\"color:#0070C0\"></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28134,
+                            "text": "في محل نصب نعت."
+                        },
+                        {
+                            "id": 28135,
+                            "text": "في محل رفع نعت."
+                        },
+                        {
+                            "id": 28136,
+                            "text": "في محل نصب حال."
+                        },
+                        {
+                            "id": 28137,
+                            "text": "في محل رفع خبر."
+                        }
+                    ]
+                },
+                {
+                    "id": 7040,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(اشتركَ في الرحلة 12 طالبًا و19 طالبة). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>عند كتابة الأرقام بالحروف تصبح الجملة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28138,
+                            "text": "اثنتا عشر – تسع عشرة."
+                        },
+                        {
+                            "id": 28139,
+                            "text": "اثنا عشرة – تسع عشر."
+                        },
+                        {
+                            "id": 28140,
+                            "text": "اثني عشر – تسعة عشر."
+                        },
+                        {
+                            "id": 28141,
+                            "text": "اثنا عشر – تسع عشرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7041,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(ما نجا من الجنود إلا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الشجعان</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Eltaroute Text\";'>). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>إعراب ما تحته خط:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28142,
+                            "text": "بدل مجرور بالكسرة."
+                        },
+                        {
+                            "id": 28143,
+                            "text": "مستثنى منصوب بالفتحة."
+                        },
+                        {
+                            "id": 28144,
+                            "text": "فاعل مرفوع بالضمة."
+                        },
+                        {
+                            "id": 28145,
+                            "text": "فاعل مرفوع بالألف."
+                        }
+                    ]
+                },
+                {
+                    "id": 7042,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>إعراب كلمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الغدر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/Q36hMBWn/1737296780-229-I9-A.png",
+                    "answers": [
+                        {
+                            "id": 28146,
+                            "text": "مفعول به منصوب."
+                        },
+                        {
+                            "id": 28147,
+                            "text": "اسم مجرور."
+                        },
+                        {
+                            "id": 28148,
+                            "text": "فاعل مرفوع."
+                        },
+                        {
+                            "id": 28149,
+                            "text": "مضاف إليه مجرور."
+                        }
+                    ]
+                },
+                {
+                    "id": 7043,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 14.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما أثر إحساس </span><span style='color: rgb(0, 112, 192); font-family: \"Hacen Eltaroute Text\"; font-size: 18.6667px;'>الإنسان</span><span style='color: rgb(0, 112, 192); font-family: \"Hacen Eltaroute Text\"; font-size: 14pt;'> بالضعة وصغر النفس، كما تفهم من الفقرة الأخيرة؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/gZppbhDF/1737298658-N1i-ONX.png",
+                    "answers": [
+                        {
+                            "id": 28150,
+                            "text": "يفقد ثقته بنفسه وإيمانه بقوتها."
+                        },
+                        {
+                            "id": 28151,
+                            "text": "ينطوي معتزلا كل الناس."
+                        },
+                        {
+                            "id": 28152,
+                            "text": "يعمق شعور البأس في نفسه."
+                        },
+                        {
+                            "id": 28153,
+                            "text": "يجعله بارعا في النفاق والتذلل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7044,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>استنتج المغزى من قول الكاتب: \"تغبَّش منظاره واسود زجاجه\" في سياق الفقرة الثانية.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/gZppbhDF/1737298658-N1i-ONX.png",
+                    "answers": [
+                        {
+                            "id": 28154,
+                            "text": "التعبير عن العجز عن رؤية الجمال."
+                        },
+                        {
+                            "id": 28155,
+                            "text": "إظهار نظرة التشاؤم واليأس من الحياة."
+                        },
+                        {
+                            "id": 28156,
+                            "text": "إظهار ضعف الإيمان وسيطرة الوساوس."
+                        },
+                        {
+                            "id": 28157,
+                            "text": "التعبير عن خبث النفس وفساد أعمالها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7045,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>هات من الموضوع ما يدل على تبرير العجز والتقصير عن إدراك النجاح.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/gZppbhDF/1737298658-N1i-ONX.png",
+                    "answers": [
+                        {
+                            "id": 28158,
+                            "text": "استصغرت همتها بجانبها."
+                        },
+                        {
+                            "id": 28159,
+                            "text": "وتعللت بلو، وإذا ، وإن."
+                        },
+                        {
+                            "id": 28160,
+                            "text": "فهربت منها وقبعت في جحرها."
+                        },
+                        {
+                            "id": 28161,
+                            "text": "ينتظر حتى تمطر السماء ذهبا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7046,
+                    "text": "<p> <p><span dir=\"RTL\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span lang=\"AR-SA\">علام يرتكز النجاح فى حياة الانسان كما تفهم </span></span><span style='color: rgb(0, 112, 192); font-family: \"Hacen Eltaroute Text\"; font-size: 14pt;'>من الفقرة الأخيرة ؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/ds7DNvwx/1737364799-Nky5-CU.webp",
+                    "answers": [
+                        {
+                            "id": 28162,
+                            "text": "الثقة بالنفس."
+                        },
+                        {
+                            "id": 28163,
+                            "text": "العمل المستمر"
+                        },
+                        {
+                            "id": 28164,
+                            "text": "الاعتماد على الاخرين."
+                        },
+                        {
+                            "id": 28165,
+                            "text": "الفكر النظيف والبواعث الطاهرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7047,
+                    "text": "<p> <p><span dir=\"RTL\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family: \"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family: \"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span lang=\"AR-SA\">استخرج من النص استعارة مكنية، وبين سر جمالها.</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/gZppbhDF/1737298658-N1i-ONX.png",
+                    "answers": [
+                        {
+                            "id": 28166,
+                            "text": "عبست نفسه، وسر جمالها التوضيح."
+                        },
+                        {
+                            "id": 28167,
+                            "text": "ترى الصعاب، وسر جمالها التوضيح."
+                        },
+                        {
+                            "id": 28168,
+                            "text": "الزهر باسم، وسر جمالها التشخيص."
+                        },
+                        {
+                            "id": 28169,
+                            "text": "اسود زجاجه، وسر جمالها التوضيح."
+                        }
+                    ]
+                },
+                {
+                    "id": 7048,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> استنتج علاقة قول الكاتب (كان منظاره الذي يرى به الدنيا .....) بما قبله فى الفقرة الثانية.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/gZppbhDF/1737298658-N1i-ONX.png",
+                    "answers": [
+                        {
+                            "id": 28170,
+                            "text": "توضيح بعد إبهام."
+                        },
+                        {
+                            "id": 28171,
+                            "text": "نتيجة لما قلبه."
+                        },
+                        {
+                            "id": 28172,
+                            "text": "تفصيل بعد إجمال."
+                        },
+                        {
+                            "id": 28173,
+                            "text": "تعليل وبيان سبب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7049,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>سمة أسلوبية استخدمها الكاتب في الفقرة الثانية.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/gZppbhDF/1737298658-N1i-ONX.png",
+                    "answers": [
+                        {
+                            "id": 28174,
+                            "text": "الإكثار من السجع والجناس."
+                        },
+                        {
+                            "id": 28175,
+                            "text": "الإكثار من الأسلوب الإنشائي."
+                        },
+                        {
+                            "id": 28176,
+                            "text": "الاعتماد على السجع."
+                        },
+                        {
+                            "id": 28177,
+                            "text": "الاعتماد على السجع والازدواج."
+                        }
+                    ]
+                },
+                {
+                    "id": 7050,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>وازن بين العبارتين من حيث استخدام وسائل التوكيد</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/TDN89qTn/1737308498-5p-RDNl.png",
+                    "answers": [
+                        {
+                            "id": 28178,
+                            "text": "كلا الكاتبين اعتمد على استخدام وسائل القصر، وزاد الزيات القصر بالنفي والاستثناء."
+                        },
+                        {
+                            "id": 28179,
+                            "text": "اكتفى أحمد أمين والزيات باستخدام حرف «إنما التأكيد الفكرة."
+                        },
+                        {
+                            "id": 28180,
+                            "text": "أكد أحمد أمين كلامه بالتقديم والتأخير، واعتمد الزيات على وسائل القصر."
+                        },
+                        {
+                            "id": 28181,
+                            "text": "اقتصر الكاتبان على استخدام الإطناب بالترادف لتأكيد الفكرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7051,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ميِّز -مما يلي- نوع المقال من حيث المضمون:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/ds7DNvwx/1737364799-Nky5-CU.webp",
+                    "answers": [
+                        {
+                            "id": 28182,
+                            "text": "اجتماعي، حيث تناول موضوع الابتسام ودعا إلي ترك التشاؤم."
+                        },
+                        {
+                            "id": 28183,
+                            "text": "فلسفي، حيث يناقش مفهوم لابتسام بأسلوب يثير ذهن القارئ أو السامع ويدعو إلى التأمل وكشف الحقائق"
+                        },
+                        {
+                            "id": 28184,
+                            "text": "نزالي، فقد استخدم لغة قاسية وساخرة، واتهامات مباشرة لكل من يتشاءم دون تقديم أدلة"
+                        },
+                        {
+                            "id": 28185,
+                            "text": "تصويري، فقد رسم صورة لشخصية تدعو إلى لابتسام وما بها من آثار إيجابيه وصورة أخرى لشخص يدعو إلى التشاؤم موضحاً الأثر في صورة حسية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7052,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ما المقصود بكلمة لباقة، في سياق الفقرة الثانية؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/HDMCF1k3/1737312958-V8y-Eqj.png",
+                    "answers": [
+                        {
+                            "id": 28186,
+                            "text": "نقاء وطيبة."
+                        },
+                        {
+                            "id": 28187,
+                            "text": "هدوء ورصانة."
+                        },
+                        {
+                            "id": 28188,
+                            "text": "خفاء والمداراة"
+                        },
+                        {
+                            "id": 28189,
+                            "text": "أحسن تصرف وتقدير"
+                        }
+                    ]
+                },
+                {
+                    "id": 7053,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ما المكاسب النفسية من لزوم الحق والعدل كما يعتقد الكاتب؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/HDMCF1k3/1737312958-V8y-Eqj.png",
+                    "answers": [
+                        {
+                            "id": 28190,
+                            "text": "تحمل الآلام والأوجاع."
+                        },
+                        {
+                            "id": 28191,
+                            "text": "راحة الضمير وطهارته."
+                        },
+                        {
+                            "id": 28192,
+                            "text": "إغضاب بعض الناس"
+                        },
+                        {
+                            "id": 28193,
+                            "text": "مقابلة القبيح بالجميل"
+                        }
+                    ]
+                },
+                {
+                    "id": 7054,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>أي من الآتي عنوان مناسب للفقرة الثالثة؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/HDMCF1k3/1737312958-V8y-Eqj.png",
+                    "answers": [
+                        {
+                            "id": 28194,
+                            "text": "المال وسيلة لا غاية."
+                        },
+                        {
+                            "id": 28195,
+                            "text": "سبل إنفاق المال"
+                        },
+                        {
+                            "id": 28196,
+                            "text": "فوائد الجود بالمال."
+                        },
+                        {
+                            "id": 28197,
+                            "text": "العلم خير من المال."
+                        }
+                    ]
+                },
+                {
+                    "id": 7055,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>رأيت من زملائي من تمسكوا بهذه الفضيلة فخسروا كثيرًا. وفشلوا فشلا ذريعا...<br/><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 14pt;\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- ما السبب في الخسارة والفشل من وجهة نظر الكاتب؟</span></span></p> </p>",
+                    "image_url": "https://i.ibb.co/HDMCF1k3/1737312958-V8y-Eqj.png",
+                    "answers": [
+                        {
+                            "id": 28198,
+                            "text": "أنهم صدعوا بالحق في غير موضعه، وأقاموا العدل في غير أهله."
+                        },
+                        {
+                            "id": 28199,
+                            "text": "أنهم تعجلوا النتيجة، فما وجدوا إلا نار الحق وجحيم العدل."
+                        },
+                        {
+                            "id": 28200,
+                            "text": "أنهم التزموا الحق والصدق والعدل في سماجة وغير لباقة."
+                        },
+                        {
+                            "id": 28201,
+                            "text": "أنهم قالوا الحق في أدب، وتحروا العدل والصدق في لباقة ولياقة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7056,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt;font-family:\"Hacen Eltaroute Text\"; mso-ascii-font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Hacen Tunisia Bd\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ما العلاقة التي أقامها الكاتب بين المال وسعادة الإنسان. كما تفهم من الفقرتين </span><span style='color: rgb(0, 112, 192); font-family: \"Hacen Eltaroute Text\"; font-size: 14pt;'>الثالثة و الرابعة؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/HDMCF1k3/1737312958-V8y-Eqj.png",
+                    "answers": [
+                        {
+                            "id": 28202,
+                            "text": "لا بد للإنسان أن يجتهد في طلب المال طيلة حياته كي يسعد به."
+                        },
+                        {
+                            "id": 28203,
+                            "text": "كلما جمع الإنسان الكثير من المال سعد في حياته كثيرا."
+                        },
+                        {
+                            "id": 28204,
+                            "text": "كلما جعل الإنسان المال وسيلة في حياته كانت حياته أسعد."
+                        },
+                        {
+                            "id": 28205,
+                            "text": "طلب المال يبدأ وسيلة، ثم يتحول إلى غاية، وفي ذلك سعادة الإنسان."
+                        }
+                    ]
+                },
+                {
+                    "id": 7057,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الوقت المناسب والاستعداد النفسي عاملان مهمان لقبول النصيحة. كيف أكد الكاتب هذه المقولة في موضوعه؟</span></p> </p>",
+                    "image_url": "https://i.ibb.co/HDMCF1k3/1737312958-V8y-Eqj.png",
+                    "answers": [
+                        {
+                            "id": 28206,
+                            "text": "ضرب الكاتب أمثلة حية من أصحابه لما يقول تدعيما لرأيه."
+                        },
+                        {
+                            "id": 28207,
+                            "text": "أظهر الكاتب الحب والمودة والشفقة لابنه كي يستجيب له."
+                        },
+                        {
+                            "id": 28208,
+                            "text": "نوع الكاتب الموضوعات داخل النصيحة لدفع الملل."
+                        },
+                        {
+                            "id": 28209,
+                            "text": "طلب الكاتب رأي ابنه في نصائحه ومدى قبوله لها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7058,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:14.0pt; font-family:\"Hacen Eltaroute Text\";mso-ascii-font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";mso-hansi-font-family:\"Hacen Tunisia Bd\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>اختلف طه حسين عن الكاتب وذكرياته في واحدة مما يلي :</span></p> </p>",
+                    "image_url": "https://i.ibb.co/TDD1h3vX/1737316399-XKn6-Gd.png",
+                    "answers": [
+                        {
+                            "id": 28210,
+                            "text": "حقيقة المرعبات والمؤذيات؛ فطه يعاني واقعًا أليمًا، أما الكاتب فيروى أحلامًا ومنامات."
+                        },
+                        {
+                            "id": 28211,
+                            "text": "بشدة الأذى الذي تعرضا له؛ فأذى الكاتب حقيقي وأشد ألمًا من أذى طه وأكثر واقعية."
+                        },
+                        {
+                            "id": 28212,
+                            "text": "مدى استمتاع الكاتبين بالأذى؛ فالكاتب يستمتع بالأصوات المرعبة، أما طه فخائف منها."
+                        },
+                        {
+                            "id": 28213,
+                            "text": "الوقت الذي يتعرضان فيه للأذى؛ فطه تعرض للأذى عصرًا، بينما تعرض الكاتب ليلًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7059,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Bold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«إن أهم ما يُقدَّم إلى الأبناء منذ الصغر هو تذليل صعوبات التعلم لديهم، بتشخيص الداء وتعاطي الدواء بوعي ودراية». <br/></span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Lama Sans Bold\";mso-fareast-font-family:\"Times New Roman\"; color:#058BA9;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>حدِّد – مِمَّا يلي – التفصيلة التي يجدر بالكاتب حذفها؛ لتكون كتابته وثيقة الصلة</span> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Lama Sans Bold\"; mso-fareast-font-family:\"Times New Roman\";color:#058BA9;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\">   </span>بمضمون الفقرة السابقة: </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 28214,
+                            "text": "لعل الخطوة الأهم في التعامل مع صعوبات التعلم هي التشخيص وبناء برنامج علاجي ملائم لاحتياجات الأبناء وقدراتهم."
+                        },
+                        {
+                            "id": 28215,
+                            "text": "إن تعاون الأهل والمختصين في التعرف على ما يناسب الناشئة يعد حجر الزاوية في تقدم الطلاب خلال طريقهم الدراسي بسهولة ويسر."
+                        },
+                        {
+                            "id": 28216,
+                            "text": "إن تعليم الأبناء في الصغر قد يكون أدعى إلى إكسابهم الجلد والمثابرة، بل والصبر على وقت التعلم وإن طالت مدته، فيبقى عودهم، وتشتد همتهم."
+                        },
+                        {
+                            "id": 28217,
+                            "text": "إن أنظمة التعليم التي تعتريها السآمة وتفتقد إلى الترفيه، ويغيب عن مناهجها الشغف والاستمتاع، وتكون مثقلة بالواجبات تحرم الطلاب طفولتهم وتعيق تعلمهم."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

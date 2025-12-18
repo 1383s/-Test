@@ -1,0 +1,604 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 312,
+                "title": "امتحان افتتاحي المحاضرة 13",
+                "lecture_id": 2115,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:48.672415Z",
+                "updated_at": "2025-11-27T02:08:48.672415Z"
+            },
+            "questions": [
+                {
+                    "id": 6824,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'>«</span><span lang=\"AR-SA\" style='font-size:20.0pt;line-height: 95%;font-family:\"Hacen Tunisia Bd\";color:#C00000;mso-no-proof:yes'>أنت العالي خلقًا</span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'>». </span><span dir=\"LTR\" style='font-size:11.0pt;mso-bidi-font-size:20.0pt;line-height:95%; font-family:\"Hacen Tunisia Bd\";color:#C00000'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>عند جعل العبارة لجمع المذكر السالم نقول:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/3WB01gv/1731516307-9-Gytra.png",
+                    "answers": [
+                        {
+                            "id": 27274,
+                            "text": "أنتن العاليات خلقًا."
+                        },
+                        {
+                            "id": 27275,
+                            "text": "أنتم الأعلَون خلقًا."
+                        },
+                        {
+                            "id": 27276,
+                            "text": "أنتم الأعلُون خلقًا."
+                        },
+                        {
+                            "id": 27277,
+                            "text": "أنتم العالون خلقًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 6825,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ملأ الله قلوبنا <u>صفاء</u></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'>».</span></p><p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'><span style=\"color: rgb(0, 112, 192); font-size: 20pt;\">عند تثنية ما تحته خط في الجملة السابقة حسب موضعه:</span> </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27278,
+                            "text": "صفويين."
+                        },
+                        {
+                            "id": 27279,
+                            "text": "صفاءين."
+                        },
+                        {
+                            "id": 27280,
+                            "text": "صفاوين."
+                        },
+                        {
+                            "id": 27281,
+                            "text": "الثانية والثالثة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6826,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span style='font-size: 16pt; line-height: 95%; font-family: \"SKR ANAS\";'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'> </span></span><!--[endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span lang=\"AR-SA\" style='font-size:20.0pt;line-height: 95%;font-family:\"Hacen Tunisia Bd\";color:#C00000;mso-no-proof:yes'>اقتدت الأخت الصغرى بمن تكبرها حياءً واجتهادًا</span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'>». </span><span dir=\"LTR\" style='font-size:11.0pt;mso-bidi-font-size:20.0pt; line-height:95%;font-family:\"Hacen Tunisia Bd\";color:#C00000'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>بين – مما يلي – التغيير الصحيح عند جعل العبارة للمثنى المؤنث.</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27282,
+                            "text": "الصغريان."
+                        },
+                        {
+                            "id": 27283,
+                            "text": "الصغرتين."
+                        },
+                        {
+                            "id": 27284,
+                            "text": "الصغرتان."
+                        },
+                        {
+                            "id": 27285,
+                            "text": "الصغريين."
+                        }
+                    ]
+                },
+                {
+                    "id": 6827,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span style='font-size: 16pt; line-height: 95%; font-family: \"SKR ANAS\";'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'>  </span></span><!--[endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«</span><span lang=\"AR-SA\" style='font-size:20.0pt;line-height: 95%;font-family:\"Hacen Tunisia Bd\";color:#C00000;mso-no-proof:yes'>سبَّني الحقود</span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'>». </span><span dir=\"LTR\" style='font-size:11.0pt;mso-bidi-font-size:20.0pt;line-height:95%; font-family:\"Hacen Tunisia Bd\";color:#C00000'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>عند بناء الجملة للمجهول تصبح:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27286,
+                            "text": "سَبيتُ."
+                        },
+                        {
+                            "id": 27287,
+                            "text": "سَبيت الحقود."
+                        },
+                        {
+                            "id": 27288,
+                            "text": "سُبِبْتُ."
+                        },
+                        {
+                            "id": 27289,
+                            "text": "سُب الحقود."
+                        }
+                    ]
+                },
+                {
+                    "id": 6828,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الكلمة الصحيحة مكان النقط</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Hacen Tunisia Bd\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/rwSZGdZ/1731516392-v-IR5ka.png",
+                    "answers": [
+                        {
+                            "id": 27290,
+                            "text": "آباؤهم."
+                        },
+                        {
+                            "id": 27291,
+                            "text": "آباءهم."
+                        },
+                        {
+                            "id": 27292,
+                            "text": "آبائهم."
+                        },
+                        {
+                            "id": 27293,
+                            "text": "أبيهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6829,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'>حدد مما يلي العبارة التي اشتملت على مصدر ميمي.</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27294,
+                            "text": "شاطئ النيل موقف القيادة العائمة."
+                        },
+                        {
+                            "id": 27295,
+                            "text": "موقف السيارات العامة آخر الطريق."
+                        },
+                        {
+                            "id": 27296,
+                            "text": "القيلولة موقف العمال عن عملهم."
+                        },
+                        {
+                            "id": 27297,
+                            "text": "موقف الناقد مع الإنصاف مطلب ملحٌ."
+                        }
+                    ]
+                },
+                {
+                    "id": 6830,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'>«لا شك أنَّ تنمية العلاقات الاجتماعية بعيدًا عن الأمور الخلافية لها آثارًا إيجابية في تهذيب الشخصية».</span><span dir=\"LTR\" style='font-size: 11.0pt;mso-bidi-font-size:20.0pt;line-height:95%;font-family:\"Hacen Tunisia Bd\"; color:#C00000'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>ميز المصدر الصناعي الوارد في العبارة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27298,
+                            "text": "الشخصية."
+                        },
+                        {
+                            "id": 27299,
+                            "text": "الاجتماعية."
+                        },
+                        {
+                            "id": 27300,
+                            "text": "الخلافية."
+                        },
+                        {
+                            "id": 27301,
+                            "text": "إيجابية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6831,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span style='font-size: 16pt; line-height: 95%; font-family: \"SKR ANAS\";'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'> </span></span><!--[endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«يصون الأباء  حق أبنائهم».</span><span dir=\"LTR\" style='font-size:11.0pt;mso-bidi-font-size:20.0pt;line-height:95%; font-family:\"Hacen Tunisia Bd\";color:#C00000'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>عند صياغة اسم مفعول عامل من الفعل في الجملة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27302,
+                            "text": "أمصون حقَ أبناءهم؟"
+                        },
+                        {
+                            "id": 27303,
+                            "text": "أمصون حقُ أبنائهم؟"
+                        },
+                        {
+                            "id": 27304,
+                            "text": "أمصين حقُ أبناءهم؟"
+                        },
+                        {
+                            "id": 27305,
+                            "text": "أمصان حقُ أبنائهم؟"
+                        }
+                    ]
+                },
+                {
+                    "id": 6832,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span style='font-size: 16pt; line-height: 95%; font-family: \"SKR ANAS\";'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'> </span></span><!--[endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«اصطفَّ الجند بحماس ..................توقيرًا لقائدهم».</span><span dir=\"LTR\" style='font-size:11.0pt;mso-bidi-font-size:20.0pt;line-height:95%; font-family:\"Hacen Tunisia Bd\";color:#C00000'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>املأ الفراغ بالسم مرة من الفعل (اصطفَّ).</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27306,
+                            "text": "اصطفافًا."
+                        },
+                        {
+                            "id": 27307,
+                            "text": "اصطفيفة."
+                        },
+                        {
+                            "id": 27308,
+                            "text": "اصطفافة."
+                        },
+                        {
+                            "id": 27309,
+                            "text": "اصطفافًا واحدًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 6833,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'>وردت كلمة «منشار» اسم آلة في الجمل التالية ما عدا جملة واحدة هي:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27310,
+                            "text": "نستخدم المنشار لقطع الخشب."
+                        },
+                        {
+                            "id": 27311,
+                            "text": "لا تلعب يا بُني بالمنشار."
+                        },
+                        {
+                            "id": 27312,
+                            "text": "اشتريت منشارًا حادًّا."
+                        },
+                        {
+                            "id": 27313,
+                            "text": "هذا الرجل منشار للأخبار السارة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6834,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'>«تجاهل محمد إساءات الأصدقاء».</span><span dir=\"LTR\" style='font-size:11.0pt;mso-bidi-font-size:20.0pt;line-height:95%;font-family: \"Hacen Tunisia Bd\";color:#C00000'><o:p></o:p></span></p><p> </p><p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:40.5pt;text-indent:-.25in; line-height:95%;mso-list:l1 level1 lfo2\"><!--[if !supportLists]--><span style='font-size:20.0pt;mso-bidi-font-size:15.0pt;line-height:95%;font-family: \"Segoe UI Symbol\",sans-serif;mso-fareast-font-family:\"Segoe UI Symbol\"; mso-bidi-font-family:\"Segoe UI Symbol\";color:#0070C0'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'>  </span></span><!--[endif]--><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size: 11.0pt;line-height:95%;font-family:\"Hacen Tunisia Bd\";color:#0070C0'>عند بناء الجملة السابقة للمجهول تصبح:</span><span lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;line-height:95%;font-family:\"Hacen Tunisia Bd\"; color:#C00000'><o:p></o:p></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27314,
+                            "text": "تُجوهل الأصدقاء."
+                        },
+                        {
+                            "id": 27315,
+                            "text": "تُجوهل محمد."
+                        },
+                        {
+                            "id": 27316,
+                            "text": "تُجوهلت إساءات الأصدقاء."
+                        },
+                        {
+                            "id": 27317,
+                            "text": "تجاهل الأصدقاء."
+                        }
+                    ]
+                },
+                {
+                    "id": 6835,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'>وردت كلمة «مستخرج» اسم مكان في جملة واحدة مما يلي:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27318,
+                            "text": "علم المواريث مستخرج من القرآن."
+                        },
+                        {
+                            "id": 27319,
+                            "text": "القرآن الكريم مستخرج الأحكام الشرعية."
+                        },
+                        {
+                            "id": 27320,
+                            "text": "الصيف مستخرج الغاز."
+                        },
+                        {
+                            "id": 27321,
+                            "text": "ما أصعب مستخرج البترول من الصحراء."
+                        }
+                    ]
+                },
+                {
+                    "id": 6836,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'>عند صياغة اسم التفضيل من الفعل «لا يهمل» تكون:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27322,
+                            "text": "الكسول أهمل إنسان."
+                        },
+                        {
+                            "id": 27323,
+                            "text": "ما أكثر إهمال الكسول."
+                        },
+                        {
+                            "id": 27324,
+                            "text": "المجتهد لا يهمل."
+                        },
+                        {
+                            "id": 27325,
+                            "text": "المجتهد أجدر ألا يهمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 6837,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;text-indent:-.25in;line-height:95%; mso-list:l0 level1 lfo1\"><span style='font-size: 16pt; line-height: 95%; font-family: \"SKR ANAS\";'><span style='font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: \"Times New Roman\";'> </span></span><!--[endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span lang=\"AR-SA\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>«من وضع الحمل الثقيل عن يديه أراح نفسه، ومن أمن عدوه ثلج صدره».</span><span dir=\"LTR\" style='font-size: 20pt; line-height: 95%; font-family: \"Hacen Tunisia Bd\";'><o:p></o:p></span></p><p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>حدِّد الإعراب الصحيح لكلمة «صدره» في الجملة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27326,
+                            "text": "فاعل مرفوع بالضمة."
+                        },
+                        {
+                            "id": 27327,
+                            "text": "مفعول به منصوب بالفتحة."
+                        },
+                        {
+                            "id": 27328,
+                            "text": "نائب فاعل مرفوع بالضمة."
+                        },
+                        {
+                            "id": 27329,
+                            "text": "مضاف إليه مجرور بالكسرة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6838,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدِّد المحل الإعرابي للمصدر المؤول في البيت السابق:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/SNPcky4/1731519773-ud1cpk.png",
+                    "answers": [
+                        {
+                            "id": 27330,
+                            "text": "رفع فاعل."
+                        },
+                        {
+                            "id": 27331,
+                            "text": "رفع مبتدأ."
+                        },
+                        {
+                            "id": 27332,
+                            "text": "رفع خبر."
+                        },
+                        {
+                            "id": 27333,
+                            "text": "نصب مفعول به."
+                        }
+                    ]
+                },
+                {
+                    "id": 6839,
+                    "text": "<p> <div><span style='color: rgb(0, 112, 192); font-family: \"Hacen Tunisia Bd\"; font-size: 20pt;'>توقع الخاصية التي تميز القصة القصيرة عند تحقق العبارة السابقة:</span></div> </p>",
+                    "image_url": "https://i.ibb.co/TvxFNHb/1731519589-Wjbx-M6.png",
+                    "answers": [
+                        {
+                            "id": 27334,
+                            "text": "القصر الشديد؛ للاقتصاد الواضح في الوصف والحوار."
+                        },
+                        {
+                            "id": 27335,
+                            "text": "تصبح كالكائن الحي له وحدة عضوية وشخصية تميزه."
+                        },
+                        {
+                            "id": 27336,
+                            "text": "استخدام مستوى لغوي واحد لكل الشخصيات والأحداث."
+                        },
+                        {
+                            "id": 27337,
+                            "text": "تحقيق مبدأ التشويق والإثارة فيجعل القارئ متابعًا للحدث."
+                        }
+                    ]
+                },
+                {
+                    "id": 6840,
+                    "text": "<p> <p class=\"MsoNormal\" dir=\"RTL\" style=\"margin-right:28.3pt;text-align:justify; text-justify:kashida;text-kashida:0%;line-height:95%\"><span style='color: rgb(0, 112, 192); font-family: \"Hacen Tunisia Bd\"; font-size: 20pt; text-align: right;'>استنتج من خلال المقولة السابقة الفارق الحاسم بين الرواية والقصة القصيرة</span></p> </p>",
+                    "image_url": "https://i.ibb.co/tmGxWh9/1731519703-1-UBpl7.png",
+                    "answers": [
+                        {
+                            "id": 27338,
+                            "text": "المدى الزمني في كل منهما."
+                        },
+                        {
+                            "id": 27339,
+                            "text": "طبيعة الشخصيات في كل منهما."
+                        },
+                        {
+                            "id": 27340,
+                            "text": "طبيعة البناء الفني لكل منهما."
+                        },
+                        {
+                            "id": 27341,
+                            "text": "طبيعة المكان في كل منهما."
+                        }
+                    ]
+                },
+                {
+                    "id": 6841,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 20pt; font-family: \"Hacen Tunisia Bd\";'>تعد الرواية فنَّا مطولاً ومفصلاً فما الدليل على ذلك؟</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 27342,
+                            "text": "يمكن حذف بعض مشاهدها."
+                        },
+                        {
+                            "id": 27343,
+                            "text": "تعرض المشكلة بالتفصيل."
+                        },
+                        {
+                            "id": 27344,
+                            "text": "أن عدد كلماتها محدود ومتنوع."
+                        },
+                        {
+                            "id": 27345,
+                            "text": "تقدم الحل وتندرج في عرض الأحداث."
+                        }
+                    ]
+                },
+                {
+                    "id": 6842,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>استنتج الفترة التي عُرفت فيها أبحاث «مندل» طريقها للنور كما تفهم من المقال.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/rHTp5sf/1731593465-wr-Qkck.png",
+                    "answers": [
+                        {
+                            "id": 27346,
+                            "text": "بدايات القرن التاسع عشر."
+                        },
+                        {
+                            "id": 27347,
+                            "text": "نهايات القرن التاسع عشر."
+                        },
+                        {
+                            "id": 27348,
+                            "text": "بدايات القرن العشرين."
+                        },
+                        {
+                            "id": 27349,
+                            "text": "أواخر القرن العشرين."
+                        }
+                    ]
+                },
+                {
+                    "id": 6843,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>يستطيع العالم والناجح تغيير المحنة لمنحة، فدلل على ذلك من خلال فهمك للمقال السابق.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/rHTp5sf/1731593465-wr-Qkck.png",
+                    "answers": [
+                        {
+                            "id": 27350,
+                            "text": "نشأة مندل الفقيرة والبئية الريفية التي تربى فيها والتي لم تعقه عن استكمال دراسته."
+                        },
+                        {
+                            "id": 27351,
+                            "text": "فشل مندل الدراسي وإصراره على تحقيق حلمه وإثبات تجاربه."
+                        },
+                        {
+                            "id": 27352,
+                            "text": "غض العالم نظره عن أبحاث مندل وظهورها وشهرتها أمام إصراره وتفوقه."
+                        },
+                        {
+                            "id": 27353,
+                            "text": "دراسة مندل للعلوم والرياضيات رغم التحاقه بدير ومركز ديني."
+                        }
+                    ]
+                },
+                {
+                    "id": 6844,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>بم تفسر: «لم تلق أبحاث مندل في بدايتها النجاح المنشود؟».</span></p> </p>",
+                    "image_url": "https://i.ibb.co/rHTp5sf/1731593465-wr-Qkck.png",
+                    "answers": [
+                        {
+                            "id": 27354,
+                            "text": "وفاة صاحبها مبكرًا وغيابه."
+                        },
+                        {
+                            "id": 27355,
+                            "text": "لعدم تبني العلماء لها أو تأكيد صحتها."
+                        },
+                        {
+                            "id": 27356,
+                            "text": "لاهتمام العالم بأبحاث داروين ونظريته."
+                        },
+                        {
+                            "id": 27357,
+                            "text": "لتخليه عن بعضها وإثبات عدم صحتها."
+                        }
+                    ]
+                },
+                {
+                    "id": 6845,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>استنتج الرسالة المتضمنة في قول الكاتب: «ويعد أبًا لعلم الوراثة» في الفقرة الأولى:</span></p> </p>",
+                    "image_url": "https://i.ibb.co/rHTp5sf/1731593465-wr-Qkck.png",
+                    "answers": [
+                        {
+                            "id": 27358,
+                            "text": "ممهد السبيل لعلماء الأحياء من أجل اكتشاف الغوامض."
+                        },
+                        {
+                            "id": 27359,
+                            "text": "أنار الطريق لمن جاء بعده من المهتمين بالوارثه."
+                        },
+                        {
+                            "id": 27360,
+                            "text": "ضبط قواعد علم الوراثة وحدَّد علاقته بالعلوم الأخرى."
+                        },
+                        {
+                            "id": 27361,
+                            "text": "رائد للعلوم المتباينة وهو الخيط الرابط بينها."
+                        }
+                    ]
+                },
+                {
+                    "id": 6846,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><b><span dir=\"RTL\" style='font-size:20.0pt;font-family:\"KFGQPC Uthman Taha Naskh\"; mso-ascii-font-family:\"Times New Roman\";mso-fareast-font-family:\"Times New Roman\"; mso-hansi-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-EG'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> </span></b><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>ميِّز – مما يلي - المغزى الضمني المستنتج من الفقرة الأخيرة.  </span></p> </p>",
+                    "image_url": "https://i.ibb.co/rHTp5sf/1731593465-wr-Qkck.png",
+                    "answers": [
+                        {
+                            "id": 27362,
+                            "text": "عدم استفادة البشرية من نظرية داروين إذا ما قورنت ببحوث مندل."
+                        },
+                        {
+                            "id": 27363,
+                            "text": "عدم استطاعة مندل منافسة داروين في السيطرة على العلم."
+                        },
+                        {
+                            "id": 27364,
+                            "text": "عرف الناس قدر مندل متأخرًا في العصر الحديث بعد فوات الأوان."
+                        },
+                        {
+                            "id": 27365,
+                            "text": "عندما عُثر على علم مندل وبحوثه كان فيها الخير الكثير للبشرية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6847,
+                    "text": "<p> <span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>عيِّن – من خلال الموضوع – وجه الارتباط بين الأمشاج والجينات.</span> </p>",
+                    "image_url": "https://i.ibb.co/rHTp5sf/1731593465-wr-Qkck.png",
+                    "answers": [
+                        {
+                            "id": 27366,
+                            "text": "الجينات الملساء تنتج عن الجينات الملساء."
+                        },
+                        {
+                            "id": 27367,
+                            "text": "الجينات تنتقل بسبب امتزاج الأمشاج ببعضها."
+                        },
+                        {
+                            "id": 27368,
+                            "text": "الأمشاج تنتج عن اتحاد الجينات مع بعضها."
+                        },
+                        {
+                            "id": 27369,
+                            "text": "الأمشاج والجينات يكمل بعضها البعض."
+                        }
+                    ]
+                },
+                {
+                    "id": 6848,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>وازن بين تعبير طه حسين والعقاد عن مكانة العلماء والأدباء.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/mtt8YNs/1731520197-W1-Tl-YJ.png",
+                    "answers": [
+                        {
+                            "id": 27370,
+                            "text": "كان العقاد وطه حسين آسفين لوضعهم المهمل في المجتمع، فقد عبرا عن أهمية دورهم في النهوض بالمجتمع."
+                        },
+                        {
+                            "id": 27371,
+                            "text": "استعرض طه حسين نماذج واقعية حية صورت إجلاله لهم، في حين استغرق العقاد في بيان ما يقدمونه من خدمات جليلة."
+                        },
+                        {
+                            "id": 27372,
+                            "text": "نادى طه حسين بضرورة توقير العلماء بكل مكان، وحلَّق العقاد بخياله في تصوير مكانتهم اللائقة بهم."
+                        },
+                        {
+                            "id": 27373,
+                            "text": "كان طه حسين موضوعيًا فى حسن استعرض مكانتهم في القرى والمدن وما بينهما من تباين، أما العقاد فقد كان ذاتيًا في سعيه ليتبوأ الأدباء المكانة العليا بالمجتمع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6849,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Hacen Tunisia Bd\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>حدد مما يلي الترتيب الصحيح لفقرات الخبر السابق إذا ما كتبه المحرر وفق نموذج الإجمال التفصيل.</span></p> </p>",
+                    "image_url": "https://i.ibb.co/qBDNrKq/1731520291-5j-XB6-M.png",
+                    "answers": [
+                        {
+                            "id": 27374,
+                            "text": "1 -2 - 4 - 3."
+                        },
+                        {
+                            "id": 27375,
+                            "text": "2 -3 -4 -1"
+                        },
+                        {
+                            "id": 27376,
+                            "text": "4 - 3- 1- 2."
+                        },
+                        {
+                            "id": 27377,
+                            "text": "4 - 1 - 3 - 2."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

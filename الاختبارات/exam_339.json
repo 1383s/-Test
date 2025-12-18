@@ -1,0 +1,861 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 339,
+                "title": "واجب المحاضرة الثانية - 3ث",
+                "lecture_id": 3319,
+                "duration_minutes": 180,
+                "order_index": 2,
+                "created_at": "2025-11-27T18:26:50.394176Z",
+                "updated_at": "2025-11-27T18:26:50.394176Z"
+            },
+            "questions": [
+                {
+                    "id": 7598,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن حكم تقديم الخبرين الواردين في الشطر الأول على الترتيب:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/2f83c6e947ad2ad09b74c77d25a0a3512e98af942652.jpg",
+                    "answers": [
+                        {
+                            "id": 30370,
+                            "text": "جائز - جائز."
+                        },
+                        {
+                            "id": 30371,
+                            "text": "جائز - واجب."
+                        },
+                        {
+                            "id": 30372,
+                            "text": "واجب - جائز."
+                        },
+                        {
+                            "id": 30373,
+                            "text": "واجب - واجب."
+                        }
+                    ]
+                },
+                {
+                    "id": 7599,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>المحذوف في البيت السابق هو:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/3886d8c70c91e5374ce7c52662bb221f3dfe84de2a48.jpg",
+                    "answers": [
+                        {
+                            "id": 30374,
+                            "text": "المبتدأ وجوبًا."
+                        },
+                        {
+                            "id": 30375,
+                            "text": "الخبر جوازًا."
+                        },
+                        {
+                            "id": 30376,
+                            "text": "الخبر وجوبًا."
+                        },
+                        {
+                            "id": 30377,
+                            "text": "المبتدأ جوازًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7600,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز الجملة التي اشتملت على</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>مبتدأ محذوف وجوبًا:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30378,
+                            "text": "لولا تقدم التكنولوجيا لاختلفت حياتنا كثيرًا."
+                        },
+                        {
+                            "id": 30379,
+                            "text": "يمين الله لأتمسكنَّ بديني أينما حللت."
+                        },
+                        {
+                            "id": 30380,
+                            "text": "نعم ما يتصف به المؤمن حسن الخلق."
+                        },
+                        {
+                            "id": 30381,
+                            "text": "لا تكثر الجدال، كل شيخ وطريقته."
+                        }
+                    ]
+                },
+                {
+                    "id": 7601,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>إعراب «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>آمر</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» وحكم تقديم الخبر:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/1b88a79864a3450ed59838b3e13e89b55f8ca3caa5ef.jpg",
+                    "answers": [
+                        {
+                            "id": 30382,
+                            "text": "خبر - جوازًا."
+                        },
+                        {
+                            "id": 30383,
+                            "text": "مبتدأ - جوازًا."
+                        },
+                        {
+                            "id": 30384,
+                            "text": "خبر - وجوبًا."
+                        },
+                        {
+                            "id": 30385,
+                            "text": "مبتدأ - وجوبًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7602,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد خبر المبتدأ ونوعه في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a27da30d267c9160a5688aa435ddcc5ec364560fb741.jpg",
+                    "answers": [
+                        {
+                            "id": 30386,
+                            "text": "ابن أنثى – جملة اسمية."
+                        },
+                        {
+                            "id": 30387,
+                            "text": "محمول – مفرد."
+                        },
+                        {
+                            "id": 30388,
+                            "text": "طالت سلامته – جملة فعلية."
+                        },
+                        {
+                            "id": 30389,
+                            "text": "يومًا – شبه جملة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7603,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\">  </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>(كل فرد يقومُ بعمله، فالطالب وكتابه، والمعلم وفصله).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-EG'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>المحذوف من المقولة السابقة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30390,
+                            "text": "الخبر وتقديره «موجود»."
+                        },
+                        {
+                            "id": 30391,
+                            "text": "الخبر وتقديره «قسمي»."
+                        },
+                        {
+                            "id": 30392,
+                            "text": "الفاعل وتقديره «موجود»."
+                        },
+                        {
+                            "id": 30393,
+                            "text": "الخبر وتقديره «متلازمان»."
+                        }
+                    ]
+                },
+                {
+                    "id": 7604,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>(أحترم الطلاب لا سيما المخلصُ). <span style=\"color:#0070C0\">إعراب «</span><span style=\"color:#FF3399\">المخلصُ</span><span style=\"color:#0070C0\">» في العبارة السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30394,
+                            "text": "خبر لمبتدأ محذوف وجوبًا."
+                        },
+                        {
+                            "id": 30395,
+                            "text": "مبتدأ وخبره محذوف وجوبًا."
+                        },
+                        {
+                            "id": 30396,
+                            "text": "خبر لمبتدأ محذوف جوازًا."
+                        },
+                        {
+                            "id": 30397,
+                            "text": "مبتدأ وخبره محذوف جوازًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7605,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>إعراب ما تحته خط في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/b93624a3e8ef6bc842af7dc44ea8a0e605a900c9d848.jpg",
+                    "answers": [
+                        {
+                            "id": 30398,
+                            "text": "مبتدأ مرفوع بالضمة."
+                        },
+                        {
+                            "id": 30399,
+                            "text": "خبر لمبتدأ محذوف جوازًا مرفوع بالضمة."
+                        },
+                        {
+                            "id": 30400,
+                            "text": "خبر لمبتدأ محذوف وجوبًا مرفوع بالضمة."
+                        },
+                        {
+                            "id": 30401,
+                            "text": "فاعل مرفوع بالضمة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7606,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>المحذوف في البيت السابق هو:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/492632e888eda1d2f54c597faea14166c2c946712161.jpg",
+                    "answers": [
+                        {
+                            "id": 30402,
+                            "text": "المبتدأ وجوبًا تقديره «قسمي»."
+                        },
+                        {
+                            "id": 30403,
+                            "text": "الخبر وجوبًا تقديره «متلازمان»."
+                        },
+                        {
+                            "id": 30404,
+                            "text": "الخبر وجوبًا تقديره «موجود»."
+                        },
+                        {
+                            "id": 30405,
+                            "text": "الخبر وجوبًا تقديره «قسمي»."
+                        }
+                    ]
+                },
+                {
+                    "id": 7607,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>(بحياتي قسم لأخْدُمَن العدالة). <span style=\"color:#0070C0\">لتصويب الخطأ نقول:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30406,
+                            "text": "بحياتي قسم لأخدُم العدالة."
+                        },
+                        {
+                            "id": 30407,
+                            "text": "بحياتي لأخدُمَنَّ العدالة."
+                        },
+                        {
+                            "id": 30408,
+                            "text": "بحياتي يمين لأخدُمَنَّ العدالة."
+                        },
+                        {
+                            "id": 30409,
+                            "text": "بحياتي قسم أخدُم العدالة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7608,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span>(العمل جميل أثره) </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> (العمل أثره جميل). <span style=\"color:#0070C0\">ميِّز </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> على الترتيب </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> نوع الخبر في كل عبارة:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30410,
+                            "text": "مفرد – جملة."
+                        },
+                        {
+                            "id": 30411,
+                            "text": "جملة – مفرد."
+                        },
+                        {
+                            "id": 30412,
+                            "text": "شبه جملة – مفرد."
+                        },
+                        {
+                            "id": 30413,
+                            "text": "جملة – شبه جملة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7609,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد خبر المبتدأ ونوعه في الجملة السابقة:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/252b563c545d821ba953c8c579224bc7361baca6bb52.jpg",
+                    "answers": [
+                        {
+                            "id": 30414,
+                            "text": "شرف – مفرد."
+                        },
+                        {
+                            "id": 30415,
+                            "text": "عاد منتصرًا – جملة فعلية."
+                        },
+                        {
+                            "id": 30416,
+                            "text": "من مثلها – شبه جملة."
+                        },
+                        {
+                            "id": 30417,
+                            "text": "من مثلها انهزما – جملة اسمية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7610,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\">  </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>قال رسول الله</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 17pt; font-family: Somar;\"><font color=\"#ff33cc\"> (صلى الله عليه وسلم)</font></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#FF3399; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>«من حسن إسلام المرء <u><span style=\"color:#FF3399\">تركه</span></u> ما لا يعينه».<span style=\"color:#0070C0\"><span style=\"mso-spacerun:yes\">   </span>إعراب ما تحته خط:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30418,
+                            "text": "فاعل لفعل محذوف."
+                        },
+                        {
+                            "id": 30419,
+                            "text": "مبتدأ مؤخر."
+                        },
+                        {
+                            "id": 30420,
+                            "text": "خبر لمبتدأ."
+                        },
+                        {
+                            "id": 30421,
+                            "text": "فعل ماضٍ مبني على الفتح."
+                        }
+                    ]
+                },
+                {
+                    "id": 7611,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\">  </span>(ثَمَّ آراء كثيرة تُحترم). <span style=\"color:#0070C0\">نوع الخبر في الجملة السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30422,
+                            "text": "مفرد."
+                        },
+                        {
+                            "id": 30423,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 30424,
+                            "text": "جملة فعلية."
+                        },
+                        {
+                            "id": 30425,
+                            "text": "شبه جملة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7612,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد خبر المبتدأ في الجملة السابقة ونوعه:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/22aa5abd54b9bcebb4ae03972a1d406f467d0277b458.jpg",
+                    "answers": [
+                        {
+                            "id": 30426,
+                            "text": "ما ترك – جملة فعلية."
+                        },
+                        {
+                            "id": 30427,
+                            "text": "الكبير – مفرد."
+                        },
+                        {
+                            "id": 30428,
+                            "text": "بذكره – شبه جملة."
+                        },
+                        {
+                            "id": 30429,
+                            "text": "مآثر – مفرد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7613,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> ممَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> سبب رفع كلمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>منزلةٌ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/aa92636d304ccc1e896e0e140e8d062b29a0267d882e.jpg",
+                    "answers": [
+                        {
+                            "id": 30430,
+                            "text": "مبتدأ مؤخر."
+                        },
+                        {
+                            "id": 30431,
+                            "text": "فاعل."
+                        },
+                        {
+                            "id": 30432,
+                            "text": "خبر."
+                        },
+                        {
+                            "id": 30433,
+                            "text": "نعت."
+                        }
+                    ]
+                },
+                {
+                    "id": 7614,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>ميِّز </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> حكم تقديم الخبر على المبتدأ في الشطر الأول:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/146bfd30d53e89fc22208a3013659934227229d10477.jpg",
+                    "answers": [
+                        {
+                            "id": 30434,
+                            "text": "واجب التقديم."
+                        },
+                        {
+                            "id": 30435,
+                            "text": "جائز التقديم."
+                        },
+                        {
+                            "id": 30436,
+                            "text": "نادر التقديم."
+                        },
+                        {
+                            "id": 30437,
+                            "text": "قليل التقديم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7615,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span><span lang=\"AR-SA\">قال تعالى: </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA'>﴿وَفَوْقَ كُلِّ ذِي عِلْمٍ عَلِيمٌ﴾. <span style=\"color:#0070C0;mso-no-proof:yes\">حكم تقديم الخبر على المبتدأ في الآية السابقة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30438,
+                            "text": "واجب."
+                        },
+                        {
+                            "id": 30439,
+                            "text": "جائز."
+                        },
+                        {
+                            "id": 30440,
+                            "text": "ممتنع."
+                        },
+                        {
+                            "id": 30441,
+                            "text": "قليل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7616,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:AR-SA;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\">  </span>حدِّد </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:AR-SA; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:AR-SA;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:AR-SA; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:AR-SA;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> الجملة التي اشتملت على مبتدأ مؤخر وجوبًا:</span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 30442,
+                            "text": "نعم العمل تحقيق السلام العادل."
+                        },
+                        {
+                            "id": 30443,
+                            "text": "أين ذهب السلام العادل؟"
+                        },
+                        {
+                            "id": 30444,
+                            "text": "حبذا تحقيق السلام العادل."
+                        },
+                        {
+                            "id": 30445,
+                            "text": "من أهم أمنياتنا تحقيق السلام العادل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7617,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>نوع الخبر للمبتدأ «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>نفس</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/b8eff4a6f3ad0c15023b7a45a108d56e1fc48bd011a8.jpg",
+                    "answers": [
+                        {
+                            "id": 30446,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 30447,
+                            "text": "جملة فعلية."
+                        },
+                        {
+                            "id": 30448,
+                            "text": "شبه جملة."
+                        },
+                        {
+                            "id": 30449,
+                            "text": "مفرد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7618,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد إعراب كلمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ضوءها</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>» في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/d435dab30646c0ac5e4d2efbe0540b93cb22a58b7633.jpg",
+                    "answers": [
+                        {
+                            "id": 30450,
+                            "text": "خبر."
+                        },
+                        {
+                            "id": 30451,
+                            "text": "مبتدأ."
+                        },
+                        {
+                            "id": 30452,
+                            "text": "بدل اشتمال."
+                        },
+                        {
+                            "id": 30453,
+                            "text": "بدل بعض من كل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7619,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>من خلال البيتين نستطيع أن نستنتج أنَّ القضية التي شغلت الكلاسيكيين هي:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/4ae7f059eeb71c2f501cfa32aa01cb9b01467e9efc51.jpg",
+                    "answers": [
+                        {
+                            "id": 30454,
+                            "text": "وحدة الأمة مسلمين وأقباط."
+                        },
+                        {
+                            "id": 30455,
+                            "text": "الاهتمام بالدستور."
+                        },
+                        {
+                            "id": 30456,
+                            "text": "حرية الصحافة والتعبير."
+                        },
+                        {
+                            "id": 30457,
+                            "text": "تعدد الأحزاب السياسية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7620,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج - من البيتين - سمة من سمات مدرسة الكلاسيكية الجديدة من حيث الموضوع:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/057cb2ae51c0b7d7f70090d7cf82dd3d4f7b7213558e.jpg",
+                    "answers": [
+                        {
+                            "id": 30458,
+                            "text": "الاهتمام بالناحية البيانية."
+                        },
+                        {
+                            "id": 30459,
+                            "text": "معالجة مشكلات العالم الإسلامي."
+                        },
+                        {
+                            "id": 30460,
+                            "text": "سلاسة الأسلوب وسهولته."
+                        },
+                        {
+                            "id": 30461,
+                            "text": "ترسيخ الإحساس بتراث الأجداد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7621,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>يعبر البيتان السابقان عن أحد أسباب التجديد لدى تلاميذ البارودي، وهو:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/b7b69ce1276e5cae2c33f1323f19b1563a71c3342e99.jpg",
+                    "answers": [
+                        {
+                            "id": 30462,
+                            "text": "تعدد الأحزاب السياسية."
+                        },
+                        {
+                            "id": 30463,
+                            "text": "ترسيخ الإحساس بالتراث."
+                        },
+                        {
+                            "id": 30464,
+                            "text": "وحدة الأمة مسلمين وأقباط."
+                        },
+                        {
+                            "id": 30465,
+                            "text": "التنديد بالاحتلال ومظالمه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7622,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج من البيتين عاملًا من العوامل التي دفعت تلاميذ البارودي إلى التجديد:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/6b9f0345e0fb1f3cc8326e1a6f97de6005682a06c757.jpg",
+                    "answers": [
+                        {
+                            "id": 30466,
+                            "text": "موقفهم من جوانب الإصلاح الاقتصادي."
+                        },
+                        {
+                            "id": 30467,
+                            "text": "النضال الوطني ضد المستعمر."
+                        },
+                        {
+                            "id": 30468,
+                            "text": "موقفهم من القصر الحاكم."
+                        },
+                        {
+                            "id": 30469,
+                            "text": "موقفهم من الدستور."
+                        }
+                    ]
+                },
+                {
+                    "id": 7623,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن السمة التي برزت في هذين البيتين من سمات التجديد عند الكلاسيكيين:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a67d5812d8ce5765481d0b89c6b800d4f193fe975709.jpg",
+                    "answers": [
+                        {
+                            "id": 30470,
+                            "text": "الميل إلى الحزن والألم واليأس والتشاؤم."
+                        },
+                        {
+                            "id": 30471,
+                            "text": "إفساح المجال لمزيد من التجارب الذاتية."
+                        },
+                        {
+                            "id": 30472,
+                            "text": "ابتكار معانٍ جديدة والتنويع في الأغراض."
+                        },
+                        {
+                            "id": 30473,
+                            "text": "الاهتمام بالبيان والاقتصار على المحاكاة."
+                        }
+                    ]
+                },
+                {
+                    "id": 7624,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> من خلال البيتين </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> سببًا من أسباب التجديد لدى تلامذة البارودي:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/88ff59c31c53ef884d18ce41b2d9603032527c961104.jpg",
+                    "answers": [
+                        {
+                            "id": 30474,
+                            "text": "حث الشعب على الثورة والنضال."
+                        },
+                        {
+                            "id": 30475,
+                            "text": "ترسيخ الإحساس بماضينا العريق."
+                        },
+                        {
+                            "id": 30476,
+                            "text": "الإيمان بفكرة الجامعة الإسلامية."
+                        },
+                        {
+                            "id": 30477,
+                            "text": "التنديد بالاحتلال ورفض مظالمه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7625,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>بيِّن السمة التي اتضحت في هذين البيتين من سمات مدرسة الإحياء والبعث:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/030d6b9bdaa6c33fd621008e3209d855cddb0e7ccf91.jpg",
+                    "answers": [
+                        {
+                            "id": 30478,
+                            "text": "طغيان البيانية على المعنى الشعري."
+                        },
+                        {
+                            "id": 30479,
+                            "text": "العناية بالتجارب الذاتية في شعرهم."
+                        },
+                        {
+                            "id": 30480,
+                            "text": "طغيان المناسبات على أشعارهم."
+                        },
+                        {
+                            "id": 30481,
+                            "text": "معالجة مشكلات المجتمع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7626,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج السمة التي برزت في البيتين من سمات مدرسة الإحياء والبعث، من حيث موضوعات شعرهم:<span style=\"mso-tab-count:1\">         </span></span><br/></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/ede7bedd2ad6fa4991f57277fe88085dca1422ebbffb.jpg",
+                    "answers": [
+                        {
+                            "id": 30482,
+                            "text": "الدعوة إلى الإصلاح الاجتماعي والاهتمام بالتعليم."
+                        },
+                        {
+                            "id": 30483,
+                            "text": "أفسحوا المجال لمزيد من التجارب الذاتية في شعرهم."
+                        },
+                        {
+                            "id": 30484,
+                            "text": "آمنوا بفكرة الجامعة الإسلامية كرمز لوحدة المسلمين."
+                        },
+                        {
+                            "id": 30485,
+                            "text": "اهتموا بالناحية البيانية وجلال الصياغة وروعة البيان."
+                        }
+                    ]
+                },
+                {
+                    "id": 7627,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>البيتان يكشفان سمة من السمات التي تميز بها شعر الإحياء والبعث:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/bd8527feab4f9649316c2b8414a2c204cd0087334d3a.jpg",
+                    "answers": [
+                        {
+                            "id": 30486,
+                            "text": "وضوح الجانب الفكري."
+                        },
+                        {
+                            "id": 30487,
+                            "text": "تأكيد العناية بالناحية البيانية."
+                        },
+                        {
+                            "id": 30488,
+                            "text": "العناية بقضايا المجتمع ومشكلاته."
+                        },
+                        {
+                            "id": 30489,
+                            "text": "العناية بشعر المناسبات والمجاملات."
+                        }
+                    ]
+                },
+                {
+                    "id": 7628,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>استنتج سمة ظهرت في هذين البيتين من سمات المدرسة الكلاسيكية من حيث الموضوع:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/dfd35f63cdccf7b2feadf4f097ad2ca60eb4638378f7.jpg",
+                    "answers": [
+                        {
+                            "id": 30490,
+                            "text": "اهتمام الشعراء بالإصلاح الاجتماعي والثقافي."
+                        },
+                        {
+                            "id": 30491,
+                            "text": "ترسيخ الإحساس بتراث الأجداد والماضي العريق."
+                        },
+                        {
+                            "id": 30492,
+                            "text": "التعبير عن تغير الحياة في الثقافة والتعليم."
+                        },
+                        {
+                            "id": 30493,
+                            "text": "معالجة مشكلات المجتمع والاقتراب من الجماهير."
+                        }
+                    ]
+                },
+                {
+                    "id": 7629,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>حدِّد </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> مِمَّا يلي </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 17.0pt;font-family:\"Courier New\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> ما يعبر عن رأيك في إظهار شعراء الإحياء والبعث دور الوعي في تحرير الوطن:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/0bcb3a1c3a671171338186672c83db1e84e4324e26ce.jpg",
+                    "answers": [
+                        {
+                            "id": 30494,
+                            "text": "لم يتحقق؛ فقد أبرز البيتان رغبة الشاعر في اتخاذ خطوات فاعلة في مواجهة استبداد المحتلين."
+                        },
+                        {
+                            "id": 30495,
+                            "text": "لم يتحقق؛ فقد أبرز البيتان رفض المصريين الظلم واعتزازهم بمصر الحرة نيلًا وسماءً وأرضًا."
+                        },
+                        {
+                            "id": 30496,
+                            "text": "تحقق؛ فقد أظهر البيتان التنديد بمظالم الاحتلال والتأكيد على قوة النضال الوطني في التصدي له."
+                        },
+                        {
+                            "id": 30497,
+                            "text": "تحقق؛ فقد أظهر البيتان تعدد مظالم الاحتلال الإنجليزي وإضعافه لكل مظهرٍ للمقاومة المصرية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7630,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt; font-family:Somar;mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>من خلال فهمك البيتين السابقين بيِّن إلى أي مدى تحققت سمة «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>العناية بقضايا المجتمع ومشكلاته</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في شعر تلامذة البارودي؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/406fd23216bed60b51abae54bbace94fc045c6562ea3.jpg",
+                    "answers": [
+                        {
+                            "id": 30498,
+                            "text": "لم تتحقق؛ لأن شعراء الإحياء والبعث التفتوا إلى أنفسهم ولم يهتموا بغيرهم."
+                        },
+                        {
+                            "id": 30499,
+                            "text": "تحققت؛ لأن شوقي اهتم بعلاج قضية الفقر لما فيها من مذلة ومهانة، ونادى بضـرورة توفير سُبُل للحياة الكريمة."
+                        },
+                        {
+                            "id": 30500,
+                            "text": "تحققت؛ لأن الشاعر قد اهتم بالحياة السياسية، وما فيها من تصارع بين الأحزاب."
+                        },
+                        {
+                            "id": 30501,
+                            "text": "لم تتحقق؛ لأن الشاعر قد تناول قضية الأخلاق وأهميتها في بناء أركان المجتمع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7631,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span><span lang=\"AR-SA\">نوع الصورة في قوله: «</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>ضَنَّ الزَّمانُ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>» في البيت الرابع: </span><br/></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/061432edb2dc4b6f7622454eb2530e04ca53f9deaaf0.jpg",
+                    "answers": [
+                        {
+                            "id": 30502,
+                            "text": "تشبيه."
+                        },
+                        {
+                            "id": 30503,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 30504,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 30505,
+                            "text": "مجاز مرسل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7632,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>نوع الصورة في البيت الأخير:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'> </span><br/></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a659d235ba373e179998d4b77dadecb50b4e41bc534d.jpg",
+                    "answers": [
+                        {
+                            "id": 30506,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 30507,
+                            "text": "تشبيه مُفصل."
+                        },
+                        {
+                            "id": 30508,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 30509,
+                            "text": "تشبيه مجمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7633,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>نوع الصورة في «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>كَأَنَّهُم كَلِمٌ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» في البيت الثاني:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'> </span><br/></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/54a390619b583556056a446a984d8dd53ab77b77b7b7.jpg",
+                    "answers": [
+                        {
+                            "id": 30510,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 30511,
+                            "text": "تشبيه مفصل."
+                        },
+                        {
+                            "id": 30512,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 30513,
+                            "text": "تشبيه مجمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7634,
+                    "text": "<p> <p> <style>  /* Style Definitions */  table.MsoNormalTable \t{mso-style-name:\"Table Normal\"; \tmso-tstyle-rowband-size:0; \tmso-tstyle-colband-size:0; \tmso-style-noshow:yes; \tmso-style-priority:99; \tmso-style-parent:\"\"; \tmso-padding-alt:0in 5.4pt 0in 5.4pt; \tmso-para-margin:0in; \tmso-pagination:widow-orphan; \tfont-size:10.0pt; \tfont-family:\"Times New Roman\",serif; \tmso-bidi-font-family:\"Traditional Arabic\";} </style> <![endif]--><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span style=\"mso-spacerun:yes\"> </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج القيمة الفنية في «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#FF3399;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>يا فارِسَ الشِعرِ وَالهَيجاءِ وَالجودِ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>»:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:17.0pt;font-family:Somar;mso-fareast-font-family:\"Times New Roman\"; color:#336600;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'> </span><br/></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/3543a6fd0ae2d28761f9e44927fa3dce9a55dd351732.jpg",
+                    "answers": [
+                        {
+                            "id": 30514,
+                            "text": "يوحي بالألفة والمحبة والأصالة."
+                        },
+                        {
+                            "id": 30515,
+                            "text": "يوحي بالبراعة الأدبية والشجاعة والعطاء."
+                        },
+                        {
+                            "id": 30516,
+                            "text": "يبرز فداحة الخطب بموت البارودي."
+                        },
+                        {
+                            "id": 30517,
+                            "text": "يوحي بالفصاحة وعذوبة الأسلوب ورقته."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

@@ -1,0 +1,424 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 302,
+                "title": "امتحان افتتاحي المحاضرة 2",
+                "lecture_id": 2104,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:25.861914Z",
+                "updated_at": "2025-11-27T02:08:25.861914Z"
+            },
+            "questions": [
+                {
+                    "id": 6544,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الفعل (</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:red;mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>انقضت</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>) ألفه وصل؛ لأنه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/qxywYH0/1724797731-pq-Dp-Yo.png",
+                    "answers": [
+                        {
+                            "id": 26154,
+                            "text": "أمر خماسي."
+                        },
+                        {
+                            "id": 26155,
+                            "text": "ماض خماسي."
+                        },
+                        {
+                            "id": 26156,
+                            "text": "ماض رباعي."
+                        },
+                        {
+                            "id": 26157,
+                            "text": "أمر ثلاثي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6545,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>عليك بالإستقامة والإعتدال في حياتك).<span style=\"color:#C00000\"> </span><span style=\"color:#00B0F0\">عند التصويب نقول:</span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26158,
+                            "text": "عليك بالإستقامة والاعتدال في حياتك."
+                        },
+                        {
+                            "id": 26159,
+                            "text": "عليك بالاستقامة والإعتدال في حياتك."
+                        },
+                        {
+                            "id": 26160,
+                            "text": "عليك بالأستقامة والاعتدال في حياتك."
+                        },
+                        {
+                            "id": 26161,
+                            "text": "عليك بالاستقامة والاعتدال في حياتك."
+                        }
+                    ]
+                },
+                {
+                    "id": 6546,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>أدركوا</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>قيمة الأشياء قبل زوالها).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط في العبارة السابقة همزته قطع؛ لأنه:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26162,
+                            "text": "أمر ثلاثي."
+                        },
+                        {
+                            "id": 26163,
+                            "text": "أمر رباعي."
+                        },
+                        {
+                            "id": 26164,
+                            "text": "ماض رباعي."
+                        },
+                        {
+                            "id": 26165,
+                            "text": "مضارع مبدوء بالهمزة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6547,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>ما<span style=\"color:#C00000\"> <u>أروعكِ</u> </span>يا لغة الضَّاد!). <span style=\"color:#0070C0\">ما تحته خط همزته قطع؛ لأنه:</span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26166,
+                            "text": "ماض ثلاثي."
+                        },
+                        {
+                            "id": 26167,
+                            "text": "أمر ثلاثي."
+                        },
+                        {
+                            "id": 26168,
+                            "text": "ماض رباعي."
+                        },
+                        {
+                            "id": 26169,
+                            "text": "أمر رباعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6548,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>قال تعالى: «</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>فَاعْفُ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'> عَنْهُمْ </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>وَاسْتَغْفِرْ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'> لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ». ما تحته </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>خط على الترتيب:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26170,
+                            "text": "همزته قطع؛ لأنه أمر رباعي – همزته وصل؛ لأنه ماضٍ سداسي."
+                        },
+                        {
+                            "id": 26171,
+                            "text": "همزته وصل؛ لأنه أمر ثلاثي – همزته وصل؛ لأنه أمر سداسي."
+                        },
+                        {
+                            "id": 26172,
+                            "text": "همزته وصل؛ لأنه أمر رباعي – همزته وصل؛ لأنه أمر خماسي."
+                        },
+                        {
+                            "id": 26173,
+                            "text": "همزته قطع؛ لأنه ماضٍ رباعي – همزته قطع؛ لأنه مصدر رباعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6549,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط ألفه وصل؛ لأنه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/D43ZTKw/1724831802-Nhtw-Gs.png",
+                    "answers": [
+                        {
+                            "id": 26174,
+                            "text": "أمر خماسي."
+                        },
+                        {
+                            "id": 26175,
+                            "text": "أمر رباعي."
+                        },
+                        {
+                            "id": 26176,
+                            "text": "ماض خماسي."
+                        },
+                        {
+                            "id": 26177,
+                            "text": "ماض سداسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6550,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يا طالبًا العلم، <u>أنصِت</u> إلى معلمك).</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#0070C0; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'> ما تحته خط همزته قطع؛ لأنه:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26178,
+                            "text": "أمر ثلاثي."
+                        },
+                        {
+                            "id": 26179,
+                            "text": "ماضٍ رباعي."
+                        },
+                        {
+                            "id": 26180,
+                            "text": "أمر رباعي."
+                        },
+                        {
+                            "id": 26181,
+                            "text": "أمر خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6551,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الفعل «أقم» في البيت السابق همزته قطع؛ لأنه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/Qr6yhLm/1724833416-k-PXSh-M.png",
+                    "answers": [
+                        {
+                            "id": 26182,
+                            "text": "أمر ثلاثي."
+                        },
+                        {
+                            "id": 26183,
+                            "text": "أمر رباعي."
+                        },
+                        {
+                            "id": 26184,
+                            "text": "ماض ثلاثي."
+                        },
+                        {
+                            "id": 26185,
+                            "text": "أمر خماسي"
+                        }
+                    ]
+                },
+                {
+                    "id": 6552,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#00B0F0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الاهتمام</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> بالعلم والحرص على إعلاء منزلته في المجتمع من </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#00B0F0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>أهم</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> ما تمليه علينا ضمائرنا).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط على الترتيب وصل وقطع؛ لأنه:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26186,
+                            "text": "مصدر رباعي – مصدر ثلاثي."
+                        },
+                        {
+                            "id": 26187,
+                            "text": "مصدر خماسي – فعل ثلاثي مهموز."
+                        },
+                        {
+                            "id": 26188,
+                            "text": "مصدر خماسي – اسم."
+                        },
+                        {
+                            "id": 26189,
+                            "text": "مصدر رباعي – فعل رباعي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6553,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>العلم والإيمان </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>أساسا</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> الحضارة).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط همزته قطع؛ لأنه:</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26190,
+                            "text": "مصدر رباعي."
+                        },
+                        {
+                            "id": 26191,
+                            "text": "مصدر سداسي."
+                        },
+                        {
+                            "id": 26192,
+                            "text": "مصدر خماسي."
+                        },
+                        {
+                            "id": 26193,
+                            "text": "اسم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6554,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>أيُّ </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>الجمل الآتية كُتِبَتْ بطريقة صحيحة؟</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26194,
+                            "text": "أتقان العمل أساس النجاح."
+                        },
+                        {
+                            "id": 26195,
+                            "text": "إتقان العمل اساس النجاح."
+                        },
+                        {
+                            "id": 26196,
+                            "text": "إتقان العمل أساس النجاح."
+                        },
+                        {
+                            "id": 26197,
+                            "text": "اتقان العمل أساس النجاح."
+                        }
+                    ]
+                },
+                {
+                    "id": 6555,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما تحته خط همزته قطع؛ لأنه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/qdRzy6W/1724839540-0-Sv-MHM.png",
+                    "answers": [
+                        {
+                            "id": 26198,
+                            "text": "ماض ثلاثي."
+                        },
+                        {
+                            "id": 26199,
+                            "text": "ماض خماسي."
+                        },
+                        {
+                            "id": 26200,
+                            "text": "ماض رباعي."
+                        },
+                        {
+                            "id": 26201,
+                            "text": "أمر خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6556,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>بيِّن نوع الصورة البيانية في قوله: «سهام اليأس»:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/wZnWFXh/1724839701-c-QYNv-H.png",
+                    "answers": [
+                        {
+                            "id": 26202,
+                            "text": "تشبيه مجمل."
+                        },
+                        {
+                            "id": 26203,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 26204,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 26205,
+                            "text": "استعارة مكنية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6557,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدد نوع التشبيه في البيت السابق كله:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/RPxXSxs/1724841966-bz-Vw-FI.png",
+                    "answers": [
+                        {
+                            "id": 26206,
+                            "text": "تشبيه مجمل."
+                        },
+                        {
+                            "id": 26207,
+                            "text": "تشبيه تمثيلي."
+                        },
+                        {
+                            "id": 26208,
+                            "text": "تشبيه مفصل."
+                        },
+                        {
+                            "id": 26209,
+                            "text": "تشبيه بليغ."
+                        }
+                    ]
+                },
+                {
+                    "id": 6558,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>نوع الصورة البيانية في قوله: «جبين الزمن»:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/HHP01dJ/1724842471-Nuk-Wx0.png",
+                    "answers": [
+                        {
+                            "id": 26210,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 26211,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 26212,
+                            "text": "تشبيه مجمل."
+                        },
+                        {
+                            "id": 26213,
+                            "text": "تشبيه تمثيلي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6559,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; mso-ansi-font-size:11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA'>قال تعالى: «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt; font-family: \"Somar Sans SemiBold\"; color: rgb(32, 33, 36); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;'>اللّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt; font-family: \"Somar Sans SemiBold\"; color: red; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;'>الظُّلُمَاتِ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt; font-family: \"Somar Sans SemiBold\"; color: rgb(32, 33, 36); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;'> إِلَى </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt; font-family: \"Somar Sans SemiBold\"; color: red; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;'>النُّوُرِ</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size:11.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>».<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt;mso-ansi-font-size: 11.0pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#C00000;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>بيِّن نوع الصورة البيانية فيما تحته:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26214,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 26215,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 26216,
+                            "text": "تشبيه تمثيلي."
+                        },
+                        {
+                            "id": 26217,
+                            "text": "تشبيه بليغ."
+                        }
+                    ]
+                },
+                {
+                    "id": 6560,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ما نوع الصورة في قوله: «يناجي النجوم»؟</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/X2xKpLH/1724843097-GF09-ER.png",
+                    "answers": [
+                        {
+                            "id": 26218,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 26219,
+                            "text": "تشبيه مجمل."
+                        },
+                        {
+                            "id": 26220,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 26221,
+                            "text": "استعارة مكنية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6561,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:20.0pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>من خلال الفقرتين وازن بين علاقة الكاتبين بأختيهما:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/Q813VgL/1724848794-X0v96c.png",
+                    "answers": [
+                        {
+                            "id": 26222,
+                            "text": "أحمد أمين يُظهر مدى حبه الشديد لأخته التي لم يرها، بينما طه حسين يُبين مدى حبه لأخته التي تعين أمه وتساعدها في إحضاره لوضع السائل في عينيه."
+                        },
+                        {
+                            "id": 26223,
+                            "text": "أحمد أمين يُظهر مدى حنقه وضيقه من أخته التي لم يرها بسبب ما تركته من حزن أثَّر عليه نفسيًّا، بينما طه حسين يُظهر مدى الرضا الذي عاش فيه رغم المعاملة السيئة من أخته."
+                        },
+                        {
+                            "id": 26224,
+                            "text": "الكاتب يُبين مدى مهارة أخته في الأعمال المنزلية وشدة معاناتها، بينما طه حسين ساخط على أخته الصغرى بسبب كثرة شكواها، وشديد التبرم من أخته الكبرى بسبب السائل الذي يؤذيه."
+                        },
+                        {
+                            "id": 26225,
+                            "text": "أحمد أمين يُظهر حزن والدته على أخته ويقدِّم ما يعتقده مبررًا لحالته النفسية التي انطبعت عنده، بينما طه حسين يُبين سوء معاملة أخته وعدم اهتمامها بشعوره، ويقدِّم مبررًا لتحمله ذلك."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

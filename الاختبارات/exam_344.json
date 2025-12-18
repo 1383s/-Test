@@ -1,0 +1,697 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 344,
+                "title": "امتحان على المحاضرة الرابعة - 3ث",
+                "lecture_id": 3322,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:27:01.304192Z",
+                "updated_at": "2025-11-27T18:27:01.304192Z"
+            },
+            "questions": [
+                {
+                    "id": 7764,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أضحى الإحسان ثمرة الإيمان). <span style=\"color:#0070C0\">نوع الخبر في الجملة:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31034,
+                            "text": "شبه جملة."
+                        },
+                        {
+                            "id": 31035,
+                            "text": "مفرد."
+                        },
+                        {
+                            "id": 31036,
+                            "text": "جملة اسمية."
+                        },
+                        {
+                            "id": 31037,
+                            "text": "جملة فعلية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7765,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(إن <u><span style=\"color:#FF0066\">الإيمان</span></u> طريق السعادة </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Sakkal Majalla\";mso-fareast-font-family:\"Times New Roman\";mso-ansi-language: EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> إنما <u><span style=\"color:#FF0066\">الإيمان</span></u> طريق السعادة).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ما تحته خط إعرابه:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31038,
+                            "text": "اسم إن في الجملتين."
+                        },
+                        {
+                            "id": 31039,
+                            "text": "اسم إن - خبر."
+                        },
+                        {
+                            "id": 31040,
+                            "text": "اسم إن – مبتدأ."
+                        },
+                        {
+                            "id": 31041,
+                            "text": "اسم إن – بدل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7766,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(إنَّ في العلم <u><span style=\"color:#FF0066\">لَرفعة</span></u> لمن يجعله طريقًا للحياة).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">إعراب ما تحته خط:</span><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 12pt;\">                                         </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31042,
+                            "text": "خبر إن مرفوع."
+                        },
+                        {
+                            "id": 31043,
+                            "text": "اسم مجرور باللام."
+                        },
+                        {
+                            "id": 31044,
+                            "text": "مضاف إليه مجرور."
+                        },
+                        {
+                            "id": 31045,
+                            "text": "اسم إن مؤخر منصوب"
+                        }
+                    ]
+                },
+                {
+                    "id": 7767,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدِّد الركن المحذوف في البيت السابق وتقديره:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/1a8c22f0314411be3638e037d1d131ed8088b8723332.jpg",
+                    "answers": [
+                        {
+                            "id": 31046,
+                            "text": "المبتدأ محذوف وجوبًا تقديره «قسمي»."
+                        },
+                        {
+                            "id": 31047,
+                            "text": "المبتدأ محذوف جوازًا تقديره «قسمي»."
+                        },
+                        {
+                            "id": 31048,
+                            "text": "الخبر محذوف وجوبًا تقديره «قسمي»."
+                        },
+                        {
+                            "id": 31049,
+                            "text": "الخبر محذوف جوازًا تقديره «قسمي»."
+                        }
+                    ]
+                },
+                {
+                    "id": 7768,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(ما زال المعلمُ الذي أوقد عقلي بفكره شعلة لا عدمت ضياءًها)<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">حدِّد خبر «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(255, 0, 102);\">ما زال</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">» وبيِّن نوعه:</span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31050,
+                            "text": "لا عدمت ضياءَها – جملة اسمية."
+                        },
+                        {
+                            "id": 31051,
+                            "text": "الذي – مفرد."
+                        },
+                        {
+                            "id": 31052,
+                            "text": "بفكره – شبه جملة."
+                        },
+                        {
+                            "id": 31053,
+                            "text": "شعلة – مفرد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7769,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أصبح من واجب المرء أن يُولِى أخاه العناية ما استطاع).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">اسم أصبح في الجملة السابقة:</span><span style=\"color:#0070C0\"></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31054,
+                            "text": "العناية."
+                        },
+                        {
+                            "id": 31055,
+                            "text": "أخاه."
+                        },
+                        {
+                            "id": 31056,
+                            "text": "أن يُولِي."
+                        },
+                        {
+                            "id": 31057,
+                            "text": "ما استطاع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7770,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>ميِّز خبر إنَّ ونوعه في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/7ff24cbfb013bc97f61c246719b2fd9a912221ee8b3e.jpg",
+                    "answers": [
+                        {
+                            "id": 31058,
+                            "text": "تجارب – مفرد."
+                        },
+                        {
+                            "id": 31059,
+                            "text": "للرجال – شبه جملة."
+                        },
+                        {
+                            "id": 31060,
+                            "text": "ضائر – مفرد."
+                        },
+                        {
+                            "id": 31061,
+                            "text": "مفيد – مفرد."
+                        }
+                    ]
+                },
+                {
+                    "id": 7771,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(واجبك نحو والديك أن تحسن إليهما في القول والفعل).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ميِّز المحل الإعرابي للمصدر المؤول في العبارة السابقة:</span> </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31062,
+                            "text": "رفع خبر."
+                        },
+                        {
+                            "id": 31063,
+                            "text": "رفع مبتدأ مؤخر."
+                        },
+                        {
+                            "id": 31064,
+                            "text": "رفع نعت."
+                        },
+                        {
+                            "id": 31065,
+                            "text": "رفع بدل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7772,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أسمى رسالة يقدم<u style=\"\"><b style=\"background-color: rgb(255, 255, 0);\">ها</b></u></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'> الإسلام هي عقيدة التوحيد لله)<br/><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  المحل الإعرابي للضمير المتصل فيما تحته خط في العبارة السابقة:</span><span dir=\"RTL\" lang=\"AR-EG\" style=\"font-size: 12pt;\">                    </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31066,
+                            "text": "نصب."
+                        },
+                        {
+                            "id": 31067,
+                            "text": "جــر."
+                        },
+                        {
+                            "id": 31068,
+                            "text": "لا محل له."
+                        },
+                        {
+                            "id": 31069,
+                            "text": "رفع."
+                        }
+                    ]
+                },
+                {
+                    "id": 7773,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(عسى بنو مصر أن يجتهدوا).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">عند وضع «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(255, 0, 102);\">لعل</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">» مكان «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(255, 0, 102);\">عسى</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">»:</span></span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31070,
+                            "text": "لعل بنو مصر مجتهدون."
+                        },
+                        {
+                            "id": 31071,
+                            "text": "لعل بني مصر يجتهدون."
+                        },
+                        {
+                            "id": 31072,
+                            "text": "لعل بنو مصر مجتهدين."
+                        },
+                        {
+                            "id": 31073,
+                            "text": "لعل بني مصر يجتهدوا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7774,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(أسعدني هؤلاء العلماء وهم يعرضون إنجازاتهم القيمة).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ميِّز الكلمة التي اشتملت على ضمير في محل جر:</span> </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31074,
+                            "text": "أسعدني."
+                        },
+                        {
+                            "id": 31075,
+                            "text": "هم."
+                        },
+                        {
+                            "id": 31076,
+                            "text": "يعرضون."
+                        },
+                        {
+                            "id": 31077,
+                            "text": "إنجازاتهم."
+                        }
+                    ]
+                },
+                {
+                    "id": 7775,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(ليتما <u><span style=\"color:#FF0066\">ذا</span></u> المال ينفقه في وجوه الخير </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Sakkal Majalla\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'> ليتما <u><span style=\"color:#FF0066\">ذو</span></u> المال ينفقه في الخير).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ميِّز إعراب ما تحته خط في الجملتين على الترتيب: </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31078,
+                            "text": "اسم ليت – مبتدأ."
+                        },
+                        {
+                            "id": 31079,
+                            "text": "خبر ليت – مبتدأ."
+                        },
+                        {
+                            "id": 31080,
+                            "text": "مبتدأ – اسم ليت."
+                        },
+                        {
+                            "id": 31081,
+                            "text": "خبر ليت – اسم ليت."
+                        }
+                    ]
+                },
+                {
+                    "id": 7776,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">(إنَّ الساعين لحلِّ مشكلات الشبابِ مُوفقون في سعيهم).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ضع «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(255, 0, 102);\">عسى</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">» مكان «</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(255, 0, 102);\">إنَّ</span><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">»:</span> </span></span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31082,
+                            "text": "عسى الساعين موفقون."
+                        },
+                        {
+                            "id": 31083,
+                            "text": "عسى الساعون موفقين."
+                        },
+                        {
+                            "id": 31084,
+                            "text": "عسى الساعون أن يوفقوا."
+                        },
+                        {
+                            "id": 31085,
+                            "text": "عسى الساعين أن يوفقوا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7777,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(أهداف التعليم يجب أن نحققها) </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Sakkal Majalla\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'> (أهداف التعليم يجب تحقيقها).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">ضمير هاء الغيبة في الجملتين على الترتيب في محل:</span> </span></p> </p>",
+                    "answers": [
+                        {
+                            "id": 31086,
+                            "text": "نصب – جر."
+                        },
+                        {
+                            "id": 31087,
+                            "text": "جر - نصب."
+                        },
+                        {
+                            "id": 31088,
+                            "text": "نصب - نصب."
+                        },
+                        {
+                            "id": 31089,
+                            "text": "جر - جر."
+                        }
+                    ]
+                },
+                {
+                    "id": 7778,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>خبر «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt;font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#FF0066;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>كأنَّ</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt;font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>» ونوعه في البيت السابق:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/9a4509b87e6607aa466120b6d2942c0f01ee85cb4e7f.jpg",
+                    "answers": [
+                        {
+                            "id": 31090,
+                            "text": "سوادَ الليل – مفرد."
+                        },
+                        {
+                            "id": 31091,
+                            "text": "يلوح – جملة فعلية."
+                        },
+                        {
+                            "id": 31092,
+                            "text": "الفجر ضاحك – مفرد."
+                        },
+                        {
+                            "id": 31093,
+                            "text": "يبتسم – جملة فعلية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7779,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>أعرب كلمة ( ضوؤها) في الشطر الأول:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/e97e92f76e7f0226c0aad2a21a913013d513fbc4a31e.jpg",
+                    "answers": [
+                        {
+                            "id": 31094,
+                            "text": "مبتدأ وخبره (مَا اسْتَحْسِنَتْ)."
+                        },
+                        {
+                            "id": 31095,
+                            "text": "مبتدأ وخبره (نُورُهُ لَمْ يَجْمُل)."
+                        },
+                        {
+                            "id": 31096,
+                            "text": "مبتدأ وخبره محذوف وجوبًا."
+                        },
+                        {
+                            "id": 31097,
+                            "text": "خبر والمبتدأ محذوف وجوبًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7780,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج من خلال البيت مظهرًا من مظاهر تمسك شعراء الكلاسيكية بالنهج القديم:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/182fea93cf04e0677fff04883258fdfb0672b775cbfb.jpg",
+                    "answers": [
+                        {
+                            "id": 31098,
+                            "text": "الوقوف على الأطلال."
+                        },
+                        {
+                            "id": 31099,
+                            "text": "شيوع الحكمة."
+                        },
+                        {
+                            "id": 31100,
+                            "text": "معارضة القدماء."
+                        },
+                        {
+                            "id": 31101,
+                            "text": "خطاب الصاحبين."
+                        }
+                    ]
+                },
+                {
+                    "id": 7781,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج من خلال هذا البيت مظهرًا من مظاهر تطوير الشعر عند شوقي:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/778877c70c8a8a727375c8d5d3ee24c882d0d22c66f1.jpg",
+                    "answers": [
+                        {
+                            "id": 31102,
+                            "text": "استخدام اللغة الحية."
+                        },
+                        {
+                            "id": 31103,
+                            "text": "المواءمة بين التراث، وثقافة العصر."
+                        },
+                        {
+                            "id": 31104,
+                            "text": "اتجه في بعض شعره اتجاهًا إسلاميًّا."
+                        },
+                        {
+                            "id": 31105,
+                            "text": "الاهتمام بالقيم والمثل الإنسانية."
+                        }
+                    ]
+                },
+                {
+                    "id": 7782,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدِّد من البيت السابق عاملًا من العوامل التي أدت إلى تطوير الشعر عند شوقي:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/f5e62f023521e069c4b561b77e5dedb0ccc1fcabb4c7.jpg",
+                    "answers": [
+                        {
+                            "id": 31106,
+                            "text": "الاطلاع على الشعر الإنجليزي."
+                        },
+                        {
+                            "id": 31107,
+                            "text": "قراءة كتاب الوسيلة الأدبية."
+                        },
+                        {
+                            "id": 31108,
+                            "text": "الثقافة التركية، ودراسة الحقوق."
+                        },
+                        {
+                            "id": 31109,
+                            "text": "قراءة مظاهر التجديد في الشعر الفرنسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 7783,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج السمة التي اتضحت في البيت من سمات الكلاسيكية من حيث الموضوع:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/87d478c56918f4e909359e58e1c16b5954906557ce97.jpg",
+                    "answers": [
+                        {
+                            "id": 31110,
+                            "text": "الالتفات إلى قضايا ومشاكل العصر."
+                        },
+                        {
+                            "id": 31111,
+                            "text": "الاهتمام الزائد بشعر المناسبات."
+                        },
+                        {
+                            "id": 31112,
+                            "text": "استمداد الشكل من القديم."
+                        },
+                        {
+                            "id": 31113,
+                            "text": "الحديث عن منجزات العصر ووصفها."
+                        }
+                    ]
+                },
+                {
+                    "id": 7784,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج السمة التي اتضحت في البيت من سمات الكلاسيكية من حيث الموضوع:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/1f09519d2d9362d36fdb15085fa73be0c2e0cdf07120.jpg",
+                    "answers": [
+                        {
+                            "id": 31114,
+                            "text": "التعبير عن متناقضات الحياة."
+                        },
+                        {
+                            "id": 31115,
+                            "text": "تصوير الواقع الاجتماعي المؤلم."
+                        },
+                        {
+                            "id": 31116,
+                            "text": "الصدق في التعبير والبعد عن المبالغات."
+                        },
+                        {
+                            "id": 31117,
+                            "text": "التعبير عن روح العصر أخلاقيًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7785,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدِّد من خلال البيتين </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Sakkal Majalla\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> لماذا يعد أحمد محرم من جيل التطوير بعد البارودي؟</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/955ac2f7c2c88e24460b0cc69dbe93c54f6890c5a7a5.jpg",
+                    "answers": [
+                        {
+                            "id": 31118,
+                            "text": "لأنه طوَّع الشعر العربي للقصص التاريخي الحماسي."
+                        },
+                        {
+                            "id": 31119,
+                            "text": "لأنه عدل عن المديح واتجه إلى تاريخ الأندلس."
+                        },
+                        {
+                            "id": 31120,
+                            "text": "لأنه طوَّع الشعر العربي للقصص الأسطورية."
+                        },
+                        {
+                            "id": 31121,
+                            "text": "لأنه استمد الشكل من القديم والمضمون من الأساطير."
+                        }
+                    ]
+                },
+                {
+                    "id": 7786,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">كيف استطاع الرجل خداع الفتى لارتكاب جريمته؟</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/10fd83021474514a373029f7995a37565b107804ac3c.jpg",
+                    "answers": [
+                        {
+                            "id": 31122,
+                            "text": "استعان بما يملكه من جاه وسلطان فوعده بأن ينال منه النصيب إن فعل ما يأمره."
+                        },
+                        {
+                            "id": 31123,
+                            "text": "أغواه بحسن تدبيره وتخطيطه فأحسن إقناع الفتى بعد مناقشته والرد على شبهاته."
+                        },
+                        {
+                            "id": 31124,
+                            "text": "استعان بمنصبه الكبير فقد استطاع به إرهاب الفتى وإخافته إن خالف أمره."
+                        },
+                        {
+                            "id": 31125,
+                            "text": "أغراه بما لديه من مال استطاع به أن يطمس على قلبه ويلقي الغشاوة على عقله."
+                        }
+                    ]
+                },
+                {
+                    "id": 7787,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">ما المغزى الضمني الذي يحمله البيت الأخير؟</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/afce5534faec2671a37c20c9dcbd592d8c1ce47c7559.jpg",
+                    "answers": [
+                        {
+                            "id": 31126,
+                            "text": "قسوة الأمِّ في انتقامها من ولدها."
+                        },
+                        {
+                            "id": 31127,
+                            "text": "الأم بحر معروف بالعطاء."
+                        },
+                        {
+                            "id": 31128,
+                            "text": "الأم منبع الرحمة في الغفران والتسامح."
+                        },
+                        {
+                            "id": 31129,
+                            "text": "الأم مدرسة تعلم الأخلاق."
+                        }
+                    ]
+                },
+                {
+                    "id": 7788,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> حدِّد من بين البدائل التالية العبارة التي تمثل استعارة:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/841e917f872d022a3a3dd2f42d80852573ea36fa0865.jpg",
+                    "answers": [
+                        {
+                            "id": 31130,
+                            "text": "أَغْرَى امْرُؤ يَوْمًا غُلَامًا جَاهِلًا."
+                        },
+                        {
+                            "id": 31131,
+                            "text": "فَاسْتَلَّ خِنْجَرَهُ لِيَطْعَنَ نَفْسَهُ."
+                        },
+                        {
+                            "id": 31132,
+                            "text": "مِنْ فَرْطِ سُرْعَتِهِ هَوَى."
+                        },
+                        {
+                            "id": 31133,
+                            "text": "نَادَاهُ قَلْبُ الْأُمَ: كُفَّ يَدًا."
+                        }
+                    ]
+                },
+                {
+                    "id": 7789,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  <span lang=\"AR-SA\">استنتج المقصود من قول الشاعر: (</span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\";color:#FF33CC; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>فاستل خنجره ليطعن نفسه</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>) في البيت السابع:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/f73d5a7c8093a79ec93a4cff7604cef02d1399f8e363.jpg",
+                    "answers": [
+                        {
+                            "id": 31134,
+                            "text": "قوة الفتى وجهله."
+                        },
+                        {
+                            "id": 31135,
+                            "text": "ندم الفتى على ما فعل."
+                        },
+                        {
+                            "id": 31136,
+                            "text": "قتل النفس سبيل التوبة."
+                        },
+                        {
+                            "id": 31137,
+                            "text": "فقدان الفتى لصوابه."
+                        }
+                    ]
+                },
+                {
+                    "id": 7790,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Rounded\";mso-fareast-font-family: \"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">استنتج من خلال الأبيات العاطفة المسيطرة على الشاعر.</span></span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/a49a66e8af1ffc115c7db9738640e243c46d6a9237a1.jpg",
+                    "answers": [
+                        {
+                            "id": 31138,
+                            "text": "تسيطر على الشاعر عاطفة الحنين والشوق لمرحلة الطفولة."
+                        },
+                        {
+                            "id": 31139,
+                            "text": "تغلب على الشاعر عاطفة الإعجاب بالمال ودوره في حياة الناس."
+                        },
+                        {
+                            "id": 31140,
+                            "text": "تسيطر على الشاعر عاطفة كره قتل النفس لما فيه من تعدٍّ على الحرمات."
+                        },
+                        {
+                            "id": 31141,
+                            "text": "تغلب على الشاعر عاطفة الامتنان للأمهات مع الاعتراف بجميل فضلهن على الأبناء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7791,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  ما الجمال في قوله «</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Rounded\";'> غَضَبُ السَّمَاءِ </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 15pt;font-family:\"Somar Rounded\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>»:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/be3c489c6573452b1d69620ca6ffd25689af3cffdacb.jpg",
+                    "answers": [
+                        {
+                            "id": 31142,
+                            "text": "استعارة تصريحية."
+                        },
+                        {
+                            "id": 31143,
+                            "text": "استعارة مكنية."
+                        },
+                        {
+                            "id": 31144,
+                            "text": "تشبيه بليغ."
+                        },
+                        {
+                            "id": 31145,
+                            "text": "تشبيه مجمل."
+                        }
+                    ]
+                },
+                {
+                    "id": 7792,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  المبدأ الأخلاقي الذي تحمله الأبيات:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/d1b11b4e42a85463c526a9acb93f3a067bda1ddd1ee5.jpg",
+                    "answers": [
+                        {
+                            "id": 31146,
+                            "text": "المال خادع فتمسك به."
+                        },
+                        {
+                            "id": 31147,
+                            "text": "لا مثيل للأم."
+                        },
+                        {
+                            "id": 31148,
+                            "text": "تعلم فضل الآباء."
+                        },
+                        {
+                            "id": 31149,
+                            "text": "احذر صديق السوء."
+                        }
+                    ]
+                },
+                {
+                    "id": 7793,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Rounded\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>  في ضوء فهمك لسمات الإحياء والبعث ما السمة العامة في النص:</span></p> </p>",
+                    "image_url": "https://files.coursatk.online/images/questions/59e6b752ac6d36783715cd8e73aa49918679bfca9ef0.jpg",
+                    "answers": [
+                        {
+                            "id": 31150,
+                            "text": "الاهتمام بالتاريخ."
+                        },
+                        {
+                            "id": 31151,
+                            "text": "العناية بالمجتمع وقضاياه."
+                        },
+                        {
+                            "id": 31152,
+                            "text": "حب الطبيعة والاندماج فيها."
+                        },
+                        {
+                            "id": 31153,
+                            "text": "الدعوة إلى الجانب الروحي."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

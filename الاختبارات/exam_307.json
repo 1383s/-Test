@@ -1,0 +1,605 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 307,
+                "title": "امتحان افتتاحي المحاضرة 7",
+                "lecture_id": 2109,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T02:08:36.032338Z",
+                "updated_at": "2025-11-27T02:08:36.032338Z"
+            },
+            "questions": [
+                {
+                    "id": 6648,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(يجب عليك ألَّا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>تسهر</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'>كثيرًا وإلَّا </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family: \"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\";color:#C00000; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA; mso-no-proof:yes'>تفقد</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> تركيزك).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>إعراب ما تحته خط على الترتيب:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/7v8nRmG/1727801596-Qed5ic.png",
+                    "answers": [
+                        {
+                            "id": 26570,
+                            "text": "مضارع مجزوم – مضارع منصوب."
+                        },
+                        {
+                            "id": 26571,
+                            "text": "مضارع منصوب – مضارع منصوب."
+                        },
+                        {
+                            "id": 26572,
+                            "text": "مضارع منصوب – مضارع مجزوم."
+                        },
+                        {
+                            "id": 26573,
+                            "text": "مضارع مجزوم – مضارع مجزوم."
+                        }
+                    ]
+                },
+                {
+                    "id": 6649,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>كلمتي (أكلُّ - ارتحال) همزتهما قطع ووصل على الترتيب لأنه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/MkWh7bN/1727805001-OU52mn.png",
+                    "answers": [
+                        {
+                            "id": 26574,
+                            "text": "ماضٍ ثلاثي - مصدر خماسي."
+                        },
+                        {
+                            "id": 26575,
+                            "text": "مصدر ثلاثي - مصدر خماسي."
+                        },
+                        {
+                            "id": 26576,
+                            "text": "مصدر ثلاثي - مصدر سداسي."
+                        },
+                        {
+                            "id": 26577,
+                            "text": "مسبوق بهمزة استفهام - مصدر خماسي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6650,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يعلو</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> شأن الطلاب بالاجتهاد) - (الطالبات </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>يعلون</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'> بالاجتهاد).<br/><span dir=\"RTL\" lang=\"AR-SA\" style=\"font-size: 12pt; color: rgb(0, 112, 192);\">نوع الواو فيما تحته خط على الترتيب:</span> </span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26578,
+                            "text": "لام الفعل – علامة إعراب."
+                        },
+                        {
+                            "id": 26579,
+                            "text": "واو الجماعة – لام الفعل."
+                        },
+                        {
+                            "id": 26580,
+                            "text": "واو أصلية – واو أصلية."
+                        },
+                        {
+                            "id": 26581,
+                            "text": "واو الجماعة – علامة إعراب."
+                        }
+                    ]
+                },
+                {
+                    "id": 6651,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size: 12pt; font-family: \"Somar Sans SemiBold\";'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'>أنتَ ........... في حديثك). <span style=\"color:#0070C0\">الكلمة الصحيحة مكان النقط:</span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26582,
+                            "text": "جرئ."
+                        },
+                        {
+                            "id": 26583,
+                            "text": "جريء."
+                        },
+                        {
+                            "id": 26584,
+                            "text": "جريئ."
+                        },
+                        {
+                            "id": 26585,
+                            "text": "جرئي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6652,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>إعراب ما تحته خط:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/9HPdCZc/1727806293-7-DZql-G.png",
+                    "answers": [
+                        {
+                            "id": 26586,
+                            "text": "مفعول به منصوب."
+                        },
+                        {
+                            "id": 26587,
+                            "text": "مضاف إليه مجرور."
+                        },
+                        {
+                            "id": 26588,
+                            "text": "نعت مجرور."
+                        },
+                        {
+                            "id": 26589,
+                            "text": "فاعل مرفوع."
+                        }
+                    ]
+                },
+                {
+                    "id": 6653,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(تثمر الشجرة فاكهة). <span style=\"color:#0070C0\">صُغ من الفعل اسم فاعل عاملًا بحيث يكون معموله ظاهرًا:</span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26590,
+                            "text": "مثمرةٌ الشجرة فاكهة."
+                        },
+                        {
+                            "id": 26591,
+                            "text": "الشجرةُ مثمرةُ الفاكهة أمس."
+                        },
+                        {
+                            "id": 26592,
+                            "text": "أمثمرةٌ الشجرة فاكهة؟"
+                        },
+                        {
+                            "id": 26593,
+                            "text": "الشجرةُ مثمرةٌ."
+                        }
+                    ]
+                },
+                {
+                    "id": 6654,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(المُتحدِّث اللَّبِق ............ يجذب انتباه السامعين).<span style=\"color:#0070C0\"> المعمول الصحيح مكان النقط:</span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26594,
+                            "text": "أسلوبَه."
+                        },
+                        {
+                            "id": 26595,
+                            "text": "أسلوبُه."
+                        },
+                        {
+                            "id": 26596,
+                            "text": "أسلوبِه."
+                        },
+                        {
+                            "id": 26597,
+                            "text": "أسلوبُها."
+                        }
+                    ]
+                },
+                {
+                    "id": 6655,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الجملة التي تحتوي على اسم تفضيل يجب مطابقته للمفضَّل:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26598,
+                            "text": "العِلم أفضل من الجهل."
+                        },
+                        {
+                            "id": 26599,
+                            "text": "الخيانة كبرى الرذائل."
+                        },
+                        {
+                            "id": 26600,
+                            "text": "العلم أفضل وسيلةٍ للرقي."
+                        },
+                        {
+                            "id": 26601,
+                            "text": "نال الطالب المجتهد المركز الأول بين أصدقائه."
+                        }
+                    ]
+                },
+                {
+                    "id": 6656,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(المعلمة أعلى مكانةً).<span style=\"color:#0070C0\"> ميِّز مما يلي الجملة الصحيحة بعد جعل المبتدأ لجمع المؤنث:</span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26602,
+                            "text": "المعلمات أعلى مكانةً."
+                        },
+                        {
+                            "id": 26603,
+                            "text": "المعلمات أعليات مكانةً."
+                        },
+                        {
+                            "id": 26604,
+                            "text": "المعلمات أعلون مكانةً."
+                        },
+                        {
+                            "id": 26605,
+                            "text": "المعلمات علييات مكانةً."
+                        }
+                    ]
+                },
+                {
+                    "id": 6657,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\">«أعظم قيمة يحرص عليها كل إنسان الحرية». <span style=\"color:#0070C0\">حدِّد المفضل في الجملة السابقة:</span></span></span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26606,
+                            "text": "قيمة."
+                        },
+                        {
+                            "id": 26607,
+                            "text": "إنسان."
+                        },
+                        {
+                            "id": 26608,
+                            "text": "كل إنسان."
+                        },
+                        {
+                            "id": 26609,
+                            "text": "الحرية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6658,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span lang=\"AR-SA\">(كن دائمًا مادًّا لأصدقائك يد العون). </span></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>في الجملة السابقة:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26610,
+                            "text": "اسم الفاعل جاء حالًا، ومعموله مفعول به."
+                        },
+                        {
+                            "id": 26611,
+                            "text": "اسم الفاعل جاء نعتًا، ومعموله مفعول به."
+                        },
+                        {
+                            "id": 26612,
+                            "text": "اسم الفاعل جاء حالًا، ومعموله فاعل."
+                        },
+                        {
+                            "id": 26613,
+                            "text": "اسم الفاعل جاء خبرًا، ومعموله مفعول به."
+                        }
+                    ]
+                },
+                {
+                    "id": 6659,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span lang=\"AR-SA\">(الطالب مختارٌ </span></span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#4472C4;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>كتبه</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> بمنهجية) </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Sakkal Majalla\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>–</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> (أمختارةٌ </span><u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#4472C4;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>كتبك</span></u><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> بمنهجية؟).<br/></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>حدِّد إعراب ما تحته خط على الترتيب:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26614,
+                            "text": "مفعول به - فاعل."
+                        },
+                        {
+                            "id": 26615,
+                            "text": "مفعول به - نائب فاعل."
+                        },
+                        {
+                            "id": 26616,
+                            "text": "نائب فاعل - مفعول به."
+                        },
+                        {
+                            "id": 26617,
+                            "text": "مفعول به - مفعول به."
+                        }
+                    ]
+                },
+                {
+                    "id": 6660,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";mso-ansi-language:EN-US;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span> <span lang=\"AR-SA\" style=\"color:#C00000\">«يتعالى المؤمن عن سفاسف الأمور».<br/></span></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>- صغ من الفعل في الجملة السابقة اسم تفضيل:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26618,
+                            "text": "المؤمن أشد علوًّا..."
+                        },
+                        {
+                            "id": 26619,
+                            "text": "المؤمن أشد إعلاءً..."
+                        },
+                        {
+                            "id": 26620,
+                            "text": "المؤمن أشد تعاليًا..."
+                        },
+                        {
+                            "id": 26621,
+                            "text": "المؤمن أشد علاءً..."
+                        }
+                    ]
+                },
+                {
+                    "id": 6661,
+                    "text": "<p> <p><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span dir=\"RTL\"></span><span dir=\"RTL\"></span>(الخيرُ مُقدَّرٌ .............). </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>الكلمة المناسبة مكان النقط:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26622,
+                            "text": "فاعلوه."
+                        },
+                        {
+                            "id": 26623,
+                            "text": "فاعلونه."
+                        },
+                        {
+                            "id": 26624,
+                            "text": "فاعلينه."
+                        },
+                        {
+                            "id": 26625,
+                            "text": "فاعليه."
+                        }
+                    ]
+                },
+                {
+                    "id": 6662,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'><span style='color: rgb(192, 0, 0); font-family: \"Hacen Tunisia Bd\"; font-size: 16pt;'>(أنتَ الأكبر بين الأصدقاء). </span>إذا جعلنا الضمير لجمع الإناث تصير الجملة:</span><br/></p> </p>",
+                    "answers": [
+                        {
+                            "id": 26626,
+                            "text": "أنتن الأكبرات."
+                        },
+                        {
+                            "id": 26627,
+                            "text": "أنتن الكبيرات."
+                        },
+                        {
+                            "id": 26628,
+                            "text": "أنتن الأكابر."
+                        },
+                        {
+                            "id": 26629,
+                            "text": "أنتن الكبريات."
+                        }
+                    ]
+                },
+                {
+                    "id": 6663,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>إلام يدعو الشاعر في البيت الأول؟ </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#C00000;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>  </span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26630,
+                            "text": "رعاية النبات."
+                        },
+                        {
+                            "id": 26631,
+                            "text": "تعظيم دور الأم."
+                        },
+                        {
+                            "id": 26632,
+                            "text": "التحلي بمكارم الأخلاق."
+                        },
+                        {
+                            "id": 26633,
+                            "text": "التأمل والتفكر في الحياة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6664,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>في ضوء فهمك للأبيات، مَن الذي يهذب الأخلاق؟</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26634,
+                            "text": "دور العبادة وما تغرسه من مبادئ طيبة."
+                        },
+                        {
+                            "id": 26635,
+                            "text": "الأمهات وما يتمتعن به من أخلاق عظيمة تساهم في بناء البنين والبنات."
+                        },
+                        {
+                            "id": 26636,
+                            "text": "مناهج التعليم وما تتناوله من أسس تربوية إيجابية."
+                        },
+                        {
+                            "id": 26637,
+                            "text": "الطبيعة الخلابة وما تحويه من جمال يُساعد على ترقيق المشاعر."
+                        }
+                    ]
+                },
+                {
+                    "id": 6665,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج المغزى الضمني من قوله: </span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\";mso-fareast-font-family: \"Times New Roman\";color:#C00000;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'>«وتنعش في صميم المجد روحًا»</span><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt;font-family:\"Somar Sans SemiBold\"; mso-fareast-font-family:\"Times New Roman\";color:#0070C0;mso-ansi-language:EN-US; mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes'> في البيت الرابع:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26638,
+                            "text": "تأكيد حرص المرء على نقاء روحه."
+                        },
+                        {
+                            "id": 26639,
+                            "text": "الإشارة إلى أهمية العمل."
+                        },
+                        {
+                            "id": 26640,
+                            "text": "بيان أن الأخلاق تعمل على إثارة روح تسعى لتحقيق المجد."
+                        },
+                        {
+                            "id": 26641,
+                            "text": "بيان أهمية دور الأم في حياة الأبناء."
+                        }
+                    ]
+                },
+                {
+                    "id": 6666,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج المبدأ الذي يريده الشاعر من قوله: «سقيت بماء المكرمات» في البيت الأول:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26642,
+                            "text": "المكارم لا تحتاج لتربية."
+                        },
+                        {
+                            "id": 26643,
+                            "text": "فعل المكارم يعلي الأخلاق."
+                        },
+                        {
+                            "id": 26644,
+                            "text": "أهمية الغذاء في تربية الأبناء."
+                        },
+                        {
+                            "id": 26645,
+                            "text": "التعرف على المكارم مطلوب."
+                        }
+                    ]
+                },
+                {
+                    "id": 6667,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>القضية التي حرص الشاعر على معالجتها من خلال فهمك للأبيات:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26646,
+                            "text": "حنان الأم وفضلها على البشرية كلها."
+                        },
+                        {
+                            "id": 26647,
+                            "text": "أهمية النبات في حياة الإنسان."
+                        },
+                        {
+                            "id": 26648,
+                            "text": "أهمية الأخلاق الفاضلة والتأكيد على عِظم دور الأم."
+                        },
+                        {
+                            "id": 26649,
+                            "text": "أهمية دور المعلم في تنشئة الأجيال."
+                        }
+                    ]
+                },
+                {
+                    "id": 6668,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج ما يشير إلى المقياس الأساسي لصلاح أخلاق الأبناء من خلال فهمك الأبيات:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26650,
+                            "text": "صلاح أخلاق الأمهات."
+                        },
+                        {
+                            "id": 26651,
+                            "text": "صلاح أخلاق الأصدقاء."
+                        },
+                        {
+                            "id": 26652,
+                            "text": "صلاح أخلاق المعلمين."
+                        },
+                        {
+                            "id": 26653,
+                            "text": "صلاح أخلاق الأجداد."
+                        }
+                    ]
+                },
+                {
+                    "id": 6669,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>دلل من الأبيات على استخدام الشاعر للتشبيه:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26654,
+                            "text": "تسمو للمكارم."
+                        },
+                        {
+                            "id": 26655,
+                            "text": "فحضن الأم مدرسة."
+                        },
+                        {
+                            "id": 26656,
+                            "text": "ساق الفضيلة."
+                        },
+                        {
+                            "id": 26657,
+                            "text": "أخلاق الوليد تقاس."
+                        }
+                    ]
+                },
+                {
+                    "id": 6670,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>الأبيات السابقة تؤكد سمة من سمات مدرسة الإحياء، وهي:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/svzxvZz/1727857909-BPm-P1u.png",
+                    "answers": [
+                        {
+                            "id": 26658,
+                            "text": "رصد مشكلات المجتمع، والدعوة إلى الإصلاح الاجتماعي."
+                        },
+                        {
+                            "id": 26659,
+                            "text": "انشغالهم بالتجارب الذاتية."
+                        },
+                        {
+                            "id": 26660,
+                            "text": "وصف منجزات العصر ومخترعاته."
+                        },
+                        {
+                            "id": 26661,
+                            "text": "الاهتمام بقضايا المجتمع، كالغزل التقليدي."
+                        }
+                    ]
+                },
+                {
+                    "id": 6671,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج من البيتين السابقين أحد عوامل التجديد لدى تلامذة البارودي:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/DCBVcsq/1727861302-bti9-ON.png",
+                    "answers": [
+                        {
+                            "id": 26662,
+                            "text": "موقفهم من القصر الحاكم."
+                        },
+                        {
+                            "id": 26663,
+                            "text": "التنديد بالاحتلال ومظالمه."
+                        },
+                        {
+                            "id": 26664,
+                            "text": "الانفتاح على الثقافة الغربية."
+                        },
+                        {
+                            "id": 26665,
+                            "text": "حرية الصحافة."
+                        }
+                    ]
+                },
+                {
+                    "id": 6672,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA;mso-no-proof:yes'>استنتج السمة التي تتضح في البيتين من سمات التجديد لدى تلامذة البارودي:</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/8gX57Jn/1727861490-Ol7-K5e.png",
+                    "answers": [
+                        {
+                            "id": 26666,
+                            "text": "الاهتمام بالغير أكثر من الاهتمام بالذات."
+                        },
+                        {
+                            "id": 26667,
+                            "text": "الأخذ من التراث، والالتفات لثقافة العصر."
+                        },
+                        {
+                            "id": 26668,
+                            "text": "النزعة الروحية التي ملأت نفوسهم وقلوبهم."
+                        },
+                        {
+                            "id": 26669,
+                            "text": "إفساح المجال لمزيد من التجارب الذاتية."
+                        }
+                    ]
+                },
+                {
+                    "id": 6673,
+                    "text": "<p> <p><span dir=\"RTL\" lang=\"AR-SA\" style='font-size:15pt; font-family:\"Somar Sans SemiBold\";mso-fareast-font-family:\"Times New Roman\"; color:#0070C0;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SA'>توقَّع في ضوء فهمك للفقرة السابقة ماذا كان سيحدث لو لم يقم الشيخ باختباره في حفظ القرآن لطه أمام الرجلين؟</span><br/></p> </p>",
+                    "image_url": "https://i.ibb.co/QjFPpSC/1727731171-9-Axo1-Y.png",
+                    "answers": [
+                        {
+                            "id": 26670,
+                            "text": "لاستطاع الصبي مراجعة القرآن وتذكر ما نسي منه."
+                        },
+                        {
+                            "id": 26671,
+                            "text": "لظل طه حسين على نسيانه للقرآن ولم يعرف أبوه ما مدى تذكر طه حسين لما حفظه من القرآن."
+                        },
+                        {
+                            "id": 26672,
+                            "text": "لم يعتذر الرجلان عن عدم حفظ الصبي للقرآن."
+                        },
+                        {
+                            "id": 26673,
+                            "text": "لما قام الصبي يتصبب عرقًا من خجله من عدم التسميع أمام أبيه والرجلين."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}
