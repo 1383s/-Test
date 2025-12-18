@@ -58,26 +58,37 @@
         <div id="details"></div>
     </div>
 
-    <script>
-        // الكود بتاع الـ Fetch اللي عملناه قبل كدة بيفضل زي ما هو
+<script>
         const rid = new URLSearchParams(window.location.search).get('rid');
         const TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MTM1OSwicm9sZSI6InN0dWRlbnQiLCJ1dWlkIjoiNDAyOTZkM2YxMDg4ZGM5ZjRmMWQ2MTE0ZjcwM2U2MDQifQ.RoPKriladUHqzewaO3D1F9_XWVdLiqyYRh_06aorQQI";
 
         async function init() {
             try {
-                const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/result/${rid}`, { headers: { "Authorization": TOKEN }});
-                const serverData = (await res.json()).data.data;
+                // 1. طلب بيانات النتيجة من السيرفر عبر البروكسي لتجنب CORS
+                const targetUrl = `https://api.coursatk.online/api/v1/user/exams/result/${rid}`;
+                const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
+
+                const res = await fetch(proxyUrl, { 
+                    headers: { "Authorization": TOKEN }
+                });
+
+                // السطر اللي كان ناقصك: استخراج البيانات وتحويلها لـ JSON
+                const rawData = await res.json();
+                const serverData = rawData.data.data; 
+
                 const examId = serverData.result.exam_id;
 
+                // 2. طلب ملف الأسئلة المحلي (عشان نجيب نصوص الاختيارات)
                 const localRes = await fetch(`الاختبارات/exam_${examId}.json`);
                 const localData = (await localRes.json()).data.data;
 
-                // عرض النسبة المئوية %
+                // 3. عرض إحصائيات النتيجة في الـ HTML
                 document.getElementById('stats').innerHTML = `
                     <div class="stat-card"><h2>${serverData.result.score}%</h2><small>الدرجة النهائية</small></div>
                     <div class="stat-card"><h2>${serverData.result.correct_answers}</h2><small>إجابات صحيحة</small></div>
                     <div class="stat-card"><h2>${serverData.result.total_questions - serverData.result.correct_answers}</h2><small>إجابات خاطئة</small></div>`;
 
+                // 4. مراجعة كل سؤال وعرض الإجابة الصح من الغلط
                 serverData.questions.forEach((q, i) => {
                     const originalQ = localData.questions.find(oq => oq.id == q.id);
                     const userOpt = originalQ ? originalQ.answers.find(a => a.id == q.user_answer_id) : null;
@@ -86,7 +97,9 @@
                     const div = document.createElement('div');
                     div.className = 'review-card';
                     div.innerHTML = `
-                        <div class="badge ${q.is_correct ? 'badge-correct' : 'badge-wrong'}">${q.is_correct ? 'إجابة صحيحة ✓' : 'إجابة خاطئة ✗'}</div>
+                        <div class="badge ${q.is_correct ? 'badge-correct' : 'badge-wrong'}">
+                            ${q.is_correct ? 'إجابة صحيحة ✓' : 'إجابة خاطئة ✗'}
+                        </div>
                         <p style="color:#fff; font-size:1.1rem;"><strong>س ${i+1}: ${q.text}</strong></p>
                         ${q.image_url ? `<img src="${q.image_url}">` : ''}
                         <div class="ans-grid">
@@ -95,8 +108,13 @@
                         </div>`;
                     document.getElementById('details').appendChild(div);
                 });
-            } catch(e) { console.error("Error:", e); }
+
+            } catch(e) { 
+                console.error("Error:", e);
+                alert("حصلت مشكلة وأنا بجيب النتيجة، اتأكد إن الـ ID صح.");
+            }
         }
+
         init();
     </script>
 </body>
