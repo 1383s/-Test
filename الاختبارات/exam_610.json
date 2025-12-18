@@ -1,0 +1,479 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 610,
+                "title": "كويز(واجب)تزايد وتناقص الدوال",
+                "lecture_id": 3776,
+                "duration_minutes": 180,
+                "order_index": 2,
+                "created_at": "2025-11-27T18:35:51.198852Z",
+                "updated_at": "2025-11-27T18:35:51.198852Z"
+            },
+            "questions": [
+                {
+                    "id": 13606,
+                    "text": "س1",
+                    "image_url": "https://i.ibb.co/q307WTQV/question-1.jpg",
+                    "answers": [
+                        {
+                            "id": 54383,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54384,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54385,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54386,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13607,
+                    "text": "س2",
+                    "image_url": "https://i.ibb.co/fz17JncJ/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 54387,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54388,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54389,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54390,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13608,
+                    "text": "س3",
+                    "image_url": "https://i.ibb.co/cKdkk9Dj/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 54391,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54392,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54393,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54394,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13609,
+                    "text": "س4",
+                    "image_url": "https://i.ibb.co/WWL4K4wJ/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 54395,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54396,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54397,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54398,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13610,
+                    "text": "س5",
+                    "image_url": "https://i.ibb.co/358Fj6n6/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 54399,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54400,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54401,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54402,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13611,
+                    "text": "س6",
+                    "image_url": "https://i.ibb.co/273tQrgD/question-6.jpg",
+                    "answers": [
+                        {
+                            "id": 54403,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54404,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54405,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54406,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13612,
+                    "text": "س7",
+                    "image_url": "https://i.ibb.co/5WX98HHc/question-7.jpg",
+                    "answers": [
+                        {
+                            "id": 54407,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54408,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54409,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54410,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13613,
+                    "text": "س8",
+                    "image_url": "https://i.ibb.co/s9yVmFY9/question-8.jpg",
+                    "answers": [
+                        {
+                            "id": 54411,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54412,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54413,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54414,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13614,
+                    "text": "س9",
+                    "image_url": "https://i.ibb.co/fYgKcG7W/question-9.jpg",
+                    "answers": [
+                        {
+                            "id": 54415,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54416,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54417,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54418,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13615,
+                    "text": "س10",
+                    "image_url": "https://i.ibb.co/8nKKwjZd/question-10.jpg",
+                    "answers": [
+                        {
+                            "id": 54419,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54420,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54421,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54422,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13616,
+                    "text": "س11",
+                    "image_url": "https://i.ibb.co/pjWPWCmc/question-11.jpg",
+                    "answers": [
+                        {
+                            "id": 54423,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54424,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54425,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54426,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13617,
+                    "text": "س12",
+                    "image_url": "https://i.ibb.co/k2k1ggMF/question-12.jpg",
+                    "answers": [
+                        {
+                            "id": 54427,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54428,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54429,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54430,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13618,
+                    "text": "س13",
+                    "image_url": "https://i.ibb.co/dsQVfzpQ/question-13.jpg",
+                    "answers": [
+                        {
+                            "id": 54431,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54432,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54433,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54434,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13619,
+                    "text": "س14",
+                    "image_url": "https://i.ibb.co/Xxd1mWtW/question-14.jpg",
+                    "answers": [
+                        {
+                            "id": 54435,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54436,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54437,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54438,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13620,
+                    "text": "س15",
+                    "image_url": "https://i.ibb.co/ccnQSsC4/question-15.jpg",
+                    "answers": [
+                        {
+                            "id": 54439,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54440,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54441,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54442,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13621,
+                    "text": "س16",
+                    "image_url": "https://i.ibb.co/qQDnhz0/question-16.jpg",
+                    "answers": [
+                        {
+                            "id": 54443,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54444,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54445,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54446,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13622,
+                    "text": "س17",
+                    "image_url": "https://i.ibb.co/TxjH0kLV/question-17.jpg",
+                    "answers": [
+                        {
+                            "id": 54447,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54448,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54449,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54450,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13623,
+                    "text": "س18",
+                    "image_url": "https://i.ibb.co/ZzJ7VthK/question-18.jpg",
+                    "answers": [
+                        {
+                            "id": 54451,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54452,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54453,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54454,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13624,
+                    "text": "س19",
+                    "image_url": "https://i.ibb.co/cKcSzjYg/question-19.jpg",
+                    "answers": [
+                        {
+                            "id": 54455,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54456,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54457,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54458,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13625,
+                    "text": "س20",
+                    "image_url": "https://i.ibb.co/PsXNYngY/question-20.jpg",
+                    "answers": [
+                        {
+                            "id": 54459,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54460,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54461,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54462,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

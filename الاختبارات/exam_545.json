@@ -1,0 +1,479 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 545,
+                "title": "كويز الهيكل المحوري",
+                "lecture_id": 3635,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:33:16.730309Z",
+                "updated_at": "2025-11-27T18:33:16.730309Z"
+            },
+            "questions": [
+                {
+                    "id": 11614,
+                    "text": "1- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/Tq0ss4wN/RZz-MLWJV2gai0-LTxpp8yd-Wvba8br3-WUNmfz4g-VTE.png",
+                    "answers": [
+                        {
+                            "id": 46431,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46432,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46433,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46434,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11615,
+                    "text": "2- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/Ng43n1VL/Ve-BRK9-S5-ELY2-SUZqc-MRad-Fyd-YCJISA8-Y3zy-Ol-T0s.png",
+                    "answers": [
+                        {
+                            "id": 46435,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46436,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46437,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46438,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11616,
+                    "text": "3- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/XxWrxxCt/QX4v-Iodv9ckn-ESNu-IBua-ZNXxf-Ge8-JCtd-Ufm5p6-Fq.png",
+                    "answers": [
+                        {
+                            "id": 46439,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46440,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46441,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46442,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11617,
+                    "text": "4- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/qYcZvLd6/5b-HXAet-X7-MTQq-SDpse-F0-Nm-CSNln-AEk8-FBGt3-Kd-P9.png",
+                    "answers": [
+                        {
+                            "id": 46443,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46444,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46445,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46446,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11618,
+                    "text": "5- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/C3QG1gWR/Nl-Ua-Ytz-Ox-Ik71x-DYt-B5-Cd6c-KYw-Hbi-Cum-Ykzd8agy.png",
+                    "answers": [
+                        {
+                            "id": 46447,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46448,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46449,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46450,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11619,
+                    "text": "6- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/LXsPZ2LR/K4d-GZvy-MKp65oom-Qmu-O7arlfijo5-QISm5-FJVYa-AE.png",
+                    "answers": [
+                        {
+                            "id": 46451,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46452,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46453,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46454,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11620,
+                    "text": "7- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/HDjJTdZL/p61plf-OUf-I3vv5-Drnt1j0-KPygb-Ju-FHWk5-Uei1r6z.png",
+                    "answers": [
+                        {
+                            "id": 46455,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46456,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46457,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46458,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11621,
+                    "text": "8- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/RppBNqGd/yp-ECo-Z7x-Vi-Xo9-DP3ypa6-Tz-VXO16-Dbbyj3-RE9-Cr-Pl.png",
+                    "answers": [
+                        {
+                            "id": 46459,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46460,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46461,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46462,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11622,
+                    "text": "9- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/MDPx2kDZ/Vkr-K3t8ut-EQEic-SUWAR0q-LNw-Yjx5-Pl-Rk-JVJv-Zmo-Y.png",
+                    "answers": [
+                        {
+                            "id": 46463,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46464,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46465,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46466,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11623,
+                    "text": "10- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/vC9qJRNf/PS7ic-UAH2cy-Bl-R1-Y8h-J88-Vu-MRQax-T1566-F9ij-HHv.png",
+                    "answers": [
+                        {
+                            "id": 46467,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46468,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46469,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46470,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11624,
+                    "text": "11- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/wFL3w0QM/q-ZPMCvy52-Xl-PPYmm-Belyn-EO3v-DMzwh-Ph-RWk1r8-Oz.png",
+                    "answers": [
+                        {
+                            "id": 46471,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46472,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46473,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46474,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11625,
+                    "text": "12- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/r2CBQ7HM/W3-Fjr-Kg-DLHEMGZW3-EFPBmlj9aqa-Fn-DZBVx2y-UNGc.png",
+                    "answers": [
+                        {
+                            "id": 46475,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46476,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46477,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46478,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11626,
+                    "text": "13- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/60TbDLB0/JX22-HKc-B502gkv-O9-FGg7jeobb-Im-N4ohu-QS1e2-Db-B.png",
+                    "answers": [
+                        {
+                            "id": 46479,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46480,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46481,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46482,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11627,
+                    "text": "14- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/XrVQbbpJ/r-PBCTNB9-Ael-Usx-T08u87afj3-G5-PQii5shg8fi-OM6.png",
+                    "answers": [
+                        {
+                            "id": 46483,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46484,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46485,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46486,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11628,
+                    "text": "15- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/BV9GQLL8/Xkb-WHT701rv4g-Oti-CERHn-Uz3hq-YMz-Fh-PF3-By-QGV2.png",
+                    "answers": [
+                        {
+                            "id": 46487,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46488,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46489,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46490,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11629,
+                    "text": "16- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/k6r5fx50/VYFXS3-RSq-Om-SLDu-ASLEVj-Dv7-JWor-Kne-HEUAKx-Mn-F.png",
+                    "answers": [
+                        {
+                            "id": 46491,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46492,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46493,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46494,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11630,
+                    "text": "17- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/1fytgBpz/5k-ZLADR6j-Sr7-J4-UGQ2-Qw-Xeto-Dmho-HKLu-PZPPA8-Zk.png",
+                    "answers": [
+                        {
+                            "id": 46495,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46496,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46497,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46498,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11631,
+                    "text": "18- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/sJchmZgV/Plx-Elr-N7t64p-AYzt2u022s-Dqdhk3z-XYTy-CUQCM1g.png",
+                    "answers": [
+                        {
+                            "id": 46499,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46500,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46501,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46502,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11632,
+                    "text": "19- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/rG5HmwmR/1r8y-HI2-Zo-YHEZp5x-Y85q-XEf-Lg-Vym-SJbz-F9-Xni0-S9.png",
+                    "answers": [
+                        {
+                            "id": 46503,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46504,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46505,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46506,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 11633,
+                    "text": "20- اختر الإجابة الصحيحة",
+                    "image_url": "https://i.ibb.co/wZ93mf50/cnzw4t5pl-Apdl-Xrn-Wr-Oxx9-Jx3maf-CTu-Fhljn-WK6-Z.png",
+                    "answers": [
+                        {
+                            "id": 46507,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 46508,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 46509,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 46510,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

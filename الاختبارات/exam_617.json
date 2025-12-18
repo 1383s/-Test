@@ -1,0 +1,134 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 617,
+                "title": "كويز (إختبر نفسك) قبل المحاضرة الرابعة 👀♥️",
+                "lecture_id": 3779,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:35:54.489376Z",
+                "updated_at": "2025-11-27T18:35:54.489376Z"
+            },
+            "questions": [
+                {
+                    "id": 13688,
+                    "text": "س1",
+                    "image_url": "https://i.ibb.co/LD13pdCT/question-1.jpg",
+                    "answers": [
+                        {
+                            "id": 54711,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54712,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54713,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54714,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13689,
+                    "text": "س2",
+                    "image_url": "https://i.ibb.co/VRcb3CJ/question-2.jpg",
+                    "answers": [
+                        {
+                            "id": 54715,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54716,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54717,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54718,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13690,
+                    "text": "س3",
+                    "image_url": "https://i.ibb.co/jvncb78g/question-3.jpg",
+                    "answers": [
+                        {
+                            "id": 54719,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54720,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54721,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54722,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13691,
+                    "text": "س4",
+                    "image_url": "https://i.ibb.co/1Y8fpTBT/question-4.jpg",
+                    "answers": [
+                        {
+                            "id": 54723,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54724,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54725,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54726,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13692,
+                    "text": "س5",
+                    "image_url": "https://i.ibb.co/Z671KXs8/question-5.jpg",
+                    "answers": [
+                        {
+                            "id": 54727,
+                            "text": "أ"
+                        },
+                        {
+                            "id": 54728,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 54729,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 54730,
+                            "text": "د"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}

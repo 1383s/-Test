@@ -1,0 +1,455 @@
+{
+    "data": {
+        "data": {
+            "exam": {
+                "id": 602,
+                "title": "الإمتحان الرابع",
+                "lecture_id": 3752,
+                "duration_minutes": 180,
+                "order_index": 1,
+                "created_at": "2025-11-27T18:35:30.949545Z",
+                "updated_at": "2025-11-27T18:35:30.949545Z"
+            },
+            "questions": [
+                {
+                    "id": 13466,
+                    "text": "1_أ",
+                    "image_url": "https://i.ibb.co/bgcZ7sDN/image-1.png",
+                    "answers": [
+                        {
+                            "id": 53835,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53836,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53837,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53838,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13467,
+                    "text": "2_أ",
+                    "image_url": "https://i.ibb.co/0Vtbr6BK/image-2.png",
+                    "answers": [
+                        {
+                            "id": 53839,
+                            "text": "صح"
+                        },
+                        {
+                            "id": 53840,
+                            "text": "غلط"
+                        }
+                    ]
+                },
+                {
+                    "id": 13468,
+                    "text": "3",
+                    "image_url": "https://i.ibb.co/nNnc7Tkx/image-3.png",
+                    "answers": [
+                        {
+                            "id": 53841,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53842,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53843,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53844,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13469,
+                    "text": "4",
+                    "image_url": "https://i.ibb.co/jkdm1HJq/image-4.png",
+                    "answers": [
+                        {
+                            "id": 53845,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53846,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53847,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53848,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13470,
+                    "text": "5",
+                    "image_url": "https://i.ibb.co/JR4SsPP9/image-5.png",
+                    "answers": [
+                        {
+                            "id": 53849,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53850,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53851,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53852,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13471,
+                    "text": "6",
+                    "image_url": "https://i.ibb.co/CsV5crxj/image-6.png",
+                    "answers": [
+                        {
+                            "id": 53853,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53854,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53855,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53856,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13472,
+                    "text": "7",
+                    "image_url": "https://i.ibb.co/rfpnStHQ/image-7.png",
+                    "answers": [
+                        {
+                            "id": 53857,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53858,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53859,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53860,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13473,
+                    "text": "8",
+                    "image_url": "https://i.ibb.co/TDXXypBP/image-8.png",
+                    "answers": [
+                        {
+                            "id": 53861,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53862,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53863,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53864,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13474,
+                    "text": "9",
+                    "image_url": "https://i.ibb.co/fdfFRf3k/image-9.png",
+                    "answers": [
+                        {
+                            "id": 53865,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53866,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53867,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53868,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13475,
+                    "text": "10",
+                    "image_url": "https://i.ibb.co/vxk9Q0MF/image-10.png",
+                    "answers": [
+                        {
+                            "id": 53869,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53870,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53871,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53872,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13476,
+                    "text": "11",
+                    "image_url": "https://i.ibb.co/t5mRJmn/image-11.png",
+                    "answers": [
+                        {
+                            "id": 53873,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53874,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53875,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53876,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13477,
+                    "text": "12",
+                    "image_url": "https://i.ibb.co/5hqrFbHy/image-12.png",
+                    "answers": [
+                        {
+                            "id": 53877,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53878,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53879,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53880,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13478,
+                    "text": "13",
+                    "image_url": "https://i.ibb.co/nMhm7dZ3/image-13.png",
+                    "answers": [
+                        {
+                            "id": 53881,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53882,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53883,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53884,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13479,
+                    "text": "14",
+                    "image_url": "https://i.ibb.co/v4s63rw2/image-14.png",
+                    "answers": [
+                        {
+                            "id": 53885,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53886,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53887,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53888,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13480,
+                    "text": "15",
+                    "image_url": "https://i.ibb.co/jZkMz2L9/image-15.png",
+                    "answers": [
+                        {
+                            "id": 53889,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53890,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53891,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53892,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13481,
+                    "text": "1_ب",
+                    "image_url": "https://i.ibb.co/pj2Vqp0d/image-16.png",
+                    "answers": [
+                        {
+                            "id": 53893,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53894,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53895,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53896,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13482,
+                    "text": "1_ج",
+                    "image_url": "https://i.ibb.co/6RGdHQCb/image-17.png",
+                    "answers": [
+                        {
+                            "id": 53897,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53898,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53899,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53900,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13483,
+                    "text": "1_د",
+                    "image_url": "https://i.ibb.co/MkW14K1B/image-18.png",
+                    "answers": [
+                        {
+                            "id": 53901,
+                            "text": "ا"
+                        },
+                        {
+                            "id": 53902,
+                            "text": "ب"
+                        },
+                        {
+                            "id": 53903,
+                            "text": "ج"
+                        },
+                        {
+                            "id": 53904,
+                            "text": "د"
+                        }
+                    ]
+                },
+                {
+                    "id": 13484,
+                    "text": "2_ب",
+                    "image_url": "https://i.ibb.co/Kp4RVSdj/image-19.png",
+                    "answers": [
+                        {
+                            "id": 53905,
+                            "text": "صح"
+                        },
+                        {
+                            "id": 53906,
+                            "text": "غلط"
+                        }
+                    ]
+                },
+                {
+                    "id": 13485,
+                    "text": "2_ج",
+                    "image_url": "https://i.ibb.co/1GtSmGp7/image-20.png",
+                    "answers": [
+                        {
+                            "id": 53907,
+                            "text": "صح"
+                        },
+                        {
+                            "id": 53908,
+                            "text": "غلط"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "success": true
+}
