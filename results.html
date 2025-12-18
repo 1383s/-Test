@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>مراجعة الإجابات</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { background: #0b0e14; color: #adbac7; font-family: 'Cairo'; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .stats-bar { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 30px; text-align: center; }
+        .stat-item { background: #151921; padding: 20px; border-radius: 12px; border: 1px solid #30363d; }
+        .review-card { background: #151921; border-radius: 15px; padding: 20px; margin-bottom: 20px; border: 1px solid #30363d; position: relative; }
+        .status-tag { position: absolute; top: 15px; left: 15px; font-weight: bold; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; }
+        .tag-wrong { background: #da363322; color: #f85149; }
+        .tag-correct { background: #23863622; color: #3fb950; }
+        .ans-box { display: flex; justify-content: space-between; margin-top: 15px; gap: 10px; }
+        .ans-item { flex: 1; padding: 12px; border-radius: 8px; font-size: 0.9rem; text-align: center; }
+        .ans-user { background: #da363322; color: #f85149; }
+        .ans-correct { background: #23863622; color: #3fb950; }
+        img { max-width: 100%; border-radius: 10px; margin: 15px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; color: #fff;">نتيجتك النهائية</h1>
+        <div class="stats-bar" id="stats"></div>
+        <h2 style="margin: 40px 0 20px;">مراجعة الإجابات</h2>
+        <div id="details"></div>
+    </div>
+    <script>
+        const rid = new URLSearchParams(window.location.search).get('rid');
+        const TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MTM1OSwicm9sZSI6InN0dWRlbnQiLCJ1dWlkIjoiNDAyOTZkM2YxMDg4ZGM5ZjRmMWQ2MTE0ZjcwM2U2MDQifQ.RoPKriladUHqzewaO3D1F9_XWVdLiqyYRh_06aorQQI";
+
+        async function fetchRes() {
+            const res = await fetch(`https://api.coursatk.online/api/v1/user/exams/result/${rid}`, { headers: { "Authorization": TOKEN }});
+            const d = (await res.json()).data.data;
+            
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-item"><h3>${d.result.score}</h3><small>الدرجة</small></div>
+                <div class="stat-item"><h3>${d.result.correct_answers}</h3><small>صح</small></div>
+                <div class="stat-item"><h3>${d.result.total_questions - d.result.correct_answers}</h3><small>خطأ</small></div>`;
+
+            d.questions.forEach((q, i) => {
+                const div = document.createElement('div');
+                div.className = 'review-card';
+                div.innerHTML = `
+                    <div class="status-tag ${q.is_correct ? 'tag-correct' : 'tag-wrong'}">${q.is_correct ? 'إجابة صحيحة' : 'إجابة خاطئة'}</div>
+                    <p><strong>س ${i+1}: ${q.text}</strong></p>
+                    ${q.image_url ? `<img src="${q.image_url}">` : ''}
+                    <div class="ans-box">
+                        <div class="ans-item ans-user">إجابتك: ${q.user_answer_text || '--'}</div>
+                        <div class="ans-item ans-correct">الإجابة الصحيحة: ${q.correct_answer_text}</div>
+                    </div>`;
+                document.getElementById('details').appendChild(div);
+            });
+        }
+        fetchRes();
+    </script>
+</body>
+</html>
