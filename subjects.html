@@ -1,0 +1,43 @@
+<header>
+    <div>
+        <h1 id="v-title">المواد الدراسية</h1>
+        <p id="v-desc">تصفح محتوى سنة (2026)</p>
+    </div>
+    <div style="display: flex; gap: 10px;">
+        <button onclick="location.href='index.html'" class="btn btn-back">رجوع</button>
+    </div>
+</header>
+
+<div id="grid"></div>
+
+<script>
+    const API_BASE = 'https://backmy.vercel.app/api/proxy/';
+    
+    async function loadSubjects() {
+        const grid = document.getElementById('grid');
+        grid.innerHTML = '<div style="grid-column: 1/-1; text-align:center; padding:50px;"><span class="loader"></span></div>';
+
+        try {
+            const response = await fetch(API_BASE + 'user/subjects/3', { headers: { 'Accept': 'application/json' } }); [cite: 2025-10-14]
+            const result = await response.json(); [cite: 2025-10-14]
+            const items = result.data || []; [cite: 2025-10-14]
+
+            grid.innerHTML = '';
+            items.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "c-card";
+                card.innerHTML = `
+                    <div style="font-size:3em; margin-bottom:15px;">📚</div>
+                    <h3 style="margin:0;">${item.name}</h3>
+                    <p style="color:var(--green-neon); font-size:0.8em; margin-top:10px;">تصفح المدرسين</p>
+                `;
+                // بننقل الـ ID والـ Title لصفحة المدرسين
+                card.onclick = () => {
+                    location.href = `teachers.html?subjectId=${item.id}&title=${encodeURIComponent(item.name)}`;
+                };
+                grid.appendChild(card);
+            });
+        } catch (err) { grid.innerHTML = '<p style="color:red; text-align:center;">خطأ في الاتصال!</p>'; }
+    }
+    loadSubjects();
+</script>
